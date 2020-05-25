@@ -247,3 +247,10 @@ TSWLatexianTemp*
 # Otros
 .DS_STORE
 *.tmp
+__latexindent_temp.tex
+estatutos.html
+estatutos2.html
+estatutos.css
+
+# Permitir los estatutos!
+!estatutos.pdf

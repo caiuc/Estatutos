@@ -10,6 +10,8 @@ Para replicar el PDF, puedes utilizar el siguiente comando en una instalación r
 $ latexmk
 ```
 
+Nótese que para generar la versión web de los estatutos (encontrada en docs/), es necesario tener make4ht, que suele venir instalado.
+
 ## Propuestas
 
 Los estatutos se encuentran escritos en LaTeX, por lo que cualquier modificación final requiere editar el código fuente del documento. Para aprender como usar LaTeX, puedes revisar [esta guía](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes) (en inglés), o [esta guía](https://users.dcc.uchile.cl/~jbarrios/latex/) (en español).
