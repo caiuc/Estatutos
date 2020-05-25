@@ -243,3 +243,7 @@ TSWLatexianTemp*
 
 # no subir automáticamente los cambios del PDF
 *pdf
+
+# Otros
+.DS_STORE
+*.tmp
