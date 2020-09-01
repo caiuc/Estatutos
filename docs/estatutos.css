@@ -26,14 +26,13 @@
 .rm-lmbx-10x-x-109{ font-weight: bold;}
 .rm-lmr-10{font-size:90%;}
 .rm-lmr-9{font-size:81%;}
-.rm-lmtt-9{font-size:81%; font-family: monospace,monospace;}
+.rm-lmtt-9{font-size:81%; font-family: monospace;}
 .rm-lmcsc-10x-x-109{}
 .rm-lmri-10x-x-109{ font-style:italic;}
-p{margin-top:0;margin-bottom:0}
-p.indent{text-indent:0;}
-p + p{margin-top:1em;}
-p + div, p + pre {margin-top:1em;}
-div + p, pre + p {margin-top:1em;}
+p.noindent { text-indent: 0em }
+td p.noindent { text-indent: 0em; margin-top:0em; }
+p.nopar { text-indent: 0em; }
+p.indent{ text-indent: 1.5em }
 @media print {div.crosslinks {visibility:hidden;}}
 a img { border-top: 0; border-left: 0; border-right: 0; }
 center { margin-top:1em; margin-bottom:1em; }
@@ -56,7 +55,7 @@ div.obeylines-v p { margin-top:0; margin-bottom:0; }
 td.displaylines {text-align:center; white-space:nowrap;}
 .centerline {text-align:center;}
 .rightline {text-align:right;}
-div.verbatim {font-family: monospace,monospace; white-space: nowrap; text-align:left; clear:both; }
+div.verbatim {font-family: monospace; white-space: nowrap; text-align:left; clear:both; }
 .fbox {padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
 div.fbox {display:table}
 div.center div.fbox {text-align:center; clear:both; padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
@@ -89,16 +88,18 @@ td.td01{ padding-left:0pt; padding-right:5pt; }
 td.td10{ padding-left:5pt; padding-right:0pt; }
 td.td11{ padding-left:5pt; padding-right:5pt; }
 table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
-.hline hr, .cline hr{ height : 0px; margin:0px; }
-.hline td, .cline td{ padding: 0; }
-.hline hr, .cline hr{border:none;border-top:1px solid black;}
+.hline hr, .cline hr{ height : 1px; margin:0px; }
 .tabbing-right {text-align:right;}
+span.TEX {letter-spacing: -0.125em; }
+span.TEX span.E{ position:relative;top:0.5ex;left:-0.0417em;}
+a span.TEX span.E {text-decoration: none; }
+span.LATEX span.A{ position:relative; top:-0.5ex; left:-0.4em; font-size:85%;}
+span.LATEX span.TEX{ position:relative; left: -0.4em; }
 div.float, div.figure {margin-left: auto; margin-right: auto;}
 div.float img {text-align:center;}
 div.figure img {text-align:center;}
-.marginpar,.reversemarginpar {width:20%; float:right; text-align:left; margin-left:auto; margin-top:0.5em; font-size:85%; text-decoration:underline;}
-.marginpar p,.reversemarginpar p{margin-top:0.4em; margin-bottom:0.4em;}
-.reversemarginpar{float:left;}
+.marginpar {width:20%; float:right; text-align:left; margin-left:auto; margin-top:0.5em; font-size:85%; text-decoration:underline;}
+.marginpar p{margin-top:0.4em; margin-bottom:0.4em;}
 .equation td{text-align:center; vertical-align:middle; }
 td.eq-no{ width:5%; }
 table.equation { width:100%; } 
@@ -110,11 +111,10 @@ math .textit { font-style: italic; }
 math .textsl { font-style: oblique; }
 math .textsf { font-family: sans-serif; }
 math .textbf { font-weight: bold; }
-table.tabular{border-collapse: collapse; border-spacing: 0;}
 mo.MathClass-op + mi{margin-left:0.3em}
 mi + mo.MathClass-op{margin-left:0.3em}
- math mstyle[mathvariant="bold"] { font-weight: bold; font-style: normal; } 
- math mstyle[mathvariant="normal"] { font-weight: normal; font-style: normal; } 
+ math mi[mathvariant="bold"] { font-weight: bold; font-style: normal; } 
+ math mi[mathvariant="normal"] { font-weight: normal; font-style: normal; } 
 .partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
 .index-item, .index-subitem, .index-subsubitem {display:block}
 div.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:left;}
@@ -135,17 +135,13 @@ div.author{white-space: nowrap;}
 .quotation {margin-bottom:0.25em; margin-top:0.25em; margin-left:1em; }
 .abstract p {margin-left:5%; margin-right:5%;}
 div.abstract {width:100%;}
-figure.float, div.figure {margin-left: auto; margin-right: auto;}
-figure.float img {text-align:center;}
-figure.figure img {text-align:center;}
-figure.figure > p {text-align:center;}
-figcaption.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:center;}
-figcaption.caption span.id{font-weight: bold; white-space: nowrap; }
 .equation-star td{text-align:center; vertical-align:middle; }
 table.equation-star { width:100%; } 
 mtd.align-odd{margin-left:2em; text-align:right;}
 mtd.align-even{margin-right:2em; text-align:left;}
 .boxed{border: 1px solid black; padding-left:2px; padding-right:2px;}
+mo.qopname + mi{margin-left:0.3em}
+mi + mo.qopname{margin-left:0.3em}
 .small-caps{font-variant: small-caps;}
 body { font-family: 'Lora', serif; font-size: 18px; line-height: 1.5; max-width: 40em; margin: auto; }
 .rm-lmbx-12x-x-120, .titleHead, .sectionHead, .subsectionHead, .textsf { font-family: 'Raleway', sans-serif; font-weight: normal !important; }

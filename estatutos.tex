@@ -20,6 +20,7 @@
 % Símbolos Matemáticos
 \usepackage{amsmath}
 
+
 % Baja los footnotes
 \usepackage[bottom]{footmisc}
 
@@ -31,14 +32,17 @@
 \setdefaultlanguage{spanish}
 
 % Tipografía
-\usepackage{fontspec}
-\setmainfont[
-    Ligatures=TeX,
-    SmallCapsFont={Latin Modern Roman Caps},
-    ItalicFeatures  = {
-        SmallCapsFont = {LMRomanCaps10-Oblique}
-    },
-]{Latin Modern Roman}
+% \ifdefined\HCode
+% \else
+% \usepackage{fontspec}
+% \setmainfont[
+% 	Ligatures=TeX,
+% 	SmallCapsFont={Latin Modern Roman Caps},
+% 	ItalicFeatures  = {
+% 		SmallCapsFont = {LMRomanCaps10-Oblique}
+% 	},
+% ]{Latin Modern Roman}
+% \fi
 
 % Hace formato de forma inteligente
 \usepackage{microtype}
@@ -367,8 +371,7 @@
 		\item Representar políticamente a sus compañeros.
 		\item Velar por la excelencia académica de los cursos que competen a sus representados, principalmente aquellos de ciencias básicas y comunes dictados en esta u otra facultad.
 		\item Para los Delegados de la primera y segunda generación, al menos uno de cada generación debe asistir a las sesiones del Consejo Académico, pudiendo alternar esta función entre más de un Delegado a lo largo del año académico.
-		\item Crear un programa de trabajo que deberá ser público al inicio de su gestión, y disponible en la página web del CAi a más tardar 2 semanas después de haber asumido.
-		\item \label{cuentaPublica} Al menos dos veces durante su período deberán rendir cuenta de las actividades realizadas a sus representados. Estas deberán ser presentadas en sesión ordinaria del Consejo Generacional y también difundida por el CAi  y los delegados por el medio que estimen conveniente.
+		\item \label{cuentaPublica} Al menos dos veces durante su período deberán rendir cuenta de las actividades realizadas a sus representados. Estas deberán difundidas por el CAi y los delegados por el medio que estimen conveniente.
 		\item Entregar un documento resumen al momento del cambio de mando, en donde se expliciten los principales proyectos llevados a cabo durante su período en ejercicio.
 	\end{enumerate}
 \end{art}
@@ -406,8 +409,7 @@
 		\item Representar ante el Consejo Académico a los Capítulos Estudiantiles y otros proyectos estudiantiles de índole académica de sus respectivas disciplinas.
 		\item Para el caso de los delegados de especialidad, participar de las reuniones del departamento del cual está adscrito como representante.
 		\item Para el caso de los delegados de major, participar del  Comité de Programa del major respectivo, y si corresponde, participar de las reuniones de departamento al cual el major está adscrito.
-		\item Crear un programa de trabajo que deberá ser público al inicio de su gestión, y disponible en la página web del CAi a más tardar dos semanas después del haber asumido.
-		\item Al menos dos veces durante su período deberán rendir cuenta de las actividades realizadas a sus representados. Estas deberán ser presentadas en sesión ordinaria del Consejo Académico y también difundida por el CAi  y los delegados por el medio que estimen conveniente.
+		\item Al menos dos veces durante su período deberán rendir cuenta de las actividades realizadas a sus representados. Estas deberán ser difundidas por el CAi y los delegados por el medio que estimen conveniente.
 		\item Entregar un documento resumen al momento del cambio de mando, en donde se expliciten los principales proyectos llevados a cabo durante su periodo en ejercicio.
 		\item Para los Delegados de postgrado, al menos uno de ellos debe asistir a las sesiones del Consejo Generacional, pudiendo alternar esta función entre más de un Delegado a lo largo del año académico. Además, deben sesionar por lo menos una vez al mes para conversar de los diferentes problemas que estén surgiendo en el Programa.
 	\end{enumerate}
@@ -1067,6 +1069,35 @@
 	El Reglamento del Presupuesto Participativo contará con una sección especial con las posibles listas de proyectos y personas vetadas, ordenadas por año. Al cierre de cada proceso, el Comité Ejecutivo actualizará los nuevos listados según los ingresos y egresos que corresponda de acuerdo a los criterios anteriores.
 \end{art}
 
+\subsection*{Sobre Capítulos Estudiantiles}
+
+\begin{art}
+	Para que una agrupación de estudiantes sea considerada un capítulo estudiantil asociado al Centro de Alumnos de Ingeniería debe explicitar mediante un documento presentado al CAi lo siguiente:
+
+	\begin{enumerate}
+		\item Deben tener una misión y visión como capítulo estudiantil. Esto se debe alinear con actividades que considere a su respectivo departamento o instituto, pudiendo estas dirigirse a la comunidad de Ingeniería UC o a exteriores, siempre y cuando otros estudiantes de la Escuela puedan involucrarse.
+		\item Rol que cumple con su aporte a la comunidad del departamento y/o exteriores, explicitando como mínimo el rol social.
+		\item Declaración de los programas de primer y segundo ciclo que abarcan.
+		\item Coordinación del capítulo estudiantil, de quienes al menos dos miembros deben estar cursando el Major o Articulación del segundo ciclo o licenciado del major previamente declarado y ser alumnos regulares de la Escuela de Ingeniería o bien alumnos de College que cumplan con los requisitos explicitados en el artículo 33. Ningún integrante de la coordinación puede tener faltas a la ética mayores, tales y como está determinado por la Dirección de Pregrado de Ingeniería (DiPre).
+	\end{enumerate}
+\end{art}
+
+\begin{art}
+	El capítulo estudiantil deberá tener al menos un delegado de Major y/o Especialidad electo en cada periodo como miembro activo de la agrupación. Debe asistir a las reuniones que convoque la coordinación.
+\end{art}
+
+\begin{art}
+	El documento al que se hace referencia en el Art. 78. del capítulo estudiantil deberá ser entregado una vez al año al encargado de los capítulos del Centro de Alumnos de Ingeniería a más tardar dos semanas después de las elecciones de delegados. Esto incluye tanto a los nuevos como actuales capítulos asociados al CAi.
+\end{art}
+
+\begin{art}
+	En caso de que delegados cesen del cargo y no queden miembros del Consejo Académico participando en el capítulo, este dejará de ser reconocido por el CAi hasta que un nuevo delegado asuma el cargo.
+\end{art}
+
+\begin{art}
+	Las especificaciones deberán ser revisadas por un miembro del Comité Ejecutivo, el Consejero Académico y un delegado de cada consejo y aprobadas o rechazadas en un plazo de cinco días hábiles después de que se haya acabado el plazo para entregar las especificaciones. En caso de que estas sean rechazadas, se dará al capítulo estudiantil un plazo de 2 días hábiles para entregar un nuevo documento, el cual deberá ser revisado en los próximos 3 días hábiles. En caso de que se rechacen nuevamente las especificaciones, la agrupación no será considerada como un capítulo estudiantil del Centro de Alumnos de Ingeniería. El fin de esta verificación es tener catalogados los capítulos asociados al CAi con un formato completo y consistente, y no pretende otorgar al CAi soberanía sobre los capítulos.
+\end{art}
+
 \subsection*{Sobre el Protocolo Ambiental}
 
 \begin{art}\label{definicionProtocoloAmbiental}
@@ -1185,6 +1216,10 @@ Santiago, 18 de noviembre de 2015
 	\textsc{Estatutos modificados por el Consejo Generacional y el Consejo Académico 2019}\\
 	Paolo Fabia Vandatta, Presidente CAi UC 2019\\
 	Ángela Parra Martinez, Consejera Académica CAi UC 2019\\
+
+	\textsc{Estatutos modificados por el Consejo Generacional y el Consejo Académico 2020}\\
+	Isa Oyarzo Céspedes, Presidente CAi UC 2020\\
+	Thomas Strauszer Caussade, Consejero Académico CAi UC 2020\\
 
 \end{sloppypar}
 \end{document}

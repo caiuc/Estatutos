@@ -4,6 +4,7 @@ $lualatex = "lualatex %O %S";
 $postscript_mode = $dvi_mode = 0;
 $ENV{'TZ'} = 'America/Santiago';
 
-END {
-  system ("make4ht -d docs/ -u -l -c web.cfg estatutos.tex");
-}
+# La compilación no funciona en Windows 10 por razones desconocidas, así que
+# END {
+#   system ("make4ht -d docs/ -u -l -c web.cfg estatutos.tex");
+# }
