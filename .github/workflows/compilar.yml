@@ -1,0 +1,28 @@
+name: Compilar LaTeX a PDF y HTML
+
+on: [push, pull_request]
+jobs:
+  compilar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+        with:
+          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+          fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+      - name: Instalar dependencias (TeXLive)
+        run: |
+          sudo apt-get install -y texlive texlive-extra-utils texlive-luatex latexmk tex4ht texlive-latex-extra texlive-lang-spanish
+      - name: Compilar documento
+        # We can't use latexmk directly because the latexmk included with ubuntu-latest is too old.
+        run: |
+          TZ='America/Santiago' latexmk -lualatex
+          make4ht -d docs/ -u -l -c web.cfg estatutos.tex
+      - name: Preparar documento para repositorio
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "CAiBot"
+          git diff --quiet && git diff --staged --quiet || git commit -am 'Compilar: ${{ github.event.head_commit.message }}'
+      - name: Enviar cambios al repositorio
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
