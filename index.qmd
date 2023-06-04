@@ -3,6 +3,9 @@ title: Cuerpo de Estatutos
 subtitle: Centro de Alumnos de Ingeniería
 date-modified: 2023-06-04
 lang: es
+format: 
+  html: default
+  pdf: default
 ---
 # Estatutos
 
