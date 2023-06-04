@@ -15,7 +15,6 @@ format:
     toc-title: Contenidos
     toc-depth: 2
     anchor-sections: true
-    link-external-icon: true
     reference-location: section
     css: styles.css
     mainfont: Source Sans Pro
