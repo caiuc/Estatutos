@@ -235,7 +235,7 @@ encomiende.
         Consejo Generacional. Sin perjuicio de la posibilidad de auto
         convocatoria de éste último, dispuesto en el artículo
         [45](#consejoExtraordinario){reference-type="ref"
-        reference="consejoExtraordinario"}(#consejoExtraordinario).
+        reference="consejoExtraordinario"}.
 
     b)  Representar al CAi y sus posturas ante las autoridades de la
         Escuela, la Universidad, la Federación y otros organismos
