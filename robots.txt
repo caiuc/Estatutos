@@ -1,1 +1,1 @@
-Sitemap: https://github.com/caiuc/Estatutos/sitemap.xml
+Sitemap: https://caiuc.github.io/Estatutos/sitemap.xml
