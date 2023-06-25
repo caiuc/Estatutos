@@ -133,7 +133,7 @@ directivos del CAi son los siguientes:
     áreas son las siguientes:
 
     a)  Ingeniería Civil (Gestión de la Construcción, Estructural y
-        Geotecnia, Hidráulica y Ambiental
+        Geotecnia, Hidráulica y Ambiental)
 
     b)  Industrial y de Transporte e Instituto de Matemática
 
@@ -144,7 +144,7 @@ directivos del CAi son los siguientes:
     e)  Ciencias de la Computación
 
     f)  Química y Bioprocesos e Instituto de Ingeniería Biológica y
-        Médica)
+        Médica
 
 6.  [Consejo Generacional]{.smallcaps} Es la máxima instancia de
     representación. Formado por el Comité Generacional, el Comité
@@ -2364,3 +2364,5 @@ Karina Alarcón von Loebenstein, Presidente CAi UC 2022\
 Ria Deane Takahashi, Consejera Académica CAi UC 2022\
 
 [^1]: Código Civil: <http://www.leychile.cl/Navegar?idNorma=172986>
+
+
