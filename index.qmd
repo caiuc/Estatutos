@@ -1176,8 +1176,7 @@ normas:
     haber sido abierto. Durante estos días, los candidatos tendrán la
     obligación de entregar al CAi los siguientes documentos:
 
-    a)  Un escrito que contenga el nombre, mail, PPA (puntaje de ingreso
-        en caso de alumnos de primer año), generación y especialidad,
+    a)  Un escrito que contenga el nombre, rut, mail UC, generación y especialidad,
         major o generación por la que postula. En el caso del
         Representante de College, deberá especificar que pertenece a
         dicho programa.
