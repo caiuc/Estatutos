@@ -1176,8 +1176,7 @@ normas:
     haber sido abierto. Durante estos días, los candidatos tendrán la
     obligación de entregar al CAi los siguientes documentos:
 
-    a)  Un escrito que contenga el nombre, mail, PPA (puntaje de ingreso
-        en caso de alumnos de primer año), generación y especialidad,
+    a)  Un escrito que contenga el nombre, rut, mail UC, generación y especialidad,
         major o generación por la que postula. En el caso del
         Representante de College, deberá especificar que pertenece a
         dicho programa.
@@ -2353,6 +2352,11 @@ Thomas Strauszer Caussade, Consejero Académico CAi UC 2020\
 Académico 2021]{.smallcaps}\
 Florencia Calvo Carvacho, Presidente CAi UC 2021\
 Fernando Torres Irarrázabal, Consejero Académico CAi UC 2021\
+
+[Estatutos modificados por el Consejo Generacional y el Consejo
+Académico 2022]{.smallcaps}\
+Karina Alarcón von Loebenstein, Presidente CAi UC 2022\
+Ria Deane Takahashi, Consejera Académica CAi UC 2022\
 
 [Estatutos modificados por el Consejo Generacional y el Consejo
 Académico 2022]{.smallcaps}\
