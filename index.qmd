@@ -1320,15 +1320,16 @@ sus efectos, por alguna de las siguientes razones:
 
     -   Directiva de la FEUC.
 
-    -   Consejero Superior FEUC.
+    -   Consejería o Subconsejería Superior FEUC.
+    
+    -   Consejería Territorial FEUC.
+    
+    -   Delegatura CONFECh.
 
-12. Tratándose de un miembro del Comité Ejecutivo, ejercer como
-    *Consejero Territorial FEUC*.
-
-13. Ser elegido o ejercer algún cargo de representación estudiantil en
+12. Ser elegido o ejercer algún cargo de representación estudiantil en
     otra Unidad Académica.
 
-14. Tratándose del Representante de College, dejar de ser alumno regular
+13. Tratándose del Representante de College, dejar de ser alumno regular
     de su unidad académica o de la Escuela de Ingeniería, asumir otro
     cargo de representación estudiantil o no cursar ramos del
     currículum.
