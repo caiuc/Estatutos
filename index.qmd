@@ -1556,7 +1556,7 @@ si ellos no participan en la sesión del Consejo Académico.
 
 ::: {#duracionConsejosOrdinarios .art}
 **Art. 50**. Las sesiones ordinarias del Consejo durarán un módulo
-académico (una hora y veinte minutos), extensible a un máximo de dos
+académico, extensible a un máximo de dos
 módulos a través de la siguiente manera:
 
 -   Diez minutos antes del término del primer módulo, los miembros del
