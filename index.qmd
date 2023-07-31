@@ -80,9 +80,9 @@ directivos del CAi son los siguientes:
 
     a)  Presidencia.
 
-    b)  Primera Vicepresidencia.
+    b)  Vicepresidencia Interna.
 
-    c)  Segunda Vicepresidencia.
+    c)  Vicepresidencia Externa.
 
     d)  Secretaría General.
 
@@ -133,7 +133,7 @@ directivos del CAi son los siguientes:
     áreas son las siguientes:
 
     a)  Ingeniería Civil (Gestión de la Construcción, Estructural y
-        Geotecnia, Hidráulica y Ambiental
+        Geotecnia, Hidráulica y Ambiental)
 
     b)  Industrial y de Transporte e Instituto de Matemática
 
@@ -144,7 +144,7 @@ directivos del CAi son los siguientes:
     e)  Ciencias de la Computación
 
     f)  Química y Bioprocesos e Instituto de Ingeniería Biológica y
-        Médica)
+        Médica
 
 6.  [Consejo Generacional]{.smallcaps} Es la máxima instancia de
     representación. Formado por el Comité Generacional, el Comité
@@ -233,37 +233,31 @@ encomiende.
 
 1.  [Presidente]{.smallcaps}
 
-    a)  Presidir y convocar las reuniones del Comité Ejecutivo y del
-        Consejo Generacional. Sin perjuicio de la posibilidad de auto
-        convocatoria de éste último, dispuesto en el artículo
-        [45](#consejoExtraordinario){reference-type="ref"
-        reference="consejoExtraordinario"}.
-
-    b)  Representar al CAi y sus posturas ante las autoridades de la
+    a)  Representar al CAi y sus posturas ante las autoridades de la
         Escuela, la Universidad, la Federación y otros organismos
         pertinentes. Se considerará como postura del CAi la que adopte
         el Consejo Generacional.
 
-    c)  Dar cuenta pública y detallada de la gestión realizada al
+    b)  Dar cuenta pública y detallada de la gestión realizada al
         término de cada semestre en ejercicio a nombre del Comité
         Ejecutivo.
 
-    d)  Definir nuevas funciones y atribuciones a los miembros del
+    c)  Definir nuevas funciones y atribuciones a los miembros del
         Comité Ejecutivo. No podrá atribuir derechos o deberes que se
         opongan abiertamente a lo señalado en estos estatutos, o que
         superen sus propias funciones o atribuciones. Cualquier
         definición de este tipo deberá ser informada a los Consejos.
 
-    e)  Definir la división de labores que corresponde a cada
+    d)  Definir la división de labores que corresponde a cada
         vicepresidente.
 
-    f)  Dar cuenta pública, en las sesiones ordinarias del Consejo
+    e)  Dar cuenta pública, en las sesiones ordinarias del Consejo
         Generacional y del Consejo Académico, de su participación en el
         Consejo de Federación y en las instancias en las que participa
         regularmente como representante de los alumnos ante las
         autoridades de la Escuela.
 
-2.  [Primer Vicepresidente]{.smallcaps}
+2.  [Vicepresidencia Interna]{.smallcaps}
 
     a)  Representará al CAi en los organismos respectivos cuando el
         Presidente se lo solicitara, o cuando este faltare por motivos
@@ -274,18 +268,22 @@ encomiende.
         labores de los dos vicepresidentes quedará a criterio del
         Presidente en ejercicio.
 
-3.  [Segundo Vicepresidente]{.smallcaps}
+3.  [Vicepresidencia Externa]{.smallcaps}
 
-    a)  Coordinará y supervisará la labor de las comisiones y equipos de
+    a)  Representará al CAi en los organismos respectivos cuando el
+        Presidente se lo solicitara, o cuando este faltare por motivos
+        de fuerza mayor, con todas las atribuciones del cargo.
+
+    b)  Coordinará y supervisará la labor de las comisiones y equipos de
         trabajo dependientes del Comité Ejecutivo. La división de las
         labores de los dos vicepresidentes quedará a criterio del
         Presidente en ejercicio.
 
-4.  [Secretario General]{.smallcaps}
+4.  [Secretaría General]{.smallcaps}
 
     a)  Presidir y convocar las reuniones del Comité Ejecutivo y del
         Consejo Generacional. Sin perjuicio de la posibilidad de auto
-        convocatoria de éste último, dispuesto en el artículo 45.
+        convocatoria de éste último, dispuesto en el artículo 45. En caso de no encontrarse presente, cualquier persona del Comité Ejecutivo podrá actuar en subrogancia.
 
     b)  Llevar control de asistencia y someter a aprobación el acta de
         cada Consejo, que se dará por aprobada mediante correo
@@ -1742,10 +1740,9 @@ llevados ante organismos externos al CAi, dicha votación deberá ser
 llevada a cabo por el Consejo Generacional. Ésta se presentará en la
 misma proporción original, redondeando al entero más cercano. Si por
 este sistema se produjese un empate, se decidirá por la postura más
-votada de entre las empatadas. Si el empate persistiese corresponderá al
-presidente dirimir. En el caso de ser al Consejo de Presidentes de la
+votada de entre las empatadas. Si el empate persistiese corresponderá dirimir a la persona quien presida el Consejo. En el caso de ser al Consejo de Presidentes de la
 FEUC, o cualquier otra instancia en la que el Comité Ejecutivo tenga
-derecho a voto propio, solo serán válidos los votos de los Delegados.
+derecho a voto propio, solo serán válidos los votos de los Representantes.
 :::
 
 ::: {#definicionPoder .art}
