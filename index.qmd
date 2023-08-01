@@ -124,8 +124,7 @@ directivos del CAi son los siguientes:
 
 5.  [Comité Académico]{.smallcaps} Está formado por una persona representante de cada major, que debe haber inscrito el major respectivo y que debe estar cursando al menos la tercera generación; por un representante de cada departamento, centro o especialidad, que debe estar cursando una mención en ese departamento o realizando dicha especialidad, con un máximo de una representante por departamento o centro; por 6 representantes de postgrado, de cada una de las áreas del programa; por 2 representantes de la Licenciatura en Ingeniería en Ciencia de la Computación, una persona correspondiente a las primeras dos generaciones del programa y otra a la tercera y posteriores; y un Representante de College. Las áreas son las siguientes:
 
-    a)  Ingeniería Civil (Gestión de la Construcción, Estructural y
-        Geotecnia, Hidráulica y Ambiental)
+    a)  Ingeniería Civil (Gestión de la Construcción,  Minería, Estructural y Geotecnia, Hidráulica y Ambiental)
 
     b)  Industrial y de Transporte e Instituto de Matemática
 
