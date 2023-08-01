@@ -1193,7 +1193,7 @@ normas:
     próximos cinco días hábiles para dar la posibilidad que se inscriban
     más candidatos.
 
-11. A lo más cuatro días hábiles después del cierre de las inscripciones
+11. A lo más cinco días hábiles después del cierre de las inscripciones
     se iniciará el periodo de votación, el cual se prolongará por dos
     días hábiles.
 
