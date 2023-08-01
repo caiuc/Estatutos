@@ -122,15 +122,7 @@ directivos del CAi son los siguientes:
     superior, quienes se nombran en adelante como Representantes
     Generacionales.
 
-5.  [Comité Académico]{.smallcaps} Está formado por una persona
-    representante de cada major, que debe haber inscrito el major
-    respectivo y que debe estar cursando al menos la tercera generación;
-    por un representante de cada departamento, centro o especialidad,
-    que debe estar cursando una mención en ese departamento o realizando
-    dicha especialidad, con un máximo de una representante por
-    departamento o centro; por 6 representantes de postgrado, de cada
-    una de las áreas del programa; y una Representante de College. Las
-    áreas son las siguientes:
+5.  [Comité Académico]{.smallcaps} Está formado por una persona representante de cada major, que debe haber inscrito el major respectivo y que debe estar cursando al menos la tercera generación; por un representante de cada departamento, centro o especialidad, que debe estar cursando una mención en ese departamento o realizando dicha especialidad, con un máximo de una representante por departamento o centro; por 6 representantes de postgrado, de cada una de las áreas del programa; por 2 representantes de la Licenciatura en Ingeniería en Ciencia de la Computación, una persona correspondiente a las primeras dos generaciones del programa y otra a la tercera y posteriores; y un Representante de College. Las áreas son las siguientes:
 
     a)  Ingeniería Civil (Gestión de la Construcción, Estructural y
         Geotecnia, Hidráulica y Ambiental)
@@ -1227,24 +1219,18 @@ siguientes requisitos:
 
 2.  Para los Delegados Generacionales:
 
-    a)  Alumnos de pregrado: pertenecer a la generación que
-        representaría y estar cursando a lo menos 30 créditos del
-        currículum. Además, presentar en la oficina del CAi 50 firmas
+    a)  Estudiantes de pregrado: pertenecer a la generación que
+        representaría y estar cursando a lo menos 30 créditos de cualquiera de las mallas curriculares de la Escuela de Ingeniería. Además, presentar en la oficina del CAi 50 firmas
         que validen la candidatura.
 
-3.  Para los Delegados Académicos; en el caso de major, estar inscrito
-    en el major al cual se postula como representante y estar cursando
-    al menos la tercera generación; en el caso de los departamentos o
-    especialidades sin departamento, estar cursando la especialidad o
-    mención a la cual se postula como representante y contar con el
-    grado de licenciado o estar a 30 créditos o menos de cumplirlo.
-    Además el postulante, en el caso de ser alumno de pregrado, debe
-    estar cursando a lo menos 30 créditos del currículum, y llevar
-    realizados al menos 40 créditos o estar cursando al menos un ramo de
-    la especialidad, major o mención que declara cursar. En el caso de
-    los alumnos de postgrado, deben estar trabajando bajo tutela de un
-    profesor en una tesis del departamento o especialidad a la cual
-    postula.
+3.  Para los Representantes Académicos:
+
+a) De Ingeniería; en el caso de major, estar inscrito en el major al cual se postula como representante y estar cursando al menos la tercera generación; en el caso de los departamentos o especialidades sin departamento, estar cursando la especialidad o mención a la cual se postula como representante y contar con el grado de licenciatura o estar a 30 créditos o menos de cumplirlo.
+
+b) De la Licenciatura en Ingeniería en Ciencia de la Computación; en el caso de postular a la representación del primer y segundo año, no tener más de 3 semestres cursados en dicho plan; en el caso de postular a la representación de la tercera y posteriores, tener al menos 4 semestres cursados o 150 créditos aprobados del currículum al momento de la postulación.
+
+c) Las candidaturas pueden ser individuales o en dupla. En ambos casos las personas postulantes deben, en el caso de ser estudiante de pregrado, estar cursando a lo menos 30 créditos de su respectiva malla curricular de la Escuela de Ingeniería. En el caso del estudiantado de postgrado, deben estar trabajando bajo tutela de un docente en una tesis del departamento o especialidad a la cual postula.
+
 :::
 
 ::: {#requisitosRepresentanteCollege .art}
