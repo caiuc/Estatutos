@@ -5,7 +5,22 @@ project:
 website:
   title: "Cuerpo de Estatutos del Centro de Alumnos de Ingeniería"
   description: "Versión oficial y completa del Cuerpo de Estatutos del Centro de Alumnos de Ingeniería (CAi) de la Universidad Católica de Chioe."
-  
+  sidebar: 
+    style: docked
+    search: true
+    contents: 
+      - section: "Estatutos"
+        contents: 
+          - index.qmd
+
+      - section: "Anexos"
+        contents: 
+          - anexos/tricel.qmd.md
+          - anexos/iniciativas.md
+          - anexos/protocoloambiental.md
+
+
+
 resources:
   - CNAME
 

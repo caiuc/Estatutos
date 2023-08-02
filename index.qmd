@@ -1,5 +1,5 @@
 ---
-title: Cuerpo de Estatutos
+title: Estatuto principal
 subtitle: Centro de Alumnos de Ingeniería
 date-modified: 2023-06-04
 lang: es
@@ -2349,3 +2349,5 @@ Karina Alarcón von Loebenstein, Presidente CAi UC 2022\
 Ria Deane Takahashi, Consejera Académica CAi UC 2022\
 
 [^1]: Código Civil: <http://www.leychile.cl/Navegar?idNorma=172986>
+
+
