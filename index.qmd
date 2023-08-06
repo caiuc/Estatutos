@@ -1,7 +1,7 @@
 ---
 title: Estatuto principal
 subtitle: Centro de Alumnos de Ingeniería
-date-modified: 2023-06-04
+date-modified: 2023-07-27
 lang: es
 format: 
   html: default
