@@ -63,7 +63,7 @@ organismos directivos, a las siguientes funciones:
 
 3.  [En el aspecto cultural y de iniciativas estudiantiles:]{.smallcaps}
 
-    a)  Promover una sólida formación cultural en el alumno y realizar
+    a)  Promover una sólida formación cultural en el estudiantado y realizar
         actividades conducentes a ella.
 
     b)  Estimular la creación y el desarrollo de iniciativas
@@ -194,8 +194,8 @@ directivos del CAi son los siguientes:
     Comunidad de la Escuela de Ingeniería, de acuerdo a lo presentado en
     su programa de postulación, de manera no vinculante. Para ello,
     podrá crear comisiones y áreas de trabajo en las que podrá nombrar y
-    remover a sus respectivos Jefes de Comisión; como también podrá
-    designar Coordinadores Generales.
+    remover a sus respectivos Jefaturas de Comisión; como también podrá
+    designar Coordinaciones Generales.
 
 2.  Fomentar la participación de la comunidad a través de las distintas iniciativas que surgen de esta. Para ello, designará a una     persona integrante del comité que deba encargarse de coordinar, asistir y relacionar a las distintas Iniciativas Estudiantiles CAi en las facultades que se le atribuyen a este comité.
 
@@ -219,10 +219,10 @@ directivos del CAi son los siguientes:
 **Art. 6**. Las funciones y atribuciones mínimas de los miembros del
 Comité Ejecutivo son las que se numeran a continuación. Esta lista no es
 exhaustiva, y sin perjuicio de ella los miembros del Comité Ejecutivo
-colaborarán cumpliendo con los encargos que el Presidente les
+colaborarán cumpliendo con los encargos que la Presidencia les
 encomiende.
 
-1.  [Presidente]{.smallcaps}
+1.  [Presidencia]{.smallcaps}
 
     a)  Representar al CAi y sus posturas ante las autoridades de la
         Escuela, la Universidad, la Federación y otros organismos
@@ -240,35 +240,37 @@ encomiende.
         definición de este tipo deberá ser informada a los Consejos.
 
     d)  Definir la división de labores que corresponde a cada
-        vicepresidente.
+        vicepresidencia.
 
     e)  Dar cuenta pública, en las sesiones ordinarias del Consejo
         Generacional y del Consejo Académico, de su participación en el
         Consejo de Federación y en las instancias en las que participa
-        regularmente como representante de los alumnos ante las
+        regularmente como representante del estudiantado ante las
         autoridades de la Escuela.
+
+    f) Representar al estudiantado ante el Consejo Acad ́emico de Escuela y el Consejo de la Facultad.
 
 2.  [Vicepresidencia Interna]{.smallcaps}
 
-    a)  Representará al CAi en los organismos respectivos cuando el
-        Presidente se lo solicitara, o cuando este faltare por motivos
+    a)  Representará al CAi en los organismos respectivos cuando la
+        Presidencia se lo solicitara, o cuando este faltare por motivos
         de fuerza mayor, con todas las atribuciones del cargo.
 
     b)  Coordinará y supervisará la labor de las comisiones y equipos de
         trabajo dependientes del Comité Ejecutivo. La división de las
-        labores de los dos vicepresidentes quedará a criterio del
-        Presidente en ejercicio.
+        labores de las dos vicepresidencias quedará a criterio de la
+        Presidencia en ejercicio.
 
 3.  [Vicepresidencia Externa]{.smallcaps}
 
-    a)  Representará al CAi en los organismos respectivos cuando el
-        Presidente se lo solicitara, o cuando este faltare por motivos
+    a)  Representará al CAi en los organismos respectivos cuando la
+        Presidencia se lo solicitara, o cuando este faltare por motivos
         de fuerza mayor, con todas las atribuciones del cargo.
 
     b)  Coordinará y supervisará la labor de las comisiones y equipos de
         trabajo dependientes del Comité Ejecutivo. La división de las
-        labores de los dos vicepresidentes quedará a criterio del
-        Presidente en ejercicio.
+        labores de las dos vicepresidencias quedará a criterio de la
+        Presidencia en ejercicio.
 
 4.  [Secretaría General]{.smallcaps}
 
@@ -283,7 +285,7 @@ encomiende.
         primera publicación del acta, existirán 3 instancias mediante
         correo electrónico para llegar a consenso sobre el acta escrita
         (entiéndase como instancia cada vez que se le envíe a los
-        delegados), en caso de superar esta última, se deberá aprobar en
+        representantes), en caso de superar esta última, se deberá aprobar en
         el Consejo siguiente.
 
     c)  Publicar actas del Consejo Académico en la página web del Centro
@@ -294,13 +296,13 @@ encomiende.
         comisiones, mediante la coordinación con un encargado de cada
         comisión.
 
-    e)  Publicar las cuentas públicas de las comisiones y los delegados
+    e)  Publicar las cuentas públicas de las comisiones y los representantes
         en la página del Centro de Alumnos y por otro medio que se
         considere pertinente para que llegue a los alumnos de la
         Escuela, en un plazo máximo de cinco días hábiles posterior al
         consejo en que fueron presentadas.
 
-5.  [Jefe de Finanzas]{.smallcaps}
+5.  [Jefatura de Finanzas]{.smallcaps}
 
     a)  Administrar y llevar una cuenta de todos los ingresos y gastos
         del CAi, en la cual estos aparezcan convenientemente
@@ -321,10 +323,10 @@ encomiende.
     d)  Presentar el estado del presupuesto anual del CAi en las
         sesiones ordinarias de los Consejo Generacional y Académico
         correspondientes al mes de julio y noviembre. En la sesión de
-        noviembre, se invitará al jefe de finanzas electo para el año
+        noviembre, se invitará a la jefatura de finanzas electa para el año
         siguiente.
 
-6.  [Coordinador de Áreas]{.smallcaps}
+6.  [Coordinación de Áreas]{.smallcaps}
 
     a)  Gestionar los espacios de ingeniería y el préstamo de las
         propiedades del CAi.
@@ -332,84 +334,84 @@ encomiende.
     b)  Relacionarse con administración del campus para gestionar los
         espacios de la manera más correcta posible.
 
-7.  [Jefe de Docencia]{.smallcaps}
+7.  [Jefatura de Docencia]{.smallcaps}
 
     a)  Colaborar en las políticas académicas de la Escuela, trabajando
-        en conjunto con el Consejero Académico.
+        en conjunto con la Consejería Académica.
 
     b)  Asistir al Comité de Pregrado.
 
     c)  Asistir al Consejo Académico.
 
-8.  [Jefe de Investigación]{.smallcaps}
+8.  [Jefatura de Investigación]{.smallcaps}
 
     a)  Integrar a las políticas académicas de la Escuela la visión de
-        los alumnos de Postgrado, trabajando en conjunto con el
-        Consejero Académico de Postgrado.
+        los alumnos de Postgrado, trabajando en conjunto con la
+        Consejería Académica de Postgrado.
 
     b)  Asistir al Comité de Postgrado.
 
     c)  Asistir al Consejo Académico.
 
 9.  [Cargos opcionales]{.smallcaps} Las funciones de los cargos
-    opcionales son definidas por el Presidente, tal como se señala en la
+    opcionales son definidas por la Presidencia, tal como se señala en la
     parte A del presente artículo.
 :::
 
 ::: {#funcionesCAPregrado .art}
-**Art. 7**. Las funciones y atribuciones del Consejero Académico son:
+**Art. 7**. Las funciones y atribuciones de la Consejería Académica son:
 
 1.  Integrar a las políticas académicas de la Escuela la visión de los
-    alumnos, liberando de estas responsabilidades al Presidente del CAi.
+    estudiantes, liberando de estas responsabilidades a la Presidencia del CAi.
 
 2.  Presidir el Consejo Académico.
 
-3.  Representar a los alumnos ante el *CIDEI*, el Consejo de la Escuela
-    de Ingeniería y el Comité de Pregrado, en conjunto con el Presidente
-    de CAi.
+3.  Representar al estudiantado ante el *CIDEI*, el Consejo de la Escuela
+    de Ingeniería y el Comité de Pregrado, en conjunto con la Presidencia
+    del CAi.
 
 4.  Estudiar y desarrollar proyectos y propuestas académicas con la
     Dirección de la Escuela y, si existiese, la Comisión de Docencia del
     CAi, preocupándose también de su difusión.
 
 5.  Asistir a las instancias formales para las que sea llamado junto a
-    sus pares de las demás facultades por el Consejero Superior FEUC,
+    sus pares de las demás facultades por la Consejería Superior FEUC,
     tales como el Consejo Académico FEUC.
 
 6.  Dar cuenta pública, en las sesiones ordinarias del Consejo
     Generacional y Académico, de su participación en el Consejo
     Académico FEUC y en las instancias en las que participa regularmente
-    como representante de los alumnos ante las autoridades de la
+    como representante de los estudiantes ante las autoridades de la
     Escuela.
 :::
 
 ::: art
-**Art. 8**. Las funciones y atribuciones del Subconsejero Académico son:
+**Art. 8**. Las funciones y atribuciones de la Subconsejería Académica son:
 
 1.  Colaborar en las políticas académicas de la Escuela, trabajando en
-    conjunto con el Consejero Académico.
+    conjunto con la Consejería Académica.
 
-2.  Reemplazar al Consejero Académico en el Consejo Académico FEUC,
+2.  Reemplazar a la Consejería Académica en el Consejo Académico FEUC,
     cuando éste no puede asistir.
 
-3.  Reemplazar al Consejero Académico en caso de renuncia, cese
+3.  Reemplazar a la Consejería Académica en caso de renuncia, cese
     anticipado o destitución del mismo.
 :::
 
 ::: {#funcionesCAPostgrado .art}
-**Art. 9**. Las funciones y atribuciones del Consejero de Postgrado son:
+**Art. 9**. Las funciones y atribuciones de la Consejería de Postgrado son:
 
 1.  Integrar a las políticas académicas de la Escuela la visión de los
-    alumnos de Postgrado, liberando de estas responsabilidades al
-    Presidente del CAi.
+    estudiantes de Postgrado, liberando de estas responsabilidades a la
+    Presidencia del CAi.
 
-2.  Representar a los alumnos ante el Comité de Postgrado.
+2.  Representar a los estudiantes ante el Comité de Postgrado.
 
 3.  Asistir a las instancias formales de representación para las que sea
     llamado por organismos atingentes a su cargo y rol.
 
 4.  Coordinar con el Comité Ejecutivo la creación y ejecución de una
-    agenda de trabajo orientada a los alumnos de Postgrado de la Escuela
+    agenda de trabajo orientada a los estudiantes de Postgrado de la Escuela
     de Ingeniería.
 
 5.  Asistir al Consejo Académico
@@ -419,21 +421,21 @@ encomiende.
     Ciencias de la Ingeniería o al Comité de Doctorado si es del
     Doctorado en Ciencias de la Ingeniería).
 
-7.  Sesionar a los Delegados de Postgrado una vez al mes.
+7.  Sesionar a los Representantes de Postgrado una vez al mes.
 :::
 
 ::: art
-**Art. 10**. Las funciones y atribuciones del Subconsejero de Postgrado
+**Art. 10**. Las funciones y atribuciones de la Subconsejería de Postgrado
 son:
 
 1.  Integrar a las políticas académicas de la Escuela la visión de los
-    alumnos de Postgrado, trabajando en conjunto con el Consejero
-    Académico de Postgrado.
+    estudiantes de Postgrado, trabajando en conjunto con la Consejería
+    Académica de Postgrado.
 
-2.  Reemplazar al Consejero de Postgrado en el Consejo Académico de
+2.  Reemplazar a la Consejería de Postgrado en el Consejo Académico de
     Postgrado UC, cuando éste no puede asistir.
 
-3.  Reemplazar al Consejero Académico en caso de renuncia, cese
+3.  Reemplazar a la Consejería de Postgrado en caso de renuncia, cese
     anticipado o destitución del mismo.
 
 4.  Participar en el Comité de Magíster/Doctorado según el programa al
@@ -446,7 +448,7 @@ son:
 **Art. 11**. Las funciones y atribuciones del Representante de College
 son:
 
-1.  Representar a los alumnos de College que se encuentran relacionados
+1.  Representar a los estudiantes de College que se encuentran relacionados
     a la Escuela de Ingeniería principalmente en temas académicos.
 
 2.  Dar cuenta pública de su gestión al menos dos veces durante su
@@ -463,9 +465,9 @@ son:
 :::
 
 ::: {#cuentaPublica .art}
-**Art. 12**. []{#funcionesDelegadosGeneracionales
-label="funcionesDelegadosGeneracionales"} Las funciones y atribuciones
-de los Delegados Generacionales son:
+**Art. 12**. []{#funcionesRepresentantesGeneracionales
+label="funcionesRepresentantesGeneracionales"} Las funciones y atribuciones
+de los Representantes Generacionales son:
 
 1.  Representar políticamente a sus compañeros.
 
@@ -473,14 +475,14 @@ de los Delegados Generacionales son:
     representados, principalmente aquellos de ciencias básicas y comunes
     dictados en esta u otra facultad.
 
-3.  Para los Delegados de la primera y segunda generación, al menos uno
+3.  Para los Representantes de la primera y segunda generación, al menos uno
     de cada generación debe asistir a las sesiones del Consejo
-    Académico, pudiendo alternar esta función entre más de un Delegado a
+    Académico, pudiendo alternar esta función entre más de un Representante a
     lo largo del año académico.
 
 4.  Al menos dos veces durante su período deberán rendir cuenta de las
     actividades realizadas a sus representados. Estas deberán ser
-    difundidas por el CAi y los delegados por el medio que estimen
+    difundidas por el CAi y los representantes por el medio que estimen
     conveniente.
 
 5.  Entregar un documento resumen al momento del cambio de mando, en
@@ -498,14 +500,14 @@ de los Delegados Generacionales son:
     instancias de participación para sus respectivas generaciones.
 
 3.  Decidir los votos ponderados de Ingeniería para el Consejo de
-    Federación los cuales son llevados al mismo por los Consejeros
+    Federación los cuales son llevados al mismo por las Consejerías
     Territoriales.
 
 4.  Colaborar en la comunicación de actividades y procesos del Comité
     Ejecutivo, además de fiscalizar su gestión.
 
 5.  Desautorizar públicamente una actuación del Comité Ejecutivo, o
-    alguno de sus miembros; del Consejero Académico y del Consejero de
+    alguno de sus miembros; de la Consejería Académica y de la Consejería de
     Postgrado.
 
 6.  Formular la solicitud de destitución de su cargo a cualquier miembro
@@ -517,7 +519,7 @@ de los Delegados Generacionales son:
 **Art. 14**. Las funciones y atribuciones del Consejo Generacional son:
 
 1.  Pronunciarse sobre los temas políticos que cualquiera de sus
-    miembros someta a su consideración.
+    integrantes someta a su consideración.
 
 2.  Pronunciarse sobre los temas planteados por la Federación de
     Estudiantes de la Universidad Católica (FEUC) a través de su Consejo
@@ -531,30 +533,29 @@ de los Delegados Generacionales son:
 
 5.  Velar por el cumplimiento del presente cuerpo de Estatutos.
 
-6.  Destituir de su cargo a todo miembro del Comité Ejecutivo que
+6.  Destituir de su cargo a cualquier miembro del Comité Ejecutivo que
     cumpliere con algunas de las causas establecidas como motivo de
     cesación de cargo en el presente estatuto,
     artículo [24](#requisitosEjecutivo){reference-type="ref"
     reference="requisitosEjecutivo"}.
 
-7.  Crear comisiones de trabajo en función de la contingencia o interés
-    de los miembros del Consejo Generacional. La creación de una
+7.  Crear comisiones de trabajo en función de la contingencia o interés del Consejo Generacional. La creación de una
     comisión deberá contar con la aprobación de al menos un quinto de
     los votos totales del consejo. El rol de estas comisiones será
     recopilar información y/o elaborar propuestas para luego
     presentarlas al Consejo Generacional. Las comisiones deben estar
-    formadas por al menos 4 delegados y liderada por uno de estos.
+    formadas por al menos 4 representantes y liderada por uno de estos. Estos Avances deberán ser presentados en al menos un consejo.
 :::
 
 ::: {#funcionesDelegadosAcademicos .art}
-**Art. 15**. Las funciones y atribuciones de los Delegados Académicos
+**Art. 15**. Las funciones y atribuciones de los Representantes Académicos
 son:
 
-1.  En el caso de los Delegados de Major, canalizar los problemas
-    académicos de los alumnos de su Major y de Minors asociados y
+1.  En el caso de los Representantes de Major, canalizar los problemas
+    académicos de los estudiantes de su Major y de Minors asociados y
     representarlos ante las instancias académicas correspondientes. En
-    el caso de los Delegados de Especialidad, canalizar los problemas
-    académicos de los alumnos del segundo ciclo de formación de su
+    el caso de los Representantes de Especialidad, canalizar los problemas
+    académicos de los estudiantes del segundo ciclo de formación de su
     Departamento y representarlos ante las instancias académicas
     correspondientes.
 
@@ -566,26 +567,26 @@ son:
     y otros proyectos estudiantiles de índole académica de sus
     respectivas disciplinas.
 
-4.  Para el caso de los delegados de especialidad, participar de las
+4.  Para el caso de los representantes de especialidad, participar de las
     reuniones del departamento del cual está adscrito como
     representante.
 
-5.  Para el caso de los delegados de major, participar del Comité de
+5.  Para el caso de los representantes de major, participar del Comité de
     Programa del major respectivo, y si corresponde, participar de las
     reuniones de departamento al cual el major está adscrito.
 
 6.  Al menos dos veces durante su período deberán rendir cuenta de las
     actividades realizadas a sus representados. Estas deberán ser
-    difundidas por el CAi y los delegados por el medio que estimen
+    difundidas por el CAi y los representantes por el medio que estimen
     conveniente.
 
 7.  Entregar un documento resumen al momento del cambio de mando, en
     donde se expliciten los principales proyectos llevados a cabo
     durante su periodo en ejercicio.
 
-8.  Para los Delegados de postgrado, al menos uno de ellos debe asistir
+8.  Para los Representantes de postgrado, al menos uno de ellos debe asistir
     a las sesiones del Consejo Generacional, pudiendo alternar esta
-    función entre más de un Delegado a lo largo del año académico.
+    función entre más de un Representante a lo largo del año académico.
     Además, deben sesionar por lo menos una vez al mes para conversar de
     los diferentes problemas que estén surgiendo en el Programa.
 :::
@@ -601,7 +602,7 @@ son:
     respectivas especialidades.
 
 3.  Revisar y evaluar las políticas académicas de la Escuela. Trabajar
-    junto a los Consejeros Académico y de Postgrado en la formulación de
+    junto a las Consejeríass Académicas y de Postgrado en la formulación de
     propuestas de mejoramiento en términos de docencia, investigación y
     extensión.
 
@@ -609,13 +610,13 @@ son:
     dentro de sus diferentes organismos.
 
 5.  Desautorizar públicamente una actuación del Comité Ejecutivo, o
-    alguno de sus miembros; del Consejero Académico y del Consejero de
+    alguno de sus miembros; de la Consejería Académica y de la Consejería de
     Postgrado.
 
 6.  Velar por el cumplimiento del presente Cuerpo de Estatutos, tanto el
     Estatuto principal como sus Apartados.
 
-7.  Remplazar al Consejero Académico según lo estipulado en el
+7.  Remplazar a la Consejería Académica según lo estipulado en el
     artículo [24](#requisitosEjecutivo){reference-type="ref"
     reference="requisitosEjecutivo"}.
 
@@ -635,12 +636,12 @@ son:
     Católica (FEUC) a través de su Consejo de Presidentes o cualquiera
     de sus instancias que considere correspondiente. En caso de tratarse
     de una votación del Consejo Académico UC, esta decisión no se
-    considerarán los votos de los delegados de postgrado, salvo que sea
+    considerarán los votos de los representantes de postgrado, salvo que sea
     una decisión que tenga relación con los estudiantes de postgrado.
-    Esto será así mientras estos alumnos de postgrado no sean
+    Esto será así mientras estos estudiantes de postgrado no sean
     representados por la Federación. Si un tema es competencia de
-    postgrado queda a criterio del Consejeros Académicos de Pregrado y
-    Postgrado, la cual podría ser apelable por los delegados de
+    postgrado queda a criterio de las Consejerías Académicas de Pregrado y
+    Postgrado, la cual podría ser apelable por los representantes de
     postgrado.
 
 3.  Someter a plebiscito cualquier decisión que considere pertinente, en
@@ -679,11 +680,13 @@ aprobadas por ambos Consejos son:
 Decanato serán destinados al financiamiento de los Consejos Generacional
 y Académico, según la siguiente repartición:
 
-1.  10% destinado al Consejero Académico.
+1.  15% destinado a la Consejería Académica.
 
-2.  90% a Fondos Concursables, cumpliendo lo siguiente:
+2.  5% destinado a la Consejería de Postgrado.
 
-    a)  Los únicos participantes serán los Delegados, y los proyectos
+3.  80% a Fondos Concursables, cumpliendo lo siguiente:
+
+    a)  Los únicos participantes serán los Representantes, y los proyectos
         deberán estar orientados a cubrir las necesidades e inquietudes
         del estudiantado.
 
@@ -692,21 +695,21 @@ y Académico, según la siguiente repartición:
         semestres.
 
     c)  Las bases de los fondos concursables serán definidas por una
-        comisión conformada por el Consejero Académico, el Tesorero del
-        Comité Ejecutivo y un delegado correspondiente a cada Consejo
+        comisión conformada por la Consejería Académica, la Jefatura de Finanzas del
+        Comité Ejecutivo y un representante correspondiente a cada Consejo
         elegido en la primera sesión ordinaria del semestre.
 
     d)  Las bases de los fondos concursables deberán estar en posesión
-        de los delegados a más tardar un mes después a partir de la
+        de los representantes a más tardar un mes después a partir de la
         primera sesión ordinaria del semestre.
 
     e)  El jurado evaluador de los fondos concursables estará compuesto
-        por el Consejero Académico, un miembro del Comité Ejecutivo
+        por la Consejería Académica, un miembro del Comité Ejecutivo
         definido por este y un miembro de cada Consejo elegido en la
         primera sesión ordinaria del semestre.
 
     f)  Los montos ganados se pueden utilizar hasta el último día de
-        postulación del siguiente período o hasta que los Delegados que
+        postulación del siguiente período o hasta que los Representantes que
         se hayan adjudicado los fondos cesen en su cargo.
 
     g)  El dinero no utilizado el primer período se sumará al monto
@@ -715,21 +718,21 @@ y Académico, según la siguiente repartición:
 :::
 
 ::: art
-**Art. 20**. Los Jefes de Comisión y sus respectivos comisionados del
+**Art. 20**. Las Jefaturas de Comisión y sus respectivos comisionados del
 CAi colaborarán con el Comité Ejecutivo en el área específica de cada
 uno y participarán en las sesiones de dicho organismo en los casos y
-formas que el Presidente determine.
+formas que la Presidencia determine.
 :::
 
 ## II. Elecciones, requisitos y sanciones {#elecciones}
 
 ::: {#porcentajeMinimo .art}
-**Art. 21**. Tendrán derecho a votar todos los alumnos regulares de
-Pregrado de la Escuela de Ingeniería, así como los alumnos de Magíster
+**Art. 21**. Tendrán derecho a votar todos los estudiantes regulares de
+Pregrado de la Escuela de Ingeniería, así como los estudiantes de Magíster
 en Ingeniería, Magíster en Ciencias de la Ingeniería y Doctorado, salvo
 cuando este estatuto específicamente indique algo distinto. Tratándose
 de la elección del Comité Ejecutivo y Consejero Académico, tendrán
-derecho a voto los alumnos de College de Licenciatura en Ciencias
+derecho a voto los estudiantes de College de Licenciatura en Ciencias
 Naturales que tengan inscrito el major de la Escuela de Ingeniería a
 comienzos del segundo semestre.
 
@@ -861,7 +864,7 @@ elección que se llevará a cabo de acuerdo a las siguientes normas:
 
         ii)  Un plan de trabajo y propuestas para su período.
 
-    3.  En el caso de las candudaturas a Consejería de Postgrado:
+    3.  En el caso de las candidaturas a Consejería de Postgrado:
 
         i)  El nombre de la persona candidata, la cual debe haber
             aprobado el proceso de preinscripción.
@@ -960,10 +963,10 @@ elección que se llevará a cabo de acuerdo a las siguientes normas:
 **Art. 24**. Los postulantes al Comité Ejecutivo deberán cumplir, al
 momento de la preinscripción:
 
-1.  Ser alumnos regulares de la Escuela de Ingeniería de la Pontificia
+1.  Ser estudiantes regulares de la Escuela de Ingeniería de la Pontificia
     Universidad Católica de Chile.
 
-2.  En el caso de alumnos de pregrado:
+2.  En el caso de estudiantes de pregrado:
 
     a)  Tener a lo menos tres semestres cursados en la unidad académica
         o 150 créditos aprobados de algún currículum de Ingeniería Civil
@@ -978,12 +981,12 @@ momento de la preinscripción:
         El organismo oficial de validación es la Dirección de Pregrado
         de la Escuela de Ingeniería.
 
-3.  En el caso de alumnos de postgrado:
+3.  En el caso de estudiantes de postgrado:
 
-    a)  En el caso de alumnos en primer semestre del programa, cumplir
-        con los requisitos establecidos para alumnos de pregrado.
+    a)  En el caso de estudiantes en primer semestre del programa, cumplir
+        con los requisitos establecidos para estudiantes de pregrado.
 
-    b)  En el caso de alumnos de segundo semestre en adelante, contar
+    b)  En el caso de estudiantes de segundo semestre en adelante, contar
         con un PPA superior o igual a 5,00.
 
         Esta norma tiene por objetivo que ningún miembro del Comité
@@ -1003,23 +1006,23 @@ momento de la preinscripción:
     artículo.
 :::
 
-::: {#requisitosPresidente .art}
-**Art. 25**. El candidato a Presidente del CAi deberá tener un promedio
+::: {#requisitosPresidencia .art}
+**Art. 25**. La candidatura a Presidencia del CAi deberá tener un promedio
 ponderado acumulado de notas (PPA) superior o igual 4,80 y a lo menos
 200 créditos aprobados de algún programa de la Escuela de Ingeniería
 Civil al momento de la preinscripción.
 :::
 
-::: {#requisitosJefeInvestigacion .art}
-**Art. 26**. El candidato al cargo de Jefe de Investigación deberá
-específicamente ser alumno regular o en vías de grado de Postgrado.
+::: {#requisitosJefaturaInvestigacion .art}
+**Art. 26**. La candidatura al cargo de Jefatura de Investigación deberá
+específicamente ser estudiante regular o en vías de grado de Postgrado.
 :::
 
 ::: {#requisitosCAPregrado .art}
-**Art. 27**. Los candidatos a Consejero Académico deberán cumplir con
+**Art. 27**. Las candidaturas a Consejería Académica deberán cumplir con
 los siguientes requisitos, al momento de la preinscripción:
 
-1.  Ser alumno regular de algún major o título profesional de Ingeniería
+1.  Ser estudiante regular de algún major o título profesional de Ingeniería
     Civil con PPA superior 4.80.
 
 2.  Haber aprobado al menos 200 créditos al momento de inscribir la
@@ -1034,10 +1037,10 @@ los siguientes requisitos, al momento de la preinscripción:
 :::
 
 ::: {#requisitosCAPostegrado .art}
-**Art. 28**. Los candidatos al cargo de Consejero de Postgrado deberán
+**Art. 28**. Las candidaturas al cargo de Consejería de Postgrado deberán
 cumplir con los siguientes requisitos, al momento de la preinscripción:
 
-1.  Ser alumno regular o en vías de grado de Postgrado con PPA superior
+1.  Ser estudiante regular o en vías de grado de Postgrado con PPA superior
     5.00.
 
 1.  Haber completado al menos un semestre en algún programa de Postgrado
@@ -1052,88 +1055,88 @@ cumplir con los siguientes requisitos, al momento de la preinscripción:
 :::
 
 ::: {#eleccionExtraordinariaCAPregrado .art}
-**Art. 29**. En caso de no presentarse ningún candidato al cargo de
-Consejero Académico después de los dos períodos estipulados en el
+**Art. 29**. En caso de no presentarse ninguna candidatura al cargo de
+Consejería Académica después de los dos períodos estipulados en el
 artículo [23, letra H](#cierre){reference-type="ref"
-reference="cierre"} de esta parte, el Consejo Académico
+reference="cierre"} de esta parte, la Consejería Académica
 elegirá de entre sus miembros (que cumplan con los requisitos de
-Consejero Académico) a alguien que asuma el cargo. Esta obligación
-recaerá ineludiblemente sobre alguno de los Delegados, y ellos deben
+Consejería Académica) a alguien que asuma el cargo. Esta obligación
+recaerá ineludiblemente sobre alguno de los Representantes, y ellos deben
 estar conscientes de dicha condición antes de ser elegidos como tales.
-El Delegado que asuma el cargo tendrá la opción de designar a un
+El Representante que asuma el cargo tendrá la opción de designar a un
 reemplazante para su labor previa como representante de especialidad.
 Todas estas obligaciones corresponderán al Consejo Académico en
 ejercicio.
 :::
 
-::: {#nominacionSubconsejeros .art}
-**Art. 30**. La nominación de cada subconsejero se realizará posterior a
-la elección de Comité Ejecutivo y Consejeros Académicos, bajo los
+::: {#nominacionSubconsejerias .art}
+**Art. 30**. La nominación de cada subconsejería se realizará posterior a
+la elección de Comité Ejecutivo y Consejerías Académicas, bajo los
 siguientes criterios:
 
-1.  Para el caso del Subconsejero Académico, será el Jefe de Docencia, a
-    menos que el Consejero Académico proponga una persona distinta,
+1.  Para el caso de la Subconsejería Académica, será la Jefatura de Docencia, a
+    menos que la Consejería Académica proponga una persona distinta,
     quien debe cumplir los requisitos del
     artículo [24](#requisitosEjecutivo){reference-type="ref"
     reference="requisitosEjecutivo"}.
 
-2.  Para el caso del Subconsejero de Postgrado, este tiene que
-    pertenecer al programa de Postgrado al que el Consejero de Postgrado
-    no pertenece. Podría ser el Jefe de Investigación, a menos que el
-    Consejero de Postgrado proponga a una persona distinta, quien debe
+2.  Para el caso de la Subconsejería de Postgrado, este tiene que
+    pertenecer al programa de Postgrado al que la Consejería de Postgrado
+    no pertenece. Podría ser la Jefatura de Investigación, a menos que la
+    Consejería de Postgrado proponga a una persona distinta, quien debe
     cumplir con el requisito planteado anteriormente y en los
     artículos [24](#requisitosEjecutivo){reference-type="ref"
     reference="requisitosEjecutivo"}
-    y [26](#requisitosJefeInvestigacion){reference-type="ref"
-    reference="requisitosJefeInvestigacion"}.
+    y [26](#requisitosJefaturaInvestigacion){reference-type="ref"
+    reference="requisitosJefaturaInvestigacion"}.
 
-3.  Ambas propuestas, deben ser validadas por mayoría simple en el
-    Consejo Académico en el primer consejo ordinario de la directiva
+3.  Ambas propuestas, deben ser validadas por mayoría simple en la
+    Consejería Académica en el primer consejo ordinario de la directiva
     electa.
 
-4.  De no ser validado, cada Consejero puede proponer otro nombre entre
-    los delegados existentes que cumplan los requisitos de los
+4.  De no ser validado, cada Consejería puede proponer otro nombre entre
+    los representantes existentes que cumplan los requisitos de los
     artículos [24](#requisitosEjecutivo){reference-type="ref"
     reference="requisitosEjecutivo"} y de ser necesario el
-    artículo [26](#requisitosJefeInvestigacion){reference-type="ref"
-    reference="requisitosJefeInvestigacion"}.
+    artículo [26](#requisitosJefaturaInvestigacion){reference-type="ref"
+    reference="requisitosJefaturaInvestigacion"}.
 :::
 
-::: {#definicionesDelegados .art}
-**Art. 31**. Los Delegados y el Representante de College durarán un año
+::: {#definicionesRepresentantes .art}
+**Art. 31**. Los Representantes y el Representante de College durarán un año
 en sus funciones. Esta elección se hará de acuerdo a las siguientes
 normas:
 
-1.  Para alumnos que no tengan inscrito un major o especialidad, cada
+1.  Para estudiantes que no tengan inscrito un major o especialidad, cada
     estudiante tendrá derecho a votar por dos candidatos de su
     respectiva generación. En ningún caso podrá acumular estos dos votos
-    en un mismo candidato.
+    en una misma candidatura.
 
-2.  Para alumnos que tengan inscrito un major, cada estudiante tendrá
-    derecho a votar por un candidato de su respectivo major y por dos
-    candidatos de su respectiva generación. En ningún caso podrá
-    acumular estos dos votos en un mismo candidato.
+2.  Para estudiantes que tengan inscrito un major, cada estudiante tendrá
+    derecho a votar por una candidatura de su respectivo major y por dos
+    candidaturas de su respectiva generación. En ningún caso podrá
+    acumular estos dos votos en una misma candidatura.
 
-3.  Para alumnos que tengan inscrita una especialidad, cada alumno
-    tendrá derecho a votar por un candidato de su departamento,
-    especialidad o centro, además de poder votar por un candidato del
+3.  Para estudiantes que tengan inscrita una especialidad, cada estudiante
+    tendrá derecho a votar por una candidatura de su departamento,
+    especialidad o centro, además de poder votar por una candidatura del
     Departamento de Ingeniería Industrial en caso que tenga inscrita una
     mención asociada a ese departamento. También deberá votar por dos
-    candidatos de su respectiva generación. En ningún caso podrá
-    acumular estos dos votos en un mismo candidato.
+    candidaturas de su respectiva generación. En ningún caso podrá
+    acumular estos dos votos en una misma candidatura.
 
-4.  Para los alumnos que tengan inscrito un major y especialidad, cada
-    alumno tendrá la opción de decidir si votar por un delegado de su
+4.  Para los estudiantes que tengan inscrito un major y especialidad, cada
+    estudiante tendrá la opción de decidir si votar por un representante de su
     major o de su departamento, especialidad o centro. En caso de elegir
-    votar por especialidad, y en caso de que el alumno tenga inscrita
-    una especialidad Industrial, también podrá votar por un candidato
+    votar por especialidad, y en caso de que el estudiante tenga inscrita
+    una especialidad Industrial, también podrá votar por una candidatura
     del Departamento de Ingeniería Industrial.
 
-5.  Para alumnos cursando algún programa de Postgrado, cada alumno
-    tendrá derecho a votar por un candidato de su área de postgrado,
+5.  Para estudiantes cursando algún programa de Postgrado, cada estudiante
+    tendrá derecho a votar por una candidatura de su área de postgrado,
     especialidad o centro.
 
-6.  Los alumnos que cursen de forma simultánea Pregrado y Postgrado en
+6.  Los estudiantes que cursen de forma simultánea Pregrado y Postgrado en
     la Escuela de Ingeniería podrán sufragar en una sola oportunidad.
     Cada alumno tendrá derecho a votar por un candidato de su
     departamento, especialidad o centro, además de poder votar por un
