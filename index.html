@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -48,7 +48,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "Sin resultados",
     "search-matching-documents-text": "documentos encontrados",
@@ -57,6 +63,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "resultado adicional en este documento",
     "search-more-matches-text": "resultados adicionales en este documento",
     "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancelar",
     "search-submit-button-title": "Enviar",
     "search-label": "Buscar"
@@ -65,6 +72,33 @@ ul.task-list li input[type="checkbox"] {
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -75,12 +109,12 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Estatutos</a></li><li class="breadcrumb-item"><a href="./index.html">Estatuto principal</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Estatutos</a></li><li class="breadcrumb-item"><a href="./index.html">Estatuto principal</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -90,7 +124,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Cuerpo de Estatutos del Centro de Alumnos de Ingeniería</a> 
@@ -155,7 +189,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -176,7 +210,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Estatutos</a></li><li class="breadcrumb-item"><a href="./index.html">Estatuto principal</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Estatuto principal</h1>
 <p class="subtitle lead">Centro de Alumnos de Ingeniería</p>
@@ -198,7 +232,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <section id="estatutos" class="level1">
 <h1>Estatutos</h1>
@@ -227,7 +263,7 @@ ul.task-list li input[type="checkbox"] {
 </ol></li>
 <li><p><span class="smallcaps">En el aspecto cultural y de iniciativas estudiantiles:</span></p>
 <ol type="a">
-<li><p>Promover una sólida formación cultural en el alumno y realizar actividades conducentes a ella.</p></li>
+<li><p>Promover una sólida formación cultural en el estudiantado y realizar actividades conducentes a ella.</p></li>
 <li><p>Estimular la creación y el desarrollo de iniciativas estudiantiles de diversa índole, por medio de Fondos Concursables y apoyo directo.</p></li>
 </ol></li>
 </ol>
@@ -291,7 +327,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="funcionesEjecutivo1" class="art">
 <p><strong>Art. 5</strong>. Las funciones del Comité Ejecutivo son:</p>
 <ol type="1">
-<li><p>Desarrollar una gestión de excelencia en favor del Alumnado y la Comunidad de la Escuela de Ingeniería, de acuerdo a lo presentado en su programa de postulación, de manera no vinculante. Para ello, podrá crear comisiones y áreas de trabajo en las que podrá nombrar y remover a sus respectivos Jefes de Comisión; como también podrá designar Coordinadores Generales.</p></li>
+<li><p>Desarrollar una gestión de excelencia en favor del Alumnado y la Comunidad de la Escuela de Ingeniería, de acuerdo a lo presentado en su programa de postulación, de manera no vinculante. Para ello, podrá crear comisiones y áreas de trabajo en las que podrá nombrar y remover a sus respectivos Jefaturas de Comisión; como también podrá designar Coordinaciones Generales.</p></li>
 <li><p>Fomentar la participación de la comunidad a través de las distintas iniciativas que surgen de esta. Para ello, designará a una persona integrante del comité que deba encargarse de coordinar, asistir y relacionar a las distintas Iniciativas Estudiantiles CAi en las facultades que se le atribuyen a este comité.</p></li>
 <li><p>Entregar a todos los miembros del Consejo Generacional y del Consejo Académico una copia de los estatutos vigentes al inicio del período.</p></li>
 <li><p>Asumir la última responsabilidad de las actuaciones en las cuales los organismos dependientes del Comité Ejecutivo se vean involucrados, liberándose de esta responsabilidad al desautorizar públicamente y antes de que ocurra el acto que no cuenta con apoyo oficial.</p></li>
@@ -300,117 +336,118 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 </div>
 <div id="funciones_presidente" class="art">
-<p><strong>Art. 6</strong>. Las funciones y atribuciones mínimas de los miembros del Comité Ejecutivo son las que se numeran a continuación. Esta lista no es exhaustiva, y sin perjuicio de ella los miembros del Comité Ejecutivo colaborarán cumpliendo con los encargos que el Presidente les encomiende.</p>
+<p><strong>Art. 6</strong>. Las funciones y atribuciones mínimas de los miembros del Comité Ejecutivo son las que se numeran a continuación. Esta lista no es exhaustiva, y sin perjuicio de ella los miembros del Comité Ejecutivo colaborarán cumpliendo con los encargos que la Presidencia les encomiende.</p>
 <ol type="1">
-<li><p><span class="smallcaps">Presidente</span></p>
+<li><p><span class="smallcaps">Presidencia</span></p>
 <ol type="a">
 <li><p>Representar al CAi y sus posturas ante las autoridades de la Escuela, la Universidad, la Federación y otros organismos pertinentes. Se considerará como postura del CAi la que adopte el Consejo Generacional.</p></li>
 <li><p>Dar cuenta pública y detallada de la gestión realizada al término de cada semestre en ejercicio a nombre del Comité Ejecutivo.</p></li>
 <li><p>Definir nuevas funciones y atribuciones a los miembros del Comité Ejecutivo. No podrá atribuir derechos o deberes que se opongan abiertamente a lo señalado en estos estatutos, o que superen sus propias funciones o atribuciones. Cualquier definición de este tipo deberá ser informada a los Consejos.</p></li>
-<li><p>Definir la división de labores que corresponde a cada vicepresidente.</p></li>
-<li><p>Dar cuenta pública, en las sesiones ordinarias del Consejo Generacional y del Consejo Académico, de su participación en el Consejo de Federación y en las instancias en las que participa regularmente como representante de los alumnos ante las autoridades de la Escuela.</p></li>
+<li><p>Definir la división de labores que corresponde a cada vicepresidencia.</p></li>
+<li><p>Dar cuenta pública, en las sesiones ordinarias del Consejo Generacional y del Consejo Académico, de su participación en el Consejo de Federación y en las instancias en las que participa regularmente como representante del estudiantado ante las autoridades de la Escuela.</p></li>
+<li><p>Representar al estudiantado ante el Consejo Acad ́emico de Escuela y el Consejo de la Facultad.</p></li>
 </ol></li>
 <li><p><span class="smallcaps">Vicepresidencia Interna</span></p>
 <ol type="a">
-<li><p>Representará al CAi en los organismos respectivos cuando el Presidente se lo solicitara, o cuando este faltare por motivos de fuerza mayor, con todas las atribuciones del cargo.</p></li>
-<li><p>Coordinará y supervisará la labor de las comisiones y equipos de trabajo dependientes del Comité Ejecutivo. La división de las labores de los dos vicepresidentes quedará a criterio del Presidente en ejercicio.</p></li>
+<li><p>Representará al CAi en los organismos respectivos cuando la Presidencia se lo solicitara, o cuando este faltare por motivos de fuerza mayor, con todas las atribuciones del cargo.</p></li>
+<li><p>Coordinará y supervisará la labor de las comisiones y equipos de trabajo dependientes del Comité Ejecutivo. La división de las labores de las dos vicepresidencias quedará a criterio de la Presidencia en ejercicio.</p></li>
 </ol></li>
 <li><p><span class="smallcaps">Vicepresidencia Externa</span></p>
 <ol type="a">
-<li><p>Representará al CAi en los organismos respectivos cuando el Presidente se lo solicitara, o cuando este faltare por motivos de fuerza mayor, con todas las atribuciones del cargo.</p></li>
-<li><p>Coordinará y supervisará la labor de las comisiones y equipos de trabajo dependientes del Comité Ejecutivo. La división de las labores de los dos vicepresidentes quedará a criterio del Presidente en ejercicio.</p></li>
+<li><p>Representará al CAi en los organismos respectivos cuando la Presidencia se lo solicitara, o cuando este faltare por motivos de fuerza mayor, con todas las atribuciones del cargo.</p></li>
+<li><p>Coordinará y supervisará la labor de las comisiones y equipos de trabajo dependientes del Comité Ejecutivo. La división de las labores de las dos vicepresidencias quedará a criterio de la Presidencia en ejercicio.</p></li>
 </ol></li>
 <li><p><span class="smallcaps">Secretaría General</span></p>
 <ol type="a">
 <li><p>Presidir y convocar las reuniones del Comité Ejecutivo y del Consejo Generacional. Sin perjuicio de la posibilidad de auto convocatoria de éste último, dispuesto en el artículo 45. En caso de no encontrarse presente, cualquier persona del Comité Ejecutivo podrá actuar en subrogancia.</p></li>
-<li><p>Llevar control de asistencia y someter a aprobación el acta de cada Consejo, que se dará por aprobada mediante correo electrónico, a menos que un miembro del consejo se oponga. El plazo para oponerse será de 2 días. En caso de rechazo de la primera publicación del acta, existirán 3 instancias mediante correo electrónico para llegar a consenso sobre el acta escrita (entiéndase como instancia cada vez que se le envíe a los delegados), en caso de superar esta última, se deberá aprobar en el Consejo siguiente.</p></li>
+<li><p>Llevar control de asistencia y someter a aprobación el acta de cada Consejo, que se dará por aprobada mediante correo electrónico, a menos que un miembro del consejo se oponga. El plazo para oponerse será de 2 días. En caso de rechazo de la primera publicación del acta, existirán 3 instancias mediante correo electrónico para llegar a consenso sobre el acta escrita (entiéndase como instancia cada vez que se le envíe a los representantes), en caso de superar esta última, se deberá aprobar en el Consejo siguiente.</p></li>
 <li><p>Publicar actas del Consejo Académico en la página web del Centro de Alumnos, con un plazo máximo de cinco días hábiles desde su aprobación por el Consejo.</p></li>
 <li><p>Coordinar y supervisar el correcto funcionamiento de las comisiones, mediante la coordinación con un encargado de cada comisión.</p></li>
-<li><p>Publicar las cuentas públicas de las comisiones y los delegados en la página del Centro de Alumnos y por otro medio que se considere pertinente para que llegue a los alumnos de la Escuela, en un plazo máximo de cinco días hábiles posterior al consejo en que fueron presentadas.</p></li>
+<li><p>Publicar las cuentas públicas de las comisiones y los representantes en la página del Centro de Alumnos y por otro medio que se considere pertinente para que llegue a los alumnos de la Escuela, en un plazo máximo de cinco días hábiles posterior al consejo en que fueron presentadas.</p></li>
 </ol></li>
-<li><p><span class="smallcaps">Jefe de Finanzas</span></p>
+<li><p><span class="smallcaps">Jefatura de Finanzas</span></p>
 <ol type="a">
 <li><p>Administrar y llevar una cuenta de todos los ingresos y gastos del CAi, en la cual estos aparezcan convenientemente justificados y dar cuenta de ello una vez al mes en la página web del Centro de Alumnos, y una vez al semestre ante los Consejos Generacional y Académico. Con la publicación mensual de ingresos y gastos, se debe adjuntar la cartola mensual de la cuenta correspondiente a la caja chica del CAi y la glosa explicativa.</p></li>
 <li><p>Dar la información que le fuese solicitada por algún miembro del CAi y que se refiera a la administración y finanzas.</p></li>
 <li><p>Presentar el presupuesto anual del CAi en la sesión ordinaria de los Consejo Generacional y Académico correspondiente al mes de abril.</p></li>
-<li><p>Presentar el estado del presupuesto anual del CAi en las sesiones ordinarias de los Consejo Generacional y Académico correspondientes al mes de julio y noviembre. En la sesión de noviembre, se invitará al jefe de finanzas electo para el año siguiente.</p></li>
+<li><p>Presentar el estado del presupuesto anual del CAi en las sesiones ordinarias de los Consejo Generacional y Académico correspondientes al mes de julio y noviembre. En la sesión de noviembre, se invitará a la jefatura de finanzas electa para el año siguiente.</p></li>
 </ol></li>
-<li><p><span class="smallcaps">Coordinador de Áreas</span></p>
+<li><p><span class="smallcaps">Coordinación de Áreas</span></p>
 <ol type="a">
 <li><p>Gestionar los espacios de ingeniería y el préstamo de las propiedades del CAi.</p></li>
 <li><p>Relacionarse con administración del campus para gestionar los espacios de la manera más correcta posible.</p></li>
 </ol></li>
-<li><p><span class="smallcaps">Jefe de Docencia</span></p>
+<li><p><span class="smallcaps">Jefatura de Docencia</span></p>
 <ol type="a">
-<li><p>Colaborar en las políticas académicas de la Escuela, trabajando en conjunto con el Consejero Académico.</p></li>
+<li><p>Colaborar en las políticas académicas de la Escuela, trabajando en conjunto con la Consejería Académica.</p></li>
 <li><p>Asistir al Comité de Pregrado.</p></li>
 <li><p>Asistir al Consejo Académico.</p></li>
 </ol></li>
-<li><p><span class="smallcaps">Jefe de Investigación</span></p>
+<li><p><span class="smallcaps">Jefatura de Investigación</span></p>
 <ol type="a">
-<li><p>Integrar a las políticas académicas de la Escuela la visión de los alumnos de Postgrado, trabajando en conjunto con el Consejero Académico de Postgrado.</p></li>
+<li><p>Integrar a las políticas académicas de la Escuela la visión de los alumnos de Postgrado, trabajando en conjunto con la Consejería Académica de Postgrado.</p></li>
 <li><p>Asistir al Comité de Postgrado.</p></li>
 <li><p>Asistir al Consejo Académico.</p></li>
 </ol></li>
-<li><p><span class="smallcaps">Cargos opcionales</span> Las funciones de los cargos opcionales son definidas por el Presidente, tal como se señala en la parte A del presente artículo.</p></li>
+<li><p><span class="smallcaps">Cargos opcionales</span> Las funciones de los cargos opcionales son definidas por la Presidencia, tal como se señala en la parte A del presente artículo.</p></li>
 </ol>
 </div>
 <div id="funcionesCAPregrado" class="art">
-<p><strong>Art. 7</strong>. Las funciones y atribuciones del Consejero Académico son:</p>
+<p><strong>Art. 7</strong>. Las funciones y atribuciones de la Consejería Académica son:</p>
 <ol type="1">
-<li><p>Integrar a las políticas académicas de la Escuela la visión de los alumnos, liberando de estas responsabilidades al Presidente del CAi.</p></li>
+<li><p>Integrar a las políticas académicas de la Escuela la visión de los estudiantes, liberando de estas responsabilidades a la Presidencia del CAi.</p></li>
 <li><p>Presidir el Consejo Académico.</p></li>
-<li><p>Representar a los alumnos ante el <em>CIDEI</em>, el Consejo de la Escuela de Ingeniería y el Comité de Pregrado, en conjunto con el Presidente de CAi.</p></li>
+<li><p>Representar al estudiantado ante el <em>CIDEI</em>, el Consejo de la Escuela de Ingeniería y el Comité de Pregrado, en conjunto con la Presidencia del CAi.</p></li>
 <li><p>Estudiar y desarrollar proyectos y propuestas académicas con la Dirección de la Escuela y, si existiese, la Comisión de Docencia del CAi, preocupándose también de su difusión.</p></li>
-<li><p>Asistir a las instancias formales para las que sea llamado junto a sus pares de las demás facultades por el Consejero Superior FEUC, tales como el Consejo Académico FEUC.</p></li>
-<li><p>Dar cuenta pública, en las sesiones ordinarias del Consejo Generacional y Académico, de su participación en el Consejo Académico FEUC y en las instancias en las que participa regularmente como representante de los alumnos ante las autoridades de la Escuela.</p></li>
+<li><p>Asistir a las instancias formales para las que sea llamado junto a sus pares de las demás facultades por la Consejería Superior FEUC, tales como el Consejo Académico FEUC.</p></li>
+<li><p>Dar cuenta pública, en las sesiones ordinarias del Consejo Generacional y Académico, de su participación en el Consejo Académico FEUC y en las instancias en las que participa regularmente como representante de los estudiantes ante las autoridades de la Escuela.</p></li>
 </ol>
 </div>
 <div class="art">
-<p><strong>Art. 8</strong>. Las funciones y atribuciones del Subconsejero Académico son:</p>
+<p><strong>Art. 8</strong>. Las funciones y atribuciones de la Subconsejería Académica son:</p>
 <ol type="1">
-<li><p>Colaborar en las políticas académicas de la Escuela, trabajando en conjunto con el Consejero Académico.</p></li>
-<li><p>Reemplazar al Consejero Académico en el Consejo Académico FEUC, cuando éste no puede asistir.</p></li>
-<li><p>Reemplazar al Consejero Académico en caso de renuncia, cese anticipado o destitución del mismo.</p></li>
+<li><p>Colaborar en las políticas académicas de la Escuela, trabajando en conjunto con la Consejería Académica.</p></li>
+<li><p>Reemplazar a la Consejería Académica en el Consejo Académico FEUC, cuando éste no puede asistir.</p></li>
+<li><p>Reemplazar a la Consejería Académica en caso de renuncia, cese anticipado o destitución del mismo.</p></li>
 </ol>
 </div>
 <div id="funcionesCAPostgrado" class="art">
-<p><strong>Art. 9</strong>. Las funciones y atribuciones del Consejero de Postgrado son:</p>
+<p><strong>Art. 9</strong>. Las funciones y atribuciones de la Consejería de Postgrado son:</p>
 <ol type="1">
-<li><p>Integrar a las políticas académicas de la Escuela la visión de los alumnos de Postgrado, liberando de estas responsabilidades al Presidente del CAi.</p></li>
-<li><p>Representar a los alumnos ante el Comité de Postgrado.</p></li>
+<li><p>Integrar a las políticas académicas de la Escuela la visión de los estudiantes de Postgrado, liberando de estas responsabilidades a la Presidencia del CAi.</p></li>
+<li><p>Representar a los estudiantes ante el Comité de Postgrado.</p></li>
 <li><p>Asistir a las instancias formales de representación para las que sea llamado por organismos atingentes a su cargo y rol.</p></li>
-<li><p>Coordinar con el Comité Ejecutivo la creación y ejecución de una agenda de trabajo orientada a los alumnos de Postgrado de la Escuela de Ingeniería.</p></li>
+<li><p>Coordinar con el Comité Ejecutivo la creación y ejecución de una agenda de trabajo orientada a los estudiantes de Postgrado de la Escuela de Ingeniería.</p></li>
 <li><p>Asistir al Consejo Académico</p></li>
 <li><p>Participar en el Comité de Magíster/Doctorado según el programa al que pertenece (Ya sea al Comité de Magíster, si es del Magíster en Ciencias de la Ingeniería o al Comité de Doctorado si es del Doctorado en Ciencias de la Ingeniería).</p></li>
-<li><p>Sesionar a los Delegados de Postgrado una vez al mes.</p></li>
+<li><p>Sesionar a los Representantes de Postgrado una vez al mes.</p></li>
 </ol>
 </div>
 <div class="art">
-<p><strong>Art. 10</strong>. Las funciones y atribuciones del Subconsejero de Postgrado son:</p>
+<p><strong>Art. 10</strong>. Las funciones y atribuciones de la Subconsejería de Postgrado son:</p>
 <ol type="1">
-<li><p>Integrar a las políticas académicas de la Escuela la visión de los alumnos de Postgrado, trabajando en conjunto con el Consejero Académico de Postgrado.</p></li>
-<li><p>Reemplazar al Consejero de Postgrado en el Consejo Académico de Postgrado UC, cuando éste no puede asistir.</p></li>
-<li><p>Reemplazar al Consejero Académico en caso de renuncia, cese anticipado o destitución del mismo.</p></li>
+<li><p>Integrar a las políticas académicas de la Escuela la visión de los estudiantes de Postgrado, trabajando en conjunto con la Consejería Académica de Postgrado.</p></li>
+<li><p>Reemplazar a la Consejería de Postgrado en el Consejo Académico de Postgrado UC, cuando éste no puede asistir.</p></li>
+<li><p>Reemplazar a la Consejería de Postgrado en caso de renuncia, cese anticipado o destitución del mismo.</p></li>
 <li><p>Participar en el Comité de Magíster/Doctorado según el programa al que pertenece (Ya sea al Comité de Magíster, si es del Magíster en Ciencias de la Ingeniería o al Comité de Doctorado si es del Doctorado en Ciencias de la Ingeniería).</p></li>
 </ol>
 </div>
 <div id="representanteCollege" class="art">
 <p><strong>Art. 11</strong>. Las funciones y atribuciones del Representante de College son:</p>
 <ol type="1">
-<li><p>Representar a los alumnos de College que se encuentran relacionados a la Escuela de Ingeniería principalmente en temas académicos.</p></li>
+<li><p>Representar a los estudiantes de College que se encuentran relacionados a la Escuela de Ingeniería principalmente en temas académicos.</p></li>
 <li><p>Dar cuenta pública de su gestión al menos dos veces durante su período a sus representados. Esta deberá ser presentada en sesión ordinaria del Consejo Académico y difundida por el CAi.</p></li>
 <li><p>Entregar un documento resumen al momento del cambio de mando, en donde se expliciten los principales proyectos llevados a cabo durante su periodo en ejercicio.</p></li>
 <li><p>Crear un programa de trabajo que deberá ser público al inicio de su gestión, y disponible en la página web del CAi a más tardar dos semanas después del haber asumido.</p></li>
 </ol>
 </div>
 <div id="cuentaPublica" class="art">
-<p><strong>Art. 12</strong>. <span id="funcionesDelegadosGeneracionales" label="funcionesDelegadosGeneracionales"></span> Las funciones y atribuciones de los Delegados Generacionales son:</p>
+<p><strong>Art. 12</strong>. <span id="funcionesRepresentantesGeneracionales" label="funcionesRepresentantesGeneracionales"></span> Las funciones y atribuciones de los Representantes Generacionales son:</p>
 <ol type="1">
 <li><p>Representar políticamente a sus compañeros.</p></li>
 <li><p>Velar por la excelencia académica de los cursos que competen a sus representados, principalmente aquellos de ciencias básicas y comunes dictados en esta u otra facultad.</p></li>
-<li><p>Para los Delegados de la primera y segunda generación, al menos uno de cada generación debe asistir a las sesiones del Consejo Académico, pudiendo alternar esta función entre más de un Delegado a lo largo del año académico.</p></li>
-<li><p>Al menos dos veces durante su período deberán rendir cuenta de las actividades realizadas a sus representados. Estas deberán ser difundidas por el CAi y los delegados por el medio que estimen conveniente.</p></li>
+<li><p>Para los Representantes de la primera y segunda generación, al menos uno de cada generación debe asistir a las sesiones del Consejo Académico, pudiendo alternar esta función entre más de un Representante a lo largo del año académico.</p></li>
+<li><p>Al menos dos veces durante su período deberán rendir cuenta de las actividades realizadas a sus representados. Estas deberán ser difundidas por el CAi y los representantes por el medio que estimen conveniente.</p></li>
 <li><p>Entregar un documento resumen al momento del cambio de mando, en donde se expliciten los principales proyectos llevados a cabo durante su período en ejercicio.</p></li>
 </ol>
 </div>
@@ -419,35 +456,35 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li><p>Servir de puente de información e inquietudes entre el Consejo Generacional, la Escuela y el estudiantado.</p></li>
 <li><p>Colaborar en actividades de integración a la Escuela y generar instancias de participación para sus respectivas generaciones.</p></li>
-<li><p>Decidir los votos ponderados de Ingeniería para el Consejo de Federación los cuales son llevados al mismo por los Consejeros Territoriales.</p></li>
+<li><p>Decidir los votos ponderados de Ingeniería para el Consejo de Federación los cuales son llevados al mismo por las Consejerías Territoriales.</p></li>
 <li><p>Colaborar en la comunicación de actividades y procesos del Comité Ejecutivo, además de fiscalizar su gestión.</p></li>
-<li><p>Desautorizar públicamente una actuación del Comité Ejecutivo, o alguno de sus miembros; del Consejero Académico y del Consejero de Postgrado.</p></li>
+<li><p>Desautorizar públicamente una actuación del Comité Ejecutivo, o alguno de sus miembros; de la Consejería Académica y de la Consejería de Postgrado.</p></li>
 <li><p>Formular la solicitud de destitución de su cargo a cualquier miembro de los organismos del CAi, por grave infracción a este estatuto o notable abandono de deberes.</p></li>
 </ol>
 </div>
 <div id="funcionesConsejoGeneracional" class="art">
 <p><strong>Art. 14</strong>. Las funciones y atribuciones del Consejo Generacional son:</p>
 <ol type="1">
-<li><p>Pronunciarse sobre los temas políticos que cualquiera de sus miembros someta a su consideración.</p></li>
+<li><p>Pronunciarse sobre los temas políticos que cualquiera de sus integrantes someta a su consideración.</p></li>
 <li><p>Pronunciarse sobre los temas planteados por la Federación de Estudiantes de la Universidad Católica (FEUC) a través de su Consejo de Presidentes o cualquiera de sus instancias.</p></li>
 <li><p>Someter a plebiscito cualquier decisión que considere pertinente, en caso de presentarse mayoría simple del total de los votos posibles.</p></li>
 <li><p>Someter a aprobación toda consulta, elección o plebiscito que no contare con el quórum mínimo para su validación.</p></li>
 <li><p>Velar por el cumplimiento del presente cuerpo de Estatutos.</p></li>
-<li><p>Destituir de su cargo a todo miembro del Comité Ejecutivo que cumpliere con algunas de las causas establecidas como motivo de cesación de cargo en el presente estatuto, artículo&nbsp;<a href="#requisitosEjecutivo" data-reference-type="ref" data-reference="requisitosEjecutivo">24</a>.</p></li>
-<li><p>Crear comisiones de trabajo en función de la contingencia o interés de los miembros del Consejo Generacional. La creación de una comisión deberá contar con la aprobación de al menos un quinto de los votos totales del consejo. El rol de estas comisiones será recopilar información y/o elaborar propuestas para luego presentarlas al Consejo Generacional. Las comisiones deben estar formadas por al menos 4 delegados y liderada por uno de estos.</p></li>
+<li><p>Destituir de su cargo a cualquier miembro del Comité Ejecutivo que cumpliere con algunas de las causas establecidas como motivo de cesación de cargo en el presente estatuto, artículo&nbsp;<a href="#requisitosEjecutivo" data-reference-type="ref" data-reference="requisitosEjecutivo">24</a>.</p></li>
+<li><p>Crear comisiones de trabajo en función de la contingencia o interés del Consejo Generacional. La creación de una comisión deberá contar con la aprobación de al menos un quinto de los votos totales del consejo. El rol de estas comisiones será recopilar información y/o elaborar propuestas para luego presentarlas al Consejo Generacional. Las comisiones deben estar formadas por al menos 4 representantes y liderada por uno de estos. Estos Avances deberán ser presentados en al menos un consejo.</p></li>
 </ol>
 </div>
 <div id="funcionesDelegadosAcademicos" class="art">
-<p><strong>Art. 15</strong>. Las funciones y atribuciones de los Delegados Académicos son:</p>
+<p><strong>Art. 15</strong>. Las funciones y atribuciones de los Representantes Académicos son:</p>
 <ol type="1">
-<li><p>En el caso de los Delegados de Major, canalizar los problemas académicos de los alumnos de su Major y de Minors asociados y representarlos ante las instancias académicas correspondientes. En el caso de los Delegados de Especialidad, canalizar los problemas académicos de los alumnos del segundo ciclo de formación de su Departamento y representarlos ante las instancias académicas correspondientes.</p></li>
+<li><p>En el caso de los Representantes de Major, canalizar los problemas académicos de los estudiantes de su Major y de Minors asociados y representarlos ante las instancias académicas correspondientes. En el caso de los Representantes de Especialidad, canalizar los problemas académicos de los estudiantes del segundo ciclo de formación de su Departamento y representarlos ante las instancias académicas correspondientes.</p></li>
 <li><p>Velar por la excelencia académica de los cursos que competen a sus representados, principalmente aquellos que son dictados en sus respectivas disciplinas.</p></li>
 <li><p>Representar ante el Consejo Académico a los Capítulos Estudiantiles y otros proyectos estudiantiles de índole académica de sus respectivas disciplinas.</p></li>
-<li><p>Para el caso de los delegados de especialidad, participar de las reuniones del departamento del cual está adscrito como representante.</p></li>
-<li><p>Para el caso de los delegados de major, participar del Comité de Programa del major respectivo, y si corresponde, participar de las reuniones de departamento al cual el major está adscrito.</p></li>
-<li><p>Al menos dos veces durante su período deberán rendir cuenta de las actividades realizadas a sus representados. Estas deberán ser difundidas por el CAi y los delegados por el medio que estimen conveniente.</p></li>
+<li><p>Para el caso de los representantes de especialidad, participar de las reuniones del departamento del cual está adscrito como representante.</p></li>
+<li><p>Para el caso de los representantes de major, participar del Comité de Programa del major respectivo, y si corresponde, participar de las reuniones de departamento al cual el major está adscrito.</p></li>
+<li><p>Al menos dos veces durante su período deberán rendir cuenta de las actividades realizadas a sus representados. Estas deberán ser difundidas por el CAi y los representantes por el medio que estimen conveniente.</p></li>
 <li><p>Entregar un documento resumen al momento del cambio de mando, en donde se expliciten los principales proyectos llevados a cabo durante su periodo en ejercicio.</p></li>
-<li><p>Para los Delegados de postgrado, al menos uno de ellos debe asistir a las sesiones del Consejo Generacional, pudiendo alternar esta función entre más de un Delegado a lo largo del año académico. Además, deben sesionar por lo menos una vez al mes para conversar de los diferentes problemas que estén surgiendo en el Programa.</p></li>
+<li><p>Para los Representantes de postgrado, al menos uno de ellos debe asistir a las sesiones del Consejo Generacional, pudiendo alternar esta función entre más de un Representante a lo largo del año académico. Además, deben sesionar por lo menos una vez al mes para conversar de los diferentes problemas que estén surgiendo en el Programa.</p></li>
 </ol>
 </div>
 <div id="funcionesComiteAcademico" class="art">
@@ -455,11 +492,11 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li><p>Servir de puente de información e inquietudes entre el Consejo Departamental, la Escuela y el estudiantado.</p></li>
 <li><p>Colaborar en iniciativas de integración de las diferentes disciplinas y generar instancias para la generación de sus respectivas especialidades.</p></li>
-<li><p>Revisar y evaluar las políticas académicas de la Escuela. Trabajar junto a los Consejeros Académico y de Postgrado en la formulación de propuestas de mejoramiento en términos de docencia, investigación y extensión.</p></li>
+<li><p>Revisar y evaluar las políticas académicas de la Escuela. Trabajar junto a las Consejeríass Académicas y de Postgrado en la formulación de propuestas de mejoramiento en términos de docencia, investigación y extensión.</p></li>
 <li><p>Velar por el cumplimiento general de la normativa de la Escuela dentro de sus diferentes organismos.</p></li>
-<li><p>Desautorizar públicamente una actuación del Comité Ejecutivo, o alguno de sus miembros; del Consejero Académico y del Consejero de Postgrado.</p></li>
+<li><p>Desautorizar públicamente una actuación del Comité Ejecutivo, o alguno de sus miembros; de la Consejería Académica y de la Consejería de Postgrado.</p></li>
 <li><p>Velar por el cumplimiento del presente Cuerpo de Estatutos, tanto el Estatuto principal como sus Apartados.</p></li>
-<li><p>Remplazar al Consejero Académico según lo estipulado en el artículo&nbsp;<a href="#requisitosEjecutivo" data-reference-type="ref" data-reference="requisitosEjecutivo">24</a>.</p></li>
+<li><p>Remplazar a la Consejería Académica según lo estipulado en el artículo&nbsp;<a href="#requisitosEjecutivo" data-reference-type="ref" data-reference="requisitosEjecutivo">24</a>.</p></li>
 <li><p>Formular la solicitud de destitución de su cargo a cualquier miembro de los organismos del CAi, por grave infracción a este estatuto o notable abandono de deberes.</p></li>
 </ol>
 </div>
@@ -467,7 +504,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Art. 17</strong>. Las funciones y atribuciones del Consejo Académico son:</p>
 <ol type="1">
 <li><p>Discutir y tomar postura frente a las políticas académicas de la Escuela o alguno de sus organismos.</p></li>
-<li><p>Pronunciarse sobre los temas académicos planteados por el Consejo Académico UC y por la Federación de Estudiantes de la Universidad Católica (FEUC) a través de su Consejo de Presidentes o cualquiera de sus instancias que considere correspondiente. En caso de tratarse de una votación del Consejo Académico UC, esta decisión no se considerarán los votos de los delegados de postgrado, salvo que sea una decisión que tenga relación con los estudiantes de postgrado. Esto será así mientras estos alumnos de postgrado no sean representados por la Federación. Si un tema es competencia de postgrado queda a criterio del Consejeros Académicos de Pregrado y Postgrado, la cual podría ser apelable por los delegados de postgrado.</p></li>
+<li><p>Pronunciarse sobre los temas académicos planteados por el Consejo Académico UC y por la Federación de Estudiantes de la Universidad Católica (FEUC) a través de su Consejo de Presidentes o cualquiera de sus instancias que considere correspondiente. En caso de tratarse de una votación del Consejo Académico UC, esta decisión no se considerarán los votos de los representantes de postgrado, salvo que sea una decisión que tenga relación con los estudiantes de postgrado. Esto será así mientras estos estudiantes de postgrado no sean representados por la Federación. Si un tema es competencia de postgrado queda a criterio de las Consejerías Académicas de Pregrado y Postgrado, la cual podría ser apelable por los representantes de postgrado.</p></li>
 <li><p>Someter a plebiscito cualquier decisión que considere pertinente, en caso de presentarse mayoría simple del total de los votos posibles.</p></li>
 <li><p>Someter a aprobación toda consulta, elección o plebiscito que no contare con el quórum mínimo para su validación.</p></li>
 <li><p>Velar por el cumplimiento del presente cuerpo de Estatutos.</p></li>
@@ -485,28 +522,34 @@ ul.task-list li input[type="checkbox"] {
 <div class="art">
 <p><strong>Art. 19</strong>. 16,7% de los ingresos que perciba el CAi por parte del Decanato serán destinados al financiamiento de los Consejos Generacional y Académico, según la siguiente repartición:</p>
 <ol type="1">
-<li><p>10% destinado al Consejero Académico.</p></li>
-<li><p>90% a Fondos Concursables, cumpliendo lo siguiente:</p>
+<li><p>15% destinado a la Consejería Académica.</p></li>
+<li><p>5% destinado a la Consejería de Postgrado.</p></li>
+<li><p>80% a Fondos Concursables, cumpliendo lo siguiente:</p>
 <ol type="a">
-<li><p>Los únicos participantes serán los Delegados, y los proyectos deberán estar orientados a cubrir las necesidades e inquietudes del estudiantado.</p></li>
+<li><p>Los únicos participantes serán los Representantes, y los proyectos deberán estar orientados a cubrir las necesidades e inquietudes del estudiantado.</p></li>
 <li><p>El fondo deberá repartirse en dos períodos, según como lo determine el Comité Ejecutivo, con el fin de cubrir ambos semestres.</p></li>
-<li><p>Las bases de los fondos concursables serán definidas por una comisión conformada por el Consejero Académico, el Tesorero del Comité Ejecutivo y un delegado correspondiente a cada Consejo elegido en la primera sesión ordinaria del semestre.</p></li>
-<li><p>Las bases de los fondos concursables deberán estar en posesión de los delegados a más tardar un mes después a partir de la primera sesión ordinaria del semestre.</p></li>
-<li><p>El jurado evaluador de los fondos concursables estará compuesto por el Consejero Académico, un miembro del Comité Ejecutivo definido por este y un miembro de cada Consejo elegido en la primera sesión ordinaria del semestre.</p></li>
-<li><p>Los montos ganados se pueden utilizar hasta el último día de postulación del siguiente período o hasta que los Delegados que se hayan adjudicado los fondos cesen en su cargo.</p></li>
+<li><p>Las bases de los fondos concursables serán definidas por una comisión conformada por la Consejería Académica, la Jefatura de Finanzas del Comité Ejecutivo y un representante correspondiente a cada Consejo elegido en la primera sesión ordinaria del semestre.</p></li>
+<li><p>Las bases de los fondos concursables deberán estar en posesión de los representantes a más tardar un mes después a partir de la primera sesión ordinaria del semestre.</p></li>
+<li><p>El jurado evaluador de los fondos concursables estará compuesto por la Consejería Académica, un miembro del Comité Ejecutivo definido por este y un miembro de cada Consejo elegido en la primera sesión ordinaria del semestre.</p></li>
+<li><p>Los montos ganados se pueden utilizar hasta el último día de postulación del siguiente período o hasta que los Representantes que se hayan adjudicado los fondos cesen en su cargo.</p></li>
 <li><p>El dinero no utilizado el primer período se sumará al monto destinado a fondos concursables del segundo periodo de postulación.</p></li>
 </ol></li>
 </ol>
 </div>
 <div class="art">
-<p><strong>Art. 20</strong>. Los Jefes de Comisión y sus respectivos comisionados del CAi colaborarán con el Comité Ejecutivo en el área específica de cada uno y participarán en las sesiones de dicho organismo en los casos y formas que el Presidente determine.</p>
+<p><strong>Art. 20</strong>. Las Jefaturas de Comisión y sus respectivos comisionados del CAi colaborarán con el Comité Ejecutivo en el área específica de cada uno y participarán en las sesiones de dicho organismo en los casos y formas que la Presidencia determine.</p>
 </div>
+<aside id="footnotes" class="footnotes footnotes-end-of-section" role="doc-footnote">
+<hr>
+<ol>
+<li id="fn1"><p>Código Civil: <a href="http://www.leychile.cl/Navegar?idNorma=172986" class="uri">http://www.leychile.cl/Navegar?idNorma=172986</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</aside>
 </section>
-
 <section id="elecciones" class="level2">
 <h2 class="anchored" data-anchor-id="elecciones">II. Elecciones, requisitos y sanciones</h2>
 <div id="porcentajeMinimo" class="art">
-<p><strong>Art. 21</strong>. Tendrán derecho a votar todos los alumnos regulares de Pregrado de la Escuela de Ingeniería, así como los alumnos de Magíster en Ingeniería, Magíster en Ciencias de la Ingeniería y Doctorado, salvo cuando este estatuto específicamente indique algo distinto. Tratándose de la elección del Comité Ejecutivo y Consejero Académico, tendrán derecho a voto los alumnos de College de Licenciatura en Ciencias Naturales que tengan inscrito el major de la Escuela de Ingeniería a comienzos del segundo semestre.</p>
+<p><strong>Art. 21</strong>. Tendrán derecho a votar todos los estudiantes regulares de Pregrado de la Escuela de Ingeniería, así como los estudiantes de Magíster en Ingeniería, Magíster en Ciencias de la Ingeniería y Doctorado, salvo cuando este estatuto específicamente indique algo distinto. Tratándose de la elección del Comité Ejecutivo y Consejero Académico, tendrán derecho a voto los estudiantes de College de Licenciatura en Ciencias Naturales que tengan inscrito el major de la Escuela de Ingeniería a comienzos del segundo semestre.</p>
 <p>Todas las elecciones y plebiscitos son válidos solo si en ellos vota al menos el 35% de los alumnos con derecho a voto, salvo que en este estatuto se establezca explícitamente otra cosa. En caso de no cumplirse este quórum le corresponder a decidir al Consejo que haya llamado a plebiscitar.</p>
 </div>
 <div id="definicionEleccionesYPlebiscitos" class="art">
@@ -551,7 +594,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Una foto (mín. <span class="math inline">\(500 \times 500\)</span>).</p></li>
 <li><p>Un plan de trabajo y propuestas para su período.</p></li>
 </ol></li>
-<li><p>En el caso de las candudaturas a Consejería de Postgrado:</p>
+<li><p>En el caso de las candidaturas a Consejería de Postgrado:</p>
 <ol type="i">
 <li><p>El nombre de la persona candidata, la cual debe haber aprobado el proceso de preinscripción.</p></li>
 <li><p>Una foto (mín. <span class="math inline">\(500 \times 500\)</span> pixeles).</p></li>
@@ -578,17 +621,17 @@ ul.task-list li input[type="checkbox"] {
 <div id="requisitosEjecutivo" class="art">
 <p><strong>Art. 24</strong>. Los postulantes al Comité Ejecutivo deberán cumplir, al momento de la preinscripción:</p>
 <ol type="1">
-<li><p>Ser alumnos regulares de la Escuela de Ingeniería de la Pontificia Universidad Católica de Chile.</p></li>
-<li><p>En el caso de alumnos de pregrado:</p>
+<li><p>Ser estudiantes regulares de la Escuela de Ingeniería de la Pontificia Universidad Católica de Chile.</p></li>
+<li><p>En el caso de estudiantes de pregrado:</p>
 <ol type="a">
 <li><p>Tener a lo menos tres semestres cursados en la unidad académica o 150 créditos aprobados de algún currículum de Ingeniería Civil al momento de la elección.</p></li>
 <li><p>Tener un promedio ponderado de los últimos tres Promedio Semestral de notas (PPS), al momento de la elección, superior o igual a 4,50.</p>
 <p>Esta norma tiene por objetivo que ningún miembro del Comité Ejecutivo caiga en Comisión de Permanencia durante su ejercicio. El organismo oficial de validación es la Dirección de Pregrado de la Escuela de Ingeniería.</p></li>
 </ol></li>
-<li><p>En el caso de alumnos de postgrado:</p>
+<li><p>En el caso de estudiantes de postgrado:</p>
 <ol type="a">
-<li><p>En el caso de alumnos en primer semestre del programa, cumplir con los requisitos establecidos para alumnos de pregrado.</p></li>
-<li><p>En el caso de alumnos de segundo semestre en adelante, contar con un PPA superior o igual a 5,00.</p>
+<li><p>En el caso de estudiantes en primer semestre del programa, cumplir con los requisitos establecidos para estudiantes de pregrado.</p></li>
+<li><p>En el caso de estudiantes de segundo semestre en adelante, contar con un PPA superior o igual a 5,00.</p>
 <p>Esta norma tiene por objetivo que ningún miembro del Comité Ejecutivo caiga en Comisión de Permanencia durante su ejercicio. El organismo oficial de validación es la Dirección de Postgrado de la Escuela de Ingeniería.</p></li>
 </ol></li>
 <li><p>No haber caído en Comisión de Permanencia durante los últimos dos semestres efectivamente cursados.</p></li>
@@ -597,25 +640,25 @@ ul.task-list li input[type="checkbox"] {
 <p>El TRICEL será responsable de velar por todos los incisos de este artículo.</p></li>
 </ol>
 </div>
-<div id="requisitosPresidente" class="art">
-<p><strong>Art. 25</strong>. El candidato a Presidente del CAi deberá tener un promedio ponderado acumulado de notas (PPA) superior o igual 4,80 y a lo menos 200 créditos aprobados de algún programa de la Escuela de Ingeniería Civil al momento de la preinscripción.</p>
+<div id="requisitosPresidencia" class="art">
+<p><strong>Art. 25</strong>. La candidatura a Presidencia del CAi deberá tener un promedio ponderado acumulado de notas (PPA) superior o igual 4,80 y a lo menos 200 créditos aprobados de algún programa de la Escuela de Ingeniería Civil al momento de la preinscripción.</p>
 </div>
-<div id="requisitosJefeInvestigacion" class="art">
-<p><strong>Art. 26</strong>. El candidato al cargo de Jefe de Investigación deberá específicamente ser alumno regular o en vías de grado de Postgrado.</p>
+<div id="requisitosJefaturaInvestigacion" class="art">
+<p><strong>Art. 26</strong>. La candidatura al cargo de Jefatura de Investigación deberá específicamente ser estudiante regular o en vías de grado de Postgrado.</p>
 </div>
 <div id="requisitosCAPregrado" class="art">
-<p><strong>Art. 27</strong>. Los candidatos a Consejero Académico deberán cumplir con los siguientes requisitos, al momento de la preinscripción:</p>
+<p><strong>Art. 27</strong>. Las candidaturas a Consejería Académica deberán cumplir con los siguientes requisitos, al momento de la preinscripción:</p>
 <ol type="1">
-<li><p>Ser alumno regular de algún major o título profesional de Ingeniería Civil con PPA superior 4.80.</p></li>
+<li><p>Ser estudiante regular de algún major o título profesional de Ingeniería Civil con PPA superior 4.80.</p></li>
 <li><p>Haber aprobado al menos 200 créditos al momento de inscribir la candidatura.</p></li>
 <li><p>No haber caído en Comisión de Permanencia o haber acumulado dos o más alertas académicas en los últimos dos semestres efectivamente cursados.</p></li>
 <li><p>Tener antecedentes de probidad académica intachables. El TRICEL será responsable de velar por todos los incisos de este artículo.</p></li>
 </ol>
 </div>
 <div id="requisitosCAPostegrado" class="art">
-<p><strong>Art. 28</strong>. Los candidatos al cargo de Consejero de Postgrado deberán cumplir con los siguientes requisitos, al momento de la preinscripción:</p>
+<p><strong>Art. 28</strong>. Las candidaturas al cargo de Consejería de Postgrado deberán cumplir con los siguientes requisitos, al momento de la preinscripción:</p>
 <ol type="1">
-<li><p>Ser alumno regular o en vías de grado de Postgrado con PPA superior 5.00.</p></li>
+<li><p>Ser estudiante regular o en vías de grado de Postgrado con PPA superior 5.00.</p></li>
 <li><p>Haber completado al menos un semestre en algún programa de Postgrado de la Escuela de Ingeniería.</p></li>
 <li><p>No haber caído en causal de eliminación.</p></li>
 <li><p>Tener antecedentes de probidad académica intachables.</p>
@@ -623,26 +666,26 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 </div>
 <div id="eleccionExtraordinariaCAPregrado" class="art">
-<p><strong>Art. 29</strong>. En caso de no presentarse ningún candidato al cargo de Consejero Académico después de los dos períodos estipulados en el artículo <a href="#cierre" data-reference-type="ref" data-reference="cierre">23, letra H</a> de esta parte, el Consejo Académico elegirá de entre sus miembros (que cumplan con los requisitos de Consejero Académico) a alguien que asuma el cargo. Esta obligación recaerá ineludiblemente sobre alguno de los Delegados, y ellos deben estar conscientes de dicha condición antes de ser elegidos como tales. El Delegado que asuma el cargo tendrá la opción de designar a un reemplazante para su labor previa como representante de especialidad. Todas estas obligaciones corresponderán al Consejo Académico en ejercicio.</p>
+<p><strong>Art. 29</strong>. En caso de no presentarse ninguna candidatura al cargo de Consejería Académica después de los dos períodos estipulados en el artículo <a href="#cierre" data-reference-type="ref" data-reference="cierre">23, letra H</a> de esta parte, la Consejería Académica elegirá de entre sus miembros (que cumplan con los requisitos de Consejería Académica) a alguien que asuma el cargo. Esta obligación recaerá ineludiblemente sobre alguno de los Representantes, y ellos deben estar conscientes de dicha condición antes de ser elegidos como tales. El Representante que asuma el cargo tendrá la opción de designar a un reemplazante para su labor previa como representante de especialidad. Todas estas obligaciones corresponderán al Consejo Académico en ejercicio.</p>
 </div>
-<div id="nominacionSubconsejeros" class="art">
-<p><strong>Art. 30</strong>. La nominación de cada subconsejero se realizará posterior a la elección de Comité Ejecutivo y Consejeros Académicos, bajo los siguientes criterios:</p>
+<div id="nominacionSubconsejerias" class="art">
+<p><strong>Art. 30</strong>. La nominación de cada subconsejería se realizará posterior a la elección de Comité Ejecutivo y Consejerías Académicas, bajo los siguientes criterios:</p>
 <ol type="1">
-<li><p>Para el caso del Subconsejero Académico, será el Jefe de Docencia, a menos que el Consejero Académico proponga una persona distinta, quien debe cumplir los requisitos del artículo&nbsp;<a href="#requisitosEjecutivo" data-reference-type="ref" data-reference="requisitosEjecutivo">24</a>.</p></li>
-<li><p>Para el caso del Subconsejero de Postgrado, este tiene que pertenecer al programa de Postgrado al que el Consejero de Postgrado no pertenece. Podría ser el Jefe de Investigación, a menos que el Consejero de Postgrado proponga a una persona distinta, quien debe cumplir con el requisito planteado anteriormente y en los artículos&nbsp;<a href="#requisitosEjecutivo" data-reference-type="ref" data-reference="requisitosEjecutivo">24</a> y&nbsp;<a href="#requisitosJefeInvestigacion" data-reference-type="ref" data-reference="requisitosJefeInvestigacion">26</a>.</p></li>
-<li><p>Ambas propuestas, deben ser validadas por mayoría simple en el Consejo Académico en el primer consejo ordinario de la directiva electa.</p></li>
-<li><p>De no ser validado, cada Consejero puede proponer otro nombre entre los delegados existentes que cumplan los requisitos de los artículos&nbsp;<a href="#requisitosEjecutivo" data-reference-type="ref" data-reference="requisitosEjecutivo">24</a> y de ser necesario el artículo&nbsp;<a href="#requisitosJefeInvestigacion" data-reference-type="ref" data-reference="requisitosJefeInvestigacion">26</a>.</p></li>
+<li><p>Para el caso de la Subconsejería Académica, será la Jefatura de Docencia, a menos que la Consejería Académica proponga una persona distinta, quien debe cumplir los requisitos del artículo&nbsp;<a href="#requisitosEjecutivo" data-reference-type="ref" data-reference="requisitosEjecutivo">24</a>.</p></li>
+<li><p>Para el caso de la Subconsejería de Postgrado, este tiene que pertenecer al programa de Postgrado al que la Consejería de Postgrado no pertenece. Podría ser la Jefatura de Investigación, a menos que la Consejería de Postgrado proponga a una persona distinta, quien debe cumplir con el requisito planteado anteriormente y en los artículos&nbsp;<a href="#requisitosEjecutivo" data-reference-type="ref" data-reference="requisitosEjecutivo">24</a> y&nbsp;<a href="#requisitosJefaturaInvestigacion" data-reference-type="ref" data-reference="requisitosJefaturaInvestigacion">26</a>.</p></li>
+<li><p>Ambas propuestas, deben ser validadas por mayoría simple en la Consejería Académica en el primer consejo ordinario de la directiva electa.</p></li>
+<li><p>De no ser validado, cada Consejería puede proponer otro nombre entre los representantes existentes que cumplan los requisitos de los artículos&nbsp;<a href="#requisitosEjecutivo" data-reference-type="ref" data-reference="requisitosEjecutivo">24</a> y de ser necesario el artículo&nbsp;<a href="#requisitosJefaturaInvestigacion" data-reference-type="ref" data-reference="requisitosJefaturaInvestigacion">26</a>.</p></li>
 </ol>
 </div>
-<div id="definicionesDelegados" class="art">
-<p><strong>Art. 31</strong>. Los Delegados y el Representante de College durarán un año en sus funciones. Esta elección se hará de acuerdo a las siguientes normas:</p>
+<div id="definicionesRepresentantes" class="art">
+<p><strong>Art. 31</strong>. Los Representantes y el Representante de College durarán un año en sus funciones. Esta elección se hará de acuerdo a las siguientes normas:</p>
 <ol type="1">
-<li><p>Para alumnos que no tengan inscrito un major o especialidad, cada estudiante tendrá derecho a votar por dos candidatos de su respectiva generación. En ningún caso podrá acumular estos dos votos en un mismo candidato.</p></li>
-<li><p>Para alumnos que tengan inscrito un major, cada estudiante tendrá derecho a votar por un candidato de su respectivo major y por dos candidatos de su respectiva generación. En ningún caso podrá acumular estos dos votos en un mismo candidato.</p></li>
-<li><p>Para alumnos que tengan inscrita una especialidad, cada alumno tendrá derecho a votar por un candidato de su departamento, especialidad o centro, además de poder votar por un candidato del Departamento de Ingeniería Industrial en caso que tenga inscrita una mención asociada a ese departamento. También deberá votar por dos candidatos de su respectiva generación. En ningún caso podrá acumular estos dos votos en un mismo candidato.</p></li>
-<li><p>Para los alumnos que tengan inscrito un major y especialidad, cada alumno tendrá la opción de decidir si votar por un delegado de su major o de su departamento, especialidad o centro. En caso de elegir votar por especialidad, y en caso de que el alumno tenga inscrita una especialidad Industrial, también podrá votar por un candidato del Departamento de Ingeniería Industrial.</p></li>
-<li><p>Para alumnos cursando algún programa de Postgrado, cada alumno tendrá derecho a votar por un candidato de su área de postgrado, especialidad o centro.</p></li>
-<li><p>Los alumnos que cursen de forma simultánea Pregrado y Postgrado en la Escuela de Ingeniería podrán sufragar en una sola oportunidad. Cada alumno tendrá derecho a votar por un candidato de su departamento, especialidad o centro, además de poder votar por un candidato del Departamento de Ingeniería Industrial en caso que tenga inscrita una mención asociada a ese departamento. También deberá votar por dos candidatos a delegado generacional, los cuales podrá repartir entre los candidatos de su respectiva generación o de Postgrado. En ningún caso podrá acumular estos dos votos en un mismo candidato.</p></li>
+<li><p>Para estudiantes que no tengan inscrito un major o especialidad, cada estudiante tendrá derecho a votar por dos candidatos de su respectiva generación. En ningún caso podrá acumular estos dos votos en una misma candidatura.</p></li>
+<li><p>Para estudiantes que tengan inscrito un major, cada estudiante tendrá derecho a votar por una candidatura de su respectivo major y por dos candidaturas de su respectiva generación. En ningún caso podrá acumular estos dos votos en una misma candidatura.</p></li>
+<li><p>Para estudiantes que tengan inscrita una especialidad, cada estudiante tendrá derecho a votar por una candidatura de su departamento, especialidad o centro, además de poder votar por una candidatura del Departamento de Ingeniería Industrial en caso que tenga inscrita una mención asociada a ese departamento. También deberá votar por dos candidaturas de su respectiva generación. En ningún caso podrá acumular estos dos votos en una misma candidatura.</p></li>
+<li><p>Para los estudiantes que tengan inscrito un major y especialidad, cada estudiante tendrá la opción de decidir si votar por un representante de su major o de su departamento, especialidad o centro. En caso de elegir votar por especialidad, y en caso de que el estudiante tenga inscrita una especialidad Industrial, también podrá votar por una candidatura del Departamento de Ingeniería Industrial.</p></li>
+<li><p>Para estudiantes cursando algún programa de Postgrado, cada estudiante tendrá derecho a votar por una candidatura de su área de postgrado, especialidad o centro.</p></li>
+<li><p>Los estudiantes que cursen de forma simultánea Pregrado y Postgrado en la Escuela de Ingeniería podrán sufragar en una sola oportunidad. Cada alumno tendrá derecho a votar por un candidato de su departamento, especialidad o centro, además de poder votar por un candidato del Departamento de Ingeniería Industrial en caso que tenga inscrita una mención asociada a ese departamento. También deberá votar por dos candidatos a delegado generacional, los cuales podrá repartir entre los candidatos de su respectiva generación o de Postgrado. En ningún caso podrá acumular estos dos votos en un mismo candidato.</p></li>
 <li><p>Para alumnos de College de Licenciatura en Ciencias Naturales que cumplan los requisitos del artículo&nbsp;<a href="#porcentajeMinimo" data-reference-type="ref" data-reference="porcentajeMinimo">21</a>, cada alumno tendrá derecho a votar por un candidato a Representante de College durante la elección de representantes estudiantiles de College. Es decir, el Representante de College será electo durante las votaciones de la facultad anteriormente mencionada y posteriormente ratificado por el Consejo Académico de la Escuela de Ingeniería.</p></li>
 <li><p>Durante la cuarta semana a partir del inicio del primer periodo académico para alumnos antiguos se abrirán las inscripciones para los postulantes. La apertura de inscripciones deberá ser avisada con una semana de anticipación. No existe restricción con respecto al número máximo de postulantes, siempre que todos cumplan con los requisitos estipulados en el presente estatuto. Las fechas podrán ser adelantadas o retrasadas con un margen máximo de dos semanas, previa aprobación del Consejo respectivo bajo quórum calificado.</p></li>
 <li><p>Se cerrará el proceso de inscripciones cinco días hábiles después de haber sido abierto. Durante estos días, los candidatos tendrán la obligación de entregar al CAi los siguientes documentos:</p>
@@ -1159,12 +1202,7 @@ Isidora Rodríguez López, Consejera Académica CAi UC 2023<br>
 </section>
 </section>
 
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-section" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notas</h2>
-
-<ol>
-<li id="fn1"><p>Código Civil: <a href="http://www.leychile.cl/Navegar?idNorma=172986" class="uri">http://www.leychile.cl/Navegar?idNorma=172986</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1206,6 +1244,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       } else {
         el.classList.add('notransition');
       }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
     }
   }
   const toggleColorMode = (alternate) => {
@@ -1274,13 +1339,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'default';
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
     let toAlternate = !hasAlternateSentinel();
     toggleColorMode(toAlternate);
     setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
   };
   // Ensure there is a toggle, if there isn't float one in the top right
   if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -1359,10 +1426,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1372,8 +1438,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1386,6 +1461,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1429,6 +1623,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1454,6 +1649,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1514,6 +1735,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
