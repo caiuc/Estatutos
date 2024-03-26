@@ -1,7 +1,7 @@
 ---
 title: Estatuto principal
 subtitle: Centro de Alumnos de Ingeniería
-date-modified: 2023-07-27
+date-modified: 2024-03-26
 lang: es
 format: 
   html: default
@@ -2030,12 +2030,8 @@ Participativo los siguientes puntos:
     porcentajes.
 
 3.  Todas las iniciativas estudiantiles CAi pueden postular en este
-    proceso. Si la cantidad de postulantes es menor o igual a 8, se
-    aceptarán que máximo 7 iniciativas estudiantiles vayan a votación,
-    en caso de que la cantidad de postulantes sea mayor o igual a 9, irá
-    el 75% (aproximado al número al número entero más cercano) a
-    votación. En cualquier caso, de existir pre-selección, ésta
-    corresponderá a una persona del Comité Ejecutivo que debe guiarse
+    proceso. Se aceptará que máximo 8 iniciativas vayan a votación. En cualquier caso, de existir pre-selección, esta
+    se deberá guiar
     por el artículo 6 y artículo 7 del Apartado de las Iniciativas
     Estudiantiles CAi.
 
