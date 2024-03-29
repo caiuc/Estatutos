@@ -1,7 +1,7 @@
 ---
 title: TRICEL
-subtitle: Anexo Tribunal Calificar de Elecciones del Centro de Alumnos de Ingeniería
-date-modified: 2023-07-27
+subtitle: Anexo Tribunal Calificador de Elecciones del Centro de Alumnos de Ingeniería
+date-modified: 2024-03-29
 lang: es
 format: 
   html: default
@@ -10,7 +10,7 @@ format:
 
 # Tribunal Calificar de Elecciones · TRICEL
 
-## [Reglamento General de Elecciones CAi]{.underline}
+## [Reglamento TRICEL CAi]{.underline}
 
  El presente reglamento tiene como misión establecer el fin, las
  responsabilidades, la conformación y las decisiones que puede tomar el
@@ -37,9 +37,13 @@ instancia de procedencia del integrante saliente.
 
 1)  La vocería ante las autoridades de la Escuela de Ingeniería, Consejo Generacional, Consejo Académico, y el estudiantado de pregrado de ingeniería.
 
-2)  Citar a reunión al TRICEL.
+2)  Citar a reunión al TRICEL, difundiendo públicamente las instancias de reunión.
 
 3)  Velar por el cumplimiento de las tareas fundamentales del TRICEL.
+
+4)  Solicitar el abandono de la sesi´on a alguna de las personas asistentes que no fueran miembros de este
+tribunal, cuando lo estimare indispensable para el normal desenvolvimiento de la sesión, previa aprobación
+del TRICEL.
 
  **Art. 4**. Corresponderá al apoderado de lista de Comité
  Ejecutivo o de la candidatura a Consejería Académica:
@@ -124,9 +128,11 @@ instancia de procedencia del integrante saliente.
  el mayor alcance dentro del estudiantado. Adicionalmente, todos los
  documentos públicos deberán ser publicados en la página Web del CAi.
 
- **Art. 12**. El TRICEL tendrá carácter temporal, cumpliendo sus
- funciones solo respecto del proceso eleccionario para el cual se
- constituye.
+ **Art. 12**. El TRICEL emitirá un documento denominado “Reglamento de Campaña” en el que se detallarán los
+lineamientos específicos respecto a cada proceso eleccionario. La publicación de este documento deberá
+realizarse en un plazo máximo de dos días previo al período de campaña, sin perjuicio de las modificaciones
+posteriores aprobadas por el tribunal, bajo mayoría absoluta de sus integrantes.
+
 
 ## Título II 
 
@@ -134,7 +140,7 @@ instancia de procedencia del integrante saliente.
 
  **Art. 13**. Se establecerá un período de campaña, que se iniciará
  el día siguiente al cierre de inscripción de candidaturas, y terminará
- el día anterior al acto eleccionario. Se entiende por campaña
+ el junto al acto eleccionario. Se entiende por campaña
  cualquier acto masivo, como pasar por salas, eventos en los patios,
  etc. Durante los días de votación, no estará permitida propaganda
  electoral en un perímetro de 5 metros al lugar de votación, los cuales
@@ -167,7 +173,13 @@ instancia de procedencia del integrante saliente.
  días hábiles consecutivos para el proceso eleccionario, dentro de las
  fechas que dicho estatuto dispone.
 
- **Art. 16**. Se instalará en cada zona de sufragio al menos una
+**Artículo 16**. Las mesas receptoras de sufragios funcionarán al menos durante ocho horas consecutivas,
+debiendo constituirse nunca antes de las 8:00 horas ni después de las 11:00 horas de los días señalados por
+el presente tribunal para que se desarrolle el acto eleccionario, ajustando el horario para velar por la mayor
+participación del estudiantado.
+
+ **Art. 17**. En el caso de que la votación fuese presencial:
+ Se instalará en cada zona de sufragio al menos una
  mesa receptora de sufragios. Las mesas están constituidas por un
  presidente, designado por el Comité Ejecutivo del CAi, y si las listas participantes así lo desean, podrán tener en las mesas un vocal para que certifique la transparencia del acto eleccionario. El vocal tiene
  derecho a inspeccionar las acciones del presidente de mesa, pero no a hacer propaganda electoral según está definido en el Art. 13 de este reglamento, ni a interferir en ningún momento del proceso de
@@ -182,7 +194,27 @@ instancia de procedencia del integrante saliente.
  responsabilidades. Cualquier reclamo por el accionar del presidente de
  mesa que deberá ser comunicado a algún integrante del TRICEL.
 
- **Art. 17**. Las mesas receptoras de sufragios dispondrán de una
+**Artículo 18**. En el caso de que la modalidad de la votación fuese completamente remota, se regula la
+votación mediante al Artículo 17. Sin perjuicio de lo anterior:
+
+1) Se definirá una única plataforma de votación, que deberá ser aprobada previamente por el Consejo
+Generacional.
+
+2) Debe existir una plataforma que asegure la privacidad al momento de votar. Esto debe asegurar la
+tranquilidad del estudiantado al momento de hacer su elección.
+
+3) Serán causales de reclamo por parte de cualquier estudiante de la Escuela, las siguientes:
+
+   a) Funcionamiento irregular de la plataforma
+   
+   b) Reiterada inducción al voto al momento del sufragio
+   
+   c) Cualquier otra acción u omisión que afecte considerablemente la normalidad del proceso eleccionario.
+
+**Artículo 19**. Cualquier modalidad intermedia de votación quedará sujeta al cumplimiento de los
+lineamientos establecidos en los artículos 17 y 18 del presente apartado.
+
+ **Art. 19**. Las mesas receptoras de sufragios dispondrán de una
  copia de las listas oficiales de estudiantes a los que les corresponde
  votar en determinada mesa, así como de un acta en la que se
  establezcan tanto la hora de apertura de la mesa, los folios de los
@@ -194,7 +226,7 @@ instancia de procedencia del integrante saliente.
  votos emitidos (colillas cuando corresponda) y la cantidad de firmas
  presentes en las listas de registro.
 
- **Art. 18**. Las mesas receptoras de sufragios funcionarán durante
+ **Art. 20**. Las mesas receptoras de sufragios funcionarán durante
  ocho horas consecutivas, debiendo constituirse nunca antes de las 9:00
  horas ni después de las 11:00 horas de los días señalados por el
  presente tribunal para que se desarrolle el acto eleccionario,
@@ -208,7 +240,7 @@ instancia de procedencia del integrante saliente.
  funcionamiento de esta por dos veces, durante 15 minutos, luego de los
  cuales la mesa se cerrará definitivamente.
 
- **Art. 19: Solo** los integrantes del TRICEL están autorizados
+ **Art. 21: Solo** los integrantes del TRICEL están autorizados
  para abrir las mesas receptoras. Para la constitución de mesa, será
  necesaria la presencia de un presidente de mesa, designado por el
  Comité Ejecutivo del CAi. En caso de que no se haya designado, el
@@ -218,11 +250,11 @@ instancia de procedencia del integrante saliente.
  cualquier estudiante con derecho a votar, excluyendo a toda
  candidatura o apoderado.
 
- **Art. 20**. Debe existir un lugar que asegure la privacidad al
+ **Art. 22**. Debe existir un lugar que asegure la privacidad al
  momento de votar.Esto debe asegurar la tranquilidad del estudiantado al momento de
  hacer su elección.
 
- **Art. 21**. Serán causales de reclamo de mesa por parte de los
+ **Art. 23**. Serán causales de reclamo de mesa por parte de los
  apoderados de lista, las siguientes:
 
 1)  Funcionamiento irregular de la mesa.
@@ -251,7 +283,7 @@ instancia de procedencia del integrante saliente.
  causa de esta anulación, podrá optar por invalidar la mesa o comenzar
  nuevamente el proceso eleccionario en la mesa afectada.
 
- **Art. 22**. El sufragante deberá presentar en la mesa receptora
+ **Art. 24**. El sufragante deberá presentar en la mesa receptora
  de sufragios su credencial de alumno regular de la Pontificia
  Universidad Católica o cualquier otro documento determinado por el
  TRICEL que lo acredite fehacientemente. Luego de que la mesa receptora
@@ -266,7 +298,7 @@ instancia de procedencia del integrante saliente.
 
 #### [Escrutinio]{.underline}
 
- **Art. 23**. Una vez cerradas las mesas receptoras de sufragios el
+ **Art. 25**. Una vez cerradas las mesas receptoras de sufragios el
  segundo día de votación, las urnas serán conducidas por algún
  integrante del TRICEL al lugar donde se hará el conteo de votos,
  previamente definido por el TRICEL. Reunidas todas las mesas
@@ -282,31 +314,41 @@ instancia de procedencia del integrante saliente.
  de los votos de las distintas preferencias, los votos Nulos y Blancos
  y el porcentaje de todos ellos, que firmará el TRICEL.
 
- **Art. 24**. Aquellas mesas donde la variación del número de votos
+ **Art. 26**. Aquellas mesas donde la variación del número de votos
  y el número de firmas de las listas oficiales no exceda al 2 por
  ciento de los votos, se considerarán válidas. De exceder este límite,
  la totalidad de los votos de dicha mesa se considerarán, para todo
  efecto, nulos.
 
- **Art. 25**. El TRICEL deberá validar el resultado de las
+ **Art. 27**. El TRICEL deberá validar el resultado de las
  elecciones en un plazo no superior a 48 horas después de finalizado el
  proceso eleccionario.
 
- **Art. 26**. Tanto el Comité Ejecutivo como el Consejero Académico
- y Delegados serán elegidos de acuerdo con lo estipulado por los
- estatutos vigentes del CAi.
+ **Art. 28**. Tanto el Comité Ejecutivo como la Consejería Académica
+ y Representantes serán elegidos de acuerdo con lo estipulado por los
+ estatutos vigentes del CAi. Sin perjuicio de lo anterior, en el caso 
+ de que la modalidad de la votación no coincidiese con alguno de los 
+ aspectos mencionados en este título, quedará a responsabilidad del TRICEL
+ definir la reglamentación y validez de este proceso.
+
+  **Artículo 29**. Cualquier participante del TRICEL podrá ser destituido de su cargo por incumplimiento de
+ deberes previa aprobación de su Consejo de precedencia bajo quórum calificado. Su reemplazo deberá ser
+ escogido en esta misma instancia. En el caso del participante del Comité Ejecutivo, su destitución deberá
+ ser aprobada por ambos consejos bajo quorum calificado, reemplazandose por otra persona del comité.
+ Finalmente, en el caso del docente, su destitución deberá ser aprobada por ambos consejos bajo quórum
+ calificado, dejando en vacancia este cargo.
 
 ## Título V
 
 #### [Sanciones]{.underline}
 
- **Art. 27**. Al TRICEL corresponde estimar y aplicar sanciones a
+ **Art. 30**. Al TRICEL corresponde estimar y aplicar sanciones a
  quienes entorpezcan, alteren o pongan en riesgo el proceso
  eleccionario. Dentro de las sanciones, se incluyen amonestaciones
  privadas, amonestaciones públicas, expulsión de los perímetros de
  votación o cualquier otra sanción que ayude a la sanidad del proceso.
 
- **Art. 28**. En caso de que alguna candidatura o apoderado de las
+ **Art. 31**. En caso de que alguna candidatura o apoderado de las
  listas en cualquier mesa receptora de sufragios se encuentre
  realizando cualquier tipo de inducción al voto, se le exigirá el
  abandono del perímetro que rodea al lugar de votación, no obstante, la
@@ -319,7 +361,7 @@ instancia de procedencia del integrante saliente.
 
 #### [Reclamos Electorales]{.underline}
 
- **Art. 29**. El TRICEL será el encargado de recoger y de
+ **Art. 32**. El TRICEL será el encargado de recoger y de
  solucionar los problemas que se presenten durante el periodo
  eleccionario. Los reclamos deberán presentarse en forma escrita u oral
  a algún integrante del TRICEL. El TRICEL deberá resolver la
@@ -335,7 +377,7 @@ instancia de procedencia del integrante saliente.
 
 #### [Títulos Finales]{.underline}
 
- **Art. 30**. Ante las siguientes situaciones extraordinarias la
+ **Art. 33**. Ante las siguientes situaciones extraordinarias la
  forma de abordarlas es la siguiente:
 
 1) Suspensión del proceso: la debe solicitar el apoderado de lista.
@@ -344,14 +386,11 @@ instancia de procedencia del integrante saliente.
 
 3) Nulidad del proceso: la debe solicitar el apoderado de lista. El quórum de decisión debe ser el 100% de sus integrantes.
 
- **Art. 31**. Cualquier situación especial no contemplada en los
+ **Art. 34**. Cualquier situación especial no contemplada en los
  Estatutos y en este reglamento será resuelta por el TRICEL, que deberá hacerlo con al menos la mitad de sus integrantes reunidos y por mayoría simple.
 
- **Art. 32**. Este reglamento se verá modificado en virtud de
- cualquier reforma de los estatutos del CAi que afecten su contenido,
- lo cual deberá ser visto por el Consejo de Escuela en sesión
- extraordinaria destinada especialmente para esos fines. Las reformas
- se llevarán a cabo como lo estipulan los estatutos vigentes.
+ **Art. 35**. Este reglamento se verá modificado en virtud de
+ cualquier reforma de los estatutos del CAi que afecten su contenido.
 
  APROBADO POR CONSEJO DE ESCUELA CENTRO DE ALUMNOS DE INGENIERÍA UC 22
  DE SEPTIEMBRE DE 2009
