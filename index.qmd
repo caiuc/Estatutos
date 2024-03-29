@@ -1,7 +1,7 @@
 ---
 title: Estatuto principal
 subtitle: Centro de Alumnos de Ingeniería
-date-modified: 2024-03-26
+date-modified: 2024-03-29
 lang: es
 format: 
   html: default
@@ -248,7 +248,8 @@ encomiende.
         regularmente como representante del estudiantado ante las
         autoridades de la Escuela.
 
-    f) Representar al estudiantado ante el Consejo Acad ́emico de Escuela y el Consejo de la Facultad.
+    f) Representar al estudiantado ante el Consejo Academico de Escuela
+       y el Consejo de la Facultad.
 
 2.  [Vicepresidencia Interna]{.smallcaps}
 
@@ -361,8 +362,8 @@ encomiende.
 ::: {#funcionesCAPregrado .art}
 **Art. 7**. Las funciones y atribuciones de la Consejería Académica son:
 
-1.  Integrar a las políticas académicas de la Escuela la visión de los
-    estudiantes, liberando de estas responsabilidades a la Presidencia del CAi.
+1.  Integrar a las políticas académicas de la Escuela la visión del
+    estudiantado, liberando de estas responsabilidades a la Presidencia del CAi.
 
 2.  Presidir el Consejo Académico.
 
@@ -374,14 +375,14 @@ encomiende.
     Dirección de la Escuela y, si existiese, la Comisión de Docencia del
     CAi, preocupándose también de su difusión.
 
-5.  Asistir a las instancias formales para las que sea llamado junto a
+5.  Asistir a las instancias formales para las que sea llamada junto a
     sus pares de las demás facultades por la Consejería Superior FEUC,
     tales como el Consejo Académico FEUC.
 
 6.  Dar cuenta pública, en las sesiones ordinarias del Consejo
     Generacional y Académico, de su participación en el Consejo
     Académico FEUC y en las instancias en las que participa regularmente
-    como representante de los estudiantes ante las autoridades de la
+    como representante del estudiantado ante las autoridades de la
     Escuela.
 :::
 
@@ -482,7 +483,7 @@ de los Representantes Generacionales son:
 
 4.  Al menos dos veces durante su período deberán rendir cuenta de las
     actividades realizadas a sus representados. Estas deberán ser
-    difundidas por el CAi y los representantes por el medio que estimen
+    difundidas por el CAi y los Representantes por el medio que estimen
     conveniente.
 
 5.  Entregar un documento resumen al momento del cambio de mando, en
@@ -539,12 +540,13 @@ de los Representantes Generacionales son:
     artículo [24](#requisitosEjecutivo){reference-type="ref"
     reference="requisitosEjecutivo"}.
 
-7.  Crear comisiones de trabajo en función de la contingencia o interés del Consejo Generacional. La creación de una
-    comisión deberá contar con la aprobación de al menos un quinto de
-    los votos totales del consejo. El rol de estas comisiones será
-    recopilar información y/o elaborar propuestas para luego
-    presentarlas al Consejo Generacional. Las comisiones deben estar
-    formadas por al menos 4 representantes y liderada por uno de estos. Estos Avances deberán ser presentados en al menos un consejo.
+7.  Crear comisiones de trabajo en función de la contingencia o interés del
+    Consejo Generacional. La creación de una comisión deberá contar con la 
+    aprobación de al menos un quinto de los votos totales del consejo. El rol
+    de estas comisiones será recopilar información y/o elaborar propuestas 
+    para luego presentarlas al Consejo Generacional. Las comisiones deben estar
+    formadas por al menos 4 representantes y liderada por uno de estos.
+    Estos Avances deberán ser presentados en al menos un consejo.
 :::
 
 ::: {#funcionesDelegadosAcademicos .art}
@@ -963,7 +965,7 @@ elección que se llevará a cabo de acuerdo a las siguientes normas:
 **Art. 24**. Los postulantes al Comité Ejecutivo deberán cumplir, al
 momento de la preinscripción:
 
-1.  Ser estudiantes regulares de la Escuela de Ingeniería de la Pontificia
+1.  Ser alumnos regulares de la Escuela de Ingeniería de la Pontificia
     Universidad Católica de Chile.
 
 2.  En el caso de estudiantes de pregrado:
@@ -1259,8 +1261,9 @@ cumplir con los siguientes requisitos:
 
 ::: {#permanencia .art}
 **Art. 34**. []{#ceseCargo label="ceseCargo"} Los miembros tanto del
-Consejo Académico como Generacional cesarán en sus cargos, para todos
-sus efectos, por alguna de las siguientes razones:
+Consejo Académico como Generacional, así como las Coordinaciones Generales
+del Centro de Alumnos cesarán en sus cargos, para todos sus efectos, por
+alguna de las siguientes razones:
 
 1.  Término de su periodo.
 
@@ -1326,7 +1329,7 @@ sus efectos, por alguna de las siguientes razones:
 ::: {#extension_ausencias .art}
 **Art. 35**. []{#maxAusencias label="maxAusencias"} El número máximo de
 ausencias a las sesiones del Consejo correspondiente aceptadas a los
-Delegados, al Representante de College y a los representantes del Comité
+Representantes, al Representante de College y a los representantes del Comité
 Ejecutivo es como sigue:
 
 1.  []{#ausencias_A label="ausencias_A"} Sesiones Ordinarias: Dos
@@ -1364,11 +1367,11 @@ El tiempo mínimo que debe estar un miembro del Consejo durante una
 sesión para que su asistencia sea considerada es de 30 minutos. La
 asistencia de los miembros del Consejo debe ser publicada en la página
 web del CAi.\
-En caso de que las restricciones A o B del presente artículo sean
-violadas, el Delegado será sancionado con la pérdida inmediata del
+En caso de que las restricciones 1 o 2 del presente artículo sean
+violadas, el Representante será sancionado con la pérdida inmediata del
 derecho a voz y voto en ambas instancias del Consejo al que pertenece
 (sesiones ordinarias y extraordinarias), si bien podrá seguir
-representando a los alumnos frente a los profesores de su generación,
+representando al estudiantado frente a los profesores de su generación,
 major, departamento o especialidad, según sea el caso. En el caso del
 Comité Ejecutivo, este perderá el derecho a voz y voto por el resto de
 su período.\
@@ -1476,8 +1479,8 @@ reference="jerarquia"}.
 mes durante el año académico y de forma pública. Se entenderá el año
 académico como el periodo de marzo a diciembre. El Generacional
 sesionará bajo la presidencia del Presidente del Comité Ejecutivo del
-Centro de Alumnos y el Académico será presidido por el Consejero
-Académico.
+Centro de Alumnos y el Académico será presidido por la Consejería
+Académica.
 :::
 
 ::: {#consejoOrdinario .art}
@@ -1544,10 +1547,10 @@ si ellos no participan en la sesión del Consejo Académico.
 
 ::: {#duracionConsejosOrdinarios .art}
 **Art. 50**. Las sesiones ordinarias del Consejo durarán un módulo
-académico, extensible a un máximo de dos
-módulos a través de la siguiente manera:
+académico, extensible a un máximo de dos módulos a través de la 
+siguiente manera:
 
--   Diez minutos antes del término del primer módulo, los miembros del
+-   Diez minutos antes del término del primer módulo, los integrantes del
     Consejo que estén presentes y tengan derecho a voto, mediante
     votación simple decidirán si se extiende al segundo módulo o se cita
     a sesión extraordinaria para continuar la discusión.
@@ -1738,9 +1741,9 @@ derecho a voto propio, solo serán válidos los votos de los Representantes.
 **Art. 63**. Cualquier miembro del Consejo podrá delegar en otro alumno
 regular de la Escuela de Ingeniería su voz y su voto para una sesión
 determinada de dicho consejo mediante un poder escrito. Este poder
-deberá ser entregado al Secretario antes del inicio de la sesión
-correspondiente y será considerado como asistencia. En caso de que algún
-Consejero o Delegado deba hacer abandono de la sesión, posterior a los
+deberá ser entregado a la Secretaría General antes del inicio de la sesión
+correspondiente y será considerado como asistencia. En caso de que alguna
+Consejería o Representante deba hacer abandono de la sesión, posterior a los
 30 minutos necesarios para hacer válida la asistencia, éste podrá
 sustituir su presencia mediante un poder escrito, denominado Poder de
 Reemplazo. Para efecto de quórum, los poderes serán considerados como
@@ -1894,8 +1897,8 @@ siguiente momento:
     eleccionario y recoger el mismo, luego de realizado el acto.
 
 6.  Atender e investigar los reclamos y observaciones presentados por
-    cualquier estudiante, que haya ejercido su derecho a voto, con
-    respecto a la elección.
+    cualquier integrante de la Escuela de Ingeniería con respecto a 
+    la elección.
 
 7.  Emitir resoluciones frente a los casos o reclamos presentados para
     su fallo y conocimiento, previa deliberación de sus miembros. Las
@@ -1913,21 +1916,19 @@ siguiente momento:
     forma en que este lo estime conveniente. Dicho miembro presidirá el
     Tribunal.
 
-2.  Dos delegados de cada Consejo escogidos por los delegados del
-    respectivo Consejo en una sola votación. En el caso de presentarse
-    un número par de listas se elegirán tres delegados del Consejo
-    Generacional con el objetivo de lograr un número impar de
-    integrantes del TRICEL.
+2.  Dos representantes generacionales y dos representantes académicos 
+    escogidos por los representantes de sus respectivos Consejos en una
+    sola votación.
 
 3.  Los apoderados de las listas postulantes al Comité Ejecutivo si
     corresponde. Ellos deberán ser alumnos regulares. El cargo de
-    miembro del TRICEL es incompatible con el de candidato a una
+    integrabte del TRICEL es incompatible con el de candidatura a una
     elección para la cual se constituye el Tribunal.
 
-4.  Para la elección de Comité Ejecutivo y Consejeros, un profesor de la
+4.  Para la elección de Comité Ejecutivo y Consejerías, un decente de la
     Escuela, o en su defecto, uno de los representantes de postgrado
-    elegido entre el Consejero de Postgrado, el Jefe de Investigación y
-    Postgrado y los delegados de postgrado del Comité Académico.
+    elegido entre la Consejería de Postgrado, la Jefatura de Investigación y
+    Postgrado y los representantes de postgrado del Comité Académico.
 :::
 
 ### Sobre iniciativas estudiantiles CAi {#sobre-iniciativas-estudiantiles-cai .unnumbered}
@@ -1939,36 +1940,20 @@ un mismo fin desde y/o para la comunidad de Ingeniería UC. Para que una
 agrupación de estudiantes sea considerada una iniciativa estudiantil
 asociada al Centro de Alumnos de Ingeniería (se hará referencia a estas
 como iniciativas estudiantiles CAi) debe explicitar mediante un
-documento presentado al CAi lo siguiente:
-
-1.  Misión y visión de la iniciativa estudiantil CAi.
-
-2.  Rol que cumple junto con su aporte a la comunidad de ingeniería y/o
-    exteriores.
-
-3.  La(s) persona(s) encargada(s) de la iniciativa estudiantil CAi, de
-    los cuales al menos uno debe tener el certificado de "Alumno
-    Regular" de la Escuela de Ingeniería. La persona representante
-    tendrá deberes y derechos especificados en el artículo 3 y artículo
-    4 del Apartado de las Iniciativas Estudiantiles CAi. Ninguno de
-    ellos puede tener faltas a la ética mayores, tales y como sea
-    determinado por la Dirección de Pregrado de Ingeniería (DiPre).
-
-Todo esto estará especificado en el artículo 2 del Apartado de las
-Iniciativas Estudiantiles CAi.
+documento presentado al CAi todo lo que está especificado en el Apartado 
+de las Iniciativas Estudiantiles CAi.
 :::
 
 ::: art
 **Art. 73**. Las especificaciones de la iniciativa estudiantil CAi
 deberán ser entregadas una vez al año al Centro de Alumnos de Ingeniería
-durante el mes de marzo, a más tardar una semana antes del último día
-hábil del mes, incluso para iniciativas estudiantiles ya asociados al
-CAi.
+durante la segunda semana de clases del primer semestre del período académico, 
+incluso para iniciativas estudiantiles ya asociados al CAi.
 :::
 
 ::: art
 **Art. 74**. Las especificaciones deberán ser revisadas por un miembro
-del Comité Ejecutivo y un delegado de cada consejo y aprobadas o
+del Comité Ejecutivo y un representante de cada consejo y aprobadas o
 rechazadas en un plazo de cinco días hábiles después de que se hayan
 entregado las especificaciones. En caso de que estas sean rechazadas, se
 le dará a la iniciativa estudiantil CAi un plazo de 2 días hábiles para
@@ -1976,8 +1961,8 @@ entregar un nuevo documento, el cual deberá ser revisado en los próximos
 3 días hábiles. En caso de que se rechace de nuevo las especificaciones,
 la agrupación de personas no será considerada como una iniciativa
 estudiantil del Centro de Alumnos de Ingeniería, por lo que no podrá
-participar en los presupuestos participativos. El fin de esta
-verificación es tener catalogadas las iniciativas estudiantiles
+participar en los presupuestos participativos ni en las oficinas concursables.
+El fin de esta verificación es tener catalogadas las iniciativas estudiantiles
 asociadas al CAi con un formato completo y consistente, y no pretende
 otorgar al CAi soberanía sobre las iniciativas estudiantiles CAi.
 :::
@@ -2030,9 +2015,12 @@ Participativo los siguientes puntos:
     porcentajes.
 
 3.  Todas las iniciativas estudiantiles CAi pueden postular en este
-    proceso. Se aceptará que máximo 8 iniciativas vayan a votación. En cualquier caso, de existir pre-selección, esta
-    se deberá guiar
-    por el artículo 6 y artículo 7 del Apartado de las Iniciativas
+    proceso. Si la cantidad de postulantes es menor o igual a 8, se aceptarán
+    que máximo 7 iniciativas estudiantiles vayan a votación, en caso de que la
+    cantidad de postulantes sea mayor o igual a 9, irá el 75 % (aproximado al 
+    número al número entero más cercano) a votación. En cualquier caso, de existir 
+    pre-selección, esta corresponderá a una persona del Comité Ejecutivo que debe 
+    guiarse por el artículo 6 y artículo 7 del Apartado de las Iniciativas 
     Estudiantiles CAi.
 
 4.  El número de iniciativas estudiantiles CAi ganadores y la forma de
@@ -2118,7 +2106,7 @@ coordinación.
 :::
 
 ::: art
-**Art. 81**. El documento al que se hace referencia en el Art. 78. del
+**Art. 81**. El documento al que se hace referencia en el Art. 79. del
 capítulo estudiantil deberá ser entregado una vez al año al encargado de
 los capítulos del Centro de Alumnos de Ingeniería a más tardar dos
 semanas después de las elecciones de delegados. Esto incluye tanto a los
@@ -2132,8 +2120,8 @@ de ser reconocido por el CAi hasta que un nuevo delegado asuma el cargo.
 :::
 
 ::: art
-**Art. 83**. Las especificaciones deberán ser revisadas por un miembro
-del Comité Ejecutivo, el Consejero Académico y un delegado de cada
+**Art. 83**. Las especificaciones deberán ser revisadas por la Jefatura
+de Docencia, un integrante de la Consejería Académica y un Representante de cada
 consejo y aprobadas o rechazadas en un plazo de cinco días hábiles
 después de que se haya acabado el plazo para entregar las
 especificaciones. En caso de que estas sean rechazadas, se dará al
@@ -2346,6 +2334,11 @@ Ria Deane Takahashi, Consejera Académica CAi UC 2022\
 Académico 2022]{.smallcaps}\
 Karina Alarcón von Loebenstein, Presidente CAi UC 2022\
 Ria Deane Takahashi, Consejera Académica CAi UC 2022\
+
+[Estatutos modificados por el Consejo Generacional y el Consejo
+Académico 2023]{.smallcaps}\
+Rebeca Subelman Zhang, Presidente CAi UC 2023\
+Isidora Rodríguez López, Consejera Académica CAi UC 2023\
 
 [Estatutos modificados por el Consejo Generacional y el Consejo
 Académico 2023]{.smallcaps}\
