@@ -1,7 +1,7 @@
 ---
 title: Iniciativas Estudiantiles
 subtitle: Anexo de las Iniciativas Estudiantiles Asociadas al Centro de Alumnos de Ingeniería
-date-modified: 2023-07-27
+date-modified: 2024-03-29
 lang: es
 format: 
   html: default
@@ -115,7 +115,10 @@ innovación de la iniciativa y esta deberá escoger cuatro (4) categorías
 de evaluación entre impacto en la comunidad, impacto en la sociedad,
 impacto en el ambiente, arte y cultura, bienestar de la comunidad,
 ciencia y tecnología. Todas las categorías poseen igual importancia a la
-hora de evaluar la iniciativa o su proyecto.
+hora de evaluar la iniciativa o su proyecto. Se considerará para la preselección
+que las iniciativas que hayan ganado primero o segundo durante tres años 
+consecutivos, no podrán participar del proceso.
+
 
 **Art. 7**. La comisión que evaluará la preselección estará presidida por la
 Jefatura de Finanzas y la Jefatura de Iniciativas Estudiantiles como
@@ -123,32 +126,31 @@ miembros del CAi, quienes deberán buscar a otras personas que
 pertenezcan a ex-Coordinaciones, la DRS, DAE o equipo docente de la
 escuela. Se sugiere incluir ex-directiva de iniciativas estudiantiles en
 caso de buscar personas para evaluar adicionales, estas no podrán
-evaluar su propia iniciativa.
+evaluar su propia iniciativa. Esta comisión será la encargada de elaborar y
+difundir el “Reglamento de Iniciativas Estudiantiles”.
 
 ## III. Sobre la postulación a oficinas y bodega
 
-El CAi ofrece salas a repartir entre distintas iniciativas de
-estudiantes de Ingeniería Civil UC. Cabe recalcar que se deja abierta la
-posibilidad de que distintas iniciativas ocupen la misma oficina de
-manera compartida.
+El CAi ofrece salas a repartir entre distintas iniciativas de estudiantes de la 
+Escuela de Ingeniería. Cabe recalcar que se deja abierta la posibilidad de que 
+distintas iniciativas ocupen la misma oficina de manera compartida.
 
 **Art. 8**. El fin de las oficinas concursables es tener un espacio donde
 las iniciativas estudiantiles desarrollen actividades relacionadas a la
 iniciativa, es decir, no se podrá usar las oficinas únicamente para
 reuniones (para eso el centro de alumnos dispone de una sala de
 reuniones), ni tampoco como bodega (El centro de alumnos dispone de una
-bodega para ese fin).
+bodega para ese fin). Todo el proceso se encontrará reglamentado en el “Reglamento
+de Postulación a Oficinas y Bodega” elaborado por el comité ejecutivo del presente año.
 
 **Art. 9**. La distribución y asignación de las oficinas disponibles por el
 Centro de alumnos de ingeniería, recaerá en una persona del comité
-ejecutivo de la directiva del centro de alumnos (o jefatura de
-Iniciativas estudiantiles). Este proceso se llevará a cabo a inicios del
-primer semestre y es de carácter anual y no apelable, sin embargo, queda
-a criterio de la persona encargada del comité ejecutivo del centro de
-alumnos (jefatura de Iniciativas estudiantiles), revocar el derecho a
-oficina de una iniciativa, en caso de incumplimiento reiterado de las
-normas, y re concursar esta (o parte de esta) en un nuevo proceso de
-postulación.
+ejecutivo del centro de alumnos (o jefatura de Iniciativas estudiantiles). 
+Este proceso se llevará a cabo a inicios del primer semestre y no será apelable, 
+sin embargo, queda a criterio de la persona encargada del comité ejecutivo del centro de alumnos 
+(jefatura de Iniciativas estudiantiles), revocar el derecho a oficina de una iniciativa, 
+en caso de incumplimiento reiterado de las normas, y re concursar esta (o parte de esta) 
+en un nuevo proceso de postulación.
 
 **Art. 10**. Las oficinas son un espacio que pertenece al centro de alumnos
 y a la facultad de ingeniería. Estas se entregan en usufructo a las
