@@ -679,11 +679,13 @@ aprobadas por ambos Consejos son:
 Decanato serán destinados al financiamiento de los Consejos Generacional
 y Académico, según la siguiente repartición:
 
-1.  10% destinado al Consejero Académico.
+1. 15% destinado a la Consejería Académica.
 
-2.  90% a Fondos Concursables, cumpliendo lo siguiente:
+2. 5% destinado a la Consejería de Postgrado.
 
-    a)  Los únicos participantes serán los Delegados, y los proyectos
+3. 80% a Fondos Concursables, cumpliendo lo siguiente:
+
+    a)  Los únicos participantes serán los Representantes, y los proyectos
         deberán estar orientados a cubrir las necesidades e inquietudes
         del estudiantado.
 
@@ -692,9 +694,7 @@ y Académico, según la siguiente repartición:
         semestres.
 
     c)  Las bases de los fondos concursables serán definidas por una
-        comisión conformada por el Consejero Académico, el Tesorero del
-        Comité Ejecutivo y un delegado correspondiente a cada Consejo
-        elegido en la primera sesión ordinaria del semestre.
+        comisión conformada por la Jefatura de Finanzas del Comité Ejecutivo y un representante correspondiente a cada Consejo elegido en la primera sesión ordinaria del semestre. Se podrá sumar algún integrante de la Consejería Académica en el caso de que esta lo estime conveniente.
 
     d)  Las bases de los fondos concursables deberán estar en posesión
         de los delegados a más tardar un mes después a partir de la
