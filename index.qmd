@@ -850,7 +850,7 @@ elección que se llevará a cabo de acuerdo a las siguientes normas:
             carilla tamaño oficio.
 
         v)  El nombre de su persona apoderada, quien no podrá ser parte
-            del Comité Ejecutivo del CAi en ejercicio.
+            del Comité Ejecutivo, ni una Coordinación General del CAi en ejercicio.
 
     2.  En el caso de las candidaturas a la Consejería Académica:
 
@@ -1256,7 +1256,7 @@ cumplir con los siguientes requisitos:
 
 ::: {#permanencia .art}
 **Art. 34**. []{#ceseCargo label="ceseCargo"} Los miembros tanto del
-Consejo Académico como Generacional cesarán en sus cargos, para todos
+Consejo Académico como Generacional, así como las Coordinaciones Generales del Centro de Alumnos cesarán en sus cargos, para todos
 sus efectos, por alguna de las siguientes razones:
 
 1.  Término de su periodo.
