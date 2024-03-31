@@ -1932,36 +1932,19 @@ un mismo fin desde y/o para la comunidad de Ingeniería UC. Para que una
 agrupación de estudiantes sea considerada una iniciativa estudiantil
 asociada al Centro de Alumnos de Ingeniería (se hará referencia a estas
 como iniciativas estudiantiles CAi) debe explicitar mediante un
-documento presentado al CAi lo siguiente:
+documento presentado al CAi todo lo que está especificado en el Apartado de las Iniciativas Estudiantiles CAi.
 
-1.  Misión y visión de la iniciativa estudiantil CAi.
-
-2.  Rol que cumple junto con su aporte a la comunidad de ingeniería y/o
-    exteriores.
-
-3.  La(s) persona(s) encargada(s) de la iniciativa estudiantil CAi, de
-    los cuales al menos uno debe tener el certificado de "Alumno
-    Regular" de la Escuela de Ingeniería. La persona representante
-    tendrá deberes y derechos especificados en el artículo 3 y artículo
-    4 del Apartado de las Iniciativas Estudiantiles CAi. Ninguno de
-    ellos puede tener faltas a la ética mayores, tales y como sea
-    determinado por la Dirección de Pregrado de Ingeniería (DiPre).
-
-Todo esto estará especificado en el artículo 2 del Apartado de las
-Iniciativas Estudiantiles CAi.
 :::
 
 ::: art
 **Art. 73**. Las especificaciones de la iniciativa estudiantil CAi
 deberán ser entregadas una vez al año al Centro de Alumnos de Ingeniería
-durante el mes de marzo, a más tardar una semana antes del último día
-hábil del mes, incluso para iniciativas estudiantiles ya asociados al
-CAi.
+durante la segunda semana de clases del primer semestre del período académico, incluso para iniciativas estudiantiles ya asociadas al CAi.
 :::
 
 ::: art
 **Art. 74**. Las especificaciones deberán ser revisadas por un miembro
-del Comité Ejecutivo y un delegado de cada consejo y aprobadas o
+del Comité Ejecutivo y un representante de cada consejo y aprobadas o
 rechazadas en un plazo de cinco días hábiles después de que se hayan
 entregado las especificaciones. En caso de que estas sean rechazadas, se
 le dará a la iniciativa estudiantil CAi un plazo de 2 días hábiles para
@@ -1969,7 +1952,7 @@ entregar un nuevo documento, el cual deberá ser revisado en los próximos
 3 días hábiles. En caso de que se rechace de nuevo las especificaciones,
 la agrupación de personas no será considerada como una iniciativa
 estudiantil del Centro de Alumnos de Ingeniería, por lo que no podrá
-participar en los presupuestos participativos. El fin de esta
+participar en los presupuestos participativos ni en las oficinas concursables. El fin de esta
 verificación es tener catalogadas las iniciativas estudiantiles
 asociadas al CAi con un formato completo y consistente, y no pretende
 otorgar al CAi soberanía sobre las iniciativas estudiantiles CAi.
