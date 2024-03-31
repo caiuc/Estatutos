@@ -2112,8 +2112,8 @@ de ser reconocido por el CAi hasta que un nuevo delegado asuma el cargo.
 :::
 
 ::: art
-**Art. 83**. Las especificaciones deberán ser revisadas por un miembro
-del Comité Ejecutivo, el Consejero Académico y un delegado de cada
+**Art. 83**. Las especificaciones deberán ser revisadas por la Jefatura de Docencia
+del Comité Ejecutivo, un integrante de la Consejería Académica y un representante de cada
 consejo y aprobadas o rechazadas en un plazo de cinco días hábiles
 después de que se haya acabado el plazo para entregar las
 especificaciones. En caso de que estas sean rechazadas, se dará al
