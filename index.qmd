@@ -1891,8 +1891,7 @@ siguiente momento:
     eleccionario y recoger el mismo, luego de realizado el acto.
 
 6.  Atender e investigar los reclamos y observaciones presentados por
-    cualquier estudiante, que haya ejercido su derecho a voto, con
-    respecto a la elección.
+    cualquier integrante de la Escuela de Ingeniería, con respecto a la elección.
 
 7.  Emitir resoluciones frente a los casos o reclamos presentados para
     su fallo y conocimiento, previa deliberación de sus miembros. Las
@@ -1910,21 +1909,18 @@ siguiente momento:
     forma en que este lo estime conveniente. Dicho miembro presidirá el
     Tribunal.
 
-2.  Dos delegados de cada Consejo escogidos por los delegados del
-    respectivo Consejo en una sola votación. En el caso de presentarse
-    un número par de listas se elegirán tres delegados del Consejo
-    Generacional con el objetivo de lograr un número impar de
-    integrantes del TRICEL.
+2.  Dos represesentantes generacionales y dos representantes académicos escogidos por los representantes de sus
+    respectivos Consejo en una sola votación.
 
 3.  Los apoderados de las listas postulantes al Comité Ejecutivo si
     corresponde. Ellos deberán ser alumnos regulares. El cargo de
-    miembro del TRICEL es incompatible con el de candidato a una
+    integrante del TRICEL es incompatible con el de candidatura a una
     elección para la cual se constituye el Tribunal.
 
-4.  Para la elección de Comité Ejecutivo y Consejeros, un profesor de la
+4.  Para la elección de Comité Ejecutivo y Consejerías, un docente de la
     Escuela, o en su defecto, uno de los representantes de postgrado
-    elegido entre el Consejero de Postgrado, el Jefe de Investigación y
-    Postgrado y los delegados de postgrado del Comité Académico.
+    elegido entre la Consejería de Postgrado, la Jefatura de Investigación y
+    Postgrado y los representantes de postgrado del Comité Académico.
 :::
 
 ### Sobre iniciativas estudiantiles CAi {#sobre-iniciativas-estudiantiles-cai .unnumbered}
