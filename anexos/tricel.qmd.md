@@ -1,7 +1,7 @@
 ---
 title: TRICEL
 subtitle: Anexo Tribunal Calificar de Elecciones del Centro de Alumnos de Ingeniería
-date-modified: 2023-07-27
+date-modified: 2023-11-26
 lang: es
 format: 
   html: default

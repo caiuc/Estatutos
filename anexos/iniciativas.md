@@ -1,7 +1,7 @@
 ---
 title: Iniciativas Estudiantiles
 subtitle: Anexo de las Iniciativas Estudiantiles Asociadas al Centro de Alumnos de Ingeniería
-date-modified: 2023-07-27
+date-modified: 2023-11-26
 lang: es
 format: 
   html: default
