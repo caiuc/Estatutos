@@ -130,7 +130,7 @@ instancia de procedencia del integrante saliente.
 
  **Art. 12**.  El TRICEL emitirá un documento denominado “Reglamento de Campaña” en el que se detallará los
  lineamientos específicos respecto a cada proceso eleccionario. La publicación de este documento deberá
- realizarse en un plazo máximo de dos días previo al período de campaña, sin perjuicio de las modificaciones
+ realizarse en un a más tardar dos días previo al período de campaña, sin perjuicio de las modificaciones
  posteriores aprobadas por el tribunal, bajo mayoría absoluta de sus integrantes
 
 ## Título II 
