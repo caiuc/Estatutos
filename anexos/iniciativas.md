@@ -115,7 +115,8 @@ innovación de la iniciativa y esta deberá escoger cuatro (4) categorías
 de evaluación entre impacto en la comunidad, impacto en la sociedad,
 impacto en el ambiente, arte y cultura, bienestar de la comunidad,
 ciencia y tecnología. Todas las categorías poseen igual importancia a la
-hora de evaluar la iniciativa o su proyecto.
+hora de evaluar la iniciativa o su proyecto. Se considerará para la preselección que las iniciativas que hayan ganado primero o segundo durante tres años consecutivos, no podrán participar del proceso.
+ 
 
 **Art. 7**. La comisión que evaluará la preselección estará presidida por la
 Jefatura de Finanzas y la Jefatura de Iniciativas Estudiantiles como
@@ -123,7 +124,7 @@ miembros del CAi, quienes deberán buscar a otras personas que
 pertenezcan a ex-Coordinaciones, la DRS, DAE o equipo docente de la
 escuela. Se sugiere incluir ex-directiva de iniciativas estudiantiles en
 caso de buscar personas para evaluar adicionales, estas no podrán
-evaluar su propia iniciativa.
+evaluar su propia iniciativa. Esta comisión será la encargada de elaborar y difundir el “Reglamento de Iniciativas Estudiantiles”.
 
 ## III. Sobre la postulación a oficinas y bodega
 
