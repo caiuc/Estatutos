@@ -129,7 +129,7 @@ evaluar su propia iniciativa. Esta comisión será la encargada de elaborar y di
 ## III. Sobre la postulación a oficinas y bodega
 
 El CAi ofrece salas a repartir entre distintas iniciativas de
-estudiantes de Ingeniería Civil UC. Cabe recalcar que se deja abierta la
+estudiantes de la Escuela de Ingeniería. Cabe recalcar que se deja abierta la
 posibilidad de que distintas iniciativas ocupen la misma oficina de
 manera compartida.
 
@@ -138,13 +138,13 @@ las iniciativas estudiantiles desarrollen actividades relacionadas a la
 iniciativa, es decir, no se podrá usar las oficinas únicamente para
 reuniones (para eso el centro de alumnos dispone de una sala de
 reuniones), ni tampoco como bodega (El centro de alumnos dispone de una
-bodega para ese fin).
+bodega para ese fin). Todo el proceso se encontrará reglamentado en el "Reglamento de Postulación a Oficinas y Bodega” elaborado por el comité ejecutivo del presente año.
 
 **Art. 9**. La distribución y asignación de las oficinas disponibles por el
-Centro de alumnos de ingeniería, recaerá en una persona del comité
-ejecutivo de la directiva del centro de alumnos (o jefatura de
+Centro de alumnos de ingeniería, recaerá en una persona del Comité
+Ejecutivo del centro de alumnos (o jefatura de
 Iniciativas estudiantiles). Este proceso se llevará a cabo a inicios del
-primer semestre y es de carácter anual y no apelable, sin embargo, queda
+primer semestre y no será apelable, sin embargo, queda
 a criterio de la persona encargada del comité ejecutivo del centro de
 alumnos (jefatura de Iniciativas estudiantiles), revocar el derecho a
 oficina de una iniciativa, en caso de incumplimiento reiterado de las
