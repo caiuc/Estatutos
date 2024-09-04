@@ -122,7 +122,7 @@ directivos del CAi son los siguientes:
     superior, quienes se nombran en adelante como Representantes
     Generacionales.
 
-5.  [Comité Académico]{.smallcaps} Está formado por una persona representante de cada major, que debe haber inscrito el major respectivo y que debe estar cursando al menos la tercera generación; por un representante de cada departamento, centro o especialidad, que debe estar cursando una mención en ese departamento o realizando dicha especialidad, con un máximo de una representante por departamento o centro; por 6 representantes de postgrado, de cada una de las áreas del programa; por 2 representantes de la Licenciatura en Ingeniería en Ciencia de la Computación, una persona correspondiente a las primeras dos generaciones del programa y otra a la tercera y posteriores; y un Representante de College. Las áreas son las siguientes:
+5.  [Comité Académico]{.smallcaps} Está formado por una persona representante de cada major, que debe haber inscrito el major respectivo y que debe estar cursando al menos la tercera generación; por un representante de cada departamento, centro o especialidad, que debe estar cursando una mención en ese departamento o realizando dicha especialidad, con un máximo de un representante por departamento o centro; por 6 representantes de postgrado, de cada una de las áreas del programa; por 2 representantes de la Licenciatura en Ingeniería en Ciencia de la Computación, una persona correspondiente a las primeras dos generaciones del programa y otra a la tercera y posteriores; y un Representante de College. Las áreas son las siguientes:
 
     a)  Ingeniería Civil (Gestión de la Construcción,  Minería, Estructural y Geotecnia, Hidráulica y Ambiental)
 
@@ -140,7 +140,7 @@ directivos del CAi son los siguientes:
 6.  [Consejo Generacional]{.smallcaps} Es la máxima instancia de
     representación. Formado por el Comité Generacional, el Comité
     Ejecutivo, la Consejería Académica y la Consejería de Postgrado. Es
-    presidido por la Presidencia del CAi.
+    presidido por la Secretaría General del CAi.
 
 7.  [Consejo Académico]{.smallcaps} Formado por el Comité Académico, la
     Jefatura de Docencia y la Jefatura de Investigación del Comité
@@ -537,8 +537,8 @@ de los Representantes Generacionales son:
 6.  Destituir de su cargo a cualquier miembro del Comité Ejecutivo que
     cumpliere con algunas de las causas establecidas como motivo de
     cesación de cargo en el presente estatuto,
-    artículo [24](#requisitosEjecutivo){reference-type="ref"
-    reference="requisitosEjecutivo"}.
+    artículo [34](#permanencia){reference-type="ref"
+    reference="permanencia"}.
 
 7.  Crear comisiones de trabajo en función de la contingencia o interés del
     Consejo Generacional. La creación de una comisión deberá contar con la 
@@ -604,7 +604,7 @@ son:
     respectivas especialidades.
 
 3.  Revisar y evaluar las políticas académicas de la Escuela. Trabajar
-    junto a las Consejeríass Académicas y de Postgrado en la formulación de
+    junto a las Consejerías Académicas y de Postgrado en la formulación de
     propuestas de mejoramiento en términos de docencia, investigación y
     extensión.
 
@@ -619,8 +619,8 @@ son:
     Estatuto principal como sus Apartados.
 
 7.  Remplazar a la Consejería Académica según lo estipulado en el
-    artículo [24](#requisitosEjecutivo){reference-type="ref"
-    reference="requisitosEjecutivo"}.
+    artículo [34](#permanencia){reference-type="ref"
+    reference="permanencia"}.
 
 8.  Formular la solicitud de destitución de su cargo a cualquier miembro
     de los organismos del CAi, por grave infracción a este estatuto o
@@ -697,7 +697,7 @@ y Académico, según la siguiente repartición:
         semestres.
 
     c)  Las bases de los fondos concursables serán definidas por una
-        comisión conformada por la Consejería Académica, la Jefatura de Finanzas del
+        comisión conformada por la Consejería Académica (quien coordina la comisión), la Jefatura de Finanzas del
         Comité Ejecutivo y un representante correspondiente a cada Consejo
         elegido en la primera sesión ordinaria del semestre.
 
@@ -706,7 +706,7 @@ y Académico, según la siguiente repartición:
         primera sesión ordinaria del semestre.
 
     e)  El jurado evaluador de los fondos concursables estará compuesto
-        por la Consejería Académica, un miembro del Comité Ejecutivo
+        por la Consejería Académica (quien coordina la comisión), un miembro del Comité Ejecutivo
         definido por este y un miembro de cada Consejo elegido en la
         primera sesión ordinaria del semestre.
 
@@ -1144,7 +1144,7 @@ normas:
     departamento, especialidad o centro, además de poder votar por un
     candidato del Departamento de Ingeniería Industrial en caso que
     tenga inscrita una mención asociada a ese departamento. También
-    deberá votar por dos candidatos a delegado generacional, los cuales
+    deberá votar por dos candidatos a Representante generacional, los cuales
     podrá repartir entre los candidatos de su respectiva generación o de
     Postgrado. En ningún caso podrá acumular estos dos votos en un mismo
     candidato.
@@ -1195,8 +1195,8 @@ normas:
 
 12. El resultado de las elecciones se determinará de la siguiente forma:
 
-    a)  En el caso de los delegados Generacionales serán elegidas las
-        tres primeras mayorías. Para los Delegados Académicos será
+    a)  En el caso de los Representantes Generacionales serán elegidas las
+        tres primeras mayorías. Para los Representantes Académicos será
         elegida la primera mayoría de cada major, departamento y
         especialidad no representada por un departamento.\
         Tratándose del Representante de College será elegida la primera
@@ -1214,14 +1214,14 @@ normas:
 :::
 
 ::: {#requisitosDelegados .art}
-**Art. 32**. Para postular al cargo de Delegado se debe cumplir con los
+**Art. 32**. Para postular al cargo de Representante se debe cumplir con los
 siguientes requisitos:
 
 1.  Ser alumno regular de Pregrado, de Magíster en Ciencias de la
     Ingeniería, de Magíster en Ingeniería o Doctorado de la Escuela de
     Ingeniería.
 
-2.  Para los Delegados Generacionales:
+2.  Para los Representante Generacionales:
 
     a)  Estudiantes de pregrado: pertenecer a la generación que
         representaría y estar cursando a lo menos 30 créditos de cualquiera de las mallas curriculares de la Escuela de Ingeniería. Además, presentar en la oficina del CAi 50 firmas
@@ -1268,9 +1268,9 @@ alguna de las siguientes razones:
 1.  Término de su periodo.
 
 2.  []{#alumno_regular label="alumno_regular"} Tratándose de los
-    delegados, dejar de ser alumno regular de la unidad académica.
+    Representantes, dejar de ser alumno regular de la unidad académica.
 
-3.  []{#sin_ramos label="sin_ramos"} Tratándose de los delegados, no
+3.  []{#sin_ramos label="sin_ramos"} Tratándose de los Representantes, no
     cursar ramos del currículum o dejar de trabajar bajo tutela de un
     profesor en una tesis de postgrado en un semestre dentro de su
     ejercicio.
@@ -1296,7 +1296,7 @@ alguna de las siguientes razones:
 
     -   La aprobación de dos tercios de los votos posibles del Consejo
         al que pertenezca excluyéndose al afectado, en caso de tratarse
-        de algún delegado o del Representante de College.
+        de algún Representante o del Representante de College.
 
 8.  Caer en Comisión de Permanencia.
 
@@ -1350,18 +1350,18 @@ Ejecutivo es como sigue:
     extraordinarios, siempre y cuando sean citados con al menos 36 horas
     de anticipación. La cantidad de ausencias se extiende en tres más
     para cada conjunto de diez Consejos Extraordinarios.\
-    En el caso de los delegados de postgrado, las ausencias a aquellos
+    En el caso de los Representantes de postgrado, las ausencias a aquellos
     consejos extraordinarios para decidir alguna votación ponderada de
     la FEUC no será considerada.
 
 3.  Será posible extender la cantidad de inasistencias justificadas
-    posibles para un delegado en la cantidad que el Consejo estime
+    posibles para un Representante en la cantidad que el Consejo estime
     adecuado, siempre teniendo presente el contexto y los motivos. Esto
-    se podrá hacer a petición del delegado después de haber perdido el
+    se podrá hacer a petición del Representante después de haber perdido el
     derecho a voz y voto en el Consejo correspondiente (en el que perdió
     voz y voto). El Consejo correspondiente podrá rechazar la solicitud
     en caso de que no la considere adecuada. Esto se podrá hacer
-    solamente una vez por delegado durante su período.
+    solamente una vez por Representante durante su período.
 
 El tiempo mínimo que debe estar un miembro del Consejo durante una
 sesión para que su asistencia sea considerada es de 30 minutos. La
@@ -1375,7 +1375,7 @@ representando al estudiantado frente a los profesores de su generación,
 major, departamento o especialidad, según sea el caso. En el caso del
 Comité Ejecutivo, este perderá el derecho a voz y voto por el resto de
 su período.\
-Tratándose de los delegados generacionales de la primera y segunda
+Tratándose de los Representantes generacionales de la primera y segunda
 generación, se considerará como ausencia al Consejo Académico el hecho
 de que ninguno de los tres esté presente. En el caso de no cumplir con
 las restricciones A o B del presente artículo, se considerará que
@@ -1398,15 +1398,15 @@ artículo anterior.
 :::
 
 ::: {#reemplazoDelegados .art}
-**Art. 38**. Si un delegado cesare en su cargo, se designará a aquel
+**Art. 38**. Si un Representante cesare en su cargo, se designará a aquel
 candidato que hubiere obtenido la siguiente mayoría no electa. En caso
-de que no existiese o no aceptara, el delegado saliente tendrá la
+de que no existiese o no aceptara, el Representante saliente tendrá la
 posibilidad de proponer un reemplazante al Consejo al que pertenezca,
 que deberá ser aprobado por mayoría simple. De ser rechazado, el puesto
-quedará vacante. Si el delegado que cesa en su cargo hubiere perdido el
-derecho a voto durante su periodo, el delegado que lo reemplazare
+quedará vacante. Si el Representante que cesa en su cargo hubiere perdido el
+derecho a voto durante su periodo, el Representante que lo reemplazare
 carecerá del mismo por toda la extensión de su periodo. Si aún lo
-mantiene, mantendrá el número de ausencias del delegado saliente.
+mantiene, mantendrá el número de ausencias del Representante saliente.
 :::
 
 ::: art
@@ -1493,20 +1493,20 @@ electrónico, además de ser publicada en la página web del CAi.
 
 ::: {#consejoExtraordinario .art}
 **Art. 45**. Cada Consejo puede ser citado en forma extraordinaria por
-el Comité Ejecutivo, por un tercio de los Delegados o quién lo presida,
+el Comité Ejecutivo, por un tercio de los Representantes o quién lo presida,
 debiendo ser notificado a todos los miembros del consejo vía correo
 electrónico con al menos 24 hrs de anticipación.
 :::
 
 ::: {#sesionesPostgrado .art}
-**Art. 46**. Los delegados académicos de Postgrado votarán en las
+**Art. 46**. Los representantes académicos de Postgrado votarán en las
 sesiones del Consejo Académico de Postgrado, llevándose los respectivos
 resultados al Consejo Académico de Pregrado a través del Consejero
 correspondiente.
 :::
 
 ::: {#votosPostgrado .art}
-**Art. 47**. Vinculado al artículo anterior, los delegados académicos de
+**Art. 47**. Vinculado al artículo anterior, los Representantes académicos de
 Postgrado quedan exentos de la pérdida del derecho a voto por ausencia
 en el Consejo Académico de Pregrado.
 :::
@@ -1529,19 +1529,19 @@ en el Consejo Académico de Pregrado.
 
 ::: {#quorumConsejo .art}
 **Art. 49**. El quórum para llevar a cabo un Consejo debe ser más del
-50% de los Delegados que no hayan perdido su derecho a voto. Además será
-necesaria la presencia del Consejero Académico y Jefe de Docencia o
+50% de los Representantes que no hayan perdido su derecho a voto. Además será
+necesaria la presencia del Consejero Académico y Jefatura de Docencia o
 Subconsejero Académico, en el caso del Consejo Académico, y de algún
 miembro del Comité Ejecutivo y del Consejero Académico, o a quien este
 último haya otorgado poder, en el caso del Consejo Generacional. Pasados
 los treinta minutos de la hora fijada para el comienzo de la sesión, el
-quórum será de una tercera parte de los Delegados que no hayan perdido
+quórum será de una tercera parte de los Representantes que no hayan perdido
 su derecho a voto, más Consejero Académico y Jefe de Docencia o
 Subconsejero Académico y de algún miembro del Comité Ejecutivo y del
 Consejero Académico, o a quien este último haya otorgado poder, en el
 caso del Consejo Generacional. No ocurriendo esto, se declarará
 fracasada la sesión a petición de cualquier miembro del Consejo. Para el
-cálculo de este quórum no se contabilizarán a los delegados de postgrado
+cálculo de este quórum no se contabilizarán a los Representantes de postgrado
 si ellos no participan en la sesión del Consejo Académico.
 :::
 
@@ -1619,7 +1619,7 @@ incorporada a la tabla.
 
     c)  Coordinación y manejo de comisiones.
 
-    d)  Publicación de Cuentas Públicas de Comisiones y Delegados en la
+    d)  Publicación de Cuentas Públicas de Comisiones y Representantes en la
         página del CAi.
 
     e)  Difusión de información dentro del Consejo Generacional.
@@ -1628,8 +1628,8 @@ incorporada a la tabla.
     la comisión de Fiscalización y Estatutos. Dicha comisión presentarán
     una cuenta pública dos a tres veces durante el año (teniendo como
     mínimo una cada semestre). Deberá tener, por lo menos, cinco
-    delegados generacionales y un miembro del CAi. También podrán
-    sumarse delegados académicos a esta comisión. La comisión será
+    Representantes generacionales y un miembro del CAi. También podrán
+    sumarse Representantes académicos a esta comisión. La comisión será
     liderada por dos miembros de esta.
 :::
 
@@ -1641,7 +1641,7 @@ cuenta de las labores efectuadas en el transcurso de su período.
 
 ::: {#presupuestoEjecutivo .art}
 **Art. 56**. En la sesión ordinaria de cada Consejo correspondiente al
-mes de marzo, el jefe de finanzas del CAi deberá presentar un
+mes de marzo, la Jefatura de finanzas del CAi deberá presentar un
 presupuesto estimado para su gestión, que explicite los ingresos y
 egresos esperados para el año académico. Este presupuesto debe
 presentar, al menos, los gastos e ingresos estimados para cada Comisión,
@@ -1657,7 +1657,7 @@ considerará lo siguiente:
 
 1.  Tratándose del Consejo Generacional:
 
-    -   Cada Delegado de generación tendrá un voto.
+    -   Cada Representante generacional tendrá un voto.
 
     -   El Comité Ejecutivo tendrá tres votos, correspondientes al
         Presidente y Vice-presidentes.
@@ -1668,14 +1668,14 @@ considerará lo siguiente:
 
 2.  Tratándose del Consejo Académico:
 
-    -   Cada persona delegada de major, especialidad o centro tendrá un
+    -   Cada persona Representante de major, especialidad o centro tendrá un
         voto.
 
-    -   La persona delegada de la primera y la segunda generación que se
+    -   La persona Representante de la primera y la segunda generación que se
         encuentre representando en dicha oportunidad a su generación
         tendrá un voto.
 
-    -   El Jefatura de Docencia del Comité Ejecutivo tendrá un voto.
+    -   La Jefatura de Docencia del Comité Ejecutivo tendrá un voto.
 
     -   La Consejería Académica tendrá un voto.
 
@@ -1683,7 +1683,7 @@ considerará lo siguiente:
 
     -   La persona Representante de College tendrá un voto.
 
-    -   El Subconsejería Académica tendrá un voto en caso que la
+    -   La Subconsejería Académica tendrá un voto en caso que la
         Jefatura de Docencia no esté presente.
 
     -   Las personas representantes de postgrado en su conjunto tendrán
@@ -1722,7 +1722,7 @@ ser tomadas en el Consejo Generacional y requerirán quórum calificado de
 la forma en que se especifica en este Estatuto. En caso de decidir la
 participación en movilizaciones estudiantiles, estas requerirán mayoría
 simple. En ambos casos, para el cálculo de este quórum no se
-contabilizarán a los delegados de postgrado si ellos no participan en la
+contabilizarán a los Representantes de postgrado si ellos no participan en la
 votación.
 :::
 
@@ -1758,16 +1758,16 @@ de la sesión.
 :::
 
 ::: {#maxPoderesEmitidos .art}
-**Art. 65**. Un Delegado no podrá presentar un poder más de dos veces en
+**Art. 65**. Un Representante no podrá presentar un poder más de dos veces en
 su período para las sesiones ordinarias. En caso de votación en las
-sesiones extraordinarias, los delegados podrán, adicionalmente a lo
+sesiones extraordinarias, los Representantes podrán, adicionalmente a lo
 anterior, dejar a lo más dos poderes simples durante su período. Esta
 última cifra podrá extenderse hasta un máximo de cuatro por acuerdo del
-Consejo si durante el periodo de los delegados en ejercicio se hubiese
+Consejo si durante el periodo de los Representantes en ejercicio se hubiese
 celebrado más de diez Consejos Extraordinarios. En el caso de los
 poderes de reemplazo, según el
 artículo [63](#definicionPoder){reference-type="ref"
-reference="definicionPoder"}, los delegados poseen un máximo de dos
+reference="definicionPoder"}, los Representantes poseen un máximo de dos
 poderes para sesiones ordinarios y dos para las sesiones
 extraordinarias, independientes de los poderes que envían cuando no
 asisten a las sesiones.
@@ -1798,7 +1798,7 @@ siguientes facultades y derechos:
 
 ::: art
 **Art. 67**. Para el correcto funcionamiento del Consejo Académico se
-elegirá un Secretario Académico de entre los delegados. Será un cargo de
+elegirá un Secretario Académico de entre los Representantes. Será un cargo de
 duración semestral y será elegido por mayoría absoluta de los miembros
 del Consejo durante la primera sesión del Consejo y en el Consejo
 Ordinario de agosto.\
@@ -2099,7 +2099,7 @@ explicitar mediante un documento presentado al CAi lo siguiente:
 :::
 
 ::: art
-**Art. 80**. El capítulo estudiantil deberá tener al menos un delegado
+**Art. 80**. El capítulo estudiantil deberá tener al menos un Representante
 de Major y/o Especialidad electo en cada periodo como miembro activo de
 la agrupación. Debe asistir a las reuniones que convoque la
 coordinación.
@@ -2109,12 +2109,12 @@ coordinación.
 **Art. 81**. El documento al que se hace referencia en el Art. 79. del
 capítulo estudiantil deberá ser entregado una vez al año al encargado de
 los capítulos del Centro de Alumnos de Ingeniería a más tardar dos
-semanas después de las elecciones de delegados. Esto incluye tanto a los
+semanas después de las elecciones de Representantes. Esto incluye tanto a los
 nuevos como actuales capítulos asociados al CAi.
 :::
 
 ::: art
-**Art. 82**. En caso de que delegados cesen del cargo y no queden
+**Art. 82**. En caso de que Representantes cesen del cargo y no queden
 miembros del Consejo Académico participando en el capítulo, este dejará
 de ser reconocido por el CAi hasta que un nuevo delegado asuma el cargo.
 :::
@@ -2170,7 +2170,7 @@ como la publicación de información privada, sino como la preocupación
 por disponer abiertamente la información de uso y beneficio público a
 largo plazo.
 
-1.  Los Delegados, Consejeros Académico y de Postgrado y el Comité
+1.  Los Representantes, Consejeros Académico y de Postgrado y el Comité
     Ejecutivo deberán publicar Cuentas Públicas dos veces en su periodo
     por medios tanto físicos como virtuales, ambos accesibles a sus
     representados. Cada una de ellas debe sintetizar respectivamente
