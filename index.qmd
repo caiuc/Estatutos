@@ -1657,7 +1657,7 @@ considerará lo siguiente:
 
 1.  Tratándose del Consejo Generacional:
 
-    -   Cada Representante de generación tendrá un voto.
+    -   Cada Representante generacional tendrá un voto.
 
     -   El Comité Ejecutivo tendrá tres votos, correspondientes al
         Presidente y Vice-presidentes.
@@ -1668,10 +1668,10 @@ considerará lo siguiente:
 
 2.  Tratándose del Consejo Académico:
 
-    -   Cada persona delegada de major, especialidad o centro tendrá un
+    -   Cada persona Representante de major, especialidad o centro tendrá un
         voto.
 
-    -   La persona delegada de la primera y la segunda generación que se
+    -   La persona Representante de la primera y la segunda generación que se
         encuentre representando en dicha oportunidad a su generación
         tendrá un voto.
 
