@@ -657,8 +657,8 @@ son:
 6.  Destituir de su cargo a todo miembro del Consejo Académico que
     cumpliere con algunas de las causas establecidas como motivo de
     cesación de cargo en el presente estatuto,
-    artículo [24](#requisitosEjecutivo){reference-type="ref"
-    reference="requisitosEjecutivo"}.
+    artículo [34](#permanencia){reference-type="ref"
+    reference="permanencia"}.
 :::
 
 ::: art
