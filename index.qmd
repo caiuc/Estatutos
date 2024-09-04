@@ -549,7 +549,7 @@ de los Representantes Generacionales son:
     Estos Avances deberán ser presentados en al menos un consejo.
 :::
 
-::: {#funcionesDelegadosAcademicos .art}
+::: {#funcionesRepresentantesAcademicos .art}
 **Art. 15**. Las funciones y atribuciones de los Representantes Académicos
 son:
 
@@ -1213,7 +1213,7 @@ normas:
         resultado.
 :::
 
-::: {#requisitosDelegados .art}
+::: {#requisitosRepresentantes .art}
 **Art. 32**. Para postular al cargo de Representante se debe cumplir con los
 siguientes requisitos:
 
@@ -1397,7 +1397,7 @@ designación del nuevo Primer Vicepresidente según lo establecido en el
 artículo anterior.
 :::
 
-::: {#reemplazoDelegados .art}
+::: {#reemplazoRepresentantes .art}
 **Art. 38**. Si un Representante cesare en su cargo, se designará a aquel
 candidato que hubiere obtenido la siguiente mayoría no electa. En caso
 de que no existiese o no aceptara, el Representante saliente tendrá la
@@ -1499,7 +1499,7 @@ electrónico con al menos 24 hrs de anticipación.
 :::
 
 ::: {#sesionesPostgrado .art}
-**Art. 46**. Los representantes académicos de Postgrado votarán en las
+**Art. 46**. Los Representantes académicos de Postgrado votarán en las
 sesiones del Consejo Académico de Postgrado, llevándose los respectivos
 resultados al Consejo Académico de Pregrado a través del Consejero
 correspondiente.
@@ -1536,7 +1536,7 @@ miembro del Comité Ejecutivo y del Consejero Académico, o a quien este
 último haya otorgado poder, en el caso del Consejo Generacional. Pasados
 los treinta minutos de la hora fijada para el comienzo de la sesión, el
 quórum será de una tercera parte de los Representantes que no hayan perdido
-su derecho a voto, más Consejero Académico y Jefe de Docencia o
+su derecho a voto, más Consejero Académico y Jefatura de Docencia o
 Subconsejero Académico y de algún miembro del Comité Ejecutivo y del
 Consejero Académico, o a quien este último haya otorgado poder, en el
 caso del Consejo Generacional. No ocurriendo esto, se declarará
@@ -1692,7 +1692,7 @@ considerará lo siguiente:
 
 3.  Para evitar la sobrerrepresentación de algún representante, en el
     caso de una votación que requiera la aprobación de ambos consejos:
-    los delegados que tienen presencia en ambos Consejos sólo podrán
+    los Representantes que tienen presencia en ambos Consejos sólo podrán
     votar en el Consejo al que pertenecen; los Consejeros Académicos de
     pre y postgrado sólo votarán en el Consejo Académico; y el Comité
     Ejecutivo contará solo con los votos en el Consejo Generacional.
@@ -1802,8 +1802,8 @@ elegirá un Secretario Académico de entre los Representantes. Será un cargo de
 duración semestral y será elegido por mayoría absoluta de los miembros
 del Consejo durante la primera sesión del Consejo y en el Consejo
 Ordinario de agosto.\
-Si quien fue nombrado Secretario se ausentare a una sesión, se elegirá
-otro delegado que tomará acta en su lugar y deberá hacérsela llegar
+Si quien fue nombrado Secretario se ausentase a una sesión, se elegirá
+otro Representante que tomará acta en su lugar y deberá hacérsela llegar
 dentro de dos días hábiles.\
 En caso de presentar renuncia, deberá proponer a un miembro del Consejo
 que lo suceda para el resto del período, sin interferir con que existan
@@ -2001,9 +2001,9 @@ Presupuesto Participativo CAi se define de la siguiente manera:
 ::: {#definicionPParticipativo2 .art}
 **Art. 76**. El Presupuesto Participativo CAi se asignará de acuerdo a
 los resultados de una elección a realizarse simultáneamente con la de
-Delegados. El proceso será análogo y paralelo al estipulado en el
-artículo [31](#definicionesDelegados){reference-type="ref"
-reference="definicionesDelegados"} y el dinero
+Representantes. El proceso será análogo y paralelo al estipulado en el
+artículo [31](#definicionesRepresentantes){reference-type="ref"
+reference="definicionesRepresentantes"} y el dinero
 será exigible por los ganadores de acuerdo a las reglas del proceso.
 Para ello, serán especificados en el Reglamento del Presupuesto
 Participativo los siguientes puntos:
@@ -2116,7 +2116,7 @@ nuevos como actuales capítulos asociados al CAi.
 ::: art
 **Art. 82**. En caso de que Representantes cesen del cargo y no queden
 miembros del Consejo Académico participando en el capítulo, este dejará
-de ser reconocido por el CAi hasta que un nuevo delegado asuma el cargo.
+de ser reconocido por el CAi hasta que un nuevo Representante asuma el cargo.
 :::
 
 ::: art
