@@ -122,7 +122,7 @@ directivos del CAi son los siguientes:
     superior, quienes se nombran en adelante como Representantes
     Generacionales.
 
-5.  [Comité Académico]{.smallcaps} Está formado por una persona representante de cada major, que debe haber inscrito el major respectivo y que debe estar cursando al menos la tercera generación; por un representante de cada departamento, centro o especialidad, que debe estar cursando una mención en ese departamento o realizando dicha especialidad, con un máximo de una representante por departamento o centro; por 6 representantes de postgrado, de cada una de las áreas del programa; por 2 representantes de la Licenciatura en Ingeniería en Ciencia de la Computación, una persona correspondiente a las primeras dos generaciones del programa y otra a la tercera y posteriores; y un Representante de College. Las áreas son las siguientes:
+5.  [Comité Académico]{.smallcaps} Está formado por una persona representante de cada major, que debe haber inscrito el major respectivo y que debe estar cursando al menos la tercera generación; por un representante de cada departamento, centro o especialidad, que debe estar cursando una mención en ese departamento o realizando dicha especialidad, con un máximo de un representante por departamento o centro; por 6 representantes de postgrado, de cada una de las áreas del programa; por 2 representantes de la Licenciatura en Ingeniería en Ciencia de la Computación, una persona correspondiente a las primeras dos generaciones del programa y otra a la tercera y posteriores; y un Representante de College. Las áreas son las siguientes:
 
     a)  Ingeniería Civil (Gestión de la Construcción,  Minería, Estructural y Geotecnia, Hidráulica y Ambiental)
 
@@ -140,7 +140,7 @@ directivos del CAi son los siguientes:
 6.  [Consejo Generacional]{.smallcaps} Es la máxima instancia de
     representación. Formado por el Comité Generacional, el Comité
     Ejecutivo, la Consejería Académica y la Consejería de Postgrado. Es
-    presidido por la Presidencia del CAi.
+    presidido por la Secretaría General del CAi.
 
 7.  [Consejo Académico]{.smallcaps} Formado por el Comité Académico, la
     Jefatura de Docencia y la Jefatura de Investigación del Comité
@@ -537,8 +537,8 @@ de los Representantes Generacionales son:
 6.  Destituir de su cargo a cualquier miembro del Comité Ejecutivo que
     cumpliere con algunas de las causas establecidas como motivo de
     cesación de cargo en el presente estatuto,
-    artículo [24](#requisitosEjecutivo){reference-type="ref"
-    reference="requisitosEjecutivo"}.
+    artículo [34](#permanencia){reference-type="ref"
+    reference="permanencia"}.
 
 7.  Crear comisiones de trabajo en función de la contingencia o interés del
     Consejo Generacional. La creación de una comisión deberá contar con la 
@@ -604,7 +604,7 @@ son:
     respectivas especialidades.
 
 3.  Revisar y evaluar las políticas académicas de la Escuela. Trabajar
-    junto a las Consejeríass Académicas y de Postgrado en la formulación de
+    junto a las Consejerías Académicas y de Postgrado en la formulación de
     propuestas de mejoramiento en términos de docencia, investigación y
     extensión.
 
@@ -619,8 +619,8 @@ son:
     Estatuto principal como sus Apartados.
 
 7.  Remplazar a la Consejería Académica según lo estipulado en el
-    artículo [24](#requisitosEjecutivo){reference-type="ref"
-    reference="requisitosEjecutivo"}.
+    artículo [34](#permanencia){reference-type="ref"
+    reference="permanencia"}.
 
 8.  Formular la solicitud de destitución de su cargo a cualquier miembro
     de los organismos del CAi, por grave infracción a este estatuto o
@@ -697,7 +697,7 @@ y Académico, según la siguiente repartición:
         semestres.
 
     c)  Las bases de los fondos concursables serán definidas por una
-        comisión conformada por la Consejería Académica, la Jefatura de Finanzas del
+        comisión conformada por la Consejería Académica (quien coordina la comisión), la Jefatura de Finanzas del
         Comité Ejecutivo y un representante correspondiente a cada Consejo
         elegido en la primera sesión ordinaria del semestre.
 
@@ -706,7 +706,7 @@ y Académico, según la siguiente repartición:
         primera sesión ordinaria del semestre.
 
     e)  El jurado evaluador de los fondos concursables estará compuesto
-        por la Consejería Académica, un miembro del Comité Ejecutivo
+        por la Consejería Académica (quien coordina la comisión), un miembro del Comité Ejecutivo
         definido por este y un miembro de cada Consejo elegido en la
         primera sesión ordinaria del semestre.
 
@@ -1530,13 +1530,13 @@ en el Consejo Académico de Pregrado.
 ::: {#quorumConsejo .art}
 **Art. 49**. El quórum para llevar a cabo un Consejo debe ser más del
 50% de los Representantes que no hayan perdido su derecho a voto. Además será
-necesaria la presencia del Consejero Académico y Jefe de Docencia o
+necesaria la presencia del Consejero Académico y Jefatura de Docencia o
 Subconsejero Académico, en el caso del Consejo Académico, y de algún
 miembro del Comité Ejecutivo y del Consejero Académico, o a quien este
 último haya otorgado poder, en el caso del Consejo Generacional. Pasados
 los treinta minutos de la hora fijada para el comienzo de la sesión, el
 quórum será de una tercera parte de los Representantes que no hayan perdido
-su derecho a voto, más Consejero Académico y Jefe de Docencia o
+su derecho a voto, más Consejero Académico y Jefatura de Docencia o
 Subconsejero Académico y de algún miembro del Comité Ejecutivo y del
 Consejero Académico, o a quien este último haya otorgado poder, en el
 caso del Consejo Generacional. No ocurriendo esto, se declarará
@@ -1641,7 +1641,7 @@ cuenta de las labores efectuadas en el transcurso de su período.
 
 ::: {#presupuestoEjecutivo .art}
 **Art. 56**. En la sesión ordinaria de cada Consejo correspondiente al
-mes de marzo, el jefe de finanzas del CAi deberá presentar un
+mes de marzo, la Jefatura de finanzas del CAi deberá presentar un
 presupuesto estimado para su gestión, que explicite los ingresos y
 egresos esperados para el año académico. Este presupuesto debe
 presentar, al menos, los gastos e ingresos estimados para cada Comisión,
@@ -1675,7 +1675,7 @@ considerará lo siguiente:
         encuentre representando en dicha oportunidad a su generación
         tendrá un voto.
 
-    -   El Jefatura de Docencia del Comité Ejecutivo tendrá un voto.
+    -   La Jefatura de Docencia del Comité Ejecutivo tendrá un voto.
 
     -   La Consejería Académica tendrá un voto.
 
@@ -1683,7 +1683,7 @@ considerará lo siguiente:
 
     -   La persona Representante de College tendrá un voto.
 
-    -   El Subconsejería Académica tendrá un voto en caso que la
+    -   La Subconsejería Académica tendrá un voto en caso que la
         Jefatura de Docencia no esté presente.
 
     -   Las personas representantes de postgrado en su conjunto tendrán
@@ -1802,7 +1802,7 @@ elegirá un Secretario Académico de entre los Representantes. Será un cargo de
 duración semestral y será elegido por mayoría absoluta de los miembros
 del Consejo durante la primera sesión del Consejo y en el Consejo
 Ordinario de agosto.\
-Si quien fue nombrado Secretario se ausentare a una sesión, se elegirá
+Si quien fue nombrado Secretario se ausentase a una sesión, se elegirá
 otro Representante que tomará acta en su lugar y deberá hacérsela llegar
 dentro de dos días hábiles.\
 En caso de presentar renuncia, deberá proponer a un miembro del Consejo
