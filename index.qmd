@@ -2075,7 +2075,11 @@ Estudiantiles CAi.
 ::: art
 **Art. 79**. Para que una agrupación de estudiantes sea considerada un
 capítulo estudiantil asociado al Centro de Alumnos de Ingeniería debe
-explicitar mediante un documento presentado al CAi lo siguiente:
+presentar al CAi un documento una vez al año al encargado de
+los capítulos del Centro de Alumnos de Ingeniería a más tardar dos
+semanas después de las elecciones de Representantes. Esto incluye tanto a los
+nuevos como actuales capítulos asociados al CAi. Este documento debe incluir
+lo siguiete:
 
 1.  Deben tener una misión y visión como capítulo estudiantil. Esto se
     debe alinear con actividades que considere a su respectivo
@@ -2106,21 +2110,13 @@ coordinación.
 :::
 
 ::: art
-**Art. 81**. El documento al que se hace referencia en el Art. 79. del
-capítulo estudiantil deberá ser entregado una vez al año al encargado de
-los capítulos del Centro de Alumnos de Ingeniería a más tardar dos
-semanas después de las elecciones de Representantes. Esto incluye tanto a los
-nuevos como actuales capítulos asociados al CAi.
-:::
-
-::: art
-**Art. 82**. En caso de que Representantes cesen del cargo y no queden
+**Art. 81**. En caso de que Representantes cesen del cargo y no queden
 miembros del Consejo Académico participando en el capítulo, este dejará
 de ser reconocido por el CAi hasta que un nuevo Representante asuma el cargo.
 :::
 
 ::: art
-**Art. 83**. Las especificaciones deberán ser revisadas por la Jefatura
+**Art. 82**. Las especificaciones deberán ser revisadas por la Jefatura
 de Docencia, un integrante de la Consejería Académica y un Representante de cada
 consejo y aprobadas o rechazadas en un plazo de cinco días hábiles
 después de que se haya acabado el plazo para entregar las
