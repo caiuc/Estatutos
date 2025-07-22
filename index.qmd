@@ -122,7 +122,16 @@ directivos del CAi son los siguientes:
     superior, quienes se nombran en adelante como Representantes
     Generacionales.
 
-5.  [Comité Académico]{.smallcaps} Está formado por una persona representante de cada major, que debe haber inscrito el major respectivo y que debe estar cursando al menos la tercera generación; por un representante de cada departamento, centro o especialidad, que debe estar cursando una mención en ese departamento o realizando dicha especialidad, con un máximo de un representante por departamento o centro; por 6 representantes de postgrado, de cada una de las áreas del programa; por 2 representantes de la Licenciatura en Ingeniería en Ciencia de la Computación, una persona correspondiente a las primeras dos generaciones del programa y otra a la tercera y posteriores; y un Representante de College. Las áreas son las siguientes:
+5.  [Comité Académico]{.smallcaps} Está formado por una persona representante
+    de cada major, que debe haber inscrito el major respectivo y que debe estar
+    cursando al menos la tercera generación; por un representante de cada 
+    departamento, centro o especialidad, que debe estar cursando una mención en
+    ese departamento o realizando dicha especialidad, con un máximo de un representante
+    por departamento o centro; por 6 representantes de postgrado, de cada una de las
+    áreas del programa; por 2 representantes de la Licenciatura en Ingeniería en Ciencia
+    de la Computación, una persona correspondiente a las primeras dos generaciones del
+    programa y otra a la tercera y posteriores; y un Representante de College. 
+    Las áreas son las siguientes:
 
     a)  Ingeniería Civil (Gestión de la Construcción,  Minería, Estructural y Geotecnia, Hidráulica y Ambiental)
 
@@ -179,7 +188,7 @@ directivos del CAi son los siguientes:
 
     m) Vida Universitaria
 
-9.  [Coordinación Generales]{.smallcaps} Alumno regular de la Escuela de
+9.  [Coordinaciónes Generales]{.smallcaps} Alumno regular de la Escuela de
     Ingeniería que es designado por el Comité Ejecutivo para apoyar o
     liderar algún área de trabajo del CAi. La designación de uno o más
     Coordinaciones Generales debe ser informado al Consejo Generacional,
