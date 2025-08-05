@@ -122,7 +122,17 @@ directivos del CAi son los siguientes:
     superior, quienes se nombran en adelante como Representantes
     Generacionales.
 
-5.  [Comité Académico]{.smallcaps} Está formado por una persona representante de cada major, que debe haber inscrito el major respectivo y que debe estar cursando al menos la tercera generación; por un representante de cada departamento, centro o especialidad, que debe estar cursando una mención en ese departamento o realizando dicha especialidad, con un máximo de un representante por departamento o centro; por 6 representantes de postgrado, de cada una de las áreas del programa; por 2 representantes de la Licenciatura en Ingeniería en Ciencia de la Computación, una persona correspondiente a las primeras dos generaciones del programa y otra a la tercera y posteriores; y un Representante de College. Las áreas son las siguientes:
+5.  [Comité Académico]{.smallcaps} Está formado por una candidatura electa
+    representante de cada major, quienes deben haber inscrito el major
+    respectivo y que deben estar cursando al menos la tercera generación;
+    por una candidatura electa representante de cada departamento, centro o
+    especialidad, que debe estar cursando una mención en ese departamento o
+    realizando dicha especialidad; por 6 candidaturas electas representantes
+    de postgrado, una por cada área ; por 2 candidaturas electas representantes
+    de la Licenciatura en Ingeniería en Ciencia de la Computación, una
+    correspondiente a las primeras dos generaciones del programa y otra a
+    la tercera y posteriores; y un Representante de College.
+    Las áreas son las siguientes:
 
     a)  Ingeniería Civil (Gestión de la Construcción,  Minería, Estructural y Geotecnia, Hidráulica y Ambiental)
 
@@ -323,7 +333,10 @@ encomiende.
 
     d)  Presentar el estado del presupuesto anual del CAi en las
         sesiones ordinarias de los Consejo Generacional y Académico
-        correspondientes al mes de julio y noviembre. En la sesión de
+        correspondientes al mes de julio y noviembre, junto con estados de
+        situación financiera y de resultados simples que incluyan información
+        sobre los activos y pasivos del Centro de Alumnos, así como la
+        destinación de gastos y fuentes de ingreso. En la sesión de
         noviembre, se invitará a la jefatura de finanzas electa para el año
         siguiente.
 
@@ -367,9 +380,10 @@ encomiende.
 
 2.  Presidir el Consejo Académico.
 
-3.  Representar al estudiantado ante el *CIDEI*, el Consejo de la Escuela
-    de Ingeniería y el Comité de Pregrado, en conjunto con la Presidencia
-    del CAi.
+3.  Representar al estudiantado ante el Consejo Académico de la Escuela
+    de Ingeniería, el Consejo de Facultad y el Comité de Pregrado, en
+    conjunto con la Presidencia del CAi u otro representante del
+    Comité Ejecutivo o Consejerías Académicas.
 
 4.  Estudiar y desarrollar proyectos y propuestas académicas con la
     Dirección de la Escuela y, si existiese, la Comisión de Docencia del
@@ -384,6 +398,11 @@ encomiende.
     Académico FEUC y en las instancias en las que participa regularmente
     como representante del estudiantado ante las autoridades de la
     Escuela.
+
+7.  Informar, orientar y acompañar a los estudiantes en los procesos de
+    Permanencia y Alertas Académicas. Toda la información compartida
+    durante las Comisiones de Permanencia será tratada con
+    absoluta confidencialidad.
 :::
 
 ::: art
@@ -397,6 +416,11 @@ encomiende.
 
 3.  Reemplazar a la Consejería Académica en caso de renuncia, cese
     anticipado o destitución del mismo.
+
+4.  Informar, orientar y acompañar a las y los estudiantes en los procesos
+    de Alerta Académica y Permanencia Académica. Podrá apoyar a la Consejería
+    Académica en la recopilación de antecedentes y seguimiento de casos,
+    bajo estricta reserva, conforme a la normativa institucional vigente.
 :::
 
 ::: {#funcionesCAPostgrado .art}
@@ -559,7 +583,10 @@ son:
     el caso de los Representantes de Especialidad, canalizar los problemas
     académicos de los estudiantes del segundo ciclo de formación de su
     Departamento y representarlos ante las instancias académicas
-    correspondientes.
+    correspondientes. En el caso de los representantes de la Licenciatura
+    en Ciencias de la Computación, canalizar los problemas académicos de
+    los estudiantes de su programa y representarlos en las instancias
+    académicas correspondientes.
 
 2.  Velar por la excelencia académica de los cursos que competen a sus
     representados, principalmente aquellos que son dictados en sus
@@ -834,6 +861,14 @@ elección que se llevará a cabo de acuerdo a las siguientes normas:
 
     d)  Las listas no pueden ser publicadas, física ni electrónicamente,
         hasta la validación de la preinscripción por parte del TRICEL.
+
+    e)  En el caso de que la Dirección de Pregrado o de Postgrado no
+        entregue los antecedentes académicos necesarios para validar las
+        candidaturas antes del cierre de proceso de inscripción, el
+        TRICEL podrá retrasar el proceso de inscripción de listas, con
+        previa notificación formal al Comité Ejecutivo y a los postulantes
+        involucrados. Esta prórroga será válida únicamente si los antecedentes
+        no han sido entregados por causas ajenas a los postulantes y TRICEL.
 
 7.  Para inscribirse, se deberá entregar al CAi lo siguiente a más
     tardar al décimo día hábil de abierto el proceso a las 18:00 horas:
@@ -1235,6 +1270,7 @@ b) De la Licenciatura en Ingeniería en Ciencia de la Computación; en el caso d
 
 c) Las candidaturas pueden ser individuales o en dupla. En ambos casos las personas postulantes deben, en el caso de ser estudiante de pregrado, estar cursando a lo menos 30 créditos de su respectiva malla curricular de la Escuela de Ingeniería. En el caso del estudiantado de postgrado, deben estar trabajando bajo tutela de un docente en una tesis del departamento o especialidad a la cual postula.
 
+d) En caso de candidaturas académicas en dupla, estas deberán designar, al momento de su inscripción, cuál de sus integrantes será el responsable de asistir a los Comités de Programa correspondientes.
 :::
 
 ::: {#requisitosRepresentanteCollege .art}
@@ -1493,9 +1529,10 @@ electrónico, además de ser publicada en la página web del CAi.
 
 ::: {#consejoExtraordinario .art}
 **Art. 45**. Cada Consejo puede ser citado en forma extraordinaria por
-el Comité Ejecutivo, por un tercio de los Representantes o quién lo presida,
-debiendo ser notificado a todos los miembros del consejo vía correo
-electrónico con al menos 24 hrs de anticipación.
+el Comité Ejecutivo o las Consejerías Académicas, por un tercio de los
+Representantes o quién lo presida, debiendo ser notificado a todos los
+miembros del consejo vía correo electrónico con al menos 24 hrs de
+anticipación.
 :::
 
 ::: {#sesionesPostgrado .art}
@@ -1668,7 +1705,7 @@ considerará lo siguiente:
 
 2.  Tratándose del Consejo Académico:
 
-    -   Cada persona Representante de major, especialidad o centro tendrá un
+    -   Cada Representante o dupla de major, especialidad o centro tendrá un
         voto.
 
     -   La persona Representante de la primera y la segunda generación que se
@@ -1689,6 +1726,9 @@ considerará lo siguiente:
     -   Las personas representantes de postgrado en su conjunto tendrán
         3 votos, es ningún caso se podrá acumular más de un voto por
         representante.
+
+    -   Cada Representante o dupla de la Licenciatura en Ingeniería en
+        Ciencias de la Computación tendrá un voto.
 
 3.  Para evitar la sobrerrepresentación de algún representante, en el
     caso de una votación que requiera la aprobación de ambos consejos:
@@ -2344,6 +2384,16 @@ Isidora Rodríguez López, Consejera Académica CAi UC 2023\
 Académico 2023]{.smallcaps}\
 Rebeca Subelman Zhang, Presidente CAi UC 2023\
 Isidora Rodríguez López, Consejera Académica CAi UC 2023\
+
+[Estatutos modificados por el Consejo Generacional y el Consejo
+Académico 2024]{.smallcaps}\
+Trinidad Ulloa, Presidente CAi UC 2024\
+Beatriz Rodríguez Pérez, Consejera Académica CAi UC 2024\
+
+[Estatutos modificados por el Consejo Generacional y el Consejo
+Académico 2025]{.smallcaps}\
+Nicolas Castro Cajide, Presidente CAi UC 2025\
+Daniel Espinoza, Consejero Académica CAi UC 2025\
 
 [^1]: Código Civil: <http://www.leychile.cl/Navegar?idNorma=172986>
 
