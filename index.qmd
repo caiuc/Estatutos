@@ -327,8 +327,8 @@ encomiende.
     b)  Dar la información que le fuese solicitada por algún miembro del
         CAi y que se refiera a la administración y finanzas.
 
-    c)  Presentar el presupuesto anual del CAi en la sesión ordinaria de
-        los Consejos Generacional y Académico correspondiente al mes de
+    c)  Presentar el presupuesto anual del CAi en la sesión ordinaria del
+        Consejo Generacional y Académico correspondiente al mes de
         abril.
 
     d)  Presentar el estado del presupuesto anual del CAi en las
@@ -729,7 +729,7 @@ y Académico, según la siguiente repartición:
         elegido en la primera sesión ordinaria del semestre.
 
     d)  Las bases de los fondos concursables deberán estar en posesión
-        de los representantes a más tardar un mes a partir de la
+        de los representantes a más tardar un mes después de la
         primera sesión ordinaria del semestre.
 
     e)  El jurado evaluador de los fondos concursables estará compuesto
