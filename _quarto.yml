@@ -17,6 +17,7 @@ website:
         contents: 
           - anexos/tricel.qmd.md
           - anexos/iniciativas.md
+          - anexos/capitulos.md
           - anexos/protocoloambiental.md
           - anexos/protocoloabuso.md
           - anexos/protocoloespacios.md
