@@ -88,11 +88,14 @@ del TRICEL.
     acto eleccionario, y recoger el mismo finalizado este.
 
 8)  Resolver cualquier asunto que afecte el correcto funcionamiento del
-     proceso eleccionario.
+    proceso eleccionario.
 
 9)  Verificar el cumplimiento del presente reglamento y lo referido a
-     elecciones, requisitos y sanciones en los estatutos vigentes en
-     los lugares de votación.
+    elecciones, requisitos y sanciones en los estatutos vigentes en
+    los lugares de votación.
+
+10) Definir los canales oficiales de comunicación respecto al proceso,
+    garantizando facil acceso y amplia difución.
 
 **Art. 6**. El Tribunal Calificador de Elecciones celebrará
  sesiones para tratar las atribuciones que le confiere este reglamento
@@ -197,8 +200,8 @@ participación del estudiantado.
 **Artículo 18**. En el caso de que la modalidad de la votación fuese completamente remota, se regula la
 votación mediante al Artículo 17. Sin perjuicio de lo anterior:
 
-1) Se definirá una única plataforma de votación, que deberá ser aprobada previamente por el Consejo
-Generacional.
+1) Se definirá una única plataforma de votación y un admisintrador para esta, siendo ambos aprobados
+previamente por el Consejo Generacional.
 
 2) Debe existir una plataforma que asegure la privacidad al momento de votar. Esto debe asegurar la
 tranquilidad del estudiantado al momento de hacer su elección.
@@ -210,6 +213,9 @@ tranquilidad del estudiantado al momento de hacer su elección.
    b) Reiterada inducción al voto al momento del sufragio
    
    c) Cualquier otra acción u omisión que afecte considerablemente la normalidad del proceso eleccionario.
+
+4) El TRICEL deberá tener acceso a la plataforma de votaciones con la posibilidad de acceder al quorum
+y las estadisticas que sean necesarias.
 
 **Artículo 19**. Cualquier modalidad intermedia de votación quedará sujeta al cumplimiento de los
 lineamientos establecidos en los artículos 17 y 18 del presente apartado.
