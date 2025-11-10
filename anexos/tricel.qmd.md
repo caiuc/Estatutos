@@ -214,8 +214,8 @@ tranquilidad del estudiantado al momento de hacer su elección.
    
    c) Cualquier otra acción u omisión que afecte considerablemente la normalidad del proceso eleccionario.
 
-4) El TRICEL deberá tener acceso a la plataforma de votaciones con la posibilidad de acceder al quorum
-y las estadisticas que sean necesarias.
+4) El TRICEL deberá tener acceso a la plataforma de votaciones con la posibilidad
+de acceder al quorum y las estadisticas que el TRICEL considere necesarias.
 
 **Artículo 19**. Cualquier modalidad intermedia de votación quedará sujeta al cumplimiento de los
 lineamientos establecidos en los artículos 17 y 18 del presente apartado.
