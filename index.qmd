@@ -287,7 +287,8 @@ encomiende.
 
     a)  Presidir y convocar las reuniones del Comité Ejecutivo y del
         Consejo Generacional. Sin perjuicio de la posibilidad de auto
-        convocatoria de éste último, dispuesto en el artículo 45. En caso de no encontrarse presente, cualquier persona del Comité Ejecutivo podrá actuar en subrogancia.
+        convocatoria de éste último, dispuesto en el artículo [45](#consejoExtraordinario){reference-type="ref"
+reference="consejoExtraordinario"}. En caso de no encontrarse presente, cualquier persona del Comité Ejecutivo podrá actuar en subrogancia.
 
     b)  Llevar control de asistencia y someter a aprobación el acta de
         cada Consejo, que se dará por aprobada mediante correo
@@ -1480,7 +1481,7 @@ continuación:
     [23, letra H](#eleccionesCAi){reference-type="ref"
     reference="eleccionesCAi"} de esta parte, o no hubiese una
     mayoría no electa a quién ofrecer el cargo de acuerdo a lo
-    establecido en la letra A de este artículo, el Consejo Académico
+    establecido en el inciso 1. de este artículo, el Consejo Académico
     deberá solicitar al presidente del Comité Ejecutivo la elaboración
     de una lista, jerarquizada según orden de elegibilidad, de tres
     candidatos que cumplan con los requisitos establecidos para postular
@@ -1504,7 +1505,7 @@ conveniente, previa notificación a todos sus miembros. Estas sesiones
 serán presididas por el miembro del Comité Ejecutivo de mayor jerarquía
 entre los presentes. Para esto se tendrá en cuenta la jerarquía
 establecida en el artículo
-[4, letra A](#jerarquia){reference-type="ref"
+[4, inciso 1.](#jerarquia){reference-type="ref"
 reference="jerarquia"}.
 :::
 
@@ -2132,7 +2133,8 @@ explicitar mediante un documento presentado al CAi lo siguiente:
     miembros deben estar cursando el Major o Articulación del segundo
     ciclo o licenciado del major previamente declarado y ser alumnos
     regulares de la Escuela de Ingeniería o bien alumnos de College que
-    cumplan con los requisitos explicitados en el artículo 33. Ningún
+    cumplan con los requisitos explicitados en el artículo [33](#requisitosRepresentanteCollege){reference-type="ref"
+reference="requisitosRepresentanteCollege"}. Ningún
     integrante de la coordinación puede tener faltas a la ética mayores,
     tales como está determinado por la Dirección de Pregrado de
     Ingeniería (DiPre).
