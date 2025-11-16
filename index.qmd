@@ -293,7 +293,7 @@ reference="consejoExtraordinario"}. En caso de no encontrarse presente, cualquie
     b)  Llevar control de asistencia y someter a aprobación el acta de
         cada Consejo, que se dará por aprobada mediante correo
         electrónico, a menos que un miembro del consejo se oponga. El
-        plazo para oponerse será de 2 días. En caso de rechazo de la
+        plazo para oponerse será de dos días. En caso de rechazo de la
         primera publicación del acta, existirán 3 instancias mediante
         correo electrónico para llegar a consenso sobre el acta escrita
         (entiéndase como instancia cada vez que se le envíe a los
@@ -808,9 +808,9 @@ elección que se llevará a cabo de acuerdo a las siguientes normas:
     candidatas al Comité Ejecutivo, como las candidaturas a Consejería
     Académica y Consejería de Postgrado. La apertura de inscripciones
     deberá ser avisada públicamente con una semana de anticipación. Este
-    proceso de inscripción durará 10 días hábiles, con una
+    proceso de inscripción durará diez días hábiles, con una
     preinscripción obligatoria de las candidaturas al finalizar los
-    primeros 5 días hábiles del proceso.
+    primeros cinco días hábiles del proceso.
 
     Las fechas podrán ser trasladadas con un margen máximo de una
     semana, previa aprobación del *Consejo Generacional* bajo quórum
@@ -828,7 +828,7 @@ elección que se llevará a cabo de acuerdo a las siguientes normas:
 
 3.  En caso de empate entre candidaturas de una lista abierta, la lista
     tendrá que dirimir el empate y entregarlo al CAi en ejercicio con un
-    plazo máximo de 2 días hábiles posterior al fin del recuento de
+    plazo máximo de dos días hábiles posterior al fin del recuento de
     votos.
 
 4.  No existe restricción con respecto al número máximo de postulantes a
@@ -943,7 +943,7 @@ elección que se llevará a cabo de acuerdo a las siguientes normas:
     programas de las listas a lo más dos días hábiles después del cierre
     de inscripciones.
 
-12. A lo más 6 días hábiles después del cierre de las inscripciones
+12. A lo más seis días hábiles después del cierre de las inscripciones
     deberá efectuarse una asamblea general de presentación de los
     postulantes a las tres elecciones, cuyo objetivo será dar a conocer
     sus programas y responder las inquietudes del estudiantado.
@@ -992,7 +992,7 @@ elección que se llevará a cabo de acuerdo a las siguientes normas:
         ninguna de ellas obtengan más del 50% de los votos válidamente
         emitidos. Se entenderá como válidamente emitidos los votos
         totales sin contar blancos ni nulos. La segunda vuelta se
-        realizará a lo más 5 días hábiles después del término de la
+        realizará a lo más cinco días hábiles después del término de la
         primera vuelta, y se regirá como una votación de solo dos
         postulantes.
 :::
@@ -1997,9 +1997,9 @@ incluso para iniciativas estudiantiles ya asociadas al CAi.
 del Comité Ejecutivo y un representante de cada consejo y aprobadas o
 rechazadas en un plazo de cinco días hábiles después de que se hayan
 entregado las especificaciones. En caso de que estas sean rechazadas, se
-le dará a la iniciativa estudiantil CAi un plazo de 2 días hábiles para
+le dará a la iniciativa estudiantil CAi un plazo de dos días hábiles para
 entregar un nuevo documento, el cual deberá ser revisado en los próximos
-3 días hábiles. En caso de que se rechace de nuevo las especificaciones,
+tres días hábiles. En caso de que se rechace de nuevo las especificaciones,
 la agrupación de personas no será considerada como una iniciativa
 estudiantil del Centro de Alumnos de Ingeniería, por lo que no podrá
 participar en los presupuestos participativos ni en las oficinas concursables.
@@ -2167,8 +2167,8 @@ de Docencia, un integrante de la Consejería Académica y un Representante de ca
 consejo y aprobadas o rechazadas en un plazo de cinco días hábiles
 después de que se haya acabado el plazo para entregar las
 especificaciones. En caso de que estas sean rechazadas, se dará al
-capítulo estudiantil un plazo de 2 días hábiles para entregar un nuevo
-documento, el cual deberá ser revisado en los próximos 3 días hábiles.
+capítulo estudiantil un plazo de dos días hábiles para entregar un nuevo
+documento, el cual deberá ser revisado en los próximos tres días hábiles.
 En caso de que se rechacen nuevamente las especificaciones, la
 agrupación no será considerada como un capítulo estudiantil del Centro
 de Alumnos de Ingeniería. El fin de esta verificación es tener
