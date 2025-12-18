@@ -15,12 +15,12 @@ website:
 
       - section: "Anexos"
         contents: 
-          - anexos/tricel.qmd.md
-          - anexos/iniciativas.md
-          - anexos/capitulos.md
-          - anexos/protocoloambiental.md
+          - anexos/protocolotransparencia.md
           - anexos/protocoloabuso.md
           - anexos/protocoloespacios.md
+          - anexos/iniciativas.md
+          - anexos/tricel.qmd.md
+          - anexos/protocoloambiental.md
 
 
 
