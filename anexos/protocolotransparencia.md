@@ -71,3 +71,13 @@ Cualquier miembro del cuerpo estudiantil podrá solicitar información adicional
 
 **Art. 13**
 Para asegurar el traspaso de información (Art. 86, inc. 2), al finalizar el periodo, el Comité Ejecutivo saliente deberá entregar un "Informe de Traspaso" o consolidado en el repositorio, garantizando que los accesos, claves y documentos críticos queden en poder de la nueva directiva electa.
+
+
+
+APROBADO POR CONSEJO GENERACIONAL Y ACADÉMICO CENTRO DE ALUMNOS DE INGENIERÍA UC
+
+Elaborado por Comisión de Estatutos del CAi 2025:
+  - Nicolás Castro (Presidente CAi)
+  - Alonso Rivera (Secretario General CAi)
+
+17 DE DICIEMBRE DE 2025

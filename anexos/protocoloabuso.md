@@ -70,3 +70,13 @@ Si la situación involucra a estudiantes sin cargo que utilizan las dependencias
 
 **Art. 11**
 El CAi no publicará nombres ni detalles de los casos para proteger la privacidad y la honra de las partes. Solo se informará al Consejo Generacional sobre la aplicación de medidas de cese de cargo (Art. 9) una vez que exista una resolución oficial y definitiva de la Universidad.
+
+
+APROBADO POR CONSEJO GENERACIONAL Y ACADÉMICO CENTRO DE ALUMNOS DE INGENIERÍA UC
+
+Elaborado por Comisión de Estatutos del CAi 2025:
+  - Nicolás Castro (Presidente CAi)
+  - Alonso Rivera (Secretario General CAi)
+  - Matilde Sapag (Jefatura de Feminismo CAi)
+
+17 DE DICIEMBRE DE 2025

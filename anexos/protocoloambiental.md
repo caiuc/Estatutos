@@ -3,46 +3,46 @@ title: Protocolo Ambiental
 subtitle: Anexo de Protocolo Ambiental del Centro de Alumnos de Ingeniería
 date-modified: 2023-07-27
 lang: es
-format: 
+format:
   html: default
   pdf: default
 ---
 
 # Anexo Protocolo Ambiental
 
-**Art. 1.** El presente documento tiene como objetivo orientar los protocolos efectuados al momento de realizar eventos, actividades, campañas y reuniones organizados por estudiantes de la Escuela de Ingeniería. La idea es promover una cultura integral de sustentabilidad en la Escuela, que sea replicada en los años futuros. 
+**Art. 1.** El presente documento tiene como objetivo orientar los protocolos efectuados al momento de realizar eventos, actividades, campañas y reuniones organizados por estudiantes de la Escuela de Ingeniería. La idea es promover una cultura integral de sustentabilidad en la Escuela, que sea replicada en los años futuros.
 
- 
+
 **Art. 2.**  Previo a la reunión o evento se deberá:
 
 1) Realizar una estimación y seguimiento de la asistencia que tendrá el evento, para así tener una noción del consumo que existirá.
-    
+
 2) Si es que hay, solicitar al servicio de catering evitar el desperdicio de alimentos. Esto debe ser acordado antes de contratarlos.
-    
+
 3) Informar a todos los servicios externos que se contraten los lineamientos que se esperan cumplir y solicitarles que los cumplan dentro de lo posible.
 
- 
+
 
 **Art. 3.**  Sobre comunicaciones y difusión se deberá:
 
 1) Priorizar la difusión de información a través de medios digitales, anteponiéndose por sobre el formato físico, el cual podría generar residuos (flyers, carteles, etc.).
-    
+
 2) En el caso de utilizar medios físicos de difusión, se espera que sean fabricados con materiales compostables o reciclables. 
-    
+
 3) Se espera que cada evento posea una declaración sobre las políticas de sustentabilidad aplicadas en el evento. Esta debe ser dada a conocer a asistentes y personas invitadas.
-    
+
 4) En el caso de campañas, se solicita evitar materiales de un solo uso para su propaganda (cotillón, carteles, panfletos, chapitas, obsequios, etc). 
 
- 
+
 
 **Art. 4.**  Sobre el transporte se deberá:
 
 1) Priorizar lugares con buen acceso a transporte público y/o bicicleta.
-    
+
 2) Incentivar el uso de transporte público y carpooling hacia los eventos.
-    
+
 3) Para eventos en los cuales se espera una alta participación y son desarrollados en locaciones remotas, se debe proveer de buses de transporte para evitar el uso masivo de autos particulares.
-    
+
 5) Promover iniciativas que enfrenten la problemática ligada al transporte, tal como puede ser el Sistema de Bicicletas Compartidas (SIBICO) de la Universidad o iniciativas similares.
 
 
@@ -73,7 +73,7 @@ format:
 
 7) Priorizar la compra local y a PYMES por sobre grandes cadenas.
 
- 
+
 
 **Art. 7.**  Sobre los residuos se deberá:
 
@@ -113,7 +113,7 @@ format:
 
 2) Se deberá proveer al equipo Staff, ayudantes o personas voluntarias, distintivos reutilizables. Se evitará el uso de información en las prendas que las vuelvan obsoletas luego del evento.
 
-    
+
 
 **Art. 11.**  Sobre los eventos masivos, se deberá:
 

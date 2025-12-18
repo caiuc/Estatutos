@@ -104,3 +104,12 @@ El incumplimiento de este protocolo, especialmente en lo referido a daños a la 
 + Solicitar la reposición o reparación de los bienes dañados.
 + Derivar los antecedentes a las instancias disciplinarias de la Escuela si la gravedad lo amerita.
 
+
+APROBADO POR CONSEJO GENERACIONAL Y ACADÉMICO CENTRO DE ALUMNOS DE INGENIERÍA UC
+
+Elaborado por Comisión de Estatutos del CAi 2025:
+  - Nicolás Castro (Presidente CAi)
+  - Alonso Rivera (Secretario General CAi)
+  - Ignacia Romero (Coordinadora de Áreas y Jefatura de Innovación y Emprendimiento)
+
+17 DE DICIEMBRE DE 2025
