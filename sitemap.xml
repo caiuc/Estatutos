@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://estatutos.cai.cl/anexos/iniciativas.html</loc>
-    <lastmod>2025-08-05T23:34:52.381Z</lastmod>
+    <loc>https://estatutos.cai.cl/anexos/protocolo-acoso.html</loc>
+    <lastmod>2026-03-19T14:33:09.752Z</lastmod>
   </url>
   <url>
     <loc>https://estatutos.cai.cl/anexos/protocoloambiental.html</loc>
-    <lastmod>2025-08-05T23:34:52.381Z</lastmod>
-  </url>
-  <url>
-    <loc>https://estatutos.cai.cl/index.html</loc>
-    <lastmod>2025-08-05T23:34:52.382Z</lastmod>
+    <lastmod>2026-03-19T14:33:09.752Z</lastmod>
   </url>
   <url>
     <loc>https://estatutos.cai.cl/anexos/tricel.qmd.html</loc>
-    <lastmod>2025-08-05T23:34:52.381Z</lastmod>
+    <lastmod>2026-03-19T14:33:09.753Z</lastmod>
+  </url>
+  <url>
+    <loc>https://estatutos.cai.cl/index.html</loc>
+    <lastmod>2026-03-19T14:33:09.753Z</lastmod>
+  </url>
+  <url>
+    <loc>https://estatutos.cai.cl/anexos/iniciativas.html</loc>
+    <lastmod>2026-03-19T14:33:09.752Z</lastmod>
+  </url>
+  <url>
+    <loc>https://estatutos.cai.cl/anexos/protocolo-espacios.html</loc>
+    <lastmod>2026-03-19T14:33:09.752Z</lastmod>
+  </url>
+  <url>
+    <loc>https://estatutos.cai.cl/anexos/protocolo-transparencia.html</loc>
+    <lastmod>2026-03-19T14:33:09.752Z</lastmod>
   </url>
 </urlset>
