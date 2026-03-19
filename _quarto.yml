@@ -14,15 +14,19 @@ website:
           - index.qmd
 
       - section: "Anexos"
-        contents: 
+        contents:
           - anexos/tricel.qmd.md
           - anexos/iniciativas.md
           - anexos/protocoloambiental.md
+          - anexos/protocolo-acoso.md
+          - anexos/protocolo-transparencia.md
+          - anexos/protocolo-espacios.md
 
 
 
 resources:
   - CNAME
+  - pdf/
 
 format:
   html:
