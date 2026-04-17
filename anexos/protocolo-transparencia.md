@@ -5,9 +5,10 @@ date-modified: 2026-03-19
 lang: es
 format:
   html: default
+  pdf: default
 other-links:
   - text: PDF
-    href: ../pdf/protocolo-transparencia.pdf
+    href: protocolo-transparencia.pdf
     icon: file-pdf
 ---
 
@@ -62,3 +63,15 @@ other-links:
 **Art. 12** Cualquier miembro del cuerpo estudiantil podrá solicitar información adicional no publicada enviando un correo electrónico dirigido a cai@caiuc.cl o a la Secretaría General. La respuesta deberá ser entregada en un plazo no mayor a **10 días hábiles**.
 
 **Art. 13** Para asegurar el traspaso de información (Art. 86, inc. 2), al finalizar el periodo, el Comité Ejecutivo saliente deberá entregar un «Informe de Traspaso» o consolidado en el repositorio, garantizando que los accesos, claves y documentos críticos queden en poder de la nueva directiva electa.
+
+
+---
+
+**Aprobado por Consejo Generacional y Académico del Centro de Alumnos de Ingeniería UC**
+
+Elaborado por Comisión de Estatutos del CAi 2025:
+
+- Nicolás Castro, *Presidente CAi*
+- Alonso Rivera, *Secretario General CAi*
+
+*17 de diciembre de 2025*

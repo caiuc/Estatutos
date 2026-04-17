@@ -8,7 +8,7 @@ format:
   pdf: default
 ---
 
-# Tribunal Calificar de Elecciones · TRICEL
+# Tribunal Calificador de Elecciones · TRICEL
 
 ## [Reglamento TRICEL CAi]{.underline}
 
@@ -392,20 +392,22 @@ lineamientos establecidos en los artículos 17 y 18 del presente apartado.
  **Art. 35**. Este reglamento se verá modificado en virtud de
  cualquier reforma de los estatutos del CAi que afecten su contenido.
 
- APROBADO POR CONSEJO DE ESCUELA CENTRO DE ALUMNOS DE INGENIERÍA UC 22
- DE SEPTIEMBRE DE 2009
+---
 
- Elaborado por Comisión de Estatutos del Consejo de Escuela 2009:
- Nicolás Torres (Secretario General CAi), Sofía Undurraga (Consejera
- Académica),
+**Aprobado por Consejo de Escuela del Centro de Alumnos de Ingeniería UC**
 
- Diego Vergara (Delegado de Ingeniería de Transporte y Logística),
- Felipe Castañeda (Delegado de Ingeniería Industrial y de Sistemas) y
+Elaborado por Comisión de Estatutos del Consejo de Escuela 2009:
 
- Juan Pablo Urzúa (Delegado del Departamento de Ciencia de la
- Computación).
+- Nicolás Torres, *Secretario General CAi*
+- Sofía Undurraga, *Consejera Académica*
+- Diego Vergara, *Delegado de Ingeniería de Transporte y Logística*
+- Felipe Castañeda, *Delegado de Ingeniería Industrial y de Sistemas*
+- Juan Pablo Urzúa, *Delegado del Departamento de Ciencia de la Computación*
 
- APROBADO POR CONSEJO GENERACIONAL Y ACADÉMICO CENTRO DE ALUMNOS DE
- INGENIERÍA UC
+*22 de septiembre de 2009*
 
- 4 DE AGOSTO DE 2022
+---
+
+**Aprobado por Consejo Generacional y Académico del Centro de Alumnos de Ingeniería UC**
+
+*4 de agosto de 2022*
