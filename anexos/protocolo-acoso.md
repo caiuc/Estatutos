@@ -5,9 +5,10 @@ date-modified: 2026-03-19
 lang: es
 format:
   html: default
+  pdf: default
 other-links:
   - text: PDF
-    href: ../pdf/protocolo-acoso.pdf
+    href: protocolo-acoso.pdf
     icon: file-pdf
 ---
 
@@ -66,3 +67,15 @@ Con el fin de garantizar un espacio seguro, evitar la revictimización y preveni
 ## V. Transparencia y Registro
 
 **Art. 11** El CAi no publicará nombres ni detalles de los casos para proteger la privacidad y la honra de las partes. Solo se informará al Consejo Generacional sobre la aplicación de medidas de cese de cargo (Art. 9) una vez que exista una resolución oficial y definitiva de la Universidad.
+
+---
+
+**Aprobado por Consejo Generacional y Académico del Centro de Alumnos de Ingeniería UC**
+
+Elaborado por Comisión de Estatutos del CAi 2025:
+
+- Nicolás Castro, *Presidente CAi*
+- Alonso Rivera, *Secretario General CAi*
+- Matilde Sapag, *Jefatura de Feminismo CAi*
+
+*17 de diciembre de 2025*

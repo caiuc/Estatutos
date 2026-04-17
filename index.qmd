@@ -1,7 +1,7 @@
 ---
 title: Estatuto principal
 subtitle: Centro de Alumnos de Ingeniería
-date-modified: 2024-03-29
+date-modified: 2025-08-01
 lang: es
 format: 
   html: default
@@ -32,6 +32,10 @@ representa a todos los alumnos de Pregrado de la Escuela de Ingeniería
 de la Pontificia Universidad Católica de Chile, así como a los alumnos
 de Magíster en Ingeniería, Magíster en Ciencias de la Ingeniería o
 Doctorado de esta misma Unidad Académica.
+
+::: {.callout-note collapse="true" title="Oficio Interpretativo relacionado"}
+[Oficio Interpretativo 2023](anexos/oficios-interpretativos.qmd#oi-2023)
+:::
 :::
 
 ::: {#cultural .art}
@@ -994,6 +998,11 @@ elección que se llevará a cabo de acuerdo a las siguientes normas:
         realizará a lo más 5 días hábiles después del término de la
         primera vuelta, y se regirá como una votación de sólo dos
         postulantes.
+
+::: {.callout-note collapse="true" title="Oficios Interpretativos relacionados"}
+- [Oficio Interpretativo 2020 · N.º 1](anexos/oficios-interpretativos.qmd#oi-2020-1)
+- [Oficio Interpretativo 2020 · N.º 2](anexos/oficios-interpretativos.qmd#oi-2020-2)
+:::
 :::
 
 ::: {#requisitosEjecutivo .art}
@@ -1246,6 +1255,11 @@ normas:
         personas implicadas presentes, y con un máximo de dos días
         hábiles para realizar el sorteo e informar a ambos consejos del
         resultado.
+
+::: {.callout-note collapse="true" title="Oficios Interpretativos relacionados"}
+- [Oficio Interpretativo 2022 · N.º 1](anexos/oficios-interpretativos.qmd#oi-2022-1)
+- [Oficio Interpretativo 2022 · N.º 3](anexos/oficios-interpretativos.qmd#oi-2022-3)
+:::
 :::
 
 ::: {#requisitosRepresentantes .art}
@@ -1271,6 +1285,10 @@ b) De la Licenciatura en Ingeniería en Ciencia de la Computación; en el caso d
 c) Las candidaturas pueden ser individuales o en dupla. En ambos casos las personas postulantes deben, en el caso de ser estudiante de pregrado, estar cursando a lo menos 30 créditos de su respectiva malla curricular de la Escuela de Ingeniería. En el caso del estudiantado de postgrado, deben estar trabajando bajo tutela de un docente en una tesis del departamento o especialidad a la cual postula.
 
 d) En caso de candidaturas académicas en dupla, estas deberán designar, al momento de su inscripción, cuál de sus integrantes será el responsable de asistir a los Comités de Programa correspondientes.
+
+::: {.callout-note collapse="true" title="Oficio Interpretativo relacionado"}
+[Oficio Interpretativo 2023](anexos/oficios-interpretativos.qmd#oi-2023)
+:::
 :::
 
 ::: {#requisitosRepresentanteCollege .art}
@@ -1360,6 +1378,10 @@ alguna de las siguientes razones:
     de su unidad académica o de la Escuela de Ingeniería, asumir otro
     cargo de representación estudiantil o no cursar ramos del
     currículum.
+
+::: {.callout-note collapse="true" title="Oficio Interpretativo relacionado"}
+[Oficio Interpretativo 2024](anexos/oficios-interpretativos.qmd#oi-2024)
+:::
 :::
 
 ::: {#extension_ausencias .art}
@@ -2070,6 +2092,11 @@ Participativo los siguientes puntos:
     informe(s) y de rendición. En cualquier caso, el proceso de
     rendición debe cerrarse antes de comenzar el mes de diciembre del
     año respectivo.
+
+::: {.callout-note collapse="true" title="Oficios Interpretativos relacionados"}
+- [Oficio Interpretativo 2022 · N.º 1](anexos/oficios-interpretativos.qmd#oi-2022-1)
+- [Oficio Interpretativo 2022 · N.º 3](anexos/oficios-interpretativos.qmd#oi-2022-3)
+:::
 :::
 
 ::: {#sancionesPParticipativo .art}
@@ -2151,6 +2178,10 @@ capítulo estudiantil deberá ser entregado una vez al año al encargado de
 los capítulos del Centro de Alumnos de Ingeniería a más tardar dos
 semanas después de las elecciones de Representantes. Esto incluye tanto a los
 nuevos como actuales capítulos asociados al CAi.
+
+::: {.callout-note collapse="true" title="Oficio Interpretativo relacionado"}
+[Oficio Interpretativo 2022 · N.º 5](anexos/oficios-interpretativos.qmd#oi-2022-5)
+:::
 :::
 
 ::: art

@@ -5,9 +5,10 @@ date-modified: 2026-03-19
 lang: es
 format:
   html: default
+  pdf: default
 other-links:
   - text: PDF
-    href: ../pdf/protocolo-espacios.pdf
+    href: protocolo-espacios.pdf
     icon: file-pdf
 ---
 
@@ -100,3 +101,15 @@ other-links:
 1. Suspender el derecho de reserva del estudiante o agrupación responsable.
 2. Solicitar la reposición o reparación de los bienes dañados.
 3. Derivar los antecedentes a las instancias disciplinarias de la Escuela si la gravedad lo amerita.
+
+---
+
+**Aprobado por Consejo Generacional y Académico del Centro de Alumnos de Ingeniería UC**
+
+Elaborado por Comisión de Estatutos del CAi 2025:
+
+- Nicolás Castro, *Presidente CAi*
+- Alonso Rivera, *Secretario General CAi*
+- Ignacia Romero, *Coordinadora de Áreas y Jefatura de Innovación y Emprendimiento*
+
+*17 de diciembre de 2025*

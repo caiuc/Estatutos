@@ -1,15 +1,92 @@
 ---
 title: "Oficios Interpretativos"
 subtitle: "Anexo · Cuerpo de Estatutos del Centro de Alumnos de Ingeniería"
+lang: es
+format:
+  html: default
+  pdf: default
+other-links:
+  - text: "OI 2020 · N.º 1 (PDF)"
+    href: /pdf/oficios/oi-2020-1.pdf
+    icon: file-pdf
+  - text: "OI 2020 · N.º 2 (PDF)"
+    href: /pdf/oficios/oi-2020-2.pdf
+    icon: file-pdf
+  - text: "OI 2022 · N.º 1 (PDF)"
+    href: /pdf/oficios/oi-2022-1.pdf
+    icon: file-pdf
+  - text: "OI 2022 · N.º 3 (PDF)"
+    href: /pdf/oficios/oi-2022-3.pdf
+    icon: file-pdf
+  - text: "OI 2022 · N.º 5 (PDF)"
+    href: /pdf/oficios/oi-2022-5.pdf
+    icon: file-pdf
+  - text: "OI 2023 (PDF)"
+    href: /pdf/oficios/oi-2023.pdf
+    icon: file-pdf
+  - text: "OI 2024 (PDF)"
+    href: /pdf/oficios/oi-2024.pdf
+    icon: file-pdf
 ---
 
 Los Oficios Interpretativos son emitidos por el Comité Ejecutivo conforme al **Art. 1** del Estatuto, ante vacíos del cuerpo estatutario. Deben ser aprobados en sesión del Consejo Generacional por mayoría absoluta, y su resolución es obligatoria desde el caso particular en adelante.
 
 ---
 
-<!-- Para agregar un nuevo oficio: crear anexos/oficios/_oi-[año]-[n].qmd y añadir un {{< include >}} aquí. -->
+<!--
+  ============================================================
+  INSTRUCCIONES PARA AGREGAR UN NUEVO OFICIO INTERPRETATIVO
+  ============================================================
 
-{{< include oficios/_oi-2020.qmd >}}
+  1. CREAR EL ARCHIVO PARCIAL
+     Crear el archivo: anexos/oficios/_oi-[año]-[n].qmd
+     Usar el prefijo _ para que Quarto no lo renderice como página independiente.
+
+     Estructura obligatoria del archivo:
+     ─────────────────────────────────────────────────────────
+     ## Oficio Interpretativo [Año] · N.º [N] {#oi-[año]-[n]}
+
+     *Emitido por [Nombre Directiva] CAi [Año]*
+
+     **Artículos relacionados:** Art. XX, ...
+
+     **Vacío identificado:** ...
+
+     **Interpretación:** ...
+
+     ---
+     ─────────────────────────────────────────────────────────
+     Si solo hay un oficio del año (sin número), omitir "· N.º [N]"
+     y usar el ID {#oi-[año]} directamente.
+
+  2. AGREGAR EL INCLUDE EN ESTE ARCHIVO
+     Insertar en orden cronológico:
+     {{< include oficios/_oi-[año]-[n].qmd >}}
+
+  3. AGREGAR EL ENLACE AL PDF ORIGINAL
+     En el bloque other-links del frontmatter de este archivo,
+     agregar (en orden cronológico):
+       - text: "OI [Año] · N.º [N] (PDF)"
+         href: /pdf/oficios/oi-[año]-[n].pdf
+         icon: file-pdf
+     Subir el PDF original firmado a: pdf/oficios/oi-[año]-[n].pdf
+
+  4. VINCULAR DESDE EL ESTATUTO PRINCIPAL (index.qmd)
+     En cada artículo afectado, agregar o actualizar el callout:
+       ::: {.callout-note collapse="true" title="Oficio Interpretativo relacionado"}
+       [Oficio Interpretativo [Año] · N.º [N]](anexos/oficios-interpretativos.qmd#oi-[año]-[n])
+       :::
+     Si el artículo ya tiene un callout con otros oficios, agregar
+     el nuevo como ítem de lista dentro del mismo callout y cambiar
+     el título a "Oficios Interpretativos relacionados".
+
+  ============================================================
+-->
+
+
+{{< include oficios/_oi-2020-1.qmd >}}
+
+{{< include oficios/_oi-2020-2.qmd >}}
 
 {{< include oficios/_oi-2022-1.qmd >}}
 
@@ -20,3 +97,5 @@ Los Oficios Interpretativos son emitidos por el Comité Ejecutivo conforme al **
 {{< include oficios/_oi-2023.qmd >}}
 
 {{< include oficios/_oi-2024.qmd >}}
+
+<!-- Hecho con amor, Nicolás Castro Cajide · Presidente CAi 2025 -->

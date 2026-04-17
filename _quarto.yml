@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Cuerpo de Estatutos del Centro de Alumnos de Ingeniería"
-  description: "Versión oficial y completa del Cuerpo de Estatutos del Centro de Alumnos de Ingeniería (CAi) de la Universidad Católica de Chioe."
+  description: "Versión oficial y completa del Cuerpo de Estatutos del Centro de Alumnos de Ingeniería (CAi) de la Universidad Católica de Chile."
   sidebar: 
     style: docked
     search: true
@@ -15,14 +15,14 @@ website:
 
       - section: "Anexos"
         contents:
+          - text: "Oficios Interpretativos"
+            href: anexos/oficios-interpretativos.qmd
           - anexos/tricel.qmd.md
           - anexos/iniciativas.md
           - anexos/protocoloambiental.md
           - anexos/protocolo-acoso.md
           - anexos/protocolo-transparencia.md
           - anexos/protocolo-espacios.md
-          - text: "Oficios Interpretativos"
-            href: anexos/oficios-interpretativos.qmd
 
 
 
