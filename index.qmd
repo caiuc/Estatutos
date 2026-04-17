@@ -1,7 +1,7 @@
 ---
 title: Estatuto principal
 subtitle: Centro de Alumnos de Ingeniería
-date-modified: 2025-08-01
+date-modified: 2025-12-01
 lang: es
 format: 
   html: default
@@ -211,7 +211,7 @@ directivos del CAi son los siguientes:
     remover a sus respectivas Jefaturas de Comisión; como también podrá
     designar Coordinaciones Generales.
 
-2.  Fomentar la participación de la comunidad a través de las distintas iniciativas que surgen de esta. Para ello, designará a una     persona integrante del comité que deba encargarse de coordinar, asistir y relacionar a las distintas Iniciativas Estudiantiles CAi en las facultades que se le atribuyen a este comité.
+2.  Fomentar la participación de la comunidad a través de las distintas iniciativas que surgen de esta. Para ello, designará a una persona integrante del comité que deba encargarse de coordinar, asistir y relacionar a las distintas Iniciativas Estudiantiles CAi en las facultades que se le atribuyen a este comité.
 
 3.  Entregar a todos los miembros del Consejo Generacional y del Consejo
     Académico una copia de los estatutos vigentes al inicio del período.
@@ -262,7 +262,7 @@ encomiende.
         regularmente como representante del estudiantado ante las
         autoridades de la Escuela.
 
-    f) Representar al estudiantado ante el Consejo Academico de Escuela
+    f) Representar al estudiantado ante el Consejo Académico de Escuela
        y el Consejo de la Facultad.
 
 2.  [Vicepresidencia Interna]{.smallcaps}
@@ -291,12 +291,12 @@ encomiende.
 
     a)  Presidir y convocar las reuniones del Comité Ejecutivo y del
         Consejo Generacional. Sin perjuicio de la posibilidad de auto
-        convocatoria de éste último, dispuesto en el artículo 45. En caso de no encontrarse presente, cualquier persona del Comité Ejecutivo podrá actuar en subrogancia.
+        convocatoria de éste último, dispuesto en el artículo [45](#consejoExtraordinario){reference-type="ref" reference="consejoExtraordinario"}. En caso de no encontrarse presente, cualquier persona del Comité Ejecutivo podrá actuar en subrogancia.
 
     b)  Llevar control de asistencia y someter a aprobación el acta de
         cada Consejo, que se dará por aprobada mediante correo
         electrónico, a menos que un miembro del consejo se oponga. El
-        plazo para oponerse será de 2 días. En caso de rechazo de la
+        plazo para oponerse será de dos días. En caso de rechazo de la
         primera publicación del acta, existirán 3 instancias mediante
         correo electrónico para llegar a consenso sobre el acta escrita
         (entiéndase como instancia cada vez que se le envíe a los
@@ -331,12 +331,12 @@ encomiende.
     b)  Dar la información que le fuese solicitada por algún miembro del
         CAi y que se refiera a la administración y finanzas.
 
-    c)  Presentar el presupuesto anual del CAi en la sesión ordinaria de
-        los Consejo Generacional y Académico correspondiente al mes de
+    c)  Presentar el presupuesto anual del CAi en la sesión ordinaria del
+        Consejo Generacional y Académico correspondiente al mes de
         abril.
 
     d)  Presentar el estado del presupuesto anual del CAi en las
-        sesiones ordinarias de los Consejo Generacional y Académico
+        sesiones ordinarias de los Consejos Generacional y Académico
         correspondientes al mes de julio y noviembre, junto con estados de
         situación financiera y de resultados simples que incluyan información
         sobre los activos y pasivos del Centro de Alumnos, así como la
@@ -416,7 +416,7 @@ encomiende.
     conjunto con la Consejería Académica.
 
 2.  Reemplazar a la Consejería Académica en el Consejo Académico FEUC,
-    cuando éste no puede asistir.
+    cuando este no puede asistir.
 
 3.  Reemplazar a la Consejería Académica en caso de renuncia, cese
     anticipado o destitución del mismo.
@@ -446,7 +446,7 @@ encomiende.
 5.  Asistir al Consejo Académico
 
 6.  Participar en el Comité de Magíster/Doctorado según el programa al
-    que pertenece (Ya sea al Comité de Magíster, si es del Magíster en
+    que pertenece (ya sea al Comité de Magíster, si es del Magíster en
     Ciencias de la Ingeniería o al Comité de Doctorado si es del
     Doctorado en Ciencias de la Ingeniería).
 
@@ -462,13 +462,13 @@ son:
     Académica de Postgrado.
 
 2.  Reemplazar a la Consejería de Postgrado en el Consejo Académico de
-    Postgrado UC, cuando éste no puede asistir.
+    Postgrado UC, cuando este no puede asistir.
 
 3.  Reemplazar a la Consejería de Postgrado en caso de renuncia, cese
     anticipado o destitución del mismo.
 
 4.  Participar en el Comité de Magíster/Doctorado según el programa al
-    que pertenece (Ya sea al Comité de Magíster, si es del Magíster en
+    que pertenece (ya sea al Comité de Magíster, si es del Magíster en
     Ciencias de la Ingeniería o al Comité de Doctorado si es del
     Doctorado en Ciencias de la Ingeniería).
 :::
@@ -486,11 +486,11 @@ son:
 
 3.  Entregar un documento resumen al momento del cambio de mando, en
     donde se expliciten los principales proyectos llevados a cabo
-    durante su periodo en ejercicio.
+    durante su período en ejercicio.
 
 4.  Crear un programa de trabajo que deberá ser público al inicio de su
     gestión, y disponible en la página web del CAi a más tardar dos
-    semanas después del haber asumido.
+    semanas después de haber asumido.
 :::
 
 ::: {#cuentaPublica .art}
@@ -573,8 +573,8 @@ de los Representantes Generacionales son:
     aprobación de al menos un quinto de los votos totales del consejo. El rol
     de estas comisiones será recopilar información y/o elaborar propuestas 
     para luego presentarlas al Consejo Generacional. Las comisiones deben estar
-    formadas por al menos 4 representantes y liderada por uno de estos.
-    Estos Avances deberán ser presentados en al menos un consejo.
+    formadas por al menos cuatro representantes y lideradas por uno de estos.
+    Estos avances deberán ser presentados en al menos un consejo.
 :::
 
 ::: {#funcionesRepresentantesAcademicos .art}
@@ -615,7 +615,7 @@ son:
 
 7.  Entregar un documento resumen al momento del cambio de mando, en
     donde se expliciten los principales proyectos llevados a cabo
-    durante su periodo en ejercicio.
+    durante su período en ejercicio.
 
 8.  Para los Representantes de postgrado, al menos uno de ellos debe asistir
     a las sesiones del Consejo Generacional, pudiendo alternar esta
@@ -649,7 +649,7 @@ son:
 6.  Velar por el cumplimiento del presente Cuerpo de Estatutos, tanto el
     Estatuto principal como sus Apartados.
 
-7.  Remplazar a la Consejería Académica según lo estipulado en el
+7.  Reemplazar a la Consejería Académica según lo estipulado en el
     artículo [34](#permanencia){reference-type="ref"
     reference="permanencia"}.
 
@@ -704,7 +704,7 @@ aprobadas por ambos Consejos son:
 3.  Elección del Comité Ejecutivo del CAi según lo estipulado en el
     artículo [23](#eleccionesCAi){reference-type="ref"
     reference="eleccionesCAi"},
-    inciso [H](#cierre){reference-type="ref"
+    inciso [8.](#cierre){reference-type="ref"
     reference="cierre"} del presente estatuto.
 :::
 
@@ -733,7 +733,7 @@ y Académico, según la siguiente repartición:
         elegido en la primera sesión ordinaria del semestre.
 
     d)  Las bases de los fondos concursables deberán estar en posesión
-        de los representantes a más tardar un mes después a partir de la
+        de los representantes a más tardar un mes después de la
         primera sesión ordinaria del semestre.
 
     e)  El jurado evaluador de los fondos concursables estará compuesto
@@ -746,7 +746,7 @@ y Académico, según la siguiente repartición:
         se hayan adjudicado los fondos cesen en su cargo.
 
     g)  El dinero no utilizado el primer período se sumará al monto
-        destinado a fondos concursables del segundo periodo de
+        destinado a fondos concursables del segundo período de
         postulación.
 :::
 
@@ -772,7 +772,7 @@ comienzos del segundo semestre.
 Todas las elecciones y plebiscitos son válidos solo si en ellos vota al
 menos el 35% de los alumnos con derecho a voto, salvo que en este
 estatuto se establezca explícitamente otra cosa. En caso de no cumplirse
-este quórum le corresponder a decidir al Consejo que haya llamado a
+este quórum le corresponde decidir al Consejo que haya llamado a
 plebiscitar.
 :::
 
@@ -787,7 +787,7 @@ siguiente manera:
     mayoría absoluta de los votos posibles. En el caso de elecciones,
     esta sesión deberá ser el día que se cierre el proceso de
     inscripción. En el caso de plebiscitos, será la misma sesión en que
-    se realice el llamado a éste.
+    se realice el llamado a este.
 
 2.  Será responsabilidad del *TRICEL* organizar y salvaguardar la
     regularidad del proceso eleccionario o plebiscito, de acuerdo a lo
@@ -811,9 +811,9 @@ elección que se llevará a cabo de acuerdo a las siguientes normas:
     candidatas al Comité Ejecutivo, como las candidaturas a Consejería
     Académica y Consejería de Postgrado. La apertura de inscripciones
     deberá ser avisada públicamente con una semana de anticipación. Este
-    proceso de inscripción durará 10 días hábiles, con una
+    proceso de inscripción durará diez días hábiles, con una
     preinscripción obligatoria de las candidaturas al finalizar los
-    primeros 5 días hábiles del proceso.
+    primeros cinco días hábiles del proceso.
 
     Las fechas podrán ser trasladadas con un margen máximo de una
     semana, previa aprobación del *Consejo Generacional* bajo quórum
@@ -831,7 +831,7 @@ elección que se llevará a cabo de acuerdo a las siguientes normas:
 
 3.  En caso de empate entre candidaturas de una lista abierta, la lista
     tendrá que dirimir el empate y entregarlo al CAi en ejercicio con un
-    plazo máximo de 2 días hábiles posterior al fin del recuento de
+    plazo máximo de dos días hábiles posterior al fin del recuento de
     votos.
 
 4.  No existe restricción con respecto al número máximo de postulantes a
@@ -884,7 +884,7 @@ elección que se llevará a cabo de acuerdo a las siguientes normas:
             previamente asignados los cargos, estos deben ser aquí
             especificados.
 
-        ii)  Una foto (mín. $500 \times 500$ pixeles) de cada persona
+        ii)  Una foto (mín. $500 \times 500$ píxeles) de cada persona
             integrante de la lista.
 
         iii)  El programa o plan de trabajo de la lista para su posterior
@@ -910,7 +910,7 @@ elección que se llevará a cabo de acuerdo a las siguientes normas:
         i)  El nombre de la persona candidata, la cual debe haber
             aprobado el proceso de preinscripción.
 
-        ii)  Una foto (mín. $500 \times 500$ pixeles).
+        ii)  Una foto (mín. $500 \times 500$ píxeles).
 
         iii)  Un plan de trabajo que detalle los lineamientos, objetivos y
             propuestas para su período.
@@ -925,10 +925,10 @@ elección que se llevará a cabo de acuerdo a las siguientes normas:
     deberán ser aprobadas por ambos consejos mediante quórum calificado.
 
 9.  Una vez cerrado el proceso de inscripción, si alguna de las listas
-    debe modificar a sus candidaturas sólo puede realizar un cambio
+    debe modificar a sus candidaturas solo puede realizar un cambio
     entre el resto de las personas integrantes de la misma. Esto podrán
     hacerlo siempre y cuando continúen cumpliendo con lo establecido en
-    el inciso E.
+    el inciso [5.](#minimo){reference-type="ref" reference="minimo"}.
 
 10. En el caso de no presentarse ninguna lista dentro de ambos períodos
     de inscripción, el CAi en ejercicio continuará con sus funciones
@@ -946,7 +946,7 @@ elección que se llevará a cabo de acuerdo a las siguientes normas:
     programas de las listas a lo más dos días hábiles después del cierre
     de inscripciones.
 
-12. A lo más 6 días hábiles después del cierre de las inscripciones
+12. A lo más seis días hábiles después del cierre de las inscripciones
     deberá efectuarse una asamblea general de presentación de los
     postulantes a las tres elecciones, cuyo objetivo será dar a conocer
     sus programas y responder las inquietudes del estudiantado.
@@ -978,10 +978,10 @@ elección que se llevará a cabo de acuerdo a las siguientes normas:
 17. El resultado de las elecciones se determinará de la siguiente forma:
 
     a)  Si en una elección hay una sola postulación, se rige según el
-        inciso [H](#cierre){reference-type="ref"
+        inciso [8.](#cierre){reference-type="ref"
         reference="cierre"} del presente artículo.
 
-    b)  Si hay sólo dos personas postulantes resultará elegida aquella
+    b)  Si hay solo dos personas postulantes resultará elegida aquella
         que obtenga simple mayoría sobre la otra. Para estos efectos se
         entenderá que existe simple mayoría si una de las dos listas
         tiene al menos un voto más que la otra. Para estos efectos no se
@@ -995,8 +995,8 @@ elección que se llevará a cabo de acuerdo a las siguientes normas:
         ninguna de ellas obtengan más del 50% de los votos válidamente
         emitidos. Se entenderá como válidamente emitidos los votos
         totales sin contar blancos ni nulos. La segunda vuelta se
-        realizará a lo más 5 días hábiles después del término de la
-        primera vuelta, y se regirá como una votación de sólo dos
+        realizará a lo más cinco días hábiles después del término de la
+        primera vuelta, y se regirá como una votación de solo dos
         postulantes.
 
 ::: {.callout-note collapse="true" title="Oficios Interpretativos relacionados"}
@@ -1018,8 +1018,8 @@ momento de la preinscripción:
         o 150 créditos aprobados de algún currículum de Ingeniería Civil
         al momento de la elección.
 
-    b)  Tener un promedio ponderado de los últimos tres Promedio
-        Semestral de notas (PPS), al momento de la elección, superior o
+    b)  Tener un promedio ponderado de los últimos tres Promedios
+        Semestrales de notas (PPS), al momento de la elección, superior o
         igual a 4,50.
 
         Esta norma tiene por objetivo que ningún miembro del Comité
@@ -1082,14 +1082,14 @@ los siguientes requisitos, al momento de la preinscripción:
     responsable de velar por todos los incisos de este artículo.
 :::
 
-::: {#requisitosCAPostegrado .art}
+::: {#requisitosCAPostgrado .art}
 **Art. 28**. Las candidaturas al cargo de Consejería de Postgrado deberán
 cumplir con los siguientes requisitos, al momento de la preinscripción:
 
-1.  Ser estudiante regular o en vías de grado de Postgrado con PPA superior
-    5.00.
+1.  Ser estudiante regular o en vías de grado de Postgrado con PPA superior a
+    5,00.
 
-1.  Haber completado al menos un semestre en algún programa de Postgrado
+2.  Haber completado al menos un semestre en algún programa de Postgrado
     de la Escuela de Ingeniería.
 
 3.  No haber caído en causal de eliminación.
@@ -1203,7 +1203,7 @@ normas:
     anteriormente mencionada y posteriormente ratificado por el Consejo
     Académico de la Escuela de Ingeniería.
 
-8.  Durante la cuarta semana a partir del inicio del primer periodo
+8.  Durante la cuarta semana a partir del inicio del primer período
     académico para alumnos antiguos se abrirán las inscripciones para
     los postulantes. La apertura de inscripciones deberá ser avisada con
     una semana de anticipación. No existe restricción con respecto al
@@ -1216,17 +1216,17 @@ normas:
     haber sido abierto. Durante estos días, los candidatos tendrán la
     obligación de entregar al CAi los siguientes documentos:
 
-    a)  Un escrito que contenga el nombre, rut, mail UC, generación y especialidad,
+    a)  Un escrito que contenga el nombre, RUT, mail UC, generación y especialidad,
         major o generación por la que postula. En el caso del
         Representante de College, deberá especificar que pertenece a
         dicho programa.
 
-    b)  Una foto (mín. $500 \times 500$ pixeles) del candidato.
+    b)  Una foto (mín. $500 \times 500$ píxeles) del candidato.
 
     Esta misma información deberá ser enviada por correo electrónico al
     Secretario General del Comité Ejecutivo.
 
-10. Si sólo se hubiera presentado un candidato o ninguno para alguna
+10. Si solo se hubiera presentado un candidato o ninguno para alguna
     generación, departamento, major, especialidad que no esté
     representada por un departamento o Representante de College, se
     reabrirán las inscripciones para todos los cargos durante los
@@ -1234,7 +1234,7 @@ normas:
     más candidatos.
 
 11. A lo más cinco días hábiles después del cierre de las inscripciones
-    se iniciará el periodo de votación, el cual se prolongará por dos
+    se iniciará el período de votación, el cual se prolongará por dos
     días hábiles.
 
 12. El resultado de las elecciones se determinará de la siguiente forma:
@@ -1319,7 +1319,7 @@ Consejo Académico como Generacional, así como las Coordinaciones Generales
 del Centro de Alumnos cesarán en sus cargos, para todos sus efectos, por
 alguna de las siguientes razones:
 
-1.  Término de su periodo.
+1.  Término de su período.
 
 2.  []{#alumno_regular label="alumno_regular"} Tratándose de los
     Representantes, dejar de ser alumno regular de la unidad académica.
@@ -1462,8 +1462,8 @@ de que no existiese o no aceptara, el Representante saliente tendrá la
 posibilidad de proponer un reemplazante al Consejo al que pertenezca,
 que deberá ser aprobado por mayoría simple. De ser rechazado, el puesto
 quedará vacante. Si el Representante que cesa en su cargo hubiere perdido el
-derecho a voto durante su periodo, el Representante que lo reemplazare
-carecerá del mismo por toda la extensión de su periodo. Si aún lo
+derecho a voto durante su período, el Representante que lo reemplazare
+carecerá del mismo por toda la extensión de su período. Si aún lo
 mantiene, mantendrá el número de ausencias del Representante saliente.
 :::
 
@@ -1471,13 +1471,13 @@ mantiene, mantendrá el número de ausencias del Representante saliente.
 **Art. 39**. Si el Representante de College cesare en su cargo, se
 designará a aquel candidato que hubiese obtenido la siguiente mayoría no
 electa. En caso de que no existiese o no aceptara, el Representante
-saliente tendrá la posibilidad de proponer un remplazante al Consejo
+saliente tendrá la posibilidad de proponer un reemplazante al Consejo
 Académico, el que deberá cumplir los requisitos del
 artículo [33](#requisitosRepresentanteCollege){reference-type="ref"
 reference="requisitosRepresentanteCollege"} y ser aprobado por mayoría
 simple en el Consejo Académico. De ser rechazado el puesto quedará
 vacante. Si el representante que cesa en su cargo hubiere perdido el
-derecho a voto durante su periodo, el representante que lo reemplazare
+derecho a voto durante su período, el representante que lo reemplazare
 carecerá del mismo por toda la extensión de su período. Si aún lo
 mantiene, mantendrá el número de ausencias del Representante saliente.
 :::
@@ -1501,19 +1501,19 @@ continuación:
     de Postgrado después de los dos períodos estipulados en el artículo
     [23, letra H](#eleccionesCAi){reference-type="ref"
     reference="eleccionesCAi"} de esta parte, o no hubiese una
-    mayoría no electa a quién ofrecer el cargo de acuerdo a lo
-    establecido en la letra A de este artículo, el Consejo Académico
+    mayoría no electa a quien ofrecer el cargo de acuerdo a lo
+    establecido en el inciso 1. de este artículo, el Consejo Académico
     deberá solicitar al presidente del Comité Ejecutivo la elaboración
     de una lista, jerarquizada según orden de elegibilidad, de tres
     candidatos que cumplan con los requisitos establecidos para postular
     al cargo de Consejero de Postgrado. El Consejo Académico someterá a
     aprobación a los candidatos, de acuerdo al orden propuesto. Se
-    ofrecerá el cargo a quién obtuviese mayoría de los votos presentes.
-    Si a quién se le ofreciere el cargo no aceptase, se repetirá el
+    ofrecerá el cargo a quien obtuviese mayoría de los votos presentes.
+    Si a quien se le ofreciere el cargo no aceptase, se repetirá el
     proceso con el siguiente candidato. De no existir un candidato a
-    quién ofrecer el cargo, o de haber transcurrido 3 semanas desde la
+    quien ofrecer el cargo, o de haber transcurrido 3 semanas desde la
     renuncia o cesación del cargo del Consejero anterior, se declarará
-    desierto el cargo por lo que reste del periodo.
+    desierto el cargo por lo que reste del período.
 :::
 
 ## III. Sesiones
@@ -1526,7 +1526,7 @@ conveniente, previa notificación a todos sus miembros. Estas sesiones
 serán presididas por el miembro del Comité Ejecutivo de mayor jerarquía
 entre los presentes. Para esto se tendrá en cuenta la jerarquía
 establecida en el artículo
-[4, letra A](#jerarquia){reference-type="ref"
+[4, inciso 1.](#jerarquia){reference-type="ref"
 reference="jerarquia"}.
 :::
 
@@ -1535,7 +1535,7 @@ reference="jerarquia"}.
 ::: {#consejos .art}
 **Art. 43**. Cada Consejo debe sesionar en forma ordinaria una vez al
 mes durante el año académico y de forma pública. Se entenderá el año
-académico como el periodo de marzo a diciembre. El Generacional
+académico como el período de marzo a diciembre. El Generacional
 sesionará bajo la presidencia del Presidente del Comité Ejecutivo del
 Centro de Alumnos y el Académico será presidido por la Consejería
 Académica.
@@ -1552,8 +1552,8 @@ electrónico, además de ser publicada en la página web del CAi.
 ::: {#consejoExtraordinario .art}
 **Art. 45**. Cada Consejo puede ser citado en forma extraordinaria por
 el Comité Ejecutivo o las Consejerías Académicas, por un tercio de los
-Representantes o quién lo presida, debiendo ser notificado a todos los
-miembros del consejo vía correo electrónico con al menos 24 hrs de
+Representantes o quien lo presida, debiendo ser notificado a todos los
+miembros del consejo vía correo electrónico con al menos 24 h de
 anticipación.
 :::
 
@@ -1571,7 +1571,7 @@ en el Consejo Académico de Pregrado.
 :::
 
 ::: {#facultadesPrecide .art}
-**Art. 48**. La facultad de quién presida la sesión comprende:
+**Art. 48**. La facultad de quien presida la sesión comprende:
 
 1.  La de dirigir el debate con amplias facultades, salvo las expresas
     limitaciones consagradas en este estatuto.
@@ -1614,7 +1614,7 @@ siguiente manera:
     votación simple decidirán si se extiende al segundo módulo o se cita
     a sesión extraordinaria para continuar la discusión.
 
--   En caso de continuar la discusión en un segundo módulo y ésta no
+-   En caso de continuar la discusión en un segundo módulo y esta no
     finalizara, 15 minutos antes del fin de este módulo se votará, de la
     misma manera que antes, para decidir si se continúa la discusión en
     una sesión extraordinaria. Lo dispuesto en los artículos precedentes
@@ -1649,7 +1649,7 @@ tabla sin derecho a veto posible.
 
 ::: {#temaPropuestoAlumnado .art}
 **Art. 53**. Si previo al inicio de una sesión de Consejo o durante los
-primeros 15 minutos de ésta, el Consejo fuese requerido a discutir,
+primeros 15 minutos de esta, el Consejo fuese requerido a discutir,
 pronunciarse y/o votar en torno a un tema en particular, y dicha
 solicitud viniese respaldada por la firma del 5% de los alumnos
 representados por el CAi, esta solicitud deberá ser acogida e
@@ -1667,7 +1667,7 @@ incorporada a la tabla.
     del Consejo.
 
 2.  Para el caso del Consejo Generacional se elegirá a un Secretario
-    Ejecutivo, quién ocupará dicho cargo durante un semestre. Este
+    Ejecutivo, quien ocupará dicho cargo durante un semestre. Este
     tendrá el rol de apoyar al Secretario General en el funcionamiento
     del Consejo, llámese apoyo:
 
@@ -1678,13 +1678,13 @@ incorporada a la tabla.
 
     c)  Coordinación y manejo de comisiones.
 
-    d)  Publicación de Cuentas Públicas de Comisiones y Representantes en la
+    d)  Publicación de Cuentas Públicas de comisiones y representantes en la
         página del CAi.
 
     e)  Difusión de información dentro del Consejo Generacional.
 
 3.  En la primera sesión ordinaria del Consejo Generacional se definirá
-    la comisión de Fiscalización y Estatutos. Dicha comisión presentarán
+    la comisión de Fiscalización y Estatutos. Dicha comisión presentará
     una cuenta pública dos a tres veces durante el año (teniendo como
     mínimo una cada semestre). Deberá tener, por lo menos, cinco
     Representantes generacionales y un miembro del CAi. También podrán
@@ -1700,7 +1700,7 @@ cuenta de las labores efectuadas en el transcurso de su período.
 
 ::: {#presupuestoEjecutivo .art}
 **Art. 56**. En la sesión ordinaria de cada Consejo correspondiente al
-mes de marzo, la Jefatura de finanzas del CAi deberá presentar un
+mes de marzo, la Jefatura de Finanzas del CAi deberá presentar un
 presupuesto estimado para su gestión, que explicite los ingresos y
 egresos esperados para el año académico. Este presupuesto debe
 presentar, al menos, los gastos e ingresos estimados para cada Comisión,
@@ -1709,7 +1709,7 @@ Este presupuesto no debe considerarse vinculante.
 :::
 
 ::: {#votacioncesConsejo .art}
-**Art. 57**. Toda votación se realizará de forma oral, salvo que quién
+**Art. 57**. Toda votación se realizará de forma oral, salvo que quien
 presida la sesión o la tercera parte del Consejo determine que se haga
 en forma escrita, nominal y simultánea. Para efectos de votación, se
 considerará lo siguiente:
@@ -1719,7 +1719,7 @@ considerará lo siguiente:
     -   Cada Representante generacional tendrá un voto.
 
     -   El Comité Ejecutivo tendrá tres votos, correspondientes al
-        Presidente y Vice-presidentes.
+        Presidente y vicepresidentes.
 
     -   El Consejero Académico tendrá un voto.
 
@@ -1746,7 +1746,7 @@ considerará lo siguiente:
         Jefatura de Docencia no esté presente.
 
     -   Las personas representantes de postgrado en su conjunto tendrán
-        3 votos, es ningún caso se podrá acumular más de un voto por
+        3 votos, en ningún caso se podrá acumular más de un voto por
         representante.
 
     -   Cada Representante o dupla de la Licenciatura en Ingeniería en
@@ -1754,9 +1754,9 @@ considerará lo siguiente:
 
 3.  Para evitar la sobrerrepresentación de algún representante, en el
     caso de una votación que requiera la aprobación de ambos consejos:
-    los Representantes que tienen presencia en ambos Consejos sólo podrán
+    los Representantes que tienen presencia en ambos Consejos solo podrán
     votar en el Consejo al que pertenecen; los Consejeros Académicos de
-    pre y postgrado sólo votarán en el Consejo Académico; y el Comité
+    pre y postgrado solo votarán en el Consejo Académico; y el Comité
     Ejecutivo contará solo con los votos en el Consejo Generacional.
 :::
 
@@ -1769,7 +1769,7 @@ considerará lo siguiente:
 **Art. 59**. Toda moción sometida a votación se aprobará por simple
 mayoría de los votos presentes, salvo que en este Estatuto se
 especifique lo contrario. En caso de empate, la decisión final recae
-sobre quién presida la sesión.
+sobre quien presida la sesión.
 :::
 
 ::: {#quorumCalificado .art}
@@ -1791,7 +1791,7 @@ votación.
 ::: {#votacionExterna .art}
 **Art. 62**. En los casos en que los resultados de votaciones deban ser
 llevados ante organismos externos al CAi, dicha votación deberá ser
-llevada a cabo por el Consejo Generacional. Ésta se presentará en la
+llevada a cabo por el Consejo Generacional. Esta se presentará en la
 misma proporción original, redondeando al entero más cercano. Si por
 este sistema se produjese un empate, se decidirá por la postura más
 votada de entre las empatadas. Si el empate persistiese corresponderá dirimir a la persona quien presida el Consejo. En el caso de ser al Consejo de Presidentes de la
@@ -1806,16 +1806,16 @@ determinada de dicho consejo mediante un poder escrito. Este poder
 deberá ser entregado a la Secretaría General antes del inicio de la sesión
 correspondiente y será considerado como asistencia. En caso de que alguna
 Consejería o Representante deba hacer abandono de la sesión, posterior a los
-30 minutos necesarios para hacer válida la asistencia, éste podrá
+30 minutos necesarios para hacer válida la asistencia, este podrá
 sustituir su presencia mediante un poder escrito, denominado Poder de
 Reemplazo. Para efecto de quórum, los poderes serán considerados como
-asistencia sólo si está presente la persona a quien ha sido otorgado.
+asistencia solo si está presente la persona a quien ha sido otorgado.
 :::
 
-::: {#maxPoderesRecividos .art}
+::: {#maxPoderesRecibidos .art}
 **Art. 64**. Ningún alumno podrá acumular más de un poder a su nombre
 para una misma sesión. En caso de presentarse dos o más a nombre de una
-misma persona, sólo será válido el que primero haya aceptado en el curso
+misma persona, solo será válido el que primero haya aceptado en el curso
 de la sesión.
 :::
 
@@ -1825,7 +1825,7 @@ su período para las sesiones ordinarias. En caso de votación en las
 sesiones extraordinarias, los Representantes podrán, adicionalmente a lo
 anterior, dejar a lo más dos poderes simples durante su período. Esta
 última cifra podrá extenderse hasta un máximo de cuatro por acuerdo del
-Consejo si durante el periodo de los Representantes en ejercicio se hubiese
+Consejo si durante el período de los Representantes en ejercicio se hubiese
 celebrado más de diez Consejos Extraordinarios. En el caso de los
 poderes de reemplazo, según el
 artículo [63](#definicionPoder){reference-type="ref"
@@ -1927,15 +1927,15 @@ será el organismo encargado de implementar y supervisar todo proceso
 eleccionario o de sufragio universal a nivel de CAi. Se regirá por un
 Apartado propio denominado "Reglamento TRICEL CAi", en el cual se
 especifican sus funciones y atribuciones durante los sufragios. El
-TRICEL tendrá carácter temporal, cumpliendo sus funciones sólo respecto
+TRICEL tendrá carácter temporal, cumpliendo sus funciones solo respecto
 del proceso eleccionario para el cual se constituye. Se conformará en el
 siguiente momento:
 
-1.  En el caso de elecciones de representantes del CAi, el tres días
-    hábiles antes que comience el periodo de inscripción de candidatos.
+1.  En el caso de elecciones de representantes del CAi, tres días
+    hábiles antes de que comience el período de inscripción de candidatos.
 
 2.  Para cualquier otro tipo de plebiscito, consulta directa o sufragio
-    universal, lo hará en la misma sesión en que éste se convoque.
+    universal, lo hará en la misma sesión en que este se convoque.
 :::
 
 ::: {#funcionesTRICEL .art}
@@ -1943,7 +1943,7 @@ siguiente momento:
 
 1.  Velar por el cumplimiento de las normas estatutarias y
     reglamentarias en el respectivo proceso eleccionario. Deberá
-    discutir y aplicar su criterio para discutir ante disyuntivas que
+    discutir y aplicar su criterio ante disyuntivas que
     puedan existir.
 
 2.  Conocer de cualquier asunto relacionado con la elección para la cual
@@ -1984,10 +1984,10 @@ siguiente momento:
 
 3.  Los apoderados de las listas postulantes al Comité Ejecutivo si
     corresponde. Ellos deberán ser alumnos regulares. El cargo de
-    integrabte del TRICEL es incompatible con el de candidatura a una
+    integrante del TRICEL es incompatible con el de candidatura a una
     elección para la cual se constituye el Tribunal.
 
-4.  Para la elección de Comité Ejecutivo y Consejerías, un decente de la
+4.  Para la elección de Comité Ejecutivo y Consejerías, un docente de la
     Escuela, o en su defecto, uno de los representantes de postgrado
     elegido entre la Consejería de Postgrado, la Jefatura de Investigación y
     Postgrado y los representantes de postgrado del Comité Académico.
@@ -2010,7 +2010,7 @@ de las Iniciativas Estudiantiles CAi.
 **Art. 73**. Las especificaciones de la iniciativa estudiantil CAi
 deberán ser entregadas una vez al año al Centro de Alumnos de Ingeniería
 durante la segunda semana de clases del primer semestre del período académico, 
-incluso para iniciativas estudiantiles ya asociados al CAi.
+incluso para iniciativas estudiantiles ya asociadas al CAi.
 :::
 
 ::: art
@@ -2018,9 +2018,9 @@ incluso para iniciativas estudiantiles ya asociados al CAi.
 del Comité Ejecutivo y un representante de cada consejo y aprobadas o
 rechazadas en un plazo de cinco días hábiles después de que se hayan
 entregado las especificaciones. En caso de que estas sean rechazadas, se
-le dará a la iniciativa estudiantil CAi un plazo de 2 días hábiles para
+le dará a la iniciativa estudiantil CAi un plazo de dos días hábiles para
 entregar un nuevo documento, el cual deberá ser revisado en los próximos
-3 días hábiles. En caso de que se rechace de nuevo las especificaciones,
+tres días hábiles. En caso de que se rechace de nuevo las especificaciones,
 la agrupación de personas no será considerada como una iniciativa
 estudiantil del Centro de Alumnos de Ingeniería, por lo que no podrá
 participar en los presupuestos participativos ni en las oficinas concursables.
@@ -2038,8 +2038,8 @@ recursos mediante votación directa del alumnado a iniciativas
 estudiantiles CAi, como las mencionadas en el
 artículo [3](#finalidadesCAi){reference-type="ref"
 reference="finalidadesCAi"},
-incisos [B](#social){reference-type="ref" reference="social"}
-y [C](#cultural){reference-type="ref" reference="cultural"}. El
+incisos [2.](#social){reference-type="ref" reference="social"}
+y [3.](#cultural){reference-type="ref" reference="cultural"}. El
 Presupuesto Participativo CAi se define de la siguiente manera:
 
 1.  Consiste en un monto igual o mayor al 10% de los ingresos fijos que
@@ -2048,7 +2048,7 @@ Presupuesto Participativo CAi se define de la siguiente manera:
     ratificado por mayoría absoluta del Consejo Generacional, al menos
     cinco días hábiles antes de iniciarse el proceso de inscripción.
 
-2.  Participarán como votantes sólo los estudiantes de la Escuela de
+2.  Participarán como votantes solo los estudiantes de la Escuela de
     Ingeniería de la Pontificia Universidad Católica de Chile, según se
     definen en el artículo [21](#porcentajeMinimo){reference-type="ref"
     reference="porcentajeMinimo"}. En cuanto a las iniciativas
@@ -2159,15 +2159,16 @@ explicitar mediante un documento presentado al CAi lo siguiente:
     miembros deben estar cursando el Major o Articulación del segundo
     ciclo o licenciado del major previamente declarado y ser alumnos
     regulares de la Escuela de Ingeniería o bien alumnos de College que
-    cumplan con los requisitos explicitados en el artículo 33. Ningún
+    cumplan con los requisitos explicitados en el artículo [33](#requisitosRepresentanteCollege){reference-type="ref"
+reference="requisitosRepresentanteCollege"}. Ningún
     integrante de la coordinación puede tener faltas a la ética mayores,
-    tales y como está determinado por la Dirección de Pregrado de
+    tales como está determinado por la Dirección de Pregrado de
     Ingeniería (DiPre).
 :::
 
 ::: art
 **Art. 80**. El capítulo estudiantil deberá tener al menos un Representante
-de Major y/o Especialidad electo en cada periodo como miembro activo de
+de Major y/o Especialidad electo en cada período como miembro activo de
 la agrupación. Debe asistir a las reuniones que convoque la
 coordinación.
 :::
@@ -2196,8 +2197,8 @@ de Docencia, un integrante de la Consejería Académica y un Representante de ca
 consejo y aprobadas o rechazadas en un plazo de cinco días hábiles
 después de que se haya acabado el plazo para entregar las
 especificaciones. En caso de que estas sean rechazadas, se dará al
-capítulo estudiantil un plazo de 2 días hábiles para entregar un nuevo
-documento, el cual deberá ser revisado en los próximos 3 días hábiles.
+capítulo estudiantil un plazo de dos días hábiles para entregar un nuevo
+documento, el cual deberá ser revisado en los próximos tres días hábiles.
 En caso de que se rechacen nuevamente las especificaciones, la
 agrupación no será considerada como un capítulo estudiantil del Centro
 de Alumnos de Ingeniería. El fin de esta verificación es tener
@@ -2242,7 +2243,7 @@ por disponer abiertamente la información de uso y beneficio público a
 largo plazo.
 
 1.  Los Representantes, Consejeros Académico y de Postgrado y el Comité
-    Ejecutivo deberán publicar Cuentas Públicas dos veces en su periodo
+    Ejecutivo deberán publicar Cuentas Públicas dos veces en su período
     por medios tanto físicos como virtuales, ambos accesibles a sus
     representados. Cada una de ellas debe sintetizar respectivamente
     toda su gestión hasta el momento.
@@ -2297,13 +2298,13 @@ deberá seguir las siguientes normas:
     Académico y también del Consejo Generacional, independiente de
     ausencias o presencias. Estas reformas entrarán en vigencia a partir
     del primer día hábil del semestre académico siguiente a la
-    publicación de ésta.
+    publicación de esta.
 
 4.  En caso de ser un nuevo Apartado o una reforma a uno ya existente,
     requerirá acuerdo de la mayoría absoluta del total de los votos
     posibles del Consejo Académico y del Consejo Generacional. Estas
     reformas entrarán en vigencia a partir de un mes después de la
-    publicación de ésta.
+    publicación de esta.
 
 5.  El Secretario General tendrá la responsabilidad de publicar los
     cambios respectivos y de actualizar el presente Cuerpo de Estatutos
