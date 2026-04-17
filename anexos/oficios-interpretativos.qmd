@@ -61,7 +61,7 @@ Los Oficios Interpretativos son emitidos por el Comité Ejecutivo conforme al **
 
   2. AGREGAR EL INCLUDE EN ESTE ARCHIVO
      Insertar en orden cronológico:
-     {{< include oficios/_oi-[año]-[n].qmd >}}
+     `{{< include oficios/_oi-[año]-[n].qmd >}}`
 
   3. AGREGAR EL ENLACE AL PDF ORIGINAL
      En el bloque other-links del frontmatter de este archivo,
