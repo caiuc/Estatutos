@@ -1,0 +1,22 @@
+---
+title: "Oficios Interpretativos"
+subtitle: "Anexo · Cuerpo de Estatutos del Centro de Alumnos de Ingeniería"
+---
+
+Los Oficios Interpretativos son emitidos por el Comité Ejecutivo conforme al **Art. 1** del Estatuto, ante vacíos del cuerpo estatutario. Deben ser aprobados en sesión del Consejo Generacional por mayoría absoluta, y su resolución es obligatoria desde el caso particular en adelante.
+
+---
+
+<!-- Para agregar un nuevo oficio: crear anexos/oficios/_oi-[año]-[n].qmd y añadir un {{< include >}} aquí. -->
+
+{{< include oficios/_oi-2020.qmd >}}
+
+{{< include oficios/_oi-2022-1.qmd >}}
+
+{{< include oficios/_oi-2022-3.qmd >}}
+
+{{< include oficios/_oi-2022-5.qmd >}}
+
+{{< include oficios/_oi-2023.qmd >}}
+
+{{< include oficios/_oi-2024.qmd >}}

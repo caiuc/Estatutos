@@ -21,6 +21,8 @@ website:
           - anexos/protocolo-acoso.md
           - anexos/protocolo-transparencia.md
           - anexos/protocolo-espacios.md
+          - text: "Oficios Interpretativos"
+            href: anexos/oficios-interpretativos.qmd
 
 
 
