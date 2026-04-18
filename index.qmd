@@ -34,7 +34,12 @@ de Magíster en Ingeniería, Magíster en Ciencias de la Ingeniería o
 Doctorado de esta misma Unidad Académica.
 
 ::: {.callout-note collapse="true" title="Oficio Interpretativo relacionado"}
-[Oficio Interpretativo 2023](anexos/oficios-interpretativos.qmd#oi-2023)
+::: {.content-visible when-format="html"}
+[Oficio Interpretativo 2023](anexos/oficios-interpretativos.html#oi-2023)
+:::
+::: {.content-visible when-format="pdf"}
+[Oficio Interpretativo 2023](pdf/oficios/oi-2023.pdf)
+:::
 :::
 :::
 
@@ -1000,8 +1005,14 @@ elección que se llevará a cabo de acuerdo a las siguientes normas:
         postulantes.
 
 ::: {.callout-note collapse="true" title="Oficios Interpretativos relacionados"}
-- [Oficio Interpretativo 2020 · N.º 1](anexos/oficios-interpretativos.qmd#oi-2020-1)
-- [Oficio Interpretativo 2020 · N.º 2](anexos/oficios-interpretativos.qmd#oi-2020-2)
+::: {.content-visible when-format="html"}
+- [Oficio Interpretativo 2020 · N.º 1](anexos/oficios-interpretativos.html#oi-2020-1)
+- [Oficio Interpretativo 2020 · N.º 2](anexos/oficios-interpretativos.html#oi-2020-2)
+:::
+::: {.content-visible when-format="pdf"}
+- [Oficio Interpretativo 2020 · N.º 1](pdf/oficios/oi-2020-1.pdf)
+- [Oficio Interpretativo 2020 · N.º 2](pdf/oficios/oi-2020-2.pdf)
+:::
 :::
 :::
 
@@ -1257,8 +1268,14 @@ normas:
         resultado.
 
 ::: {.callout-note collapse="true" title="Oficios Interpretativos relacionados"}
-- [Oficio Interpretativo 2022 · N.º 1](anexos/oficios-interpretativos.qmd#oi-2022-1)
-- [Oficio Interpretativo 2022 · N.º 3](anexos/oficios-interpretativos.qmd#oi-2022-3)
+::: {.content-visible when-format="html"}
+- [Oficio Interpretativo 2022 · N.º 1](anexos/oficios-interpretativos.html#oi-2022-1)
+- [Oficio Interpretativo 2022 · N.º 3](anexos/oficios-interpretativos.html#oi-2022-3)
+:::
+::: {.content-visible when-format="pdf"}
+- [Oficio Interpretativo 2022 · N.º 1](pdf/oficios/oi-2022-1.pdf)
+- [Oficio Interpretativo 2022 · N.º 3](pdf/oficios/oi-2022-3.pdf)
+:::
 :::
 :::
 
@@ -1287,7 +1304,12 @@ c) Las candidaturas pueden ser individuales o en dupla. En ambos casos las perso
 d) En caso de candidaturas académicas en dupla, estas deberán designar, al momento de su inscripción, cuál de sus integrantes será el responsable de asistir a los Comités de Programa correspondientes.
 
 ::: {.callout-note collapse="true" title="Oficio Interpretativo relacionado"}
-[Oficio Interpretativo 2023](anexos/oficios-interpretativos.qmd#oi-2023)
+::: {.content-visible when-format="html"}
+[Oficio Interpretativo 2023](anexos/oficios-interpretativos.html#oi-2023)
+:::
+::: {.content-visible when-format="pdf"}
+[Oficio Interpretativo 2023](pdf/oficios/oi-2023.pdf)
+:::
 :::
 :::
 
@@ -1380,7 +1402,12 @@ alguna de las siguientes razones:
     currículum.
 
 ::: {.callout-note collapse="true" title="Oficio Interpretativo relacionado"}
-[Oficio Interpretativo 2024](anexos/oficios-interpretativos.qmd#oi-2024)
+::: {.content-visible when-format="html"}
+[Oficio Interpretativo 2024](anexos/oficios-interpretativos.html#oi-2024)
+:::
+::: {.content-visible when-format="pdf"}
+[Oficio Interpretativo 2024](pdf/oficios/oi-2024.pdf)
+:::
 :::
 :::
 
@@ -2094,8 +2121,14 @@ Participativo los siguientes puntos:
     año respectivo.
 
 ::: {.callout-note collapse="true" title="Oficios Interpretativos relacionados"}
-- [Oficio Interpretativo 2022 · N.º 1](anexos/oficios-interpretativos.qmd#oi-2022-1)
-- [Oficio Interpretativo 2022 · N.º 3](anexos/oficios-interpretativos.qmd#oi-2022-3)
+::: {.content-visible when-format="html"}
+- [Oficio Interpretativo 2022 · N.º 1](anexos/oficios-interpretativos.html#oi-2022-1)
+- [Oficio Interpretativo 2022 · N.º 3](anexos/oficios-interpretativos.html#oi-2022-3)
+:::
+::: {.content-visible when-format="pdf"}
+- [Oficio Interpretativo 2022 · N.º 1](pdf/oficios/oi-2022-1.pdf)
+- [Oficio Interpretativo 2022 · N.º 3](pdf/oficios/oi-2022-3.pdf)
+:::
 :::
 :::
 
@@ -2181,7 +2214,12 @@ semanas después de las elecciones de Representantes. Esto incluye tanto a los
 nuevos como actuales capítulos asociados al CAi.
 
 ::: {.callout-note collapse="true" title="Oficio Interpretativo relacionado"}
-[Oficio Interpretativo 2022 · N.º 5](anexos/oficios-interpretativos.qmd#oi-2022-5)
+::: {.content-visible when-format="html"}
+[Oficio Interpretativo 2022 · N.º 5](anexos/oficios-interpretativos.html#oi-2022-5)
+:::
+::: {.content-visible when-format="pdf"}
+[Oficio Interpretativo 2022 · N.º 5](pdf/oficios/oi-2022-5.pdf)
+:::
 :::
 :::
 
