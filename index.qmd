@@ -1114,7 +1114,7 @@ cumplir con los siguientes requisitos, al momento de la preinscripción:
 ::: {#eleccionExtraordinariaCAPregrado .art}
 **Art. 29**. En caso de no presentarse ninguna candidatura al cargo de
 Consejería Académica después de los dos períodos estipulados en el
-artículo [23, letra H](#cierre){reference-type="ref"
+artículo [23, inciso 8](#cierre){reference-type="ref"
 reference="cierre"} de esta parte, la Consejería Académica
 elegirá de entre sus miembros (que cumplan con los requisitos de
 Consejería Académica) a alguien que asuma el cargo. Esta obligación
@@ -1526,7 +1526,7 @@ continuación:
 
 2.  Si no se hubiese presentado ningún candidato al cargo de Consejero
     de Postgrado después de los dos períodos estipulados en el artículo
-    [23, letra H](#eleccionesCAi){reference-type="ref"
+    [23, inciso 8](#eleccionesCAi){reference-type="ref"
     reference="eleccionesCAi"} de esta parte, o no hubiese una
     mayoría no electa a quien ofrecer el cargo de acuerdo a lo
     establecido en el inciso 1. de este artículo, el Consejo Académico
