@@ -1824,6 +1824,15 @@ este sistema se produjese un empate, se decidirá por la postura más
 votada de entre las empatadas. Si el empate persistiese corresponderá dirimir a la persona quien presida el Consejo. En el caso de ser al Consejo de Presidentes de la
 FEUC, o cualquier otra instancia en la que el Comité Ejecutivo tenga
 derecho a voto propio, solo serán válidos los votos de los Representantes.
+
+::: {.callout-note collapse="true" title="Oficio Interpretativo relacionado"}
+::: {.content-visible when-format="html"}
+[Oficio Interpretativo 2026](anexos/oficios-interpretativos.html#oi-2026)
+:::
+::: {.content-visible when-format="pdf"}
+[Oficio Interpretativo 2026](pdf/oficios/oi-2026.pdf)
+:::
+:::
 :::
 
 ::: {#definicionPoder .art}
