@@ -2,7 +2,7 @@
 
 *Emitido por Hola! CAi 2023*
 
-**Artículos relacionados:** Art. 2, Art. 32.
+**Artículos relacionados:** [Art. 2](/index.html#representacionCAi), [Art. 32](/index.html#requisitosRepresentantes).
 
 **Vacío identificado:** El Estatuto define como finalidad del CAi representar a todos los alumnos de Pregrado de la Escuela de Ingeniería, sin pronunciarse sobre la situación de la nueva Licenciatura en Ingeniería en Ciencia de la Computación, que pertenece a dicha Escuela.
 

@@ -2215,7 +2215,7 @@ la agrupación. Debe asistir a las reuniones que convoque la
 coordinación.
 :::
 
-::: art
+::: {#inscripcionCapitulos .art}
 **Art. 81**. El documento al que se hace referencia en el Art. 79. del
 capítulo estudiantil deberá ser entregado una vez al año al encargado de
 los capítulos del Centro de Alumnos de Ingeniería a más tardar dos
