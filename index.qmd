@@ -34,7 +34,12 @@ de Magíster en Ingeniería, Magíster en Ciencias de la Ingeniería o
 Doctorado de esta misma Unidad Académica.
 
 ::: {.callout-note collapse="true" title="Oficio Interpretativo relacionado"}
-[Oficio Interpretativo 2023](anexos/oficios-interpretativos.qmd#oi-2023)
+::: {.content-visible when-format="html"}
+[Oficio Interpretativo 2023](anexos/oficios-interpretativos.html#oi-2023)
+:::
+::: {.content-visible when-format="pdf"}
+[Oficio Interpretativo 2023](pdf/oficios/oi-2023.pdf)
+:::
 :::
 :::
 
@@ -1000,8 +1005,14 @@ elección que se llevará a cabo de acuerdo a las siguientes normas:
         postulantes.
 
 ::: {.callout-note collapse="true" title="Oficios Interpretativos relacionados"}
-- [Oficio Interpretativo 2020 · N.º 1](anexos/oficios-interpretativos.qmd#oi-2020-1)
-- [Oficio Interpretativo 2020 · N.º 2](anexos/oficios-interpretativos.qmd#oi-2020-2)
+::: {.content-visible when-format="html"}
+- [Oficio Interpretativo 2020 · N.º 1](anexos/oficios-interpretativos.html#oi-2020-1)
+- [Oficio Interpretativo 2020 · N.º 2](anexos/oficios-interpretativos.html#oi-2020-2)
+:::
+::: {.content-visible when-format="pdf"}
+- [Oficio Interpretativo 2020 · N.º 1](pdf/oficios/oi-2020-1.pdf)
+- [Oficio Interpretativo 2020 · N.º 2](pdf/oficios/oi-2020-2.pdf)
+:::
 :::
 :::
 
@@ -1103,7 +1114,7 @@ cumplir con los siguientes requisitos, al momento de la preinscripción:
 ::: {#eleccionExtraordinariaCAPregrado .art}
 **Art. 29**. En caso de no presentarse ninguna candidatura al cargo de
 Consejería Académica después de los dos períodos estipulados en el
-artículo [23, letra H](#cierre){reference-type="ref"
+artículo [23, inciso 8](#cierre){reference-type="ref"
 reference="cierre"} de esta parte, la Consejería Académica
 elegirá de entre sus miembros (que cumplan con los requisitos de
 Consejería Académica) a alguien que asuma el cargo. Esta obligación
@@ -1257,8 +1268,14 @@ normas:
         resultado.
 
 ::: {.callout-note collapse="true" title="Oficios Interpretativos relacionados"}
-- [Oficio Interpretativo 2022 · N.º 1](anexos/oficios-interpretativos.qmd#oi-2022-1)
-- [Oficio Interpretativo 2022 · N.º 3](anexos/oficios-interpretativos.qmd#oi-2022-3)
+::: {.content-visible when-format="html"}
+- [Oficio Interpretativo 2022 · N.º 1](anexos/oficios-interpretativos.html#oi-2022-1)
+- [Oficio Interpretativo 2022 · N.º 3](anexos/oficios-interpretativos.html#oi-2022-3)
+:::
+::: {.content-visible when-format="pdf"}
+- [Oficio Interpretativo 2022 · N.º 1](pdf/oficios/oi-2022-1.pdf)
+- [Oficio Interpretativo 2022 · N.º 3](pdf/oficios/oi-2022-3.pdf)
+:::
 :::
 :::
 
@@ -1287,7 +1304,12 @@ c) Las candidaturas pueden ser individuales o en dupla. En ambos casos las perso
 d) En caso de candidaturas académicas en dupla, estas deberán designar, al momento de su inscripción, cuál de sus integrantes será el responsable de asistir a los Comités de Programa correspondientes.
 
 ::: {.callout-note collapse="true" title="Oficio Interpretativo relacionado"}
-[Oficio Interpretativo 2023](anexos/oficios-interpretativos.qmd#oi-2023)
+::: {.content-visible when-format="html"}
+[Oficio Interpretativo 2023](anexos/oficios-interpretativos.html#oi-2023)
+:::
+::: {.content-visible when-format="pdf"}
+[Oficio Interpretativo 2023](pdf/oficios/oi-2023.pdf)
+:::
 :::
 :::
 
@@ -1380,7 +1402,12 @@ alguna de las siguientes razones:
     currículum.
 
 ::: {.callout-note collapse="true" title="Oficio Interpretativo relacionado"}
-[Oficio Interpretativo 2024](anexos/oficios-interpretativos.qmd#oi-2024)
+::: {.content-visible when-format="html"}
+[Oficio Interpretativo 2024](anexos/oficios-interpretativos.html#oi-2024)
+:::
+::: {.content-visible when-format="pdf"}
+[Oficio Interpretativo 2024](pdf/oficios/oi-2024.pdf)
+:::
 :::
 :::
 
@@ -1499,7 +1526,7 @@ continuación:
 
 2.  Si no se hubiese presentado ningún candidato al cargo de Consejero
     de Postgrado después de los dos períodos estipulados en el artículo
-    [23, letra H](#eleccionesCAi){reference-type="ref"
+    [23, inciso 8](#eleccionesCAi){reference-type="ref"
     reference="eleccionesCAi"} de esta parte, o no hubiese una
     mayoría no electa a quien ofrecer el cargo de acuerdo a lo
     establecido en el inciso 1. de este artículo, el Consejo Académico
@@ -1797,6 +1824,15 @@ este sistema se produjese un empate, se decidirá por la postura más
 votada de entre las empatadas. Si el empate persistiese corresponderá dirimir a la persona quien presida el Consejo. En el caso de ser al Consejo de Presidentes de la
 FEUC, o cualquier otra instancia en la que el Comité Ejecutivo tenga
 derecho a voto propio, solo serán válidos los votos de los Representantes.
+
+::: {.callout-note collapse="true" title="Oficio Interpretativo relacionado"}
+::: {.content-visible when-format="html"}
+[Oficio Interpretativo 2026](anexos/oficios-interpretativos.html#oi-2026)
+:::
+::: {.content-visible when-format="pdf"}
+[Oficio Interpretativo 2026](pdf/oficios/oi-2026.pdf)
+:::
+:::
 :::
 
 ::: {#definicionPoder .art}
@@ -2094,8 +2130,14 @@ Participativo los siguientes puntos:
     año respectivo.
 
 ::: {.callout-note collapse="true" title="Oficios Interpretativos relacionados"}
-- [Oficio Interpretativo 2022 · N.º 1](anexos/oficios-interpretativos.qmd#oi-2022-1)
-- [Oficio Interpretativo 2022 · N.º 3](anexos/oficios-interpretativos.qmd#oi-2022-3)
+::: {.content-visible when-format="html"}
+- [Oficio Interpretativo 2022 · N.º 1](anexos/oficios-interpretativos.html#oi-2022-1)
+- [Oficio Interpretativo 2022 · N.º 3](anexos/oficios-interpretativos.html#oi-2022-3)
+:::
+::: {.content-visible when-format="pdf"}
+- [Oficio Interpretativo 2022 · N.º 1](pdf/oficios/oi-2022-1.pdf)
+- [Oficio Interpretativo 2022 · N.º 3](pdf/oficios/oi-2022-3.pdf)
+:::
 :::
 :::
 
@@ -2173,7 +2215,7 @@ la agrupación. Debe asistir a las reuniones que convoque la
 coordinación.
 :::
 
-::: art
+::: {#inscripcionCapitulos .art}
 **Art. 81**. El documento al que se hace referencia en el Art. 79. del
 capítulo estudiantil deberá ser entregado una vez al año al encargado de
 los capítulos del Centro de Alumnos de Ingeniería a más tardar dos
@@ -2181,7 +2223,12 @@ semanas después de las elecciones de Representantes. Esto incluye tanto a los
 nuevos como actuales capítulos asociados al CAi.
 
 ::: {.callout-note collapse="true" title="Oficio Interpretativo relacionado"}
-[Oficio Interpretativo 2022 · N.º 5](anexos/oficios-interpretativos.qmd#oi-2022-5)
+::: {.content-visible when-format="html"}
+[Oficio Interpretativo 2022 · N.º 5](anexos/oficios-interpretativos.html#oi-2022-5)
+:::
+::: {.content-visible when-format="pdf"}
+[Oficio Interpretativo 2022 · N.º 5](pdf/oficios/oi-2022-5.pdf)
+:::
 :::
 :::
 

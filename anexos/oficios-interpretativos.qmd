@@ -27,6 +27,9 @@ other-links:
   - text: "OI 2024 (PDF)"
     href: /pdf/oficios/oi-2024.pdf
     icon: file-pdf
+  - text: "OI 2026 (PDF)"
+    href: /pdf/oficios/oi-2026.pdf
+    icon: file-pdf
 ---
 
 Los Oficios Interpretativos son emitidos por el Comité Ejecutivo conforme al **Art. 1** del Estatuto, ante vacíos del cuerpo estatutario. Deben ser aprobados en sesión del Consejo Generacional por mayoría absoluta, y su resolución es obligatoria desde el caso particular en adelante.
@@ -97,5 +100,7 @@ Los Oficios Interpretativos son emitidos por el Comité Ejecutivo conforme al **
 {{< include oficios/_oi-2023.qmd >}}
 
 {{< include oficios/_oi-2024.qmd >}}
+
+{{< include oficios/_oi-2026.qmd >}}
 
 <!-- Hecho con amor, Nicolás Castro Cajide · Presidente CAi 2025 -->
