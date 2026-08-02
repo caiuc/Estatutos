@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,10 +13,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -40,14 +43,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-62becda04e0f8c724dc82c5448b4822e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-2b1251f63bbdc798573383c1c31d21b9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-62becda04e0f8c724dc82c5448b4822e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-020aa151a65c0179d980afec98047afb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-b877c080f9bd04d8e0f332ed680ec236.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-020aa151a65c0179d980afec98047afb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -77,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -391,10 +394,6 @@ window.Quarto = {
   <li><a href="#estatutos" id="toc-estatutos" class="nav-link active" data-scroll-target="#estatutos">Estatutos</a>
   <ul class="collapse">
   <li><a href="#finalidades" id="toc-finalidades" class="nav-link" data-scroll-target="#finalidades">I. Finalidades y miembros</a></li>
-  <li><a href="#elecciones" id="toc-elecciones" class="nav-link" data-scroll-target="#elecciones">II. Elecciones, requisitos y sanciones</a></li>
-  <li><a href="#iii.-sesiones" id="toc-iii.-sesiones" class="nav-link" data-scroll-target="#iii.-sesiones">III. Sesiones</a></li>
-  <li><a href="#iv.-funcionamiento-y-apartados" id="toc-iv.-funcionamiento-y-apartados" class="nav-link" data-scroll-target="#iv.-funcionamiento-y-apartados">IV. Funcionamiento y apartados</a></li>
-  <li><a href="#v.-reformas" id="toc-v.-reformas" class="nav-link" data-scroll-target="#v.-reformas">V. Reformas</a></li>
   </ul></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Otros formatos</h2><ul><li><a href="index.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
@@ -492,10 +491,15 @@ window.Quarto = {
 <li><p>Jefatura de Investigación.</p></li>
 </ol>
 <p>La Presidencia podrá ampliar el número y las funciones y atribuciones de los integrantes del Comité Ejecutivo dentro de sus propias facultades.</p></li>
-<li><p><span class="smallcaps">Consejería Académica de Pregrado, conformada por dos integrantes</span>:</p>
+<li><p><span class="smallcaps">Consejería Académica de Ingeniería, conformada por dos integrantes</span>:</p>
 <ol type="a">
-<li><p>Consejería Académica de Pregrado, en adelante Consejería Académica</p></li>
-<li><p>Subconsejería Académica de Pregrado, en adelante Subconsejería Académica</p></li>
+<li><p>Consejería Académica de Ingeniería, en adelante Consejería de Ingeniería.</p></li>
+<li><p>Subconsejería Académica de Pregrado, en adelante Subconsejería de Ingeniería.</p></li>
+</ol></li>
+<li><p><span class="smallcaps">Consejería Académica de Licenciatura en Ingeniería en Ciencia de la Computación, conformada por dos integrantes</span>:</p>
+<ol type="a">
+<li><p>Consejería Académica de Licenciatura en Ingeniería en Ciencia de la Computación, en adelante Consejería de LiCC.</p></li>
+<li><p>Subconsejería Académica de Licenciatura en Ingeniería en Ciencia de la Computación, en adelante Subconsejería de LiCC.</p></li>
 </ol></li>
 <li><p><span class="smallcaps">Consejería Académica de Postgrado, conformada por dos integrantes</span>:</p>
 <ol type="a">
@@ -512,8 +516,8 @@ window.Quarto = {
 <li><p>Ciencias de la Computación</p></li>
 <li><p>Química y Bioprocesos e Instituto de Ingeniería Biológica y Médica</p></li>
 </ol></li>
-<li><p><span class="smallcaps">Consejo Generacional</span> Es la máxima instancia de representación. Formado por el Comité Generacional, el Comité Ejecutivo, la Consejería Académica y la Consejería de Postgrado. Es presidido por la Secretaría General del CAi.</p></li>
-<li><p><span class="smallcaps">Consejo Académico</span> Formado por el Comité Académico, la Jefatura de Docencia y la Jefatura de Investigación del Comité ejecutivo, y las Consejerías Académicas de Postgrado y Pregrado, quien lo preside.</p></li>
+<li><p><span class="smallcaps">Consejo Generacional</span> Es la máxima instancia de representación. Formado por el Comité Generacional, el Comité Ejecutivo, la Consejería de Ingeniería, la Consejería de Postgrado y la Consejería de LiCC. Es presidido por la Secretaría General del CAi.</p></li>
+<li><p><span class="smallcaps">Consejo Académico</span> Formado por el Comité Académico, la Jefatura de Docencia y la Jefatura de Investigación del Comité ejecutivo, y la Consejería de Ingeniería, la Consejería de Postgrado y la Consejería de LiCC. Es presidido por la Consejería de Ingeniería.</p></li>
 <li><p><span class="smallcaps">Comisiones</span> Las comisiones dependen del Comité Ejecutivo y lo ayudan en su gestión. El Comité Ejecutivo puede formar las comisiones que estime conveniente durante el período de su gestión, informando de ello a los Consejos. A modo de referencia, una lista sugerida de las posibles comisiones es la siguiente:</p>
 <ol type="a">
 <li><p>Auspicios</p></li>
@@ -601,25 +605,25 @@ window.Quarto = {
 <li><p><span class="smallcaps">Cargos opcionales</span> Las funciones de los cargos opcionales son definidas por la Presidencia, tal como se señala en la parte A del presente artículo.</p></li>
 </ol>
 </div>
-<div id="funcionesCAPregrado" class="art">
-<p><strong>Art. 7</strong>. Las funciones y atribuciones de la Consejería Académica son:</p>
+<div id="funcionesCAIngeniería" class="art">
+<p><strong>Art. 7</strong>. Las funciones y atribuciones de la Consejería de Ingeniería son:</p>
 <ol type="1">
-<li><p>Integrar a las políticas académicas de la Escuela la visión del estudiantado, liberando de estas responsabilidades a la Presidencia del CAi.</p></li>
+<li><p>Integrar a las políticas académicas de la Escuela la visión del estudiantado de Ingeniería, liberando de estas responsabilidades a la Presidencia del CAi.</p></li>
 <li><p>Presidir el Consejo Académico.</p></li>
-<li><p>Representar al estudiantado ante el Consejo Académico de la Escuela de Ingeniería, el Consejo de Facultad y el Comité de Pregrado, en conjunto con la Presidencia del CAi u otro representante del Comité Ejecutivo o Consejerías Académicas.</p></li>
+<li><p>Representar al estudiantado de Pregrado ante el Consejo Académico de la Escuela de Ingeniería, el Consejo de Facultad y el Comité de Pregrado, en conjunto con la Presidencia del CAi u otro representante del Comité Ejecutivo o Consejerías Académicas.</p></li>
 <li><p>Estudiar y desarrollar proyectos y propuestas académicas con la Dirección de la Escuela y, si existiese, la Comisión de Docencia del CAi, preocupándose también de su difusión.</p></li>
 <li><p>Asistir a las instancias formales para las que sea llamada junto a sus pares de las demás facultades por la Consejería Superior FEUC, tales como el Consejo Académico FEUC.</p></li>
 <li><p>Dar cuenta pública, en las sesiones ordinarias del Consejo Generacional y Académico, de su participación en el Consejo Académico FEUC y en las instancias en las que participa regularmente como representante del estudiantado ante las autoridades de la Escuela.</p></li>
-<li><p>Informar, orientar y acompañar a los estudiantes en los procesos de Permanencia y Alertas Académicas. Toda la información compartida durante las Comisiones de Permanencia será tratada con absoluta confidencialidad.</p></li>
+<li><p>Informar, orientar y acompañar a los estudiantes de Ingeniería en los procesos de Permanencia y Alertas Académicas. Toda la información compartida durante las Comisiones de Permanencia será tratada con absoluta confidencialidad.</p></li>
 </ol>
 </div>
 <div class="art">
-<p><strong>Art. 8</strong>. Las funciones y atribuciones de la Subconsejería Académica son:</p>
+<p><strong>Art. 8</strong>. Las funciones y atribuciones de la Subconsejería de Ingeniería son:</p>
 <ol type="1">
-<li><p>Colaborar en las políticas académicas de la Escuela, trabajando en conjunto con la Consejería Académica.</p></li>
-<li><p>Reemplazar a la Consejería Académica en el Consejo Académico FEUC, cuando este no puede asistir.</p></li>
+<li><p>Colaborar en las políticas académicas de la Escuela, trabajando en conjunto con la Consejería de Ingeniería.</p></li>
+<li><p>Reemplazar a la Consejería de Ingeniería en el Consejo Académico FEUC, cuando este no puede asistir.</p></li>
 <li><p>Reemplazar a la Consejería Académica en caso de renuncia, cese anticipado o destitución del mismo.</p></li>
-<li><p>Informar, orientar y acompañar a las y los estudiantes en los procesos de Alerta Académica y Permanencia Académica. Podrá apoyar a la Consejería Académica en la recopilación de antecedentes y seguimiento de casos, bajo estricta reserva, conforme a la normativa institucional vigente.</p></li>
+<li><p>Informar, orientar y acompañar a las y los estudiantes de Ingeniería en los procesos de Alerta Académica y Permanencia Académica. Podrá apoyar a la Consejería de Ingeniería en la recopilación de antecedentes y seguimiento de casos, bajo estricta reserva, conforme a la normativa institucional vigente.</p></li>
 </ol>
 </div>
 <div id="funcionesCAPostgrado" class="art">
@@ -643,8 +647,26 @@ window.Quarto = {
 <li><p>Participar en el Comité de Magíster/Doctorado según el programa al que pertenece (ya sea al Comité de Magíster, si es del Magíster en Ciencias de la Ingeniería o al Comité de Doctorado si es del Doctorado en Ciencias de la Ingeniería).</p></li>
 </ol>
 </div>
+<div id="funcionesCALiCC" class="art">
+<p><strong>Art. 11</strong>. Las funciones y atribuciones de la Consejería de LiCC son:</p>
+<ol type="1">
+<li><p>Integrar a las políticas académicas de la Escuela la visión del estudiantado de Licenciatura en Ingeniería en Ciencia de la Computación, liberando de esas responsabilidades a la Presidencia del CAi.</p></li>
+<li><p>Estudiar y desarrollaar proyectos y propuestas académicas con la Dirección de la Escuela y, si existiese, la Comisión de Docencia del CAi, preocupándose también de su difusión.</p></li>
+<li><p>Asistir a las instancias formales para las que sea llamada junto a sus pares de las demás facultades por la Consejería Superior FEUC, tales como el Consejo Académico FEUC.</p></li>
+<li><p>Dar cuenta pública, en las sesiones ordinarias del Consejo Generacional y Académico, de su participación en el Consejo Académico FEUC y en las instancias en las que participa regularmente como representante del estudiantado ante las autoridades de la Escuela.</p></li>
+<li><p>Informar, orientar y acompañar a los estudiantes de Licenciatura en Ingeniería en Ciencia de la Computación en los procesos de Permanencia y Alertas Académicas. Toda la información de las Comisiones de Permanencia será tratada con absoluta confidencialidad.</p></li>
+</ol>
+</div>
+<div class="art">
+<p><strong>Art. 12</strong>. Las funciones y atribuciones de la Subconsejería de LiCC son:</p>
+<ol type="1">
+<li><p>Colaborar en las políticas académicas de la Escuela, trabajando en conjunto con la Consejería de LiCC.</p></li>
+<li><p>Reemplazar a la Consejería de LiCC en el Consejo Académico FEUC.</p></li>
+<li><p>Reemplazar a la Consejería de LiCC en caso de renuncia, cese anticipado o destitución del mismo.</p></li>
+<li><p>Informar, orientar y acomapañar a las y los estudiantes de Licenciatura en Ingeniería en Ciencia de la Computación en los procesos de Alerta Académica y Permanencia Académica. Podrá apoyar a la Consejería de LiCC en la recopilación de antecedentes y seguimiento de casos, bajo estricta reserva, conforme a la normativa institucional vigente.</p></li>
+</ol>
 <div id="representanteCollege" class="art">
-<p><strong>Art. 11</strong>. Las funciones y atribuciones del Representante de College son:</p>
+<p><strong>Art. 13</strong>. Las funciones y atribuciones del Representante de College son:</p>
 <ol type="1">
 <li><p>Representar a los estudiantes de College que se encuentran relacionados a la Escuela de Ingeniería principalmente en temas académicos.</p></li>
 <li><p>Dar cuenta pública de su gestión al menos dos veces durante su período a sus representados. Esta deberá ser presentada en sesión ordinaria del Consejo Académico y difundida por el CAi.</p></li>
@@ -653,7 +675,7 @@ window.Quarto = {
 </ol>
 </div>
 <div id="cuentaPublica" class="art">
-<p><strong>Art. 12</strong>. <span id="funcionesRepresentantesGeneracionales" data-label="funcionesRepresentantesGeneracionales"></span> Las funciones y atribuciones de los Representantes Generacionales son:</p>
+<p><strong>Art. 14</strong>. <span id="funcionesRepresentantesGeneracionales" data-label="funcionesRepresentantesGeneracionales"></span> Las funciones y atribuciones de los Representantes Generacionales son:</p>
 <ol type="1">
 <li><p>Representar políticamente a sus compañeros.</p></li>
 <li><p>Velar por la excelencia académica de los cursos que competen a sus representados, principalmente aquellos de ciencias básicas y comunes dictados en esta u otra facultad.</p></li>
@@ -663,18 +685,18 @@ window.Quarto = {
 </ol>
 </div>
 <div id="funcionesComiteGeneracional" class="art">
-<p><strong>Art. 13</strong>. Las funciones y atribuciones del Comité Generacional son:</p>
+<p><strong>Art. 15</strong>. Las funciones y atribuciones del Comité Generacional son:</p>
 <ol type="1">
 <li><p>Servir de puente de información e inquietudes entre el Consejo Generacional, la Escuela y el estudiantado.</p></li>
 <li><p>Colaborar en actividades de integración a la Escuela y generar instancias de participación para sus respectivas generaciones.</p></li>
 <li><p>Decidir los votos ponderados de Ingeniería para el Consejo de Federación los cuales son llevados al mismo por las Consejerías Territoriales.</p></li>
 <li><p>Colaborar en la comunicación de actividades y procesos del Comité Ejecutivo, además de fiscalizar su gestión.</p></li>
-<li><p>Desautorizar públicamente una actuación del Comité Ejecutivo, o alguno de sus miembros; de la Consejería Académica y de la Consejería de Postgrado.</p></li>
+<li><p>Desautorizar públicamente una actuación del Comité Ejecutivo, o alguno de sus miembros; de la Consejería Académica de Ingeniería, la Consejería Académica de LiCC y/o de la Consejería de Postgrado.</p></li>
 <li><p>Formular la solicitud de destitución de su cargo a cualquier miembro de los organismos del CAi, por grave infracción a este estatuto o notable abandono de deberes.</p></li>
 </ol>
 </div>
 <div id="funcionesConsejoGeneracional" class="art">
-<p><strong>Art. 14</strong>. Las funciones y atribuciones del Consejo Generacional son:</p>
+<p><strong>Art. 16</strong>. Las funciones y atribuciones del Consejo Generacional son:</p>
 <ol type="1">
 <li><p>Pronunciarse sobre los temas políticos que cualquiera de sus integrantes someta a su consideración.</p></li>
 <li><p>Pronunciarse sobre los temas planteados por la Federación de Estudiantes de la Universidad Católica (FEUC) a través de su Consejo de Presidentes o cualquiera de sus instancias.</p></li>
@@ -686,7 +708,7 @@ window.Quarto = {
 </ol>
 </div>
 <div id="funcionesRepresentantesAcademicos" class="art">
-<p><strong>Art. 15</strong>. Las funciones y atribuciones de los Representantes Académicos son:</p>
+<p><strong>Art. 17</strong>. Las funciones y atribuciones de los Representantes Académicos son:</p>
 <ol type="1">
 <li><p>En el caso de los Representantes de Major, canalizar los problemas académicos de los estudiantes de su Major y de Minors asociados y representarlos ante las instancias académicas correspondientes. En el caso de los Representantes de Especialidad, canalizar los problemas académicos de los estudiantes del segundo ciclo de formación de su Departamento y representarlos ante las instancias académicas correspondientes. En el caso de los representantes de la Licenciatura en Ciencias de la Computación, canalizar los problemas académicos de los estudiantes de su programa y representarlos en las instancias académicas correspondientes.</p></li>
 <li><p>Velar por la excelencia académica de los cursos que competen a sus representados, principalmente aquellos que son dictados en sus respectivas disciplinas.</p></li>
@@ -699,20 +721,20 @@ window.Quarto = {
 </ol>
 </div>
 <div id="funcionesComiteAcademico" class="art">
-<p><strong>Art. 16</strong>. Las funciones y atribuciones del Comité Académico son:</p>
+<p><strong>Art. 18</strong>. Las funciones y atribuciones del Comité Académico son:</p>
 <ol type="1">
 <li><p>Servir de puente de información e inquietudes entre el Consejo Departamental, la Escuela y el estudiantado.</p></li>
 <li><p>Colaborar en iniciativas de integración de las diferentes disciplinas y generar instancias para la generación de sus respectivas especialidades.</p></li>
 <li><p>Revisar y evaluar las políticas académicas de la Escuela. Trabajar junto a las Consejerías Académicas y de Postgrado en la formulación de propuestas de mejoramiento en términos de docencia, investigación y extensión.</p></li>
 <li><p>Velar por el cumplimiento general de la normativa de la Escuela dentro de sus diferentes organismos.</p></li>
-<li><p>Desautorizar públicamente una actuación del Comité Ejecutivo, o alguno de sus miembros; de la Consejería Académica y de la Consejería de Postgrado.</p></li>
+<li><p>Desautorizar públicamente una actuación del Comité Ejecutivo, o alguno de sus miembros; de la Consejería Académica de Ingeniería, la Consejería Académica de LiCC y/o de la Consejería de Postgrado.</p></li>
 <li><p>Velar por el cumplimiento del presente Cuerpo de Estatutos, tanto el Estatuto principal como sus Apartados.</p></li>
 <li><p>Reemplazar a la Consejería Académica según lo estipulado en el artículo&nbsp;<a href="#permanencia" data-reference-type="ref" data-reference="permanencia">34</a>.</p></li>
 <li><p>Formular la solicitud de destitución de su cargo a cualquier miembro de los organismos del CAi, por grave infracción a este estatuto o notable abandono de deberes.</p></li>
 </ol>
 </div>
 <div id="funcionesConsejoAcademico" class="art">
-<p><strong>Art. 17</strong>. Las funciones y atribuciones del Consejo Académico son:</p>
+<p><strong>Art. 19</strong>. Las funciones y atribuciones del Consejo Académico son:</p>
 <ol type="1">
 <li><p>Discutir y tomar postura frente a las políticas académicas de la Escuela o alguno de sus organismos.</p></li>
 <li><p>Pronunciarse sobre los temas académicos planteados por el Consejo Académico UC y por la Federación de Estudiantes de la Universidad Católica (FEUC) a través de su Consejo de Presidentes o cualquiera de sus instancias que considere correspondiente. En caso de tratarse de una votación del Consejo Académico UC, esta decisión no se considerarán los votos de los representantes de postgrado, salvo que sea una decisión que tenga relación con los estudiantes de postgrado. Esto será así mientras estos estudiantes de postgrado no sean representados por la Federación. Si un tema es competencia de postgrado queda a criterio de las Consejerías Académicas de Pregrado y Postgrado, la cual podría ser apelable por los representantes de postgrado.</p></li>
@@ -723,7 +745,7 @@ window.Quarto = {
 </ol>
 </div>
 <div class="art">
-<p><strong>Art. 18</strong>. Las temáticas que deben ser ampliamente debatidas y aprobadas por ambos Consejos son:</p>
+<p><strong>Art. 20</strong>. Las temáticas que deben ser ampliamente debatidas y aprobadas por ambos Consejos son:</p>
 <ol type="1">
 <li><p>Destitución de algún miembro del Comité Ejecutivo por grave incumplimiento de sus funciones.</p></li>
 <li><p>Modificaciones y reformas al presente estatuto de acuerdo a la parte V.</p></li>
@@ -731,10 +753,11 @@ window.Quarto = {
 </ol>
 </div>
 <div class="art">
-<p><strong>Art. 19</strong>. 16,7% de los ingresos que perciba el CAi por parte del Decanato serán destinados al financiamiento de los Consejos Generacional y Académico, según la siguiente repartición:</p>
+<p><strong>Art. 21</strong>. 16,7% de los ingresos que perciba el CAi por parte del Decanato serán destinados al financiamiento de los Consejos Generacional y Académico, según la siguiente repartición:</p>
 <ol type="1">
-<li><p>15% destinado a la Consejería Académica.</p></li>
+<li><p>12% destinado a la Consejería Académica de Ingeniería.</p></li>
 <li><p>5% destinado a la Consejería de Postgrado.</p></li>
+<li><p>3% destinado a la Consejería Académica de LiCC.</p></li>
 <li><p>80% a Fondos Concursables, cumpliendo lo siguiente:</p>
 <ol type="a">
 <li><p>Los únicos participantes serán los Representantes, y los proyectos deberán estar orientados a cubrir las necesidades e inquietudes del estudiantado.</p></li>
@@ -748,23 +771,16 @@ window.Quarto = {
 </ol>
 </div>
 <div class="art">
-<p><strong>Art. 20</strong>. Las Jefaturas de Comisión y sus respectivos comisionados del CAi colaborarán con el Comité Ejecutivo en el área específica de cada uno y participarán en las sesiones de dicho organismo en los casos y formas que la Presidencia determine.</p>
+<p><strong>Art. 22</strong>. Las Jefaturas de Comisión y sus respectivos comisionados del CAi colaborarán con el Comité Ejecutivo en el área específica de cada uno y participarán en las sesiones de dicho organismo en los casos y formas que la Presidencia determine.</p>
 </div>
-<aside id="footnotes" class="footnotes footnotes-end-of-section" role="doc-footnote">
-<hr>
-<ol>
-<li id="fn1"><p>Código Civil: <a href="http://www.leychile.cl/Navegar?idNorma=172986" class="uri">http://www.leychile.cl/Navegar?idNorma=172986</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</aside>
-</section>
 <section id="elecciones" class="level2">
 <h2 class="anchored" data-anchor-id="elecciones">II. Elecciones, requisitos y sanciones</h2>
 <div id="porcentajeMinimo" class="art">
-<p><strong>Art. 21</strong>. Tendrán derecho a votar todos los estudiantes regulares de Pregrado de la Escuela de Ingeniería, así como los estudiantes de Magíster en Ingeniería, Magíster en Ciencias de la Ingeniería y Doctorado, salvo cuando este estatuto específicamente indique algo distinto. Tratándose de la elección del Comité Ejecutivo y Consejero Académico, tendrán derecho a voto los estudiantes de College de Licenciatura en Ciencias Naturales que tengan inscrito el major de la Escuela de Ingeniería a comienzos del segundo semestre.</p>
+<p><strong>Art. 23</strong>. Tendrán derecho a votar todos los estudiantes regulares de Pregrado de la Escuela de Ingeniería, así como los estudiantes de Magíster en Ingeniería, Magíster en Ciencias de la Ingeniería y Doctorado, salvo cuando este estatuto específicamente indique algo distinto. Tratándose de la elección del Comité Ejecutivo y Consejero Académico, tendrán derecho a voto los estudiantes de College de Licenciatura en Ciencias Naturales que tengan inscrito el major de la Escuela de Ingeniería a comienzos del segundo semestre.</p>
 <p>Todas las elecciones y plebiscitos son válidos solo si en ellos vota al menos el 35% de los alumnos con derecho a voto, salvo que en este estatuto se establezca explícitamente otra cosa. En caso de no cumplirse este quórum le corresponde decidir al Consejo que haya llamado a plebiscitar.</p>
 </div>
 <div id="definicionEleccionesYPlebiscitos" class="art">
-<p><strong>Art. 22</strong>. Las elecciones o plebiscitos se realizarán siempre a través de una votación universal, directa, secreta, libre e informada, de la siguiente manera:</p>
+<p><strong>Art. 24</strong>. Las elecciones o plebiscitos se realizarán siempre a través de una votación universal, directa, secreta, libre e informada, de la siguiente manera:</p>
 <ol type="1">
 <li><p>Puede ser tanto de manera presencial como electrónica. El encargado de decidir esto será el Consejo que haga el llamado en la misma sesión en que se inicie el proceso respectivo, según acuerdo de la mayoría absoluta de los votos posibles. En el caso de elecciones, esta sesión deberá ser el día que se cierre el proceso de inscripción. En el caso de plebiscitos, será la misma sesión en que se realice el llamado a este.</p></li>
 <li><p>Será responsabilidad del <em>TRICEL</em> organizar y salvaguardar la regularidad del proceso eleccionario o plebiscito, de acuerdo a lo estipulado en el artículo 1o del Reglamento <em>TRICEL</em>.</p></li>
@@ -772,17 +788,17 @@ window.Quarto = {
 </ol>
 </div>
 <div id="votantesCollege" class="art">
-<p><strong>Art. 23</strong>. <span id="eleccionesCAi" data-label="eleccionesCAi"></span> El Comité Ejecutivo, así como la Consejería Académica y la Consejería de Postgrado, durarán un año en sus funciones, pudiendo ser reelegidas si cumplieren con los requisitos. La votación de estos se realizará en una elección que se llevará a cabo de acuerdo a las siguientes normas:</p>
+<p><strong>Art. 25</strong>. <span id="eleccionesCAi" data-label="eleccionesCAi"></span> El Comité Ejecutivo, así como la Consejería Académica de Ingeniería, la Consejería Académica de LiCC y la Consejería Académica de Postgrado, durarán un año en sus funciones, pudiendo ser reelegidas si cumplieren con los requisitos. La votación de estos se realizará en una elección que se llevará a cabo de acuerdo a las siguientes normas:</p>
 <ol type="1">
-<li><p>El primer día hábil de octubre se abrirán las inscripciones para las postulaciones. Se entenderá como postulante tanto las listas candidatas al Comité Ejecutivo, como las candidaturas a Consejería Académica y Consejería de Postgrado. La apertura de inscripciones deberá ser avisada públicamente con una semana de anticipación. Este proceso de inscripción durará diez días hábiles, con una preinscripción obligatoria de las candidaturas al finalizar los primeros cinco días hábiles del proceso.</p>
+<li><p>El primer día hábil de octubre se abrirán las inscripciones para las postulaciones. Se entenderá como postulante tanto las listas candidatas al Comité Ejecutivo, como las candidaturas a Consejería Académica de Ingeniería, la Consejería Académica de LiCC, y la Consejería Académica de Postgrado. La apertura de inscripciones deberá ser avisada públicamente con una semana de anticipación. Este proceso de inscripción durará diez días hábiles, con una preinscripción obligatoria de las candidaturas al finalizar los primeros cinco días hábiles del proceso.</p>
 <p>Las fechas podrán ser trasladadas con un margen máximo de una semana, previa aprobación del <em>Consejo Generacional</em> bajo quórum calificado.</p></li>
 <li><p>Las listas candidatas al Comité Ejecutivo podrán presentarse como cerradas (con los cargos previamente asignados), o abiertas (que los cargos se determinen de acuerdo a la votación obtenida por cada miembro de la lista). En el caso de presentarse una lista abierta, las personas que la integran deberán cumplir con lo requerido por los artículos&nbsp;<a href="#requisitosEjecutivo" data-reference-type="ref" data-reference="requisitosEjecutivo">24</a> y&nbsp;<a href="#requisitosPresidente" data-reference-type="ref" data-reference="requisitosPresidente">25</a> de esta sección.</p></li>
 <li><p>En caso de empate entre candidaturas de una lista abierta, la lista tendrá que dirimir el empate y entregarlo al CAi en ejercicio con un plazo máximo de dos días hábiles posterior al fin del recuento de votos.</p></li>
 <li><p>No existe restricción con respecto al número máximo de postulantes a ninguna de las tres elecciones, siempre que todos cumplan con los requisitos estipulados en el presente estatuto.</p></li>
 <li><p>El número de personas inscritas en una lista debe corresponder, al menos, al número de cargos estatutarios del Comité Ejecutivo. De no cumplir esto, la lista no puede ser candidata al Centro de Alumnos.</p></li>
-<li><p>El proceso de preinscripción es obligatorio para todas las listas candidatas al Comité Ejecutivo, candidaturas a Consejería de Pregrado y Consejería de Postgrado, el cual consiste en:</p>
+<li><p>El proceso de preinscripción es obligatorio para todas las listas candidatas al Comité Ejecutivo, candidaturas a Consejería Académica de Ingeniería, Consejería Académica de LiCC y Consejería Académica de Postgrado, el cual consiste en:</p>
 <ol type="a">
-<li><p>A más tardar a las 18:00 del quinto día hábil de abierto el proceso, cada conjunto de postulantes debe entregar al CAi una lista que contenga el nombre, programa de la Escuela al que pertenece, generación, promedios ponderados semestrales de los últimos tres semestres, promedio ponderado acumulado, mail UC y número de créditos aprobados de cada uno de cada posible integrante del Comité Ejecutivo, candidaturas a Consejería Académica y Consejería de Postgrado. Se debe especificar el cargo al que postula cada persona.</p></li>
+<li><p>A más tardar a las 18:00 del quinto día hábil de abierto el proceso, cada conjunto de postulantes debe entregar al CAi una lista que contenga el nombre, programa de la Escuela al que pertenece, generación, promedios ponderados semestrales de los últimos tres semestres, promedio ponderado acumulado, mail UC y número de créditos aprobados de cada uno de cada posible integrante del Comité Ejecutivo, candidaturas a Consejería Académica de Ingeniería, la Consejería Académica de LiCC y Consejería Académica de Postgrado. Se debe especificar el cargo al que postula cada persona.</p></li>
 <li><p>El TRICEL tiene tres días hábiles, desde cerrado el proceso de preinscripción, para validar los requisitos de las candidaturas preinscritas.</p></li>
 <li><p>Tanto el Comité Ejecutivo como las Consejerías deben ser postulantes que hayan aprobado el proceso de preinscripción.</p></li>
 <li><p>Las listas no pueden ser publicadas, física ni electrónicamente, hasta la validación de la preinscripción por parte del TRICEL.</p></li>
@@ -800,7 +816,13 @@ window.Quarto = {
 </ol></li>
 </ol>
 <ol start="2" type="1">
-<li><p>En el caso de las candidaturas a la Consejería Académica:</p>
+<li><p>En el caso de las candidaturas a la Consejería Académica de Ingeniería:</p>
+<ol type="i">
+<li><p>El nombre de la persona candidata, la cual debe haber aprobado el proceso de preinscripción.</p></li>
+<li><p>Una foto (mín. <span class="math inline">\(500 \times 500\)</span>).</p></li>
+<li><p>Un plan de trabajo y propuestas para su período.</p></li>
+</ol></li>
+<li><p>En el caso de las candidaturas a la Consejería Académica de LiCC:</p>
 <ol type="i">
 <li><p>El nombre de la persona candidata, la cual debe haber aprobado el proceso de preinscripción.</p></li>
 <li><p>Una foto (mín. <span class="math inline">\(500 \times 500\)</span>).</p></li>
@@ -819,9 +841,9 @@ window.Quarto = {
 <li><p>El Comité Ejecutivo deberá publicar en su fichero y página web los programas de las listas a lo más dos días hábiles después del cierre de inscripciones.</p></li>
 <li><p>A lo más seis días hábiles después del cierre de las inscripciones deberá efectuarse una asamblea general de presentación de los postulantes a las tres elecciones, cuyo objetivo será dar a conocer sus programas y responder las inquietudes del estudiantado.</p></li>
 <li><p><span id="periodo" data-label="periodo"></span>A lo más dos días hábiles después de la asamblea de presentación de las listas, se iniciará el período de votación, que se prolongará por dos días hábiles.</p></li>
-<li><p><span id="votantes" data-label="votantes"></span>Estudiantes que se encuentren cursando Pregrado en la Escuela de Ingeniería tendrán derecho a votar por Comité Ejecutivo y por Consejería Académica. Aquellos que cursen Postgrado en la misma tendrán derecho a votar por Comité Ejecutivo y por Consejería de Postgrado.</p></li>
+<li><p><span id="votantes" data-label="votantes"></span>Estudiantes que se encuentren cursando Pregrado en de Ingeniería tendrán derecho a votar por Comité Ejecutivo y por Consejería Académica de Ingeniería. Aquellos que cursen Postgrado tendrán derecho a votar por Comité Ejecutivo y por Consejería Académica de Postgrado. Aquellos que estén cursando el programa de Licenciatura en Ingeniería en Ciencia de la Computación tendrán derecho a votar por Comité Ejecutivo y Consejería Académica de Licenciatura en Ingeniería en Ciencia de la Computación.</p></li>
 <li><p>Estudiantes que se encuentren cursando College de Licenciatura en Ciencias Naturales y cumplan con lo dispuesto en el artículo&nbsp;<a href="#porcentajeMinimo" data-reference-type="ref" data-reference="porcentajeMinimo">21</a>, tendrán derecho a votar por Comité Ejecutivo y por Consejería Académica de Pregrado. Aquellos estudiantes que sean admisibles para votar deberán inscribirse de forma previa, con dos o más semanas de anticipación, para ejercer su voto en Ingeniería.</p></li>
-<li><p>Estudiantes que cursen de forma simultánea Pregrado y Postgrado en la Escuela de Ingeniería podrán sufragar en una sola oportunidad, votando de forma simultánea al Comité Ejecutivo, Consejería académica y Consejería de Postgrado.</p></li>
+<li><p>Estudiantes que cursen de forma simultánea Pregrado y Postgrado en la Escuela de Ingeniería podrán sufragar en una sola oportunidad, votando de forma simultánea al Comité Ejecutivo, Consejería Académica de Ingeniería y Consejería Académica de Postgrado.</p></li>
 <li><p>El resultado de las elecciones se determinará de la siguiente forma:</p>
 <ol type="a">
 <li><p>Si en una elección hay una sola postulación, se rige según el inciso&nbsp;<a href="#cierre" data-reference-type="ref" data-reference="cierre">8.</a> del presente artículo.</p></li>
@@ -850,7 +872,7 @@ window.Quarto = {
 </div>
 </div>
 <div id="requisitosEjecutivo" class="art">
-<p><strong>Art. 24</strong>. Los postulantes al Comité Ejecutivo deberán cumplir, al momento de la preinscripción:</p>
+<p><strong>Art. 26</strong>. Los postulantes al Comité Ejecutivo deberán cumplir, al momento de la preinscripción:</p>
 <ol type="1">
 <li><p>Ser alumnos regulares de la Escuela de Ingeniería de la Pontificia Universidad Católica de Chile.</p></li>
 <li><p>En el caso de estudiantes de pregrado:</p>
@@ -872,22 +894,22 @@ window.Quarto = {
 </ol>
 </div>
 <div id="requisitosPresidencia" class="art">
-<p><strong>Art. 25</strong>. La candidatura a Presidencia del CAi deberá tener un promedio ponderado acumulado de notas (PPA) superior o igual 4,80 y a lo menos 200 créditos aprobados de algún programa de la Escuela de Ingeniería Civil al momento de la preinscripción.</p>
+<p><strong>Art. 27</strong>. La candidatura a Presidencia del CAi deberá tener un promedio ponderado acumulado de notas (PPA) superior o igual 4,80 y a lo menos 200 créditos aprobados de algún programa de la Escuela de Ingeniería Civil al momento de la preinscripción.</p>
 </div>
 <div id="requisitosJefaturaInvestigacion" class="art">
-<p><strong>Art. 26</strong>. La candidatura al cargo de Jefatura de Investigación deberá específicamente ser estudiante regular o en vías de grado de Postgrado.</p>
+<p><strong>Art. 28</strong>. La candidatura al cargo de Jefatura de Investigación deberá específicamente ser estudiante regular o en vías de grado de Postgrado.</p>
 </div>
-<div id="requisitosCAPregrado" class="art">
-<p><strong>Art. 27</strong>. Las candidaturas a Consejería Académica deberán cumplir con los siguientes requisitos, al momento de la preinscripción:</p>
+<div id="requisitosCAIng" class="art">
+<p><strong>Art. 29</strong>. Las candidaturas a Consejería de Ingeniería deberán cumplir con los siguientes requisitos, al momento de la preinscripción:</p>
 <ol type="1">
-<li><p>Ser estudiante regular de algún major o título profesional de Ingeniería Civil con PPA superior 4.80.</p></li>
+<li><p>Ser estudiante regular de algún major o título profesional de Ingeniería Civil con PPA superior 4,80.</p></li>
 <li><p>Haber aprobado al menos 200 créditos al momento de inscribir la candidatura.</p></li>
 <li><p>No haber caído en Comisión de Permanencia o haber acumulado dos o más alertas académicas en los últimos dos semestres efectivamente cursados.</p></li>
 <li><p>Tener antecedentes de probidad académica intachables. El TRICEL será responsable de velar por todos los incisos de este artículo.</p></li>
 </ol>
 </div>
 <div id="requisitosCAPostgrado" class="art">
-<p><strong>Art. 28</strong>. Las candidaturas al cargo de Consejería de Postgrado deberán cumplir con los siguientes requisitos, al momento de la preinscripción:</p>
+<p><strong>Art. 30</strong>. Las candidaturas al cargo de Consejería de Postgrado deberán cumplir con los siguientes requisitos, al momento de la preinscripción:</p>
 <ol type="1">
 <li><p>Ser estudiante regular o en vías de grado de Postgrado con PPA superior a 5,00.</p></li>
 <li><p>Haber completado al menos un semestre en algún programa de Postgrado de la Escuela de Ingeniería.</p></li>
@@ -896,20 +918,46 @@ window.Quarto = {
 <p>El TRICEL será responsable de velar por todos los incisos de este artículo.</p></li>
 </ol>
 </div>
+<div id="requisitosCALiCC" class="art">
+<p><strong>Art. 31</strong>. Las candidaturas a Consejería de LiCC deberán cumplir con los siguientes requisitos, al momento de la preinscripción:</p>
+<ol type="1">
+<li><p>Ser estudiante regular de Licenciatura en Ingeniería en Ciencia de la Computación con PPA superior 4,80.</p></li>
+<li><p>Haber aprobado al menos 145 créditos al momento de inscribir la candidatura.</p></li>
+<li><p>No haber caído en Comisión de Permanencia o haber acumulado dos o más alertas académicas en los últimos dos semestres efectivamente cursados.</p></li>
+<li><p>Tener antecedentes de probidad académica intachables. El TRICEL será responsable de velar por todos los incisos de este artículo.</p></li>
+</ol>
+</div>
 <div id="eleccionExtraordinariaCAPregrado" class="art">
-<p><strong>Art. 29</strong>. En caso de no presentarse ninguna candidatura al cargo de Consejería Académica después de los dos períodos estipulados en el artículo <a href="#cierre" data-reference-type="ref" data-reference="cierre">23, inciso 8</a> de esta parte, la Consejería Académica elegirá de entre sus miembros (que cumplan con los requisitos de Consejería Académica) a alguien que asuma el cargo. Esta obligación recaerá ineludiblemente sobre alguno de los Representantes, y ellos deben estar conscientes de dicha condición antes de ser elegidos como tales. El Representante que asuma el cargo tendrá la opción de designar a un reemplazante para su labor previa como representante de especialidad. Todas estas obligaciones corresponderán al Consejo Académico en ejercicio.</p>
+<p><strong>Art. 32</strong>. En caso de no presentarse ninguna candidatura al cargo de Consejería Académica después de los dos períodos estipulados en el artículo <a href="#cierre" data-reference-type="ref" data-reference="cierre">25, inciso 8</a> de esta parte, la Consejería Académica elegirá de entre sus miembros (que cumplan con los requisitos de Consejería Académica) a alguien que asuma el cargo. Esta obligación recaerá ineludiblemente sobre alguno de los Representantes, y ellos deben estar conscientes de dicha condición antes de ser elegidos como tales. El Representante que asuma el cargo tendrá la opción de designar a un reemplazante para su labor previa como representante de especialidad. Todas estas obligaciones corresponderán al Consejo Académico en ejercicio.</p>
 </div>
 <div id="nominacionSubconsejerias" class="art">
-<p><strong>Art. 30</strong>. La nominación de cada subconsejería se realizará posterior a la elección de Comité Ejecutivo y Consejerías Académicas, bajo los siguientes criterios:</p>
+<p><strong>Art. 33</strong>. La nominación de cada subconsejería se realizará posterior a la elección de Comité Ejecutivo y Consejerías Académicas, bajo los siguientes criterios:</p>
 <ol type="1">
-<li><p>Para el caso de la Subconsejería Académica, será la Jefatura de Docencia, a menos que la Consejería Académica proponga una persona distinta, quien debe cumplir los requisitos del artículo&nbsp;<a href="#requisitosEjecutivo" data-reference-type="ref" data-reference="requisitosEjecutivo">24</a>.</p></li>
-<li><p>Para el caso de la Subconsejería de Postgrado, este tiene que pertenecer al programa de Postgrado al que la Consejería de Postgrado no pertenece. Podría ser la Jefatura de Investigación, a menos que la Consejería de Postgrado proponga a una persona distinta, quien debe cumplir con el requisito planteado anteriormente y en los artículos&nbsp;<a href="#requisitosEjecutivo" data-reference-type="ref" data-reference="requisitosEjecutivo">24</a> y&nbsp;<a href="#requisitosJefaturaInvestigacion" data-reference-type="ref" data-reference="requisitosJefaturaInvestigacion">26</a>.</p></li>
-<li><p>Ambas propuestas, deben ser validadas por mayoría simple en la Consejería Académica en el primer consejo ordinario de la directiva electa.</p></li>
-<li><p>De no ser validado, cada Consejería puede proponer otro nombre entre los representantes existentes que cumplan los requisitos de los artículos&nbsp;<a href="#requisitosEjecutivo" data-reference-type="ref" data-reference="requisitosEjecutivo">24</a> y de ser necesario el artículo&nbsp;<a href="#requisitosJefaturaInvestigacion" data-reference-type="ref" data-reference="requisitosJefaturaInvestigacion">26</a>.</p></li>
+<li><p>Para el caso de la Subconsejería de Ingeniería, será la Jefatura de Docencia, a menos que la Consejería de Ingeniería proponga una persona distinta, quien debe cumplir los siguientes requisitos:</p>
+<ol type="a">
+<li><p>Ser estudiante regular de algún major o título profesional de Ingeniería Civil con PPA superior a 4,50.</p></li>
+<li><p>Tener a lo menos tres semestres cursados o haber aprobado 150 créditos al momento de inscribir la candidatura.</p></li>
+<li><p>No haber caído en Comisión de Permanencia o haber acumulado dos o más alertas académicas en los últimos dos semestres cursados.</p></li>
+<li><p>Tener antecedentes de probidad académica intachables. El TRICEL será responsable de velar por todos los incisos de este artículo.</p></li>
+</ol></li>
+<li><p>Para el caso de la Subconsejería de Ingeniería, será la Jefatura de Docencia, a menos que la Consejería de Ingeniería proponga una persona distinta, quien debe cumplir los siguientes requisitos:</p>
+<ol type="a">
+<li><p>Ser estudiante regular de Licenciatura en Ingeniería en Ciencia de la Computación con PPA superior a 4,50.</p></li>
+<li><p>Haber aprobado 45 créditos al momento de inscribir la candidatura.</p></li>
+<li><p>No haber caído en Comisión de Permanencia o haber acumulado dos o más alertas académicas en los últimos dos semestres cursados.</p></li>
+<li><p>Tener antecedentes de probidad académica intachables. El TRICEL será responsable de velar por todos los incisos de este artículo.</p></li>
+</ol></li>
+<li><p>Para el caso de la Subconsejería de Postgrado, podría ser la Jefatura de Investigación, a menos que la Consejería de Postgrado proponga a una persona distinta. En ambos casos, la persona debe cumplir con los siguientes requisitos:</p>
+<ol type="a">
+<li><p>Cumplir con los requisitos planteados en los artículos 26 y 28.</p></li>
+<li><p>Pertenecer al programa de Postgrado al que la Consejería de Postgrado no pertenece.</p></li>
+</ol></li>
+<li><p>Estas propuestas deben ser validadas por mayoría simple en el primer consejo ordinario de la directiva electa.</p></li>
+<li><p>De no ser validado, cada Consejería puede proponer otro nombre entre los representantes existentes que cumplan los requisitos exigidos en este artículo y en los artículos&nbsp;<a href="#requisitosEjecutivo" data-reference-type="ref" data-reference="requisitosEjecutivo">26</a> artículo&nbsp;<a href="#requisitosJefaturaInvestigacion" data-reference-type="ref" data-reference="requisitosJefaturaInvestigacion">28</a>.</p></li>
 </ol>
 </div>
 <div id="definicionesRepresentantes" class="art">
-<p><strong>Art. 31</strong>. Los Representantes y el Representante de College durarán un año en sus funciones. Esta elección se hará de acuerdo a las siguientes normas:</p>
+<p><strong>Art. 34</strong>. Los Representantes y el Representante de College durarán un año en sus funciones. Esta elección se hará de acuerdo a las siguientes normas:</p>
 <ol type="1">
 <li><p>Para estudiantes que no tengan inscrito un major o especialidad, cada estudiante tendrá derecho a votar por dos candidatos de su respectiva generación. En ningún caso podrá acumular estos dos votos en una misma candidatura.</p></li>
 <li><p>Para estudiantes que tengan inscrito un major, cada estudiante tendrá derecho a votar por una candidatura de su respectivo major y por dos candidaturas de su respectiva generación. En ningún caso podrá acumular estos dos votos en una misma candidatura.</p></li>
@@ -956,7 +1004,7 @@ Tratándose del Representante de College será elegida la primera mayoría.</p><
 </div>
 </div>
 <div id="requisitosRepresentantes" class="art">
-<p><strong>Art. 32</strong>. Para postular al cargo de Representante se debe cumplir con los siguientes requisitos:</p>
+<p><strong>Art. 35</strong>. Para postular al cargo de Representante se debe cumplir con los siguientes requisitos:</p>
 <ol type="1">
 <li><p>Ser alumno regular de Pregrado, de Magíster en Ciencias de la Ingeniería, de Magíster en Ingeniería o Doctorado de la Escuela de Ingeniería.</p></li>
 <li><p>Para los Representante Generacionales:</p>
@@ -989,7 +1037,7 @@ Tratándose del Representante de College será elegida la primera mayoría.</p><
 </div>
 </div>
 <div id="requisitosRepresentanteCollege" class="art">
-<p><strong>Art. 33</strong>. Para postular al cargo de Representante de College se debe cumplir con los siguientes requisitos:</p>
+<p><strong>Art. 36</strong>. Para postular al cargo de Representante de College se debe cumplir con los siguientes requisitos:</p>
 <ol type="1">
 <li><p>Ser alumno regular UC y poseedor de la Licenciatura de Ciencias Naturales y Matemáticas con un major en Ingeniería.</p></li>
 <li><p>O bien, cumplir con los siguientes requisitos:</p>
@@ -1002,7 +1050,7 @@ Tratándose del Representante de College será elegida la primera mayoría.</p><
 </ol>
 </div>
 <div id="permanencia" class="art">
-<p><strong>Art. 34</strong>. <span id="ceseCargo" data-label="ceseCargo"></span> Los miembros tanto del Consejo Académico como Generacional, así como las Coordinaciones Generales del Centro de Alumnos cesarán en sus cargos, para todos sus efectos, por alguna de las siguientes razones:</p>
+<p><strong>Art. 37</strong>. <span id="ceseCargo" data-label="ceseCargo"></span> Los miembros tanto del Consejo Académico como Generacional, así como las Coordinaciones Generales del Centro de Alumnos cesarán en sus cargos, para todos sus efectos, por alguna de las siguientes razones:</p>
 <ol type="1">
 <li><p>Término de su período.</p></li>
 <li><p><span id="alumno_regular" data-label="alumno_regular"></span> Tratándose de los Representantes, dejar de ser alumno regular de la unidad académica.</p></li>
@@ -1046,7 +1094,7 @@ Tratándose del Representante de College será elegida la primera mayoría.</p><
 </div>
 </div>
 <div id="extension_ausencias" class="art">
-<p><strong>Art. 35</strong>. <span id="maxAusencias" data-label="maxAusencias"></span> El número máximo de ausencias a las sesiones del Consejo correspondiente aceptadas a los Representantes, al Representante de College y a los representantes del Comité Ejecutivo es como sigue:</p>
+<p><strong>Art. 38</strong>. <span id="maxAusencias" data-label="maxAusencias"></span> El número máximo de ausencias a las sesiones del Consejo correspondiente aceptadas a los Representantes, al Representante de College y a los representantes del Comité Ejecutivo es como sigue:</p>
 <ol type="1">
 <li><p><span id="ausencias_A" data-label="ausencias_A"></span> Sesiones Ordinarias: Dos ausencias si no son justificadas, o tres ausencias si alguna de ellas es debidamente justificada.</p>
 <p>Para que una ausencia se considere justificada se debe: avisar con al menos 5 horas de anticipación del consejo y tener algún compromiso previamente establecido a la hora del consejo, o un evento de fuerza mayor que imposibilite asistir al consejo. Quien tiene el poder de validar una justificación es el Secretario General del Comité Ejecutivo, después de recibir el documento oficial de justificación. Es el Secretario quien define cómo indicar cada razón de justificación en el acta.</p></li>
@@ -1059,55 +1107,66 @@ En caso de que las restricciones 1 o 2 del presente artículo sean violadas, el 
 Tratándose de los Representantes generacionales de la primera y segunda generación, se considerará como ausencia al Consejo Académico el hecho de que ninguno de los tres esté presente. En el caso de no cumplir con las restricciones A o B del presente artículo, se considerará que pierden su derecho a voz y voto por el resto de su período en dicho Consejo.</p>
 </div>
 <div id="ceseCargoEjecutivo" class="art">
-<p><strong>Art. 36</strong>. Si alguno de los miembros del Comité Ejecutivo, exceptuando al Presidente, cesare en su cargo, será reemplazado por quien designe el Presidente, con el posible veto de alguno de los Consejos, obtenido mediante votación por quórum calificado.</p>
+<p><strong>Art. 39</strong>. Si alguno de los miembros del Comité Ejecutivo, exceptuando al Presidente, cesare en su cargo, será reemplazado por quien designe el Presidente, con el posible veto de alguno de los Consejos, obtenido mediante votación por quórum calificado.</p>
 </div>
 <div id="ceseCargoPresidente" class="art">
-<p><strong>Art. 37</strong>. Si fuera el Presidente el que cesare en su cargo, asumirá el Primer Vicepresidente por lo que resta del período, efectuando una designación del nuevo Primer Vicepresidente según lo establecido en el artículo anterior.</p>
+<p><strong>Art. 40</strong>. Si fuera el Presidente el que cesare en su cargo, asumirá el Primer Vicepresidente por lo que resta del período, efectuando una designación del nuevo Primer Vicepresidente según lo establecido en el artículo anterior.</p>
 </div>
 <div id="reemplazoRepresentantes" class="art">
-<p><strong>Art. 38</strong>. Si un Representante cesare en su cargo, se designará a aquel candidato que hubiere obtenido la siguiente mayoría no electa. En caso de que no existiese o no aceptara, el Representante saliente tendrá la posibilidad de proponer un reemplazante al Consejo al que pertenezca, que deberá ser aprobado por mayoría simple. De ser rechazado, el puesto quedará vacante. Si el Representante que cesa en su cargo hubiere perdido el derecho a voto durante su período, el Representante que lo reemplazare carecerá del mismo por toda la extensión de su período. Si aún lo mantiene, mantendrá el número de ausencias del Representante saliente.</p>
+<p><strong>Art. 41</strong>. Si un Representante cesare en su cargo, se designará a aquel candidato que hubiere obtenido la siguiente mayoría no electa. En caso de que no existiese o no aceptara, el Representante saliente tendrá la posibilidad de proponer un reemplazante al Consejo al que pertenezca, que deberá ser aprobado por mayoría simple. De ser rechazado, el puesto quedará vacante. Si el Representante que cesa en su cargo hubiere perdido el derecho a voto durante su período, el Representante que lo reemplazare carecerá del mismo por toda la extensión de su período. Si aún lo mantiene, mantendrá el número de ausencias del Representante saliente.</p>
 </div>
 <div class="art">
-<p><strong>Art. 39</strong>. Si el Representante de College cesare en su cargo, se designará a aquel candidato que hubiese obtenido la siguiente mayoría no electa. En caso de que no existiese o no aceptara, el Representante saliente tendrá la posibilidad de proponer un reemplazante al Consejo Académico, el que deberá cumplir los requisitos del artículo&nbsp;<a href="#requisitosRepresentanteCollege" data-reference-type="ref" data-reference="requisitosRepresentanteCollege">33</a> y ser aprobado por mayoría simple en el Consejo Académico. De ser rechazado el puesto quedará vacante. Si el representante que cesa en su cargo hubiere perdido el derecho a voto durante su período, el representante que lo reemplazare carecerá del mismo por toda la extensión de su período. Si aún lo mantiene, mantendrá el número de ausencias del Representante saliente.</p>
+<p><strong>Art. 42</strong>. Si el Representante de College cesare en su cargo, se designará a aquel candidato que hubiese obtenido la siguiente mayoría no electa. En caso de que no existiese o no aceptara, el Representante saliente tendrá la posibilidad de proponer un reemplazante al Consejo Académico, el que deberá cumplir los requisitos del artículo&nbsp;<a href="#requisitosRepresentanteCollege" data-reference-type="ref" data-reference="requisitosRepresentanteCollege">33</a> y ser aprobado por mayoría simple en el Consejo Académico. De ser rechazado el puesto quedará vacante. Si el representante que cesa en su cargo hubiere perdido el derecho a voto durante su período, el representante que lo reemplazare carecerá del mismo por toda la extensión de su período. Si aún lo mantiene, mantendrá el número de ausencias del Representante saliente.</p>
 </div>
-<div id="reemplazoCA" class="art">
-<p><strong>Art. 40</strong>. Si el Consejero Académico cesare en su cargo, su reemplazante será el Subconsejero Académico.</p>
+<div id="reemplazoCAING" class="art">
+<p><strong>Art. 43</strong>. Si la Consejería de Ingeniería cesare en su cargo, su reemplazante sería el Subconsejería de Ingeniería.</p>
 </div>
 <div id="cp_renuncia" class="art">
-<p><strong>Art. 41</strong>. <span id="eleccionExtraordinariaCAPostgrado" data-label="eleccionExtraordinariaCAPostgrado"></span> En caso de que el cargo de Consejero de Postgrado quedase vacante, debe procederse como se indica a continuación:</p>
+<p><strong>Art. 44</strong>. <span id="eleccionExtraordinariaCAPostgrado" data-label="eleccionExtraordinariaCAPostgrado"></span> En caso de que el cargo de Consejero de Postgrado quedase vacante, debe procederse como se indica a continuación:</p>
 <ol type="1">
 <li><p>En caso de quedar vacante por renuncia, cesación anticipada del cargo o deposición de un Consejero en ejercicio, su reemplazante será el Subconsejero de Postgrado.</p></li>
 <li><p>Si no se hubiese presentado ningún candidato al cargo de Consejero de Postgrado después de los dos períodos estipulados en el artículo <a href="#eleccionesCAi" data-reference-type="ref" data-reference="eleccionesCAi">23, inciso 8</a> de esta parte, o no hubiese una mayoría no electa a quien ofrecer el cargo de acuerdo a lo establecido en el inciso 1. de este artículo, el Consejo Académico deberá solicitar al presidente del Comité Ejecutivo la elaboración de una lista, jerarquizada según orden de elegibilidad, de tres candidatos que cumplan con los requisitos establecidos para postular al cargo de Consejero de Postgrado. El Consejo Académico someterá a aprobación a los candidatos, de acuerdo al orden propuesto. Se ofrecerá el cargo a quien obtuviese mayoría de los votos presentes. Si a quien se le ofreciere el cargo no aceptase, se repetirá el proceso con el siguiente candidato. De no existir un candidato a quien ofrecer el cargo, o de haber transcurrido 3 semanas desde la renuncia o cesación del cargo del Consejero anterior, se declarará desierto el cargo por lo que reste del período.</p></li>
 </ol>
 </div>
-</section>
+<div id="calicc_renuncia" class="art">
+<p><strong>Art. 45</strong>. <span id="eleccionExtraordinariaCALiCC" data-label="eleccionExtraordinariaCALiCC"></span> En caso de que el carog de Consejería DE LiCC quedase vacante, debe procederse como se indica a continuación:</p>
+<ol type="1">
+<li><p>En caso de quedar vacante por renuncia, cesación anticipada del cargo o deposición de una Consejería en ejercicio, su reemplazante será la Subconsejería de LiCC.</p></li>
+<li><p>Si no se hubiese presentado ningún candidato al cargo de Consejería de LiCC después de los dos periodos estipulados en el artículo 25, inciso 8 de esta parte, o no hubiese una mayoría no electa a quien ofrecer el cargo de acuerdo a lo establecido en el inciso 1 de este artículo, el Consejo Académico deberá solicitar a la Presidencia del Comité Ejecutivo la elaboración de una lista, jerarquizada según orden de elegibilidad, de tres candidatos que cumplan con los requisitos establecidos para postular al cargo de Consejería de LiCC. El Consejo Académico someterá a aprobación a los candidatos de acuerdo al orden propuesto. Se ofrecerá el cargo a quien obtuviese la mayoría de los votos presentes. Si a quien se le ofreciere el cargo no aceptase, se repetirá eñ proceso con el siguiente candidato. De no existir un candidato a quien ofrecer el cargo, o de haber transcurrido 3 semanas desde la renuncia o cesación del cargo del Consejero snterior, se declará desierto el cargo por lo que reste de periodo.</p></li>
+</ol>
 <section id="iii.-sesiones" class="level2">
 <h2 class="anchored" data-anchor-id="iii.-sesiones">III. Sesiones</h2>
 <section id="sobre-las-sesiones-del-comité-ejecutivo" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="sobre-las-sesiones-del-comité-ejecutivo">Sobre las sesiones del Comité Ejecutivo</h3>
 <div id="sesionesEjecutivo" class="art">
-<p><strong>Art. 42</strong>. El Comité Ejecutivo podrá sesionar cuando lo estime conveniente, previa notificación a todos sus miembros. Estas sesiones serán presididas por el miembro del Comité Ejecutivo de mayor jerarquía entre los presentes. Para esto se tendrá en cuenta la jerarquía establecida en el artículo <a href="#jerarquia" data-reference-type="ref" data-reference="jerarquia">4, inciso 1.</a>.</p>
+<p><strong>Art. 46</strong>. El Comité Ejecutivo podrá sesionar cuando lo estime conveniente, previa notificación a todos sus miembros. Estas sesiones serán presididas por el miembro del Comité Ejecutivo de mayor jerarquía entre los presentes. Para esto se tendrá en cuenta la jerarquía establecida en el artículo <a href="#jerarquia" data-reference-type="ref" data-reference="jerarquia">4, inciso 1.</a>.</p>
 </div>
+<aside id="footnotes" class="footnotes footnotes-end-of-section" role="doc-footnote">
+<hr>
+<ol>
+<li id="fn1"><p>Código Civil: <a href="http://www.leychile.cl/Navegar?idNorma=172986" class="uri">http://www.leychile.cl/Navegar?idNorma=172986</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</aside>
 </section>
 <section id="sobre-las-sesiones-de-los-consejos" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="sobre-las-sesiones-de-los-consejos">Sobre las sesiones de los Consejos</h3>
 <div id="consejos" class="art">
-<p><strong>Art. 43</strong>. Cada Consejo debe sesionar en forma ordinaria una vez al mes durante el año académico y de forma pública. Se entenderá el año académico como el período de marzo a diciembre. El Generacional sesionará bajo la presidencia del Presidente del Comité Ejecutivo del Centro de Alumnos y el Académico será presidido por la Consejería Académica.</p>
+<p><strong>Art. 47</strong>. Cada Consejo debe sesionar en forma ordinaria una vez al mes durante el año académico y de forma pública. Se entenderá el año académico como el período de marzo a diciembre. El Generacional sesionará bajo la presidencia del Presidente del Comité Ejecutivo del Centro de Alumnos y el Académico será presidido por la Consejería de Ingeniería.</p>
 </div>
 <div id="consejoOrdinario" class="art">
-<p><strong>Art. 44</strong>. La citación a sesiones ordinarias de cada Consejo será notificada con un mínimo de dos días hábiles de anticipación. Junto con la citación se incluirá un borrador de la tabla con los temas a tratar. La citación será notificada a cada miembro del Consejo vía correo electrónico, además de ser publicada en la página web del CAi.</p>
+<p><strong>Art. 48</strong>. La citación a sesiones ordinarias de cada Consejo será notificada con un mínimo de dos días hábiles de anticipación. Junto con la citación se incluirá un borrador de la tabla con los temas a tratar. La citación será notificada a cada miembro del Consejo vía correo electrónico, además de ser publicada en la página web del CAi.</p>
 </div>
 <div id="consejoExtraordinario" class="art">
-<p><strong>Art. 45</strong>. Cada Consejo puede ser citado en forma extraordinaria por el Comité Ejecutivo o las Consejerías Académicas, por un tercio de los Representantes o quien lo presida, debiendo ser notificado a todos los miembros del consejo vía correo electrónico con al menos 24 h de anticipación.</p>
+<p><strong>Art. 49</strong>. Cada Consejo puede ser citado en forma extraordinaria por el Comité Ejecutivo o las Consejerías Académicas, por un tercio de los Representantes o quien lo presida, debiendo ser notificado a todos los miembros del consejo vía correo electrónico con al menos 24 h de anticipación.</p>
 </div>
 <div id="sesionesPostgrado" class="art">
-<p><strong>Art. 46</strong>. Los Representantes académicos de Postgrado votarán en las sesiones del Consejo Académico de Postgrado, llevándose los respectivos resultados al Consejo Académico de Pregrado a través del Consejero correspondiente.</p>
+<p><strong>Art. 50</strong>. Los Representantes académicos de Postgrado votarán en las sesiones del Consejo Académico de Postgrado, llevándose los respectivos resultados al Consejo Académico de Pregrado a través del Consejero correspondiente.</p>
 </div>
 <div id="votosPostgrado" class="art">
-<p><strong>Art. 47</strong>. Vinculado al artículo anterior, los Representantes académicos de Postgrado quedan exentos de la pérdida del derecho a voto por ausencia en el Consejo Académico de Pregrado.</p>
+<p><strong>Art. 51</strong>. Vinculado al artículo anterior, los Representantes académicos de Postgrado quedan exentos de la pérdida del derecho a voto por ausencia en el Consejo Académico de Pregrado.</p>
 </div>
 <div id="facultadesPrecide" class="art">
-<p><strong>Art. 48</strong>. La facultad de quien presida la sesión comprende:</p>
+<p><strong>Art. 52</strong>. La facultad de quien presida la sesión comprende:</p>
 <ol type="1">
 <li><p>La de dirigir el debate con amplias facultades, salvo las expresas limitaciones consagradas en este estatuto.</p></li>
 <li><p>Amonestar a cualquier asistente que perturbare el normal desarrollo de la sesión. Si el amonestado persistiere en su actitud, quien presida el Consejo podrá expulsarlo de la sala por el resto de la sesión, previa aprobación del Consejo.</p></li>
@@ -1115,31 +1174,33 @@ Tratándose de los Representantes generacionales de la primera y segunda generac
 </ol>
 </div>
 <div id="quorumConsejo" class="art">
-<p><strong>Art. 49</strong>. El quórum para llevar a cabo un Consejo debe ser más del 50% de los Representantes que no hayan perdido su derecho a voto. Además será necesaria la presencia del Consejero Académico y Jefatura de Docencia o Subconsejero Académico, en el caso del Consejo Académico, y de algún miembro del Comité Ejecutivo y del Consejero Académico, o a quien este último haya otorgado poder, en el caso del Consejo Generacional. Pasados los treinta minutos de la hora fijada para el comienzo de la sesión, el quórum será de una tercera parte de los Representantes que no hayan perdido su derecho a voto, más Consejero Académico y Jefatura de Docencia o Subconsejero Académico y de algún miembro del Comité Ejecutivo y del Consejero Académico, o a quien este último haya otorgado poder, en el caso del Consejo Generacional. No ocurriendo esto, se declarará fracasada la sesión a petición de cualquier miembro del Consejo. Para el cálculo de este quórum no se contabilizarán a los Representantes de postgrado si ellos no participan en la sesión del Consejo Académico.</p>
+<p><strong>Art. 53</strong>. El quórum para llevar a cabo un Consejo debe ser más del 50% de los Representantes que no hayan perdido su derecho a voto. Además será necesaria la presencia del Consejero Académico y Jefatura de Docencia o Subconsejero Académico, en el caso del Consejo Académico, y de algún miembro del Comité Ejecutivo y del Consejero Académico, o a quien este último haya otorgado poder, en el caso del Consejo Generacional. Pasados los treinta minutos de la hora fijada para el comienzo de la sesión, el quórum será de una tercera parte de los Representantes que no hayan perdido su derecho a voto, más Consejero Académico y Jefatura de Docencia o Subconsejero Académico y de algún miembro del Comité Ejecutivo y del Consejero Académico, o a quien este último haya otorgado poder, en el caso del Consejo Generacional. No ocurriendo esto, se declarará fracasada la sesión a petición de cualquier miembro del Consejo. Para el cálculo de este quórum no se contabilizarán a los Representantes de postgrado si ellos no participan en la sesión del Consejo Académico.</p>
 </div>
 <div id="duracionConsejosOrdinarios" class="art">
-<p><strong>Art. 50</strong>. Las sesiones ordinarias del Consejo durarán un módulo académico, extensible a un máximo de dos módulos a través de la siguiente manera:</p>
+<p><strong>Art. 54</strong>. Las sesiones ordinarias del Consejo durarán un módulo académico, extensible a un máximo de dos módulos a través de la siguiente manera:</p>
 <ul>
 <li><p>Diez minutos antes del término del primer módulo, los integrantes del Consejo que estén presentes y tengan derecho a voto, mediante votación simple decidirán si se extiende al segundo módulo o se cita a sesión extraordinaria para continuar la discusión.</p></li>
 <li><p>En caso de continuar la discusión en un segundo módulo y esta no finalizara, 15 minutos antes del fin de este módulo se votará, de la misma manera que antes, para decidir si se continúa la discusión en una sesión extraordinaria. Lo dispuesto en los artículos precedentes debe entenderse sin perjuicio del derecho del presidente a inscribir a los que deseen hacer uso de la palabra, limitando el tiempo de los oradores por acuerdo conjunto entre él y el Consejo.</p></li>
 </ul>
 </div>
 <div id="cuentasPublicasOrdinarias" class="art">
-<p><strong>Art. 51</strong>. La tabla de las sesiones ordinarias de cada Consejo deberá contemplar —al menos— los siguientes puntos:</p>
+<p><strong>Art. 55</strong>. La tabla de las sesiones ordinarias de cada Consejo deberá contemplar —al menos— los siguientes puntos:</p>
 <ol type="1">
 <li><p>Cuenta del Comité Ejecutivo</p></li>
-<li><p>Cuenta del Consejero Académico</p></li>
+<li><p>Cuenta de la Consejería Académica de Ingeniería</p></li>
+<li><p>Cuenta de la Consejería Académica de Postgrado</p></li>
+<li><p>Cuenta de la Consejería Académica de LiCC.</p></li>
 </ol>
 <p>Esto sin perjuicio a la facultad de los miembros del Consejo de proponer otros temas para la sesión, de acuerdo a lo establecido en el presente cuerpo de estatutos.</p>
 </div>
 <div id="definicionTabla" class="art">
-<p><strong>Art. 52</strong>. La tabla de cada sesión del Consejo se considerará cerrada pasados los primeros quince minutos de iniciada la sesión. Durante este tiempo, así como previo al inicio de la sesión, podrán proponer temas a la tabla todos aquellos miembros del Consejo que tengan derecho a voz, y su incorporación quedará sujeta a aprobación de quien presida la sesión. No obstante lo anterior, una solicitud que sea apoyada por un tercio de los miembros con derecho a voto presentes deberá ser incorporada a la tabla sin derecho a veto posible.</p>
+<p><strong>Art. 56</strong>. La tabla de cada sesión del Consejo se considerará cerrada pasados los primeros quince minutos de iniciada la sesión. Durante este tiempo, así como previo al inicio de la sesión, podrán proponer temas a la tabla todos aquellos miembros del Consejo que tengan derecho a voz, y su incorporación quedará sujeta a aprobación de quien presida la sesión. No obstante lo anterior, una solicitud que sea apoyada por un tercio de los miembros con derecho a voto presentes deberá ser incorporada a la tabla sin derecho a veto posible.</p>
 </div>
 <div id="temaPropuestoAlumnado" class="art">
-<p><strong>Art. 53</strong>. Si previo al inicio de una sesión de Consejo o durante los primeros 15 minutos de esta, el Consejo fuese requerido a discutir, pronunciarse y/o votar en torno a un tema en particular, y dicha solicitud viniese respaldada por la firma del 5% de los alumnos representados por el CAi, esta solicitud deberá ser acogida e incorporada a la tabla.</p>
+<p><strong>Art. 57</strong>. Si previo al inicio de una sesión de Consejo o durante los primeros 15 minutos de esta, el Consejo fuese requerido a discutir, pronunciarse y/o votar en torno a un tema en particular, y dicha solicitud viniese respaldada por la firma del 5% de los alumnos representados por el CAi, esta solicitud deberá ser acogida e incorporada a la tabla.</p>
 </div>
 <div id="fijarAsistencias" class="art">
-<p><strong>Art. 54</strong>. En la primera sesión ordinaria de cada Consejo:</p>
+<p><strong>Art. 58</strong>. En la primera sesión ordinaria de cada Consejo:</p>
 <ol type="1">
 <li><p>Se solicitará la disponibilidad horaria de cada miembro del Consejo. Esta información será recopilada, de la forma que se estime conveniente, por el Secretario de cada consejo, quien intentará definir a partir de ésta el día y hora de las sesiones ordinarias que permitan conseguir la asistencia de la mayoría de los miembros del Consejo.</p></li>
 <li><p>Para el caso del Consejo Generacional se elegirá a un Secretario Ejecutivo, quien ocupará dicho cargo durante un semestre. Este tendrá el rol de apoyar al Secretario General en el funcionamiento del Consejo, llámese apoyo:</p>
@@ -1154,20 +1215,21 @@ Tratándose de los Representantes generacionales de la primera y segunda generac
 </ol>
 </div>
 <div id="cuentasPublicasSemestrales" class="art">
-<p><strong>Art. 55</strong>. Al menos una vez al semestre, el Comité Ejecutivo, el Consejero Académico y el Consejero de Postgrado deberán rendir una cuenta de las labores efectuadas en el transcurso de su período.</p>
+<p><strong>Art. 59</strong>. Al menos una vez al semestre, el Comité Ejecutivo, la Consejería de Ingeniería, la Consejería de Postgrado y la Consejería de LiCC deberán rendir una cuenta de las labores efectuadas en el transcurso de su período.</p>
 </div>
 <div id="presupuestoEjecutivo" class="art">
-<p><strong>Art. 56</strong>. En la sesión ordinaria de cada Consejo correspondiente al mes de marzo, la Jefatura de Finanzas del CAi deberá presentar un presupuesto estimado para su gestión, que explicite los ingresos y egresos esperados para el año académico. Este presupuesto debe presentar, al menos, los gastos e ingresos estimados para cada Comisión, así como de todo proyecto o actividad cuyo presupuesto supere 20 UF. Este presupuesto no debe considerarse vinculante.</p>
+<p><strong>Art. 60</strong>. En la sesión ordinaria de cada Consejo correspondiente al mes de marzo, la Jefatura de Finanzas del CAi deberá presentar un presupuesto estimado para su gestión, que explicite los ingresos y egresos esperados para el año académico. Este presupuesto debe presentar, al menos, los gastos e ingresos estimados para cada Comisión, así como de todo proyecto o actividad cuyo presupuesto supere 20 UF. Este presupuesto no debe considerarse vinculante.</p>
 </div>
 <div id="votacioncesConsejo" class="art">
-<p><strong>Art. 57</strong>. Toda votación se realizará de forma oral, salvo que quien presida la sesión o la tercera parte del Consejo determine que se haga en forma escrita, nominal y simultánea. Para efectos de votación, se considerará lo siguiente:</p>
+<p><strong>Art. 61</strong>. Toda votación se realizará de forma oral, salvo que quien presida la sesión o la tercera parte del Consejo determine que se haga en forma escrita, nominal y simultánea. Para efectos de votación, se considerará lo siguiente:</p>
 <ol type="1">
 <li><p>Tratándose del Consejo Generacional:</p>
 <ul>
 <li><p>Cada Representante generacional tendrá un voto.</p></li>
 <li><p>El Comité Ejecutivo tendrá tres votos, correspondientes al Presidente y vicepresidentes.</p></li>
-<li><p>El Consejero Académico tendrá un voto.</p></li>
-<li><p>El Consejero de Postgrado tendrá un voto.</p></li>
+<li><p>La Consejería de Ingeniería tendrá un voto.</p></li>
+<li><p>La Consejería de Postgrado tendrá un voto.</p></li>
+<li><p>La Consejería de LiCC tendrá un voto.</p></li>
 </ul></li>
 <li><p>Tratándose del Consejo Académico:</p>
 <ul>
@@ -1176,28 +1238,29 @@ Tratándose de los Representantes generacionales de la primera y segunda generac
 <li><p>La Jefatura de Docencia del Comité Ejecutivo tendrá un voto.</p></li>
 <li><p>La Consejería Académica tendrá un voto.</p></li>
 <li><p>La Consejería de Postgrado tendrá un voto.</p></li>
+<li><p>La Consejería de LiCC</p></li>
 <li><p>La persona Representante de College tendrá un voto.</p></li>
-<li><p>La Subconsejería Académica tendrá un voto en caso que la Jefatura de Docencia no esté presente.</p></li>
+<li><p>La Subconsejería de Ingeniería tendrá un voto en caso que la Jefatura de Docencia no esté presente.</p></li>
 <li><p>Las personas representantes de postgrado en su conjunto tendrán 3 votos, en ningún caso se podrá acumular más de un voto por representante.</p></li>
 <li><p>Cada Representante o dupla de la Licenciatura en Ingeniería en Ciencias de la Computación tendrá un voto.</p></li>
 </ul></li>
-<li><p>Para evitar la sobrerrepresentación de algún representante, en el caso de una votación que requiera la aprobación de ambos consejos: los Representantes que tienen presencia en ambos Consejos solo podrán votar en el Consejo al que pertenecen; los Consejeros Académicos de pre y postgrado solo votarán en el Consejo Académico; y el Comité Ejecutivo contará solo con los votos en el Consejo Generacional.</p></li>
+<li><p>Para evitar la sobrerrepresentación de algún representante, en el caso de una votación que requiera la aprobación de ambos consejos: los Representantes que tienen presencia en ambos Consejos solo podrán votar en el Consejo al que pertenecen; las Consejerías Académicos solo votarán en el Consejo Académico; y el Comité Ejecutivo contará solo con los votos en el Consejo Generacional.</p></li>
 </ol>
 </div>
 <div id="quorumMinimoVotacion" class="art">
-<p><strong>Art. 58</strong>. El quórum mínimo para realizar cualquier votación será el 50% de los votos posibles.</p>
+<p><strong>Art. 62</strong>. El quórum mínimo para realizar cualquier votación será el 50% de los votos posibles.</p>
 </div>
 <div id="esquemaVotacion" class="art">
-<p><strong>Art. 59</strong>. Toda moción sometida a votación se aprobará por simple mayoría de los votos presentes, salvo que en este Estatuto se especifique lo contrario. En caso de empate, la decisión final recae sobre quien presida la sesión.</p>
+<p><strong>Art. 63</strong>. Toda moción sometida a votación se aprobará por simple mayoría de los votos presentes, salvo que en este Estatuto se especifique lo contrario. En caso de empate, la decisión final recae sobre quien presida la sesión.</p>
 </div>
 <div id="quorumCalificado" class="art">
-<p><strong>Art. 60</strong>. Las votaciones que requieran quórum calificado, serán aprobadas por dos tercios de los votos presentes.</p>
+<p><strong>Art. 64</strong>. Las votaciones que requieran quórum calificado, serán aprobadas por dos tercios de los votos presentes.</p>
 </div>
 <div id="votacionMovilizacionParo" class="art">
-<p><strong>Art. 61</strong>. Las votaciones para decidir la participación en paros o actividades que alteren el funcionamiento normal de la Escuela deberán ser tomadas en el Consejo Generacional y requerirán quórum calificado de la forma en que se especifica en este Estatuto. En caso de decidir la participación en movilizaciones estudiantiles, estas requerirán mayoría simple. En ambos casos, para el cálculo de este quórum no se contabilizarán a los Representantes de postgrado si ellos no participan en la votación.</p>
+<p><strong>Art. 65</strong>. Las votaciones para decidir la participación en paros o actividades que alteren el funcionamiento normal de la Escuela deberán ser tomadas en el Consejo Generacional y requerirán quórum calificado de la forma en que se especifica en este Estatuto. En caso de decidir la participación en movilizaciones estudiantiles, estas requerirán mayoría simple. En ambos casos, para el cálculo de este quórum no se contabilizarán a los Representantes de postgrado si ellos no participan en la votación.</p>
 </div>
 <div id="votacionExterna" class="art">
-<p><strong>Art. 62</strong>. En los casos en que los resultados de votaciones deban ser llevados ante organismos externos al CAi, dicha votación deberá ser llevada a cabo por el Consejo Generacional. Esta se presentará en la misma proporción original, redondeando al entero más cercano. Si por este sistema se produjese un empate, se decidirá por la postura más votada de entre las empatadas. Si el empate persistiese corresponderá dirimir a la persona quien presida el Consejo. En el caso de ser al Consejo de Presidentes de la FEUC, o cualquier otra instancia en la que el Comité Ejecutivo tenga derecho a voto propio, solo serán válidos los votos de los Representantes.</p>
+<p><strong>Art. 66</strong>. En los casos en que los resultados de votaciones deban ser llevados ante organismos externos al CAi, dicha votación deberá ser llevada a cabo por el Consejo Generacional. Esta se presentará en la misma proporción original, redondeando al entero más cercano. Si por este sistema se produjese un empate, se decidirá por la postura más votada de entre las empatadas. Si el empate persistiese corresponderá dirimir a la persona quien presida el Consejo. En el caso de ser al Consejo de Presidentes de la FEUC, o cualquier otra instancia en la que el Comité Ejecutivo tenga derecho a voto propio, solo serán válidos los votos de los Representantes.</p>
 <div class="callout callout-style-default callout-note callout-titled" title="Oficio Interpretativo relacionado">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -1216,19 +1279,19 @@ Tratándose de los Representantes generacionales de la primera y segunda generac
 </div>
 </div>
 <div id="definicionPoder" class="art">
-<p><strong>Art. 63</strong>. Cualquier miembro del Consejo podrá delegar en otro alumno regular de la Escuela de Ingeniería su voz y su voto para una sesión determinada de dicho consejo mediante un poder escrito. Este poder deberá ser entregado a la Secretaría General antes del inicio de la sesión correspondiente y será considerado como asistencia. En caso de que alguna Consejería o Representante deba hacer abandono de la sesión, posterior a los 30 minutos necesarios para hacer válida la asistencia, este podrá sustituir su presencia mediante un poder escrito, denominado Poder de Reemplazo. Para efecto de quórum, los poderes serán considerados como asistencia solo si está presente la persona a quien ha sido otorgado.</p>
+<p><strong>Art. 67</strong>. Cualquier miembro del Consejo podrá delegar en otro alumno regular de la Escuela de Ingeniería su voz y su voto para una sesión determinada de dicho consejo mediante un poder escrito. Este poder deberá ser entregado a la Secretaría General antes del inicio de la sesión correspondiente y será considerado como asistencia. En caso de que alguna Consejería o Representante deba hacer abandono de la sesión, posterior a los 30 minutos necesarios para hacer válida la asistencia, este podrá sustituir su presencia mediante un poder escrito, denominado Poder de Reemplazo. Para efecto de quórum, los poderes serán considerados como asistencia solo si está presente la persona a quien ha sido otorgado.</p>
 </div>
 <div id="maxPoderesRecibidos" class="art">
-<p><strong>Art. 64</strong>. Ningún alumno podrá acumular más de un poder a su nombre para una misma sesión. En caso de presentarse dos o más a nombre de una misma persona, solo será válido el que primero haya aceptado en el curso de la sesión.</p>
+<p><strong>Art. 68</strong>. Ningún alumno podrá acumular más de un poder a su nombre para una misma sesión. En caso de presentarse dos o más a nombre de una misma persona, solo será válido el que primero haya aceptado en el curso de la sesión.</p>
 </div>
 <div id="maxPoderesEmitidos" class="art">
-<p><strong>Art. 65</strong>. Un Representante no podrá presentar un poder más de dos veces en su período para las sesiones ordinarias. En caso de votación en las sesiones extraordinarias, los Representantes podrán, adicionalmente a lo anterior, dejar a lo más dos poderes simples durante su período. Esta última cifra podrá extenderse hasta un máximo de cuatro por acuerdo del Consejo si durante el período de los Representantes en ejercicio se hubiese celebrado más de diez Consejos Extraordinarios. En el caso de los poderes de reemplazo, según el artículo&nbsp;<a href="#definicionPoder" data-reference-type="ref" data-reference="definicionPoder">63</a>, los Representantes poseen un máximo de dos poderes para sesiones ordinarios y dos para las sesiones extraordinarias, independientes de los poderes que envían cuando no asisten a las sesiones.</p>
+<p><strong>Art. 69</strong>. Un Representante no podrá presentar un poder más de dos veces en su período para las sesiones ordinarias. En caso de votación en las sesiones extraordinarias, los Representantes podrán, adicionalmente a lo anterior, dejar a lo más dos poderes simples durante su período. Esta última cifra podrá extenderse hasta un máximo de cuatro por acuerdo del Consejo si durante el período de los Representantes en ejercicio se hubiese celebrado más de diez Consejos Extraordinarios. En el caso de los poderes de reemplazo, según el artículo&nbsp;<a href="#definicionPoder" data-reference-type="ref" data-reference="definicionPoder">63</a>, los Representantes poseen un máximo de dos poderes para sesiones ordinarios y dos para las sesiones extraordinarias, independientes de los poderes que envían cuando no asisten a las sesiones.</p>
 </div>
 </section>
 <section id="sobre-las-sesiones-del-consejo-generacional" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="sobre-las-sesiones-del-consejo-generacional">Sobre las sesiones del Consejo Generacional</h3>
 <div class="art">
-<p><strong>Art. 66</strong>. Los Consejeros Territoriales —por la función de representantes del alumnado de Ingeniería ante el consejo ejecutivo y de federación que el estatuto FEUC les confiere— son reconocidos como participantes del Consejo Generacional sin derecho a voto, por lo cual, no se contará su asistencia para el quórum. Se les reconocen las siguientes facultades y derechos:</p>
+<p><strong>Art. 70</strong>. Los Consejeros Territoriales —por la función de representantes del alumnado de Ingeniería ante el consejo ejecutivo y de federación que el estatuto FEUC les confiere— son reconocidos como participantes del Consejo Generacional sin derecho a voto, por lo cual, no se contará su asistencia para el quórum. Se les reconocen las siguientes facultades y derechos:</p>
 <ol type="1">
 <li><p>Derecho a voz en las sesiones ordinarias y extraordinarias del Consejo Generacional.</p></li>
 <li><p>Citar al Consejo Generacional de forma extraordinaria, previo acuerdo de la mitad o más de los Consejeros Territoriales y respetando las especificaciones establecidas en este estatuto para ello.</p></li>
@@ -1239,7 +1302,7 @@ Tratándose de los Representantes generacionales de la primera y segunda generac
 <section id="sobre-las-sesiones-del-consejo-académico" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="sobre-las-sesiones-del-consejo-académico">Sobre las sesiones del Consejo Académico</h3>
 <div class="art">
-<p><strong>Art. 67</strong>. Para el correcto funcionamiento del Consejo Académico se elegirá un Secretario Académico de entre los Representantes. Será un cargo de duración semestral y será elegido por mayoría absoluta de los miembros del Consejo durante la primera sesión del Consejo y en el Consejo Ordinario de agosto.<br>
+<p><strong>Art. 71</strong>. Para el correcto funcionamiento del Consejo Académico se elegirá un Secretario Académico de entre los Representantes. Será un cargo de duración semestral y será elegido por mayoría absoluta de los miembros del Consejo durante la primera sesión del Consejo y en el Consejo Ordinario de agosto.<br>
 Si quien fue nombrado Secretario se ausentase a una sesión, se elegirá otro Representante que tomará acta en su lugar y deberá hacérsela llegar dentro de dos días hábiles.<br>
 En caso de presentar renuncia, deberá proponer a un miembro del Consejo que lo suceda para el resto del período, sin interferir con que existan más postulantes.<br>
 Es responsabilidad del Secretario Académico tomar asistencia y acta sobre las acciones que decida el Consejo, así como realizar la citación a los consejos ordinarios y a los extraordinarios que se consideren pertinentes.<br>
@@ -1250,7 +1313,7 @@ El acta de cada sesión deberá enviarse a todos los miembros del Consejo, con u
 <section id="iv.-funcionamiento-y-apartados" class="level2">
 <h2 class="anchored" data-anchor-id="iv.-funcionamiento-y-apartados">IV. Funcionamiento y apartados</h2>
 <div id="definicionApartados" class="art">
-<p><strong>Art. 68</strong>. Los Estatutos del Centro de Alumnos de Ingeniería pueden ser complementados con Reglamentos y Protocolos para regular formalmente aspectos particulares del CAi y de la vida en la Escuela. Estos Apartados Oficiales constituirán junto a los Estatutos el denominado Cuerpo de Estatutos, el cual funcionará de la siguiente forma:</p>
+<p><strong>Art. 72</strong>. Los Estatutos del Centro de Alumnos de Ingeniería pueden ser complementados con Reglamentos y Protocolos para regular formalmente aspectos particulares del CAi y de la vida en la Escuela. Estos Apartados Oficiales constituirán junto a los Estatutos el denominado Cuerpo de Estatutos, el cual funcionará de la siguiente forma:</p>
 <ol type="1">
 <li><p>Todo Apartado deberá definirse en uno o más Artículos que se encontrarán bajo un titular propio en la sección Funcionamiento y Apartados de los Estatutos principales. Respectivamente, cada uno de ellos hará referencia a un documento anexo con carácter de Apartado Oficial.</p></li>
 <li><p>Los Estatutos deberán ser siempre publicados junto a sus Apartados.</p></li>
@@ -1262,14 +1325,14 @@ El acta de cada sesión deberá enviarse a todos los miembros del Consejo, con u
 <section id="sobre-el-tribunal-calificador-de-elecciones" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="sobre-el-tribunal-calificador-de-elecciones">Sobre el Tribunal Calificador de Elecciones</h3>
 <div id="definicionTRICEL" class="art">
-<p><strong>Art. 69</strong>. El Tribunal Calificador de Elecciones, en adelante TRICEL, será el organismo encargado de implementar y supervisar todo proceso eleccionario o de sufragio universal a nivel de CAi. Se regirá por un Apartado propio denominado “Reglamento TRICEL CAi”, en el cual se especifican sus funciones y atribuciones durante los sufragios. El TRICEL tendrá carácter temporal, cumpliendo sus funciones solo respecto del proceso eleccionario para el cual se constituye. Se conformará en el siguiente momento:</p>
+<p><strong>Art. 73</strong>. El Tribunal Calificador de Elecciones, en adelante TRICEL, será el organismo encargado de implementar y supervisar todo proceso eleccionario o de sufragio universal a nivel de CAi. Se regirá por un Apartado propio denominado “Reglamento TRICEL CAi”, en el cual se especifican sus funciones y atribuciones durante los sufragios. El TRICEL tendrá carácter temporal, cumpliendo sus funciones solo respecto del proceso eleccionario para el cual se constituye. Se conformará en el siguiente momento:</p>
 <ol type="1">
 <li><p>En el caso de elecciones de representantes del CAi, tres días hábiles antes de que comience el período de inscripción de candidatos.</p></li>
 <li><p>Para cualquier otro tipo de plebiscito, consulta directa o sufragio universal, lo hará en la misma sesión en que este se convoque.</p></li>
 </ol>
 </div>
 <div id="funcionesTRICEL" class="art">
-<p><strong>Art. 70</strong>. Las funciones del TRICEL son:</p>
+<p><strong>Art. 74</strong>. Las funciones del TRICEL son:</p>
 <ol type="1">
 <li><p>Velar por el cumplimiento de las normas estatutarias y reglamentarias en el respectivo proceso eleccionario. Deberá discutir y aplicar su criterio ante disyuntivas que puedan existir.</p></li>
 <li><p>Conocer de cualquier asunto relacionado con la elección para la cual se constituye.</p></li>
@@ -1282,7 +1345,7 @@ El acta de cada sesión deberá enviarse a todos los miembros del Consejo, con u
 </ol>
 </div>
 <div id="composicionTRICEL" class="art">
-<p><strong>Art. 71</strong>. El TRICEL estará compuesto por los siguientes miembros:</p>
+<p><strong>Art. 75</strong>. El TRICEL estará compuesto por los siguientes miembros:</p>
 <ol type="1">
 <li><p>Cualquier miembro del Comité Ejecutivo, el cual será electo de la forma en que este lo estime conveniente. Dicho miembro presidirá el Tribunal.</p></li>
 <li><p>Dos representantes generacionales y dos representantes académicos escogidos por los representantes de sus respectivos Consejos en una sola votación.</p></li>
@@ -1294,19 +1357,19 @@ El acta de cada sesión deberá enviarse a todos los miembros del Consejo, con u
 <section id="sobre-iniciativas-estudiantiles-cai" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="sobre-iniciativas-estudiantiles-cai">Sobre iniciativas estudiantiles CAi</h3>
 <div class="art">
-<p><strong>Art. 72</strong>. Se entiende por iniciativa estudiantil asociada al Centro de Alumnos de Ingeniería como una agrupación de personas organizada, con un mismo fin desde y/o para la comunidad de Ingeniería UC. Para que una agrupación de estudiantes sea considerada una iniciativa estudiantil asociada al Centro de Alumnos de Ingeniería (se hará referencia a estas como iniciativas estudiantiles CAi) debe explicitar mediante un documento presentado al CAi todo lo que está especificado en el Apartado de las Iniciativas Estudiantiles CAi.</p>
+<p><strong>Art. 76</strong>. Se entiende por iniciativa estudiantil asociada al Centro de Alumnos de Ingeniería como una agrupación de personas organizada, con un mismo fin desde y/o para la comunidad de Ingeniería UC. Para que una agrupación de estudiantes sea considerada una iniciativa estudiantil asociada al Centro de Alumnos de Ingeniería (se hará referencia a estas como iniciativas estudiantiles CAi) debe explicitar mediante un documento presentado al CAi todo lo que está especificado en el Apartado de las Iniciativas Estudiantiles CAi.</p>
 </div>
 <div class="art">
-<p><strong>Art. 73</strong>. Las especificaciones de la iniciativa estudiantil CAi deberán ser entregadas una vez al año al Centro de Alumnos de Ingeniería durante la segunda semana de clases del primer semestre del período académico, incluso para iniciativas estudiantiles ya asociadas al CAi.</p>
+<p><strong>Art. 77</strong>. Las especificaciones de la iniciativa estudiantil CAi deberán ser entregadas una vez al año al Centro de Alumnos de Ingeniería durante la segunda semana de clases del primer semestre del período académico, incluso para iniciativas estudiantiles ya asociadas al CAi.</p>
 </div>
 <div class="art">
-<p><strong>Art. 74</strong>. Las especificaciones deberán ser revisadas por un miembro del Comité Ejecutivo y un representante de cada consejo y aprobadas o rechazadas en un plazo de cinco días hábiles después de que se hayan entregado las especificaciones. En caso de que estas sean rechazadas, se le dará a la iniciativa estudiantil CAi un plazo de dos días hábiles para entregar un nuevo documento, el cual deberá ser revisado en los próximos tres días hábiles. En caso de que se rechace de nuevo las especificaciones, la agrupación de personas no será considerada como una iniciativa estudiantil del Centro de Alumnos de Ingeniería, por lo que no podrá participar en los presupuestos participativos ni en las oficinas concursables. El fin de esta verificación es tener catalogadas las iniciativas estudiantiles asociadas al CAi con un formato completo y consistente, y no pretende otorgar al CAi soberanía sobre las iniciativas estudiantiles CAi.</p>
+<p><strong>Art. 78</strong>. Las especificaciones deberán ser revisadas por un miembro del Comité Ejecutivo y un representante de cada consejo y aprobadas o rechazadas en un plazo de cinco días hábiles después de que se hayan entregado las especificaciones. En caso de que estas sean rechazadas, se le dará a la iniciativa estudiantil CAi un plazo de dos días hábiles para entregar un nuevo documento, el cual deberá ser revisado en los próximos tres días hábiles. En caso de que se rechace de nuevo las especificaciones, la agrupación de personas no será considerada como una iniciativa estudiantil del Centro de Alumnos de Ingeniería, por lo que no podrá participar en los presupuestos participativos ni en las oficinas concursables. El fin de esta verificación es tener catalogadas las iniciativas estudiantiles asociadas al CAi con un formato completo y consistente, y no pretende otorgar al CAi soberanía sobre las iniciativas estudiantiles CAi.</p>
 </div>
 </section>
 <section id="sobre-el-presupuesto-participativo" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="sobre-el-presupuesto-participativo">Sobre el Presupuesto Participativo</h3>
 <div id="definicionPParticipativo1" class="art">
-<p><strong>Art. 75</strong>. El CAi debe considerar en su gestión la aplicación de la metodología de Presupuesto Participativo, la cual consiste en asignar recursos mediante votación directa del alumnado a iniciativas estudiantiles CAi, como las mencionadas en el artículo&nbsp;<a href="#finalidadesCAi" data-reference-type="ref" data-reference="finalidadesCAi">3</a>, incisos&nbsp;<a href="#social" data-reference-type="ref" data-reference="social">2.</a> y&nbsp;<a href="#cultural" data-reference-type="ref" data-reference="cultural">3.</a>. El Presupuesto Participativo CAi se define de la siguiente manera:</p>
+<p><strong>Art. 79</strong>. El CAi debe considerar en su gestión la aplicación de la metodología de Presupuesto Participativo, la cual consiste en asignar recursos mediante votación directa del alumnado a iniciativas estudiantiles CAi, como las mencionadas en el artículo&nbsp;<a href="#finalidadesCAi" data-reference-type="ref" data-reference="finalidadesCAi">3</a>, incisos&nbsp;<a href="#social" data-reference-type="ref" data-reference="social">2.</a> y&nbsp;<a href="#cultural" data-reference-type="ref" data-reference="cultural">3.</a>. El Presupuesto Participativo CAi se define de la siguiente manera:</p>
 <ol type="1">
 <li><p>Consiste en un monto igual o mayor al 10% de los ingresos fijos que reciba el CAi por parte del Decanato. El Comité Ejecutivo será quien proponga el monto exacto, de acuerdo a lo anterior, para ser ratificado por mayoría absoluta del Consejo Generacional, al menos cinco días hábiles antes de iniciarse el proceso de inscripción.</p></li>
 <li><p>Participarán como votantes solo los estudiantes de la Escuela de Ingeniería de la Pontificia Universidad Católica de Chile, según se definen en el artículo&nbsp;<a href="#porcentajeMinimo" data-reference-type="ref" data-reference="porcentajeMinimo">21</a>. En cuanto a las iniciativas estudiantiles postulantes, la mayoría de su equipo deberá cumplir con la condición anterior.</p></li>
@@ -1314,7 +1377,7 @@ El acta de cada sesión deberá enviarse a todos los miembros del Consejo, con u
 </ol>
 </div>
 <div id="definicionPParticipativo2" class="art">
-<p><strong>Art. 76</strong>. El Presupuesto Participativo CAi se asignará de acuerdo a los resultados de una elección a realizarse simultáneamente con la de Representantes. El proceso será análogo y paralelo al estipulado en el artículo <a href="#definicionesRepresentantes" data-reference-type="ref" data-reference="definicionesRepresentantes">31</a> y el dinero será exigible por los ganadores de acuerdo a las reglas del proceso. Para ello, serán especificados en el Reglamento del Presupuesto Participativo los siguientes puntos:</p>
+<p><strong>Art. 80</strong>. El Presupuesto Participativo CAi se asignará de acuerdo a los resultados de una elección a realizarse simultáneamente con la de Representantes. El proceso será análogo y paralelo al estipulado en el artículo <a href="#definicionesRepresentantes" data-reference-type="ref" data-reference="definicionesRepresentantes">31</a> y el dinero será exigible por los ganadores de acuerdo a las reglas del proceso. Para ello, serán especificados en el Reglamento del Presupuesto Participativo los siguientes puntos:</p>
 <ol type="1">
 <li><p>Los requisitos de postulación, tanto formales como de presentación de la iniciativa estudiantil CAi.</p></li>
 <li><p>Las posibles categorías y la consiguiente subdivisión del monto en porcentajes.</p></li>
@@ -1343,7 +1406,7 @@ El acta de cada sesión deberá enviarse a todos los miembros del Consejo, con u
 </div>
 </div>
 <div id="sancionesPParticipativo" class="art">
-<p><strong>Art. 77</strong>. Cualquier iniciativa estudiantil CAi ganadora que no cumpliese con lo estipulado en el artículo <a href="#definicionPParticipativo1" data-reference-type="ref" data-reference="definicionPParticipativo1">75</a>, será vetado por tres años, previa aprobación por mayoría absoluta del Consejo Generacional.<br>
+<p><strong>Art. 81</strong>. Cualquier iniciativa estudiantil CAi ganadora que no cumpliese con lo estipulado en el artículo <a href="#definicionPParticipativo1" data-reference-type="ref" data-reference="definicionPParticipativo1">75</a>, será vetado por tres años, previa aprobación por mayoría absoluta del Consejo Generacional.<br>
 El veto consiste en que tanto la iniciativa estudiantil CAi como las personas registradas en su equipo no podrán volver a postular una iniciativa estudiantil CAi en ninguno de los tres procesos siguientes.<br>
 El Reglamento del Presupuesto Participativo contará con una sección especial con las posibles listas iniciatives estudiantiles CAi y personas vetadas, ordenadas por año. Al cierre de cada proceso, el Comité Ejecutivo actualizará los nuevos listados según los ingresos y egresos que corresponda de acuerdo a los criterios anteriores.</p>
 </div>
@@ -1351,7 +1414,7 @@ El Reglamento del Presupuesto Participativo contará con una sección especial c
 <section id="sobre-las-oficinas-concursables" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="sobre-las-oficinas-concursables">Sobre las Oficinas Concursables</h3>
 <div class="art">
-<p><strong>Art. 78</strong>. El Centro de Alumnos tiene la obligación de abrir un proceso de postulación a las oficinas que tengan disponibles para las iniciativas estudiantiles CAi. Esta instancia se debe iniciar una vez que haya finalizado el proceso de presupuesto participativo, con opción de abrirse una segunda instancia para el segundo semestre, como se señala en el artículo 9 y 10 del Apartado de las Iniciativas Estudiantiles CAi.</p>
+<p><strong>Art. 82</strong>. El Centro de Alumnos tiene la obligación de abrir un proceso de postulación a las oficinas que tengan disponibles para las iniciativas estudiantiles CAi. Esta instancia se debe iniciar una vez que haya finalizado el proceso de presupuesto participativo, con opción de abrirse una segunda instancia para el segundo semestre, como se señala en el artículo 9 y 10 del Apartado de las Iniciativas Estudiantiles CAi.</p>
 <ol type="1">
 <li><p>Solo las iniciativas estudiantiles asociadas al Centro de Alumnos de Ingeniería del año presente pueden participar de este proceso.</p></li>
 <li><p>El detalle de todo el proceso está estipulado en el Apartado de las Iniciativas Estudiantiles CAi.</p></li>
@@ -1362,7 +1425,7 @@ El Reglamento del Presupuesto Participativo contará con una sección especial c
 <section id="sobre-capítulos-estudiantiles" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="sobre-capítulos-estudiantiles">Sobre Capítulos Estudiantiles</h3>
 <div class="art">
-<p><strong>Art. 79</strong>. Para que una agrupación de estudiantes sea considerada un capítulo estudiantil asociado al Centro de Alumnos de Ingeniería debe explicitar mediante un documento presentado al CAi lo siguiente:</p>
+<p><strong>Art. 83</strong>. Para que una agrupación de estudiantes sea considerada un capítulo estudiantil asociado al Centro de Alumnos de Ingeniería debe explicitar mediante un documento presentado al CAi lo siguiente:</p>
 <ol type="1">
 <li><p>Deben tener una misión y visión como capítulo estudiantil. Esto se debe alinear con actividades que considere a su respectivo departamento o instituto, pudiendo estas dirigirse a la comunidad de Ingeniería UC o a exteriores, siempre y cuando otros estudiantes de la Escuela puedan involucrarse.</p></li>
 <li><p>Rol que cumple con su aporte a la comunidad del departamento y/o exteriores, explicitando como mínimo el rol social.</p></li>
@@ -1371,10 +1434,10 @@ El Reglamento del Presupuesto Participativo contará con una sección especial c
 </ol>
 </div>
 <div class="art">
-<p><strong>Art. 80</strong>. El capítulo estudiantil deberá tener al menos un Representante de Major y/o Especialidad electo en cada período como miembro activo de la agrupación. Debe asistir a las reuniones que convoque la coordinación.</p>
+<p><strong>Art. 84</strong>. El capítulo estudiantil deberá tener al menos un Representante de Major y/o Especialidad electo en cada período como miembro activo de la agrupación. Debe asistir a las reuniones que convoque la coordinación.</p>
 </div>
 <div id="inscripcionCapitulos" class="art">
-<p><strong>Art. 81</strong>. El documento al que se hace referencia en el Art. 79. del capítulo estudiantil deberá ser entregado una vez al año al encargado de los capítulos del Centro de Alumnos de Ingeniería a más tardar dos semanas después de las elecciones de Representantes. Esto incluye tanto a los nuevos como actuales capítulos asociados al CAi.</p>
+<p><strong>Art. 85</strong>. El documento al que se hace referencia en el Art. 79. del capítulo estudiantil deberá ser entregado una vez al año al encargado de los capítulos del Centro de Alumnos de Ingeniería a más tardar dos semanas después de las elecciones de Representantes. Esto incluye tanto a los nuevos como actuales capítulos asociados al CAi.</p>
 <div class="callout callout-style-default callout-note callout-titled" title="Oficio Interpretativo relacionado">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -1393,28 +1456,28 @@ El Reglamento del Presupuesto Participativo contará con una sección especial c
 </div>
 </div>
 <div class="art">
-<p><strong>Art. 82</strong>. En caso de que Representantes cesen del cargo y no queden miembros del Consejo Académico participando en el capítulo, este dejará de ser reconocido por el CAi hasta que un nuevo Representante asuma el cargo.</p>
+<p><strong>Art. 86</strong>. En caso de que Representantes cesen del cargo y no queden miembros del Consejo Académico participando en el capítulo, este dejará de ser reconocido por el CAi hasta que un nuevo Representante asuma el cargo.</p>
 </div>
 <div class="art">
-<p><strong>Art. 83</strong>. Las especificaciones deberán ser revisadas por la Jefatura de Docencia, un integrante de la Consejería Académica y un Representante de cada consejo y aprobadas o rechazadas en un plazo de cinco días hábiles después de que se haya acabado el plazo para entregar las especificaciones. En caso de que estas sean rechazadas, se dará al capítulo estudiantil un plazo de dos días hábiles para entregar un nuevo documento, el cual deberá ser revisado en los próximos tres días hábiles. En caso de que se rechacen nuevamente las especificaciones, la agrupación no será considerada como un capítulo estudiantil del Centro de Alumnos de Ingeniería. El fin de esta verificación es tener catalogados los capítulos asociados al CAi con un formato completo y consistente, y no pretende otorgar al CAi soberanía sobre los capítulos.</p>
+<p><strong>Art. 87</strong>. Las especificaciones deberán ser revisadas por la Jefatura de Docencia, un integrante de la Consejería Académica y un Representante de cada consejo y aprobadas o rechazadas en un plazo de cinco días hábiles después de que se haya acabado el plazo para entregar las especificaciones. En caso de que estas sean rechazadas, se dará al capítulo estudiantil un plazo de dos días hábiles para entregar un nuevo documento, el cual deberá ser revisado en los próximos tres días hábiles. En caso de que se rechacen nuevamente las especificaciones, la agrupación no será considerada como un capítulo estudiantil del Centro de Alumnos de Ingeniería. El fin de esta verificación es tener catalogados los capítulos asociados al CAi con un formato completo y consistente, y no pretende otorgar al CAi soberanía sobre los capítulos.</p>
 </div>
 </section>
 <section id="sobre-el-protocolo-ambiental" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="sobre-el-protocolo-ambiental">Sobre el Protocolo Ambiental</h3>
 <div id="definicionProtocoloAmbiental" class="art">
-<p><strong>Art. 84</strong>. El Comité Ejecutivo del CAi realiza actividades y gestiones que tienen un impacto ambiental en la comunidad que lo rodea. Por lo mismo, deberá preocuparse de minimizar este impacto en cualquier circunstancia, en la medida de lo posible según sus facultades y recursos. Para guiar esta preocupación, el CAi contará con un Apartado denominado “Protocolo Ambiental”, en el cual se establecerán elementos mínimos a considerar y cumplir.</p>
+<p><strong>Art. 88</strong>. El Comité Ejecutivo del CAi realiza actividades y gestiones que tienen un impacto ambiental en la comunidad que lo rodea. Por lo mismo, deberá preocuparse de minimizar este impacto en cualquier circunstancia, en la medida de lo posible según sus facultades y recursos. Para guiar esta preocupación, el CAi contará con un Apartado denominado “Protocolo Ambiental”, en el cual se establecerán elementos mínimos a considerar y cumplir.</p>
 </div>
 </section>
 <section id="sobre-el-protocolo-de-uso-de-espacios-y-equipos" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="sobre-el-protocolo-de-uso-de-espacios-y-equipos">Sobre el Protocolo de Uso de Espacios y Equipos</h3>
 <div id="definicionProtocoloEspacios" class="art">
-<p><strong>Art. 85</strong>. El Comité Ejecutivo del CAi es también responsable del buen uso de los espacios de la comunidad de Ingeniería, lo cual ha sido validado por la Escuela de Ingeniería. Los espacios son de la comunidad y están disponibles para que sus miembros los utilicen, pero siempre en respeto de los demás participantes de la misma. Para guiar el buen uso de los espacios y la responsabilidad de asignación, el CAi contará con un Apartado denominado “Protocolo de Uso de Espacios”, en el cual se especificará y comunicará los procesos, requisitos y plazos para la solicitud y gestión de espacios.</p>
+<p><strong>Art. 89</strong>. El Comité Ejecutivo del CAi es también responsable del buen uso de los espacios de la comunidad de Ingeniería, lo cual ha sido validado por la Escuela de Ingeniería. Los espacios son de la comunidad y están disponibles para que sus miembros los utilicen, pero siempre en respeto de los demás participantes de la misma. Para guiar el buen uso de los espacios y la responsabilidad de asignación, el CAi contará con un Apartado denominado “Protocolo de Uso de Espacios”, en el cual se especificará y comunicará los procesos, requisitos y plazos para la solicitud y gestión de espacios.</p>
 </div>
 </section>
 <section id="sobre-el-protocolo-de-transparencia" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="sobre-el-protocolo-de-transparencia">Sobre el Protocolo de Transparencia</h3>
 <div id="definicionProtocoloTransparencia" class="art">
-<p><strong>Art. 86</strong>. El CAi es una institución que busca realizar en sus diferentes organismos una gestión responsable y transparente con sus representados y la comunidad en general. No se entenderá transparencia como la publicación de información privada, sino como la preocupación por disponer abiertamente la información de uso y beneficio público a largo plazo.</p>
+<p><strong>Art. 90</strong>. El CAi es una institución que busca realizar en sus diferentes organismos una gestión responsable y transparente con sus representados y la comunidad en general. No se entenderá transparencia como la publicación de información privada, sino como la preocupación por disponer abiertamente la información de uso y beneficio público a largo plazo.</p>
 <ol type="1">
 <li><p>Los Representantes, Consejeros Académico y de Postgrado y el Comité Ejecutivo deberán publicar Cuentas Públicas dos veces en su período por medios tanto físicos como virtuales, ambos accesibles a sus representados. Cada una de ellas debe sintetizar respectivamente toda su gestión hasta el momento.</p></li>
 <li><p>En el caso del Comité Ejecutivo, deberá llevar un registro de las gestiones y actividades que desee llevar a cabo. En este registro deberá existir una preocupación por conservar la información relevante, tanto si es específica para sus sucesores como general para la comunidad. Además, deberá agregar al registro mediciones respecto a los resultados de estas gestiones.</p></li>
@@ -1426,13 +1489,13 @@ El Reglamento del Presupuesto Participativo contará con una sección especial c
 <section id="v.-reformas" class="level2">
 <h2 class="anchored" data-anchor-id="v.-reformas">V. Reformas</h2>
 <div class="art">
-<p><strong>Art. 87</strong>. Se deberá mantener un historial de cambios y propuestas, tanto aprobadas como rechazadas, de los estatutos en la plataforma GitHub (https://github.com/centro-de-alumnos-de-ingenieria/Estatutos). La administración de este historial será responsabilidad del Secretario General, el cual deberá usar el sistema de “pull requests” y “branches” para mantener de manera ordenada los cambios realizados y propuestos, detallándolos de la mejor manera posible.</p>
+<p><strong>Art. 91</strong>. Se deberá mantener un historial de cambios y propuestas, tanto aprobadas como rechazadas, de los estatutos en la plataforma GitHub (https://github.com/centro-de-alumnos-de-ingenieria/Estatutos). La administración de este historial será responsabilidad del Secretario General, el cual deberá usar el sistema de “pull requests” y “branches” para mantener de manera ordenada los cambios realizados y propuestos, detallándolos de la mejor manera posible.</p>
 </div>
 <div class="art">
-<p><strong>Art. 88</strong>. Estos estatutos son de carácter rígido e inapelable, es decir, no se aceptan excepciones, solo reformas.</p>
+<p><strong>Art. 92</strong>. Estos estatutos son de carácter rígido e inapelable, es decir, no se aceptan excepciones, solo reformas.</p>
 </div>
 <div id="normaReforma" class="art">
-<p><strong>Art. 89</strong>. Cualquier posible reforma al presente Cuerpo de Estatutos deberá seguir las siguientes normas:</p>
+<p><strong>Art. 93</strong>. Cualquier posible reforma al presente Cuerpo de Estatutos deberá seguir las siguientes normas:</p>
 <ol type="1">
 <li><p>Deberá ser tratada, discutida y votada ampliamente en el Consejo Académico y el Consejo Generacional, a excepción de correcciones ortográficas acentuales o literal que no alteren la manera en que operan los estatutos, su interpretación e idea fundamental. Estas últimas deberán ser presentadas y explicadas en ambos consejos. En caso de que se presentase alguna objeción por uno o más miembros de cualquiera de los consejos se, deberá votar el cambio como se haría con cualquier otra reforma.</p></li>
 <li><p>Podrá ser presentada al Consejo Académico y al Consejo Generacional solo a través de miembros de él.</p></li>
@@ -1538,8 +1601,16 @@ Beatriz Rodríguez Pérez, Consejera Académica CAi UC 2024<br>
 Nicolas Castro Cajide, Presidente CAi UC 2025<br>
 Daniel Espinoza Manríquez, Consejero Académico CAi UC 2025<br>
 </p>
+<p><span class="smallcaps">Estatutos modificados por el Consejo Generacional y el Consejo Académico 2026</span><br>
+Matilda Torres Rojas, Presidente CAi UC 2026<br>
+Matías Muñoz Garcés, Consejero Académico CAi UC 2026<br>
+</p>
 
 
+</section>
+</div>
+</section>
+</div>
 </section>
 </section>
 
