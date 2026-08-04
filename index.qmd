@@ -1,7 +1,7 @@
 ---
 title: Estatuto principal
 subtitle: Centro de Alumnos de Ingeniería
-date-modified: 2025-12-01
+date-modified: 2026-08-04
 lang: es
 format: 
   html: default
@@ -1050,7 +1050,7 @@ de acuerdo a las siguientes normas:
 16. Estudiantes que cursen de forma simultánea Pregrado y Postgrado en
     la Escuela de Ingeniería podrán sufragar en una sola oportunidad,
     votando de forma simultánea al Comité Ejecutivo, Consejería
-    Académica de Ingeniería y Consejería Académica de Postgrado.
+    académica y Consejería de Postgrado.
 
 17. El resultado de las elecciones se determinará de la siguiente forma:
 
@@ -1621,8 +1621,8 @@ mantiene, mantendrá el número de ausencias del Representante saliente.
 :::
 
 ::: {#reemplazoCAING .art}
-**Art. 43**. Si la Consejería de Ingeniería cesare en su cargo, su
-reemplazante sería el Subconsejería de Ingeniería.
+**Art. 43**. Si el Consejero Académico cesare en su cargo, su
+reemplazante sería el Subconsejero Académico.
 :::
 
 ::: {#cp_renuncia .art}
@@ -1656,7 +1656,7 @@ continuación:
 
 ::: {#calicc_renuncia .art}
 **Art. 45**. []{#eleccionExtraordinariaCALiCC
-label="eleccionExtraordinariaCALiCC"} En caso de que el carog de Consejería DE LiCC
+label="eleccionExtraordinariaCALiCC"} En caso de que el carog de Consejería de LiCC
 quedase vacante, debe procederse como se indica a continuación:
 
 1.  En caso de quedar vacante por renuncia, cesación anticipada del cargo o deposición
@@ -1670,7 +1670,7 @@ quedase vacante, debe procederse como se indica a continuación:
     de tres candidatos que cumplan con los requisitos establecidos para postular al cargo de 
     Consejería de LiCC. El Consejo Académico someterá a aprobación a los candidatos de acuerdo
     al orden propuesto. Se ofrecerá el cargo a quien obtuviese la mayoría de los votos presentes.
-    Si a quien se le ofreciere el cargo no aceptase, se repetirá eñ proceso con el siguiente 
+    Si a quien se le ofreciere el cargo no aceptase, se repetirá el proceso con el siguiente 
     candidato. De no existir un candidato a quien ofrecer el cargo, o de haber transcurrido 3 
     semanas desde la renuncia o cesación del cargo del Consejero snterior, se declará desierto el 
     cargo por lo que reste de periodo. 
@@ -1698,7 +1698,7 @@ mes durante el año académico y de forma pública. Se entenderá el año
 académico como el período de marzo a diciembre. El Generacional
 sesionará bajo la presidencia del Presidente del Comité Ejecutivo del
 Centro de Alumnos y el Académico será presidido por la Consejería
-de Ingeniería.
+Académica.
 :::
 
 ::: {#consejoOrdinario .art}
@@ -1907,7 +1907,7 @@ considerará lo siguiente:
 
     -   La Consejería de Postgrado tendrá un voto.
 
-    -   La Consejería de LiCC
+    -   La Consejería de LiCC tendrá un voto.
 
     -   La persona Representante de College tendrá un voto.
 
