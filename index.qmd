@@ -1237,9 +1237,8 @@ siguientes criterios:
     d) Tener antecedentes de probidad académica intachables. El TRICEL será responsable
     de velar por todos los incisos de este artículo. 
 
-2.  Para el caso de la Subconsejería de Ingeniería, será la Jefatura de Docencia, a
-    menos que la Consejería de Ingeniería proponga una persona distinta,
-    quien debe cumplir los siguientes requisitos:
+2.  Para el caso de la Subconsejería de LiCC, puede quedar vacante, a menos que la 
+    Consejería de LiCC proponga una persona distinta, quien debe cumplir los siguientes requisitos:
 
     a) Ser estudiante regular de Licenciatura en Ingeniería en Ciencia de la Computación
     con PPA superior a 4,50.
@@ -1656,7 +1655,7 @@ continuación:
 
 ::: {#calicc_renuncia .art}
 **Art. 45**. []{#eleccionExtraordinariaCALiCC
-label="eleccionExtraordinariaCALiCC"} En caso de que el carog de Consejería de LiCC
+label="eleccionExtraordinariaCALiCC"} En caso de que el cargo de Consejería de LiCC
 quedase vacante, debe procederse como se indica a continuación:
 
 1.  En caso de quedar vacante por renuncia, cesación anticipada del cargo o deposición
