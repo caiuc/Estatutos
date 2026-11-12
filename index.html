@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.11.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -39,18 +39,19 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-447e42e69aaa9833c0ba1b986f430b20.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-020aa151a65c0179d980afec98047afb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-b877c080f9bd04d8e0f332ed680ec236.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-020aa151a65c0179d980afec98047afb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-2f6ba6217f1e19785faf3006ec12bd5c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-e7c7f3fb7cac5e42a1d1cda72908a307.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-2f6ba6217f1e19785faf3006ec12bd5c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -112,7 +113,7 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar docked quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-sidebar docked quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Saltar al contenido principal</a><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -135,6 +136,7 @@ window.Quarto = {
       for (let i=0; i < toggles.length; i++) {
         const toggle = toggles[i];
         if (toggle) {
+          toggle.setAttribute("aria-checked", alternate ? "true" : "false");
           if (alternate) {
             toggle.classList.add("alternate");
           } else {
@@ -164,13 +166,19 @@ window.Quarto = {
       manageTransitions('#quarto-margin-sidebar .nav-link', true);
       // Switch the toggles
       setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455).
+    // Not run on load: stylesheets are set before first paint there, and
+    // scrolling would undo the scroll to a URL fragment (#14973).
+    // The one pixel nudge keeps the reader where they were.
+    const refreshSafariScrollbar = () => {
       if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
         manageTransitions("body", false);
-        window.scrollTo(0, 1);
+        const scrollY = window.scrollY;
+        window.scrollTo(0, scrollY > 0 ? scrollY - 1 : 1);
         setTimeout(() => {
-          window.scrollTo(0, 0);
+          window.scrollTo(0, scrollY);
           manageTransitions("body", true);
         }, 40);
       }
@@ -264,6 +272,7 @@ window.Quarto = {
       // Read the current dark / light value
       let toAlternate = !hasAlternateSentinel();
       toggleColorMode(toAlternate);
+      refreshSafariScrollbar();
       setStyleSentinel(toAlternate);
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
@@ -278,13 +287,13 @@ window.Quarto = {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
+  <nav class="quarto-secondary-nav" aria-label="Barra de herramientas">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Estatutos</a></li><li class="breadcrumb-item"><a href="./index.html">Estatuto principal</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="Hilo de Ariadna"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Estatutos</a></li><li class="breadcrumb-item"><a href="./index.html">Estatuto principal</a></li></ol></nav>
+        <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
@@ -295,12 +304,12 @@ window.Quarto = {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto" aria-label="Sitio web">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Cuerpo de Estatutos del Centro de Alumnos de Ingeniería</a> 
         <div class="sidebar-tools-main">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo oscuro"><i class="bi"></i></a>
+  <button type="button" role="switch" aria-checked="false" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo oscuro" aria-label="Alternar modo oscuro"><i class="bi"></i></button>
 </div>
     </div>
       </div>
@@ -313,13 +322,10 @@ window.Quarto = {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Estatutos</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar sección">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-controls="quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-1-label">Estatutos</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" aria-labelledby="quarto-sidebar-section-1-label" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link active">
@@ -330,13 +336,10 @@ window.Quarto = {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">Anexos</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Alternar sección">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-controls="quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-2-label">Anexos</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-2" aria-labelledby="quarto-sidebar-section-2-label" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./anexos/oficios-interpretativos.html" class="sidebar-item-text sidebar-link">
@@ -387,7 +390,7 @@ window.Quarto = {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
     <h2 id="toc-title">Contenidos</h2>
    
   <ul class="collapse">
@@ -399,10 +402,10 @@ window.Quarto = {
 <div class="quarto-alternate-formats"><h2>Otros formatos</h2><ul><li><a href="index.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content" tabindex="-1">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Estatutos</a></li><li class="breadcrumb-item"><a href="./index.html">Estatuto principal</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="Hilo de Ariadna"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Estatutos</a></li><li class="breadcrumb-item"><a href="./index.html">Estatuto principal</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Estatuto principal</h1>
 <p class="subtitle lead">Centro de Alumnos de Ingeniería</p>
@@ -436,11 +439,11 @@ window.Quarto = {
 <p><strong>Art. 1</strong>. De la interpretación del Estatuto.</p>
 <p>El presente estatuto se interpretará en virtud de las normas de interpretación del Código Civil<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
 <p>En caso de vacío, el Comité Ejecutivo dictará un Oficio Interpretativo, que deberá ser aprobado en sesión Ordinaria o Extraordinaria del Consejo Generacional por mayoría absoluta. Su resolución será obligatoria desde este caso en particular en adelante.</p>
-<p>Este Oficio Interpretativo deberá, asimismo, anexarse al Estatuto con todas las medidas de publicidad requeridas por éste.</p>
+<p>Este Oficio Interpretativo deberá, asimismo, anexarse al Estatuto con todas las medidas de publicidad requeridas por éste, dentro del plazo comprendido entre su aprobación y el inicio del próximo período académico.</p>
 </div>
 <div id="representacionCAi" class="art">
 <p><strong>Art. 2</strong>. El Centro de Alumnos de Ingeniería, CAi, es un organismo que representa a todos los alumnos de Pregrado de la Escuela de Ingeniería de la Pontificia Universidad Católica de Chile, así como a los alumnos de Magíster en Ingeniería, Magíster en Ciencias de la Ingeniería o Doctorado de esta misma Unidad Académica.</p>
-<div class="callout callout-style-default callout-note callout-titled" title="Oficio Interpretativo relacionado">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -534,7 +537,7 @@ window.Quarto = {
 <li><p>Sustentabilidad</p></li>
 <li><p>Vida Universitaria</p></li>
 </ol></li>
-<li><p><span class="smallcaps">Coordinaciones Generales</span> Alumno regular de la Escuela de Ingeniería que es designado por el Comité Ejecutivo para apoyar o liderar algún área de trabajo del CAi. La designación de una o más Coordinaciones Generales debe ser informado al Consejo Generacional, al igual que eventuales reemplazos o renuncias. No es integrante del Comité Ejecutivo.</p></li>
+<li><p><span class="smallcaps">Coordinaciones Generales</span> Alumno regular de la Escuela de Ingeniería que es designado por el Comité Ejecutivo o las Consejerías Académicas para apoyar o liderar algún área de trabajo del CAi. La designación de una o más Coordinaciones Generales debe ser informado al Consejo Generacional y al Consejo Académico, al igual que eventuales reemplazos o renuncias. No es integrante del Comité Ejecutivo.</p></li>
 </ol>
 </div>
 <div id="funcionesEjecutivo1" class="art">
@@ -592,7 +595,7 @@ window.Quarto = {
 </ol></li>
 <li><p><span class="smallcaps">Jefatura de Docencia</span></p>
 <ol type="a">
-<li><p>Colaborar en las políticas académicas de la Escuela, trabajando en conjunto con la Consejería Académica.</p></li>
+<li><p>Colaborar en las políticas académicas de la Escuela, trabajando en conjunto con la Consejería de Ingeniería y la Consejería de LiCC.</p></li>
 <li><p>Asistir al Comité de Pregrado.</p></li>
 <li><p>Asistir al Consejo Académico.</p></li>
 </ol></li>
@@ -609,7 +612,7 @@ window.Quarto = {
 <p><strong>Art. 7</strong>. Las funciones y atribuciones de la Consejería de Ingeniería son:</p>
 <ol type="1">
 <li><p>Integrar a las políticas académicas de la Escuela la visión del estudiantado de Ingeniería, liberando de estas responsabilidades a la Presidencia del CAi.</p></li>
-<li><p>Presidir el Consejo Académico.</p></li>
+<li><p>Presidir el Consejo Académico. Puede delegar esta función a la Subconsejería de Ingeniería si lo estima pertinente.</p></li>
 <li><p>Representar al estudiantado de Pregrado ante el Consejo Académico de la Escuela de Ingeniería, el Consejo de Facultad y el Comité de Pregrado, en conjunto con la Presidencia del CAi u otro representante del Comité Ejecutivo o Consejerías Académicas.</p></li>
 <li><p>Estudiar y desarrollar proyectos y propuestas académicas con la Dirección de la Escuela y, si existiese, la Comisión de Docencia del CAi, preocupándose también de su difusión.</p></li>
 <li><p>Asistir a las instancias formales para las que sea llamada junto a sus pares de las demás facultades por la Consejería Superior FEUC, tales como el Consejo Académico FEUC.</p></li>
@@ -622,8 +625,9 @@ window.Quarto = {
 <ol type="1">
 <li><p>Colaborar en las políticas académicas de la Escuela, trabajando en conjunto con la Consejería de Ingeniería.</p></li>
 <li><p>Reemplazar a la Consejería de Ingeniería en el Consejo Académico FEUC, cuando este no puede asistir.</p></li>
-<li><p>Reemplazar a la Consejería Académica en caso de renuncia, cese anticipado o destitución del mismo.</p></li>
+<li><p>Reemplazar a la Consejería de Ingeniería en caso de renuncia, cese anticipado o destitución del mismo.</p></li>
 <li><p>Informar, orientar y acompañar a las y los estudiantes de Ingeniería en los procesos de Alerta Académica y Permanencia Académica. Podrá apoyar a la Consejería de Ingeniería en la recopilación de antecedentes y seguimiento de casos, bajo estricta reserva, conforme a la normativa institucional vigente.</p></li>
+<li><p>Presidir el Consejo Académico si la Consejería de Ingeniería lo estima pertinente y delega dicha función.</p></li>
 </ol>
 </div>
 <div id="funcionesCAPostgrado" class="art">
@@ -641,7 +645,7 @@ window.Quarto = {
 <div class="art">
 <p><strong>Art. 10</strong>. Las funciones y atribuciones de la Subconsejería de Postgrado son:</p>
 <ol type="1">
-<li><p>Integrar a las políticas académicas de la Escuela la visión de los estudiantes de Postgrado, trabajando en conjunto con la Consejería Académica de Postgrado.</p></li>
+<li><p>Integrar a las políticas académicas de la Escuela la visión de los estudiantes de Postgrado, trabajando en conjunto con la Consejería de Postgrado.</p></li>
 <li><p>Reemplazar a la Consejería de Postgrado en el Consejo Académico de Postgrado UC, cuando este no puede asistir.</p></li>
 <li><p>Reemplazar a la Consejería de Postgrado en caso de renuncia, cese anticipado o destitución del mismo.</p></li>
 <li><p>Participar en el Comité de Magíster/Doctorado según el programa al que pertenece (ya sea al Comité de Magíster, si es del Magíster en Ciencias de la Ingeniería o al Comité de Doctorado si es del Doctorado en Ciencias de la Ingeniería).</p></li>
@@ -691,7 +695,7 @@ window.Quarto = {
 <li><p>Colaborar en actividades de integración a la Escuela y generar instancias de participación para sus respectivas generaciones.</p></li>
 <li><p>Decidir los votos ponderados de Ingeniería para el Consejo de Federación los cuales son llevados al mismo por las Consejerías Territoriales.</p></li>
 <li><p>Colaborar en la comunicación de actividades y procesos del Comité Ejecutivo, además de fiscalizar su gestión.</p></li>
-<li><p>Desautorizar públicamente una actuación del Comité Ejecutivo, o alguno de sus miembros; de la Consejería Académica de Ingeniería, la Consejería Académica de LiCC y/o de la Consejería de Postgrado.</p></li>
+<li><p>Desautorizar públicamente una actuación del Comité Ejecutivo, o alguno de sus miembros; de la Consejería Académica de Ingeniería, la Consejería Académica de LiCC y/o de la Consejería Académica de Postgrado.</p></li>
 <li><p>Formular la solicitud de destitución de su cargo a cualquier miembro de los organismos del CAi, por grave infracción a este estatuto o notable abandono de deberes.</p></li>
 </ol>
 </div>
@@ -725,7 +729,7 @@ window.Quarto = {
 <ol type="1">
 <li><p>Servir de puente de información e inquietudes entre el Consejo Departamental, la Escuela y el estudiantado.</p></li>
 <li><p>Colaborar en iniciativas de integración de las diferentes disciplinas y generar instancias para la generación de sus respectivas especialidades.</p></li>
-<li><p>Revisar y evaluar las políticas académicas de la Escuela. Trabajar junto a las Consejerías Académicas y de Postgrado en la formulación de propuestas de mejoramiento en términos de docencia, investigación y extensión.</p></li>
+<li><p>Revisar y evaluar las políticas académicas de la Escuela. Trabajar junto a las Consejerías Académicas en la formulación de propuestas de mejoramiento en términos de docencia, investigación y extensión.</p></li>
 <li><p>Velar por el cumplimiento general de la normativa de la Escuela dentro de sus diferentes organismos.</p></li>
 <li><p>Desautorizar públicamente una actuación del Comité Ejecutivo, o alguno de sus miembros; de la Consejería Académica de Ingeniería, la Consejería Académica de LiCC y/o de la Consejería de Postgrado.</p></li>
 <li><p>Velar por el cumplimiento del presente Cuerpo de Estatutos, tanto el Estatuto principal como sus Apartados.</p></li>
@@ -762,9 +766,9 @@ window.Quarto = {
 <ol type="a">
 <li><p>Los únicos participantes serán los Representantes, y los proyectos deberán estar orientados a cubrir las necesidades e inquietudes del estudiantado.</p></li>
 <li><p>El fondo deberá repartirse en dos períodos, según como lo determine el Comité Ejecutivo, con el fin de cubrir ambos semestres.</p></li>
-<li><p>Las bases de los fondos concursables serán definidas por una comisión conformada por la Consejería Académica (quien coordina la comisión), la Jefatura de Finanzas del Comité Ejecutivo y un representante correspondiente a cada Consejo elegido en la primera sesión ordinaria del semestre.</p></li>
+<li><p>Las bases de los fondos concursables serán definidas por una comisión conformada por un integrante de Consejería Académica de Ingeniería (quien coordina la comisión), la Jefatura de Finanzas del Comité Ejecutivo y un representante correspondiente a cada Consejo elegido en la primera sesión ordinaria del semestre.</p></li>
 <li><p>Las bases de los fondos concursables deberán estar en posesión de los representantes a más tardar un mes después de la primera sesión ordinaria del semestre.</p></li>
-<li><p>El jurado evaluador de los fondos concursables estará compuesto por la Consejería Académica (quien coordina la comisión), un miembro del Comité Ejecutivo definido por este y un miembro de cada Consejo elegido en la primera sesión ordinaria del semestre.</p></li>
+<li><p>El jurado evaluador de los fondos concursables estará compuesto por un integrante de la Consejería Académica de Ingeniería (quien coordina la comisión), un miembro del Comité Ejecutivo definido por este y un miembro de cada Consejo elegido en la primera sesión ordinaria del semestre.</p></li>
 <li><p>Los montos ganados se pueden utilizar hasta el último día de postulación del siguiente período o hasta que los Representantes que se hayan adjudicado los fondos cesen en su cargo.</p></li>
 <li><p>El dinero no utilizado el primer período se sumará al monto destinado a fondos concursables del segundo período de postulación.</p></li>
 </ol></li>
@@ -776,7 +780,7 @@ window.Quarto = {
 <section id="elecciones" class="level2">
 <h2 class="anchored" data-anchor-id="elecciones">II. Elecciones, requisitos y sanciones</h2>
 <div id="porcentajeMinimo" class="art">
-<p><strong>Art. 23</strong>. Tendrán derecho a votar todos los estudiantes regulares de Pregrado de la Escuela de Ingeniería, así como los estudiantes de Magíster en Ingeniería, Magíster en Ciencias de la Ingeniería y Doctorado, salvo cuando este estatuto específicamente indique algo distinto. Tratándose de la elección del Comité Ejecutivo y Consejero Académico, tendrán derecho a voto los estudiantes de College de Licenciatura en Ciencias Naturales que tengan inscrito el major de la Escuela de Ingeniería a comienzos del segundo semestre.</p>
+<p><strong>Art. 23</strong>. Tendrán derecho a votar todos los estudiantes regulares de Pregrado de la Escuela de Ingeniería, así como los estudiantes de Magíster en Ingeniería, Magíster en Ciencias de la Ingeniería y Doctorado, salvo cuando este estatuto específicamente indique algo distinto. Tratándose de la elección del Comité Ejecutivo y Consejería Académica de Ingeniería, tendrán derecho a voto los estudiantes de College de Licenciatura en Ciencias Naturales que tengan inscrito el major de la Escuela de Ingeniería a comienzos del segundo semestre.</p>
 <p>Todas las elecciones y plebiscitos son válidos solo si en ellos vota al menos el 35% de los alumnos con derecho a voto, salvo que en este estatuto se establezca explícitamente otra cosa. En caso de no cumplirse este quórum le corresponde decidir al Consejo que haya llamado a plebiscitar.</p>
 </div>
 <div id="definicionEleccionesYPlebiscitos" class="art">
@@ -828,7 +832,7 @@ window.Quarto = {
 <li><p>Una foto (mín. <span class="math inline">\(500 \times 500\)</span>).</p></li>
 <li><p>Un plan de trabajo y propuestas para su período.</p></li>
 </ol></li>
-<li><p>En el caso de las candidaturas a Consejería de Postgrado:</p>
+<li><p>En el caso de las candidaturas a Consejería Académica de Postgrado:</p>
 <ol type="i">
 <li><p>El nombre de la persona candidata, la cual debe haber aprobado el proceso de preinscripción.</p></li>
 <li><p>Una foto (mín. <span class="math inline">\(500 \times 500\)</span> píxeles).</p></li>
@@ -842,8 +846,8 @@ window.Quarto = {
 <li><p>A lo más seis días hábiles después del cierre de las inscripciones deberá efectuarse una asamblea general de presentación de los postulantes a las tres elecciones, cuyo objetivo será dar a conocer sus programas y responder las inquietudes del estudiantado.</p></li>
 <li><p><span id="periodo" data-label="periodo"></span>A lo más dos días hábiles después de la asamblea de presentación de las listas, se iniciará el período de votación, que se prolongará por dos días hábiles.</p></li>
 <li><p><span id="votantes" data-label="votantes"></span>Estudiantes que se encuentren cursando Pregrado en de Ingeniería tendrán derecho a votar por Comité Ejecutivo y por Consejería Académica de Ingeniería. Aquellos que cursen Postgrado tendrán derecho a votar por Comité Ejecutivo y por Consejería Académica de Postgrado. Aquellos que estén cursando el programa de Licenciatura en Ingeniería en Ciencia de la Computación tendrán derecho a votar por Comité Ejecutivo y Consejería Académica de Licenciatura en Ingeniería en Ciencia de la Computación.</p></li>
-<li><p>Estudiantes que se encuentren cursando College de Licenciatura en Ciencias Naturales y cumplan con lo dispuesto en el artículo&nbsp;<a href="#porcentajeMinimo" data-reference-type="ref" data-reference="porcentajeMinimo">21</a>, tendrán derecho a votar por Comité Ejecutivo y por Consejería Académica de Pregrado. Aquellos estudiantes que sean admisibles para votar deberán inscribirse de forma previa, con dos o más semanas de anticipación, para ejercer su voto en Ingeniería.</p></li>
-<li><p>Estudiantes que cursen de forma simultánea Pregrado y Postgrado en la Escuela de Ingeniería podrán sufragar en una sola oportunidad, votando de forma simultánea al Comité Ejecutivo, Consejería académica y Consejería de Postgrado.</p></li>
+<li><p>Estudiantes que se encuentren cursando College de Licenciatura en Ciencias Naturales y cumplan con lo dispuesto en el artículo&nbsp;<a href="#porcentajeMinimo" data-reference-type="ref" data-reference="porcentajeMinimo">21</a>, tendrán derecho a votar por Comité Ejecutivo y por Consejería Académica de Ingeniería. Aquellos estudiantes que sean admisibles para votar deberán inscribirse de forma previa, con dos o más semanas de anticipación, para ejercer su voto en Ingeniería.</p></li>
+<li><p>Estudiantes que cursen de forma simultánea Pregrado y Postgrado en la Escuela de Ingeniería podrán sufragar en una sola oportunidad, votando de forma simultánea al Comité Ejecutivo, Consejería Académica de Ingeniería y Consejería Académica de Postgrado.</p></li>
 <li><p>El resultado de las elecciones se determinará de la siguiente forma:</p>
 <ol type="a">
 <li><p>Si en una elección hay una sola postulación, se rige según el inciso&nbsp;<a href="#cierre" data-reference-type="ref" data-reference="cierre">8.</a> del presente artículo.</p></li>
@@ -851,7 +855,7 @@ window.Quarto = {
 <li><p>Si hay tres o más postulantes, quienes obtengan las dos primeras mayorías en la votación, irán a segunda vuelta, siempre y cuando ninguna de ellas obtengan más del 50% de los votos válidamente emitidos. Se entenderá como válidamente emitidos los votos totales sin contar blancos ni nulos. La segunda vuelta se realizará a lo más cinco días hábiles después del término de la primera vuelta, y se regirá como una votación de solo dos postulantes.</p></li>
 </ol></li>
 </ol>
-<div class="callout callout-style-default callout-note callout-titled" title="Oficios Interpretativos relacionados">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -928,7 +932,7 @@ window.Quarto = {
 </ol>
 </div>
 <div id="eleccionExtraordinariaCAPregrado" class="art">
-<p><strong>Art. 32</strong>. En caso de no presentarse ninguna candidatura al cargo de Consejería Académica después de los dos períodos estipulados en el artículo <a href="#cierre" data-reference-type="ref" data-reference="cierre">25, inciso 8</a> de esta parte, la Consejería Académica elegirá de entre sus miembros (que cumplan con los requisitos de Consejería Académica) a alguien que asuma el cargo. Esta obligación recaerá ineludiblemente sobre alguno de los Representantes, y ellos deben estar conscientes de dicha condición antes de ser elegidos como tales. El Representante que asuma el cargo tendrá la opción de designar a un reemplazante para su labor previa como representante de especialidad. Todas estas obligaciones corresponderán al Consejo Académico en ejercicio.</p>
+<p><strong>Art. 32</strong>. En caso de no presentarse ninguna candidatura al cargo de Consejería Académica después de los dos períodos estipulados en el artículo <a href="#cierre" data-reference-type="ref" data-reference="cierre">25, inciso 8</a> de esta parte, el Consejo Académico (que cumplan con los requisitos de Consejería Académica de Ingeniería) a alguien que asuma el cargo. Esta obligación recaerá ineludiblemente sobre alguno de los Representantes, y ellos deben estar conscientes de dicha condición antes de ser elegidos como tales. El Representante que asuma el cargo tendrá la opción de designar a un reemplazante para su labor previa como representante de especialidad. Todas estas obligaciones corresponderán al Consejo Académico en ejercicio.</p>
 </div>
 <div id="nominacionSubconsejerias" class="art">
 <p><strong>Art. 33</strong>. La nominación de cada subconsejería se realizará posterior a la elección de Comité Ejecutivo y Consejerías Académicas, bajo los siguientes criterios:</p>
@@ -983,7 +987,7 @@ Tratándose del Representante de College será elegida la primera mayoría.</p><
 <li><p>En caso de empate, será elegida de manera aleatoria, según el mecanismo libre de sesgo que el TRICEL determine, con las personas implicadas presentes, y con un máximo de dos días hábiles para realizar el sorteo e informar a ambos consejos del resultado.</p></li>
 </ol></li>
 </ol>
-<div class="callout callout-style-default callout-note callout-titled" title="Oficios Interpretativos relacionados">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -1019,7 +1023,7 @@ Tratándose del Representante de College será elegida la primera mayoría.</p><
 <li><p>Las candidaturas pueden ser individuales o en dupla. En ambos casos las personas postulantes deben, en el caso de ser estudiante de pregrado, estar cursando a lo menos 30 créditos de su respectiva malla curricular de la Escuela de Ingeniería. En el caso del estudiantado de postgrado, deben estar trabajando bajo tutela de un docente en una tesis del departamento o especialidad a la cual postula.</p></li>
 <li><p>En caso de candidaturas académicas en dupla, estas deberán designar, al momento de su inscripción, cuál de sus integrantes será el responsable de asistir a los Comités de Programa correspondientes.</p></li>
 </ol>
-<div class="callout callout-style-default callout-note callout-titled" title="Oficio Interpretativo relacionado">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -1060,7 +1064,7 @@ Tratándose del Representante de College será elegida la primera mayoría.</p><
 <li><p>Tratándose del Presidente, por renuncia aceptada por ambos Consejos o formulada como indeclinable.</p></li>
 <li><p><span id="inhabilitacion" data-label="inhabilitacion"></span> Por ser inhabilitado en razón de su incapacidad como dirigente estudiantil. Para entender acogida la inhabilidad se requerirá lo siguiente:</p>
 <ul>
-<li><p>La aprobación de cada Consejo, la cual se obtendrá mediante la aprobación de dos tercios de los votos posibles, si se tratase de un miembro del Comité Ejecutivo, del Consejero Académico, o del Consejero de Postgrado.</p></li>
+<li><p>La aprobación de cada Consejo, la cual se obtendrá mediante la aprobación de dos tercios de los votos posibles, si se tratase de un miembro del Comité Ejecutivo, de la Consejería Académica de Ingeniería, de la Consejería Académica de Postgrado o de la Consejería Académica de Licenciatura en Ingeniería en Ciencia de la Computación.</p></li>
 <li><p>La aprobación de dos tercios de los votos posibles del Consejo al que pertenezca excluyéndose al afectado, en caso de tratarse de algún Representante o del Representante de College.</p></li>
 </ul></li>
 <li><p>Caer en Comisión de Permanencia.</p></li>
@@ -1076,7 +1080,7 @@ Tratándose del Representante de College será elegida la primera mayoría.</p><
 <li><p>Ser elegido o ejercer algún cargo de representación estudiantil en otra Unidad Académica.</p></li>
 <li><p>Tratándose del Representante de College, dejar de ser alumno regular de su unidad académica o de la Escuela de Ingeniería, asumir otro cargo de representación estudiantil o no cursar ramos del currículum.</p></li>
 </ol>
-<div class="callout callout-style-default callout-note callout-titled" title="Oficio Interpretativo relacionado">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -1119,13 +1123,13 @@ Tratándose de los Representantes generacionales de la primera y segunda generac
 <p><strong>Art. 42</strong>. Si el Representante de College cesare en su cargo, se designará a aquel candidato que hubiese obtenido la siguiente mayoría no electa. En caso de que no existiese o no aceptara, el Representante saliente tendrá la posibilidad de proponer un reemplazante al Consejo Académico, el que deberá cumplir los requisitos del artículo&nbsp;<a href="#requisitosRepresentanteCollege" data-reference-type="ref" data-reference="requisitosRepresentanteCollege">33</a> y ser aprobado por mayoría simple en el Consejo Académico. De ser rechazado el puesto quedará vacante. Si el representante que cesa en su cargo hubiere perdido el derecho a voto durante su período, el representante que lo reemplazare carecerá del mismo por toda la extensión de su período. Si aún lo mantiene, mantendrá el número de ausencias del Representante saliente.</p>
 </div>
 <div id="reemplazoCAING" class="art">
-<p><strong>Art. 43</strong>. Si el Consejero Académico cesare en su cargo, su reemplazante sería el Subconsejero Académico.</p>
+<p><strong>Art. 43</strong>. Si la Consejería de Ingeniería cesare en su cargo, su reemplazante sería el Subconsejería de Ingeniería.</p>
 </div>
 <div id="cp_renuncia" class="art">
-<p><strong>Art. 44</strong>. <span id="eleccionExtraordinariaCAPostgrado" data-label="eleccionExtraordinariaCAPostgrado"></span> En caso de que el cargo de Consejero de Postgrado quedase vacante, debe procederse como se indica a continuación:</p>
+<p><strong>Art. 44</strong>. <span id="eleccionExtraordinariaCAPostgrado" data-label="eleccionExtraordinariaCAPostgrado"></span> En caso de que el cargo de Consejería de Postgrado quedase vacante, debe procederse como se indica a continuación:</p>
 <ol type="1">
-<li><p>En caso de quedar vacante por renuncia, cesación anticipada del cargo o deposición de un Consejero en ejercicio, su reemplazante será el Subconsejero de Postgrado.</p></li>
-<li><p>Si no se hubiese presentado ningún candidato al cargo de Consejero de Postgrado después de los dos períodos estipulados en el artículo <a href="#eleccionesCAi" data-reference-type="ref" data-reference="eleccionesCAi">23, inciso 8</a> de esta parte, o no hubiese una mayoría no electa a quien ofrecer el cargo de acuerdo a lo establecido en el inciso 1. de este artículo, el Consejo Académico deberá solicitar al presidente del Comité Ejecutivo la elaboración de una lista, jerarquizada según orden de elegibilidad, de tres candidatos que cumplan con los requisitos establecidos para postular al cargo de Consejero de Postgrado. El Consejo Académico someterá a aprobación a los candidatos, de acuerdo al orden propuesto. Se ofrecerá el cargo a quien obtuviese mayoría de los votos presentes. Si a quien se le ofreciere el cargo no aceptase, se repetirá el proceso con el siguiente candidato. De no existir un candidato a quien ofrecer el cargo, o de haber transcurrido 3 semanas desde la renuncia o cesación del cargo del Consejero anterior, se declarará desierto el cargo por lo que reste del período.</p></li>
+<li><p>En caso de quedar vacante por renuncia, cesación anticipada del cargo o deposición de una Consejería en ejercicio, su reemplazante será la Subconsejería de Postgrado.</p></li>
+<li><p>Si no se hubiese presentado ningún candidato al cargo de Consejería de Postgrado después de los dos períodos estipulados en el artículo <a href="#eleccionesCAi" data-reference-type="ref" data-reference="eleccionesCAi">25, inciso 8</a> de esta parte, o no hubiese una mayoría no electa a quien ofrecer el cargo de acuerdo a lo establecido en el inciso 1. de este artículo, el Consejo Académico deberá solicitar al presidente del Comité Ejecutivo la elaboración de una lista, jerarquizada según orden de elegibilidad, de tres candidatos que cumplan con los requisitos establecidos para postular al cargo de Consejero de Postgrado. El Consejo Académico someterá a aprobación a los candidatos, de acuerdo al orden propuesto. Se ofrecerá el cargo a quien obtuviese mayoría de los votos presentes. Si a quien se le ofreciere el cargo no aceptase, se repetirá el proceso con el siguiente candidato. De no existir un candidato a quien ofrecer el cargo, o de haber transcurrido 3 semanas desde la renuncia o cesación del cargo del Consejería anterior, se declarará desierto el cargo por lo que reste del período.</p></li>
 </ol>
 </div>
 <div id="calicc_renuncia" class="art">
@@ -1151,7 +1155,7 @@ Tratándose de los Representantes generacionales de la primera y segunda generac
 <section id="sobre-las-sesiones-de-los-consejos" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="sobre-las-sesiones-de-los-consejos">Sobre las sesiones de los Consejos</h3>
 <div id="consejos" class="art">
-<p><strong>Art. 47</strong>. Cada Consejo debe sesionar en forma ordinaria una vez al mes durante el año académico y de forma pública. Se entenderá el año académico como el período de marzo a diciembre. El Generacional sesionará bajo la presidencia del Presidente del Comité Ejecutivo del Centro de Alumnos y el Académico será presidido por la Consejería Académica.</p>
+<p><strong>Art. 47</strong>. Cada Consejo debe sesionar en forma ordinaria una vez al mes durante el año académico y de forma pública. Se entenderá el año académico como el período de marzo a diciembre. El Generacional sesionará bajo la presidencia de la Secretaría General del Comité Ejecutivo del Centro de Alumnos y el Consejo Académico será presidido por la Consejería de Ingeniería.</p>
 </div>
 <div id="consejoOrdinario" class="art">
 <p><strong>Art. 48</strong>. La citación a sesiones ordinarias de cada Consejo será notificada con un mínimo de dos días hábiles de anticipación. Junto con la citación se incluirá un borrador de la tabla con los temas a tratar. La citación será notificada a cada miembro del Consejo vía correo electrónico, además de ser publicada en la página web del CAi.</p>
@@ -1160,7 +1164,7 @@ Tratándose de los Representantes generacionales de la primera y segunda generac
 <p><strong>Art. 49</strong>. Cada Consejo puede ser citado en forma extraordinaria por el Comité Ejecutivo o las Consejerías Académicas, por un tercio de los Representantes o quien lo presida, debiendo ser notificado a todos los miembros del consejo vía correo electrónico con al menos 24 h de anticipación.</p>
 </div>
 <div id="sesionesPostgrado" class="art">
-<p><strong>Art. 50</strong>. Los Representantes académicos de Postgrado votarán en las sesiones del Consejo Académico de Postgrado, llevándose los respectivos resultados al Consejo Académico de Pregrado a través del Consejero correspondiente.</p>
+<p><strong>Art. 50</strong>. Los Representantes académicos de Postgrado votarán en las sesiones del Consejo Académico de Postgrado, llevándose los respectivos resultados al Consejo Académico de Pregrado a través de la Consejería correspondiente.</p>
 </div>
 <div id="votosPostgrado" class="art">
 <p><strong>Art. 51</strong>. Vinculado al artículo anterior, los Representantes académicos de Postgrado quedan exentos de la pérdida del derecho a voto por ausencia en el Consejo Académico de Pregrado.</p>
@@ -1170,11 +1174,11 @@ Tratándose de los Representantes generacionales de la primera y segunda generac
 <ol type="1">
 <li><p>La de dirigir el debate con amplias facultades, salvo las expresas limitaciones consagradas en este estatuto.</p></li>
 <li><p>Amonestar a cualquier asistente que perturbare el normal desarrollo de la sesión. Si el amonestado persistiere en su actitud, quien presida el Consejo podrá expulsarlo de la sala por el resto de la sesión, previa aprobación del Consejo.</p></li>
-<li><p>Ordenar que abandonen la sala todos los asistentes que no fueren Consejeros cuando lo estimare indispensable para el normal desenvolvimiento de la sesión, previa aprobación del Consejo.</p></li>
+<li><p>Ordenar que abandonen la sala todos los asistentes que no fueren Consejerías cuando lo estimare indispensable para el normal desenvolvimiento de la sesión, previa aprobación del Consejo.</p></li>
 </ol>
 </div>
 <div id="quorumConsejo" class="art">
-<p><strong>Art. 53</strong>. El quórum para llevar a cabo un Consejo debe ser más del 50% de los Representantes que no hayan perdido su derecho a voto. Además será necesaria la presencia del Consejero Académico y Jefatura de Docencia o Subconsejero Académico, en el caso del Consejo Académico, y de algún miembro del Comité Ejecutivo y del Consejero Académico, o a quien este último haya otorgado poder, en el caso del Consejo Generacional. Pasados los treinta minutos de la hora fijada para el comienzo de la sesión, el quórum será de una tercera parte de los Representantes que no hayan perdido su derecho a voto, más Consejero Académico y Jefatura de Docencia o Subconsejero Académico y de algún miembro del Comité Ejecutivo y del Consejero Académico, o a quien este último haya otorgado poder, en el caso del Consejo Generacional. No ocurriendo esto, se declarará fracasada la sesión a petición de cualquier miembro del Consejo. Para el cálculo de este quórum no se contabilizarán a los Representantes de postgrado si ellos no participan en la sesión del Consejo Académico.</p>
+<p><strong>Art. 53</strong>. El quórum para llevar a cabo un Consejo debe ser más del 50% de los Representantes que no hayan perdido su derecho a voto. Además será necesaria la presencia de la Consejería de Ingeniería y Jefatura de Docencia o Subconsejería de Ingeniería, en el caso del Consejo Académico, y de algún miembro del Comité Ejecutivo y de la Consejería de Ingeniería, o a quien este último haya otorgado poder, en el caso del Consejo Generacional. Pasados los treinta minutos de la hora fijada para el comienzo de la sesión, el quórum será de una tercera parte de los Representantes que no hayan perdido su derecho a voto, más Consejero Académico y Jefatura de Docencia o Subconsejería de Ingeniería y de algún miembro del Comité Ejecutivo y de la Consejería de Ingeniería, o a quien este último haya otorgado poder, en el caso del Consejo Generacional. No ocurriendo esto, se declarará fracasada la sesión a petición de cualquier miembro del Consejo. Para el cálculo de este quórum no se contabilizarán a los Representantes de postgrado si ellos no participan en la sesión del Consejo Académico.</p>
 </div>
 <div id="duracionConsejosOrdinarios" class="art">
 <p><strong>Art. 54</strong>. Las sesiones ordinarias del Consejo durarán un módulo académico, extensible a un máximo de dos módulos a través de la siguiente manera:</p>
@@ -1244,7 +1248,7 @@ Tratándose de los Representantes generacionales de la primera y segunda generac
 <li><p>Las personas representantes de postgrado en su conjunto tendrán 3 votos, en ningún caso se podrá acumular más de un voto por representante.</p></li>
 <li><p>Cada Representante o dupla de la Licenciatura en Ingeniería en Ciencias de la Computación tendrá un voto.</p></li>
 </ul></li>
-<li><p>Para evitar la sobrerrepresentación de algún representante, en el caso de una votación que requiera la aprobación de ambos consejos: los Representantes que tienen presencia en ambos Consejos solo podrán votar en el Consejo al que pertenecen; las Consejerías Académicos solo votarán en el Consejo Académico; y el Comité Ejecutivo contará solo con los votos en el Consejo Generacional.</p></li>
+<li><p>Para evitar la sobrerrepresentación de algún representante, en el caso de una votación que requiera la aprobación de ambos consejos: los Representantes que tienen presencia en ambos Consejos solo podrán votar en el Consejo al que pertenecen; las Consejerías Académicas solo votarán en el Consejo Académico; y el Comité Ejecutivo contará solo con los votos en el Consejo Generacional.</p></li>
 </ol>
 </div>
 <div id="quorumMinimoVotacion" class="art">
@@ -1261,7 +1265,7 @@ Tratándose de los Representantes generacionales de la primera y segunda generac
 </div>
 <div id="votacionExterna" class="art">
 <p><strong>Art. 66</strong>. En los casos en que los resultados de votaciones deban ser llevados ante organismos externos al CAi, dicha votación deberá ser llevada a cabo por el Consejo Generacional. Esta se presentará en la misma proporción original, redondeando al entero más cercano. Si por este sistema se produjese un empate, se decidirá por la postura más votada de entre las empatadas. Si el empate persistiese corresponderá dirimir a la persona quien presida el Consejo. En el caso de ser al Consejo de Presidentes de la FEUC, o cualquier otra instancia en la que el Comité Ejecutivo tenga derecho a voto propio, solo serán válidos los votos de los Representantes.</p>
-<div class="callout callout-style-default callout-note callout-titled" title="Oficio Interpretativo relacionado">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -1291,10 +1295,10 @@ Tratándose de los Representantes generacionales de la primera y segunda generac
 <section id="sobre-las-sesiones-del-consejo-generacional" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="sobre-las-sesiones-del-consejo-generacional">Sobre las sesiones del Consejo Generacional</h3>
 <div class="art">
-<p><strong>Art. 70</strong>. Los Consejeros Territoriales —por la función de representantes del alumnado de Ingeniería ante el consejo ejecutivo y de federación que el estatuto FEUC les confiere— son reconocidos como participantes del Consejo Generacional sin derecho a voto, por lo cual, no se contará su asistencia para el quórum. Se les reconocen las siguientes facultades y derechos:</p>
+<p><strong>Art. 70</strong>. Las Consejerías Territoriales —por la función de representantes del alumnado de Ingeniería ante el consejo ejecutivo y de federación que el estatuto FEUC les confiere— son reconocidos como participantes del Consejo Generacional sin derecho a voto, por lo cual, no se contará su asistencia para el quórum. Se les reconocen las siguientes facultades y derechos:</p>
 <ol type="1">
 <li><p>Derecho a voz en las sesiones ordinarias y extraordinarias del Consejo Generacional.</p></li>
-<li><p>Citar al Consejo Generacional de forma extraordinaria, previo acuerdo de la mitad o más de los Consejeros Territoriales y respetando las especificaciones establecidas en este estatuto para ello.</p></li>
+<li><p>Citar al Consejo Generacional de forma extraordinaria, previo acuerdo de la mitad o más de las Consejerías Territoriales y respetando las especificaciones establecidas en este estatuto para ello.</p></li>
 <li><p>Proponer temas en la tabla del Consejo Generacional.</p></li>
 </ol>
 </div>
@@ -1385,7 +1389,7 @@ El acta de cada sesión deberá enviarse a todos los miembros del Consejo, con u
 <li><p>El número de iniciativas estudiantiles CAi ganadores y la forma de repartición de acuerdo al resultado de la elección.</p></li>
 <li><p>Las fechas, plazos y metodología para el proceso de entrega de informe(s) y de rendición. En cualquier caso, el proceso de rendición debe cerrarse antes de comenzar el mes de diciembre del año respectivo.</p></li>
 </ol>
-<div class="callout callout-style-default callout-note callout-titled" title="Oficios Interpretativos relacionados">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -1438,7 +1442,7 @@ El Reglamento del Presupuesto Participativo contará con una sección especial c
 </div>
 <div id="inscripcionCapitulos" class="art">
 <p><strong>Art. 85</strong>. El documento al que se hace referencia en el Art. 79. del capítulo estudiantil deberá ser entregado una vez al año al encargado de los capítulos del Centro de Alumnos de Ingeniería a más tardar dos semanas después de las elecciones de Representantes. Esto incluye tanto a los nuevos como actuales capítulos asociados al CAi.</p>
-<div class="callout callout-style-default callout-note callout-titled" title="Oficio Interpretativo relacionado">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -1459,7 +1463,7 @@ El Reglamento del Presupuesto Participativo contará con una sección especial c
 <p><strong>Art. 86</strong>. En caso de que Representantes cesen del cargo y no queden miembros del Consejo Académico participando en el capítulo, este dejará de ser reconocido por el CAi hasta que un nuevo Representante asuma el cargo.</p>
 </div>
 <div class="art">
-<p><strong>Art. 87</strong>. Las especificaciones deberán ser revisadas por la Jefatura de Docencia, un integrante de la Consejería Académica y un Representante de cada consejo y aprobadas o rechazadas en un plazo de cinco días hábiles después de que se haya acabado el plazo para entregar las especificaciones. En caso de que estas sean rechazadas, se dará al capítulo estudiantil un plazo de dos días hábiles para entregar un nuevo documento, el cual deberá ser revisado en los próximos tres días hábiles. En caso de que se rechacen nuevamente las especificaciones, la agrupación no será considerada como un capítulo estudiantil del Centro de Alumnos de Ingeniería. El fin de esta verificación es tener catalogados los capítulos asociados al CAi con un formato completo y consistente, y no pretende otorgar al CAi soberanía sobre los capítulos.</p>
+<p><strong>Art. 87</strong>. Las especificaciones deberán ser revisadas por la Jefatura de Docencia, un integrante de la Consejería Académica de Ingeniería y un Representante de cada consejo y aprobadas o rechazadas en un plazo de cinco días hábiles después de que se haya acabado el plazo para entregar las especificaciones. En caso de que estas sean rechazadas, se dará al capítulo estudiantil un plazo de dos días hábiles para entregar un nuevo documento, el cual deberá ser revisado en los próximos tres días hábiles. En caso de que se rechacen nuevamente las especificaciones, la agrupación no será considerada como un capítulo estudiantil del Centro de Alumnos de Ingeniería. El fin de esta verificación es tener catalogados los capítulos asociados al CAi con un formato completo y consistente, y no pretende otorgar al CAi soberanía sobre los capítulos.</p>
 </div>
 </section>
 <section id="sobre-el-protocolo-ambiental" class="level3 unnumbered">
@@ -1479,7 +1483,7 @@ El Reglamento del Presupuesto Participativo contará con una sección especial c
 <div id="definicionProtocoloTransparencia" class="art">
 <p><strong>Art. 90</strong>. El CAi es una institución que busca realizar en sus diferentes organismos una gestión responsable y transparente con sus representados y la comunidad en general. No se entenderá transparencia como la publicación de información privada, sino como la preocupación por disponer abiertamente la información de uso y beneficio público a largo plazo.</p>
 <ol type="1">
-<li><p>Los Representantes, Consejeros Académico y de Postgrado y el Comité Ejecutivo deberán publicar Cuentas Públicas dos veces en su período por medios tanto físicos como virtuales, ambos accesibles a sus representados. Cada una de ellas debe sintetizar respectivamente toda su gestión hasta el momento.</p></li>
+<li><p>Los Representantes, las Consejerías Académicas y el Comité Ejecutivo deberán publicar Cuentas Públicas dos veces en su período por medios tanto físicos como virtuales, ambos accesibles a sus representados. Cada una de ellas debe sintetizar respectivamente toda su gestión hasta el momento.</p></li>
 <li><p>En el caso del Comité Ejecutivo, deberá llevar un registro de las gestiones y actividades que desee llevar a cabo. En este registro deberá existir una preocupación por conservar la información relevante, tanto si es específica para sus sucesores como general para la comunidad. Además, deberá agregar al registro mediciones respecto a los resultados de estas gestiones.</p></li>
 </ol>
 <p>Sin perjuicio de los puntos anteriores, el CAi contará con un Apartado denominado “Protocolo de Transparencia”, en el cual se especificará los elementos, formas y criterios que guían una gestión transparente.</p>
@@ -1605,6 +1609,10 @@ Daniel Espinoza Manríquez, Consejero Académico CAi UC 2025<br>
 Matilda Torres Rojas, Presidente CAi UC 2026<br>
 Matías Muñoz Garcés, Consejero Académico CAi UC 2026<br>
 </p>
+<p><span class="smallcaps">Estatutos modificados por el Consejo Generacional y el Consejo Académico 2026</span><br>
+Matilda Torres Rojas, Presidente CAi UC 2026<br>
+Matías Muñoz Garcés, Consejero Académico CAi UC 2026<br>
+</p>
 
 
 </section>
@@ -1619,15 +1627,50 @@ Matías Muñoz Garcés, Consejero Académico CAi UC 2026<br>
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
     if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const toggle = window.document.createElement('button');
+      toggle.type = "button";
+      toggle.setAttribute("role", "switch");
+      toggle.setAttribute("aria-checked", "false");
+      toggle.classList.add('top-right');
+      toggle.classList.add('quarto-color-scheme-toggle');
+      toggle.setAttribute("aria-label", "Alternar modo oscuro");
+      toggle.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
       const i = window.document.createElement("i");
       i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
+      toggle.appendChild(i);
+      // Put the toggle in a landmark of its own, so that landmark navigation
+      // can reach it.
+      //
+      // The container is always a fresh direct child of body, and the toggle is
+      // never moved into page furniture that the theme or the author controls.
+      // The toggle is positioned against the page, so any ancestor that
+      // establishes a containing block captures it: a positioned element or a
+      // grid for position: absolute, and transform, filter, will-change or
+      // contain for position: fixed. A direct child of body has none of these
+      // to inherit, and the shift when one appears is silent and visual.
+      //
+      // ARIA says a document should have at most one banner, and axe reports a
+      // duplicate whether or not the banners carry distinct labels. So use a
+      // header when the page has no banner yet, and a named region otherwise.
+      //
+      // A header is a banner wherever it sits, unless it is inside sectioning
+      // content, so this cannot just look at the children of body: a custom
+      // page layout wraps the title block header in a plain div. An explicit
+      // role="banner" always counts.
+      const sectioning = 'article, aside, main, nav, section, [role="article"], [role="complementary"], [role="main"], [role="navigation"], [role="region"]';
+      const hasBanner = Array.from(
+        window.document.querySelectorAll('header:not([role]), [role="banner"]')
+      ).some(function(el) {
+        return el.hasAttribute("role") || el.closest(sectioning) === null;
+      });
+      const container = window.document.createElement(hasBanner ? "div" : "header");
+      if (hasBanner) {
+        container.setAttribute("role", "region");
+        container.setAttribute("aria-label", "Alternar modo oscuro");
+      }
+      container.classList.add('quarto-color-scheme-toggle-container');
+      container.appendChild(toggle);
+      window.document.body.appendChild(container);
     }
     setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
@@ -1706,7 +1749,8 @@ Matías Muñoz Garcés, Consejero Académico CAi UC 2026<br>
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -1715,8 +1759,69 @@ Matías Muñoz Garcés, Consejero Académico CAi UC 2026<br>
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+          if (!link.classList.contains('no-external-icon')) {
+          }
         }
       }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -1730,6 +1835,7 @@ Matías Muñoz Garcés, Consejero Académico CAi UC 2026<br>
         interactiveBorder: 10,
         theme: 'quarto',
         placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -1892,44 +1998,54 @@ Matías Muñoz Garcés, Consejero Académico CAi UC 2026<br>
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          let top = null;
-          let height = null;
-          let parent = null;
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
           if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
             }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
             }
+            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
@@ -2027,6 +2143,9 @@ Matías Muñoz Garcés, Consejero Académico CAi UC 2026<br>
       }
     }
   });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Código desplazable","output":"Salida desplazable"};
   </script>
 </div> <!-- /content -->
 
