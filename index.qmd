@@ -23,7 +23,8 @@ Generacional por mayoría absoluta. Su resolución será obligatoria desde
 este caso en particular en adelante.
 
 Este Oficio Interpretativo deberá, asimismo, anexarse al Estatuto con
-todas las medidas de publicidad requeridas por éste.
+todas las medidas de publicidad requeridas por éste, dentro del plazo
+comprendido entre su aprobación y el inicio del próximo período académico.
 :::
 
 ::: {#representacionCAi .art}
@@ -134,13 +135,13 @@ directivos del CAi son los siguientes:
     b)  Subconsejería Académica de Postgrado, en adelante Subconsejería
         de Postgrado
 
-4.  [Comité Generacional]{.smallcaps} Está formado por tres
+5.  [Comité Generacional]{.smallcaps} Está formado por tres
     representantes de cada generación, cuyo año de ingreso sea menor al
     de la quinta generación y tres representantes de la sexta o
     superior, quienes se nombran en adelante como Representantes
     Generacionales.
 
-5.  [Comité Académico]{.smallcaps} Está formado por una candidatura electa
+6.  [Comité Académico]{.smallcaps} Está formado por una candidatura electa
     representante de cada major, quienes deben haber inscrito el major
     respectivo y que deben estar cursando al menos la tercera generación;
     por una candidatura electa representante de cada departamento, centro o
@@ -165,17 +166,17 @@ directivos del CAi son los siguientes:
     f)  Química y Bioprocesos e Instituto de Ingeniería Biológica y
         Médica
 
-6.  [Consejo Generacional]{.smallcaps} Es la máxima instancia de
+7.  [Consejo Generacional]{.smallcaps} Es la máxima instancia de
     representación. Formado por el Comité Generacional, el Comité
     Ejecutivo, la Consejería de Ingeniería, la Consejería de Postgrado y la Consejería de LiCC. Es
     presidido por la Secretaría General del CAi.
 
-7.  [Consejo Académico]{.smallcaps} Formado por el Comité Académico, la
+8.  [Consejo Académico]{.smallcaps} Formado por el Comité Académico, la
     Jefatura de Docencia y la Jefatura de Investigación del Comité
     ejecutivo, y la Consejería de Ingeniería, la Consejería de Postgrado y la Consejería de LiCC.
     Es presidido por la Consejería de Ingeniería.
 
-8.  [Comisiones]{.smallcaps} Las comisiones dependen del Comité
+9.  [Comisiones]{.smallcaps} Las comisiones dependen del Comité
     Ejecutivo y lo ayudan en su gestión. El Comité Ejecutivo puede
     formar las comisiones que estime conveniente durante el período de
     su gestión, informando de ello a los Consejos. A modo de referencia,
@@ -208,9 +209,9 @@ directivos del CAi son los siguientes:
     m) Vida Universitaria
 
 9.  [Coordinaciones Generales]{.smallcaps} Alumno regular de la Escuela de
-    Ingeniería que es designado por el Comité Ejecutivo para apoyar o
-    liderar algún área de trabajo del CAi. La designación de una o más
-    Coordinaciones Generales debe ser informado al Consejo Generacional,
+    Ingeniería que es designado por el Comité Ejecutivo o las Consejerías Académicas 
+    para apoyar o liderar algún área de trabajo del CAi. La designación de una o más
+    Coordinaciones Generales debe ser informado al Consejo Generacional y al Consejo Académico,
     al igual que eventuales reemplazos o renuncias. No es integrante del
     Comité Ejecutivo.
 :::
@@ -369,7 +370,7 @@ encomiende.
 7.  [Jefatura de Docencia]{.smallcaps}
 
     a)  Colaborar en las políticas académicas de la Escuela, trabajando
-        en conjunto con la Consejería Académica.
+        en conjunto con la Consejería de Ingeniería y la Consejería de LiCC.
 
     b)  Asistir al Comité de Pregrado.
 
@@ -396,7 +397,8 @@ encomiende.
 1.  Integrar a las políticas académicas de la Escuela la visión del
     estudiantado de Ingeniería, liberando de estas responsabilidades a la Presidencia del CAi.
 
-2.  Presidir el Consejo Académico.
+2.  Presidir el Consejo Académico. Puede delegar esta función a la Subconsejería de Ingeniería
+    si lo estima pertinente. 
 
 3.  Representar al estudiantado de Pregrado ante el Consejo Académico de la Escuela
     de Ingeniería, el Consejo de Facultad y el Comité de Pregrado, en
@@ -432,13 +434,17 @@ encomiende.
 2.  Reemplazar a la Consejería de Ingeniería en el Consejo Académico FEUC,
     cuando este no puede asistir.
 
-3.  Reemplazar a la Consejería Académica en caso de renuncia, cese
+3.  Reemplazar a la Consejería de Ingeniería en caso de renuncia, cese
     anticipado o destitución del mismo.
 
 4.  Informar, orientar y acompañar a las y los estudiantes de Ingeniería en los procesos
     de Alerta Académica y Permanencia Académica. Podrá apoyar a la Consejería
     de Ingeniería en la recopilación de antecedentes y seguimiento de casos,
     bajo estricta reserva, conforme a la normativa institucional vigente.
+
+5.  Presidir el Consejo Académico si la Consejería de Ingeniería lo estima pertinente y 
+    delega dicha función.
+
 :::
 
 ::: {#funcionesCAPostgrado .art}
@@ -472,8 +478,7 @@ encomiende.
 son:
 
 1.  Integrar a las políticas académicas de la Escuela la visión de los
-    estudiantes de Postgrado, trabajando en conjunto con la Consejería
-    Académica de Postgrado.
+    estudiantes de Postgrado, trabajando en conjunto con la Consejería de Postgrado.
 
 2.  Reemplazar a la Consejería de Postgrado en el Consejo Académico de
     Postgrado UC, cuando este no puede asistir.
@@ -594,7 +599,7 @@ de los Representantes Generacionales son:
 
 5.  Desautorizar públicamente una actuación del Comité Ejecutivo, o
     alguno de sus miembros; de la Consejería Académica de Ingeniería, 
-    la Consejería Académica de LiCC y/o de la Consejería de
+    la Consejería Académica de LiCC y/o de la Consejería Académica de
     Postgrado.
 
 6.  Formular la solicitud de destitución de su cargo a cualquier miembro
@@ -693,7 +698,7 @@ son:
     respectivas especialidades.
 
 3.  Revisar y evaluar las políticas académicas de la Escuela. Trabajar
-    junto a las Consejerías Académicas y de Postgrado en la formulación de
+    junto a las Consejerías Académicas en la formulación de
     propuestas de mejoramiento en términos de docencia, investigación y
     extensión.
 
@@ -789,7 +794,8 @@ y Académico, según la siguiente repartición:
         semestres.
 
     c)  Las bases de los fondos concursables serán definidas por una
-        comisión conformada por la Consejería Académica (quien coordina la comisión), la Jefatura de Finanzas del
+        comisión conformada por un integrante de Consejería Académica de Ingeniería
+        (quien coordina la comisión), la Jefatura de Finanzas del
         Comité Ejecutivo y un representante correspondiente a cada Consejo
         elegido en la primera sesión ordinaria del semestre.
 
@@ -798,7 +804,8 @@ y Académico, según la siguiente repartición:
         primera sesión ordinaria del semestre.
 
     e)  El jurado evaluador de los fondos concursables estará compuesto
-        por la Consejería Académica (quien coordina la comisión), un miembro del Comité Ejecutivo
+        por un integrante de la Consejería Académica de Ingeniería 
+        (quien coordina la comisión), un miembro del Comité Ejecutivo
         definido por este y un miembro de cada Consejo elegido en la
         primera sesión ordinaria del semestre.
 
@@ -825,7 +832,7 @@ formas que la Presidencia determine.
 Pregrado de la Escuela de Ingeniería, así como los estudiantes de Magíster
 en Ingeniería, Magíster en Ciencias de la Ingeniería y Doctorado, salvo
 cuando este estatuto específicamente indique algo distinto. Tratándose
-de la elección del Comité Ejecutivo y Consejero Académico, tendrán
+de la elección del Comité Ejecutivo y Consejería Académica de Ingeniería, tendrán
 derecho a voto los estudiantes de College de Licenciatura en Ciencias
 Naturales que tengan inscrito el major de la Escuela de Ingeniería a
 comienzos del segundo semestre.
@@ -979,7 +986,7 @@ de acuerdo a las siguientes normas:
 
         ii)  Un plan de trabajo y propuestas para su período.
 
-    4.  En el caso de las candidaturas a Consejería de Postgrado:
+    4.  En el caso de las candidaturas a Consejería Académica de Postgrado:
 
         i)  El nombre de la persona candidata, la cual debe haber
             aprobado el proceso de preinscripción.
@@ -1042,7 +1049,7 @@ de acuerdo a las siguientes normas:
     Ciencias Naturales y cumplan con lo dispuesto en el
     artículo [21](#porcentajeMinimo){reference-type="ref"
     reference="porcentajeMinimo"}, tendrán derecho a votar por Comité
-    Ejecutivo y por Consejería Académica de Pregrado. Aquellos
+    Ejecutivo y por Consejería Académica de Ingeniería. Aquellos
     estudiantes que sean admisibles para votar deberán inscribirse de
     forma previa, con dos o más semanas de anticipación, para ejercer su
     voto en Ingeniería.
@@ -1050,7 +1057,7 @@ de acuerdo a las siguientes normas:
 16. Estudiantes que cursen de forma simultánea Pregrado y Postgrado en
     la Escuela de Ingeniería podrán sufragar en una sola oportunidad,
     votando de forma simultánea al Comité Ejecutivo, Consejería
-    académica y Consejería de Postgrado.
+    Académica de Ingeniería y Consejería Académica de Postgrado.
 
 17. El resultado de las elecciones se determinará de la siguiente forma:
 
@@ -1205,9 +1212,8 @@ los siguientes requisitos, al momento de la preinscripción:
 **Art. 32**. En caso de no presentarse ninguna candidatura al cargo de
 Consejería Académica después de los dos períodos estipulados en el
 artículo [25, inciso 8](#cierre){reference-type="ref"
-reference="cierre"} de esta parte, la Consejería Académica
-elegirá de entre sus miembros (que cumplan con los requisitos de
-Consejería Académica) a alguien que asuma el cargo. Esta obligación
+reference="cierre"} de esta parte, el Consejo Académico (que cumplan con los requisitos de
+Consejería Académica de Ingeniería) a alguien que asuma el cargo. Esta obligación
 recaerá ineludiblemente sobre alguno de los Representantes, y ellos deben
 estar conscientes de dicha condición antes de ser elegidos como tales.
 El Representante que asuma el cargo tendrá la opción de designar a un
@@ -1477,8 +1483,10 @@ alguna de las siguientes razones:
 
     -   La aprobación de cada Consejo, la cual se obtendrá mediante la
         aprobación de dos tercios de los votos posibles, si se tratase
-        de un miembro del Comité Ejecutivo, del Consejero Académico, o
-        del Consejero de Postgrado.
+        de un miembro del Comité Ejecutivo, de la Consejería Académica
+        de Ingeniería, de la Consejería Académica de Postgrado o de la
+        Consejería Académica de Licenciatura en Ingeniería en Ciencia 
+        de la Computación.
 
     -   La aprobación de dos tercios de los votos posibles del Consejo
         al que pertenezca excluyéndose al afectado, en caso de tratarse
@@ -1620,23 +1628,23 @@ mantiene, mantendrá el número de ausencias del Representante saliente.
 :::
 
 ::: {#reemplazoCAING .art}
-**Art. 43**. Si el Consejero Académico cesare en su cargo, su
-reemplazante sería el Subconsejero Académico.
+**Art. 43**. Si la Consejería de Ingeniería cesare en su cargo, su
+reemplazante sería el Subconsejería de Ingeniería.
 :::
 
 ::: {#cp_renuncia .art}
 **Art. 44**. []{#eleccionExtraordinariaCAPostgrado
 label="eleccionExtraordinariaCAPostgrado"} En caso de que el cargo de
-Consejero de Postgrado quedase vacante, debe procederse como se indica a
+Consejería de Postgrado quedase vacante, debe procederse como se indica a
 continuación:
 
 1.  En caso de quedar vacante por renuncia, cesación anticipada del
-    cargo o deposición de un Consejero en ejercicio, su reemplazante
-    será el Subconsejero de Postgrado.
+    cargo o deposición de una Consejería en ejercicio, su reemplazante
+    será la Subconsejería de Postgrado.
 
-2.  Si no se hubiese presentado ningún candidato al cargo de Consejero
+2.  Si no se hubiese presentado ningún candidato al cargo de Consejería
     de Postgrado después de los dos períodos estipulados en el artículo
-    [23, inciso 8](#eleccionesCAi){reference-type="ref"
+    [25, inciso 8](#eleccionesCAi){reference-type="ref"
     reference="eleccionesCAi"} de esta parte, o no hubiese una
     mayoría no electa a quien ofrecer el cargo de acuerdo a lo
     establecido en el inciso 1. de este artículo, el Consejo Académico
@@ -1649,7 +1657,7 @@ continuación:
     Si a quien se le ofreciere el cargo no aceptase, se repetirá el
     proceso con el siguiente candidato. De no existir un candidato a
     quien ofrecer el cargo, o de haber transcurrido 3 semanas desde la
-    renuncia o cesación del cargo del Consejero anterior, se declarará
+    renuncia o cesación del cargo del Consejería anterior, se declarará
     desierto el cargo por lo que reste del período.
 :::
 
@@ -1695,9 +1703,9 @@ reference="jerarquia"}.
 **Art. 47**. Cada Consejo debe sesionar en forma ordinaria una vez al
 mes durante el año académico y de forma pública. Se entenderá el año
 académico como el período de marzo a diciembre. El Generacional
-sesionará bajo la presidencia del Presidente del Comité Ejecutivo del
-Centro de Alumnos y el Académico será presidido por la Consejería
-Académica.
+sesionará bajo la presidencia de la Secretaría General del Comité Ejecutivo del
+Centro de Alumnos y el Consejo Académico será presidido por la Consejería
+de Ingeniería.
 :::
 
 ::: {#consejoOrdinario .art}
@@ -1719,7 +1727,7 @@ anticipación.
 ::: {#sesionesPostgrado .art}
 **Art. 50**. Los Representantes académicos de Postgrado votarán en las
 sesiones del Consejo Académico de Postgrado, llevándose los respectivos
-resultados al Consejo Académico de Pregrado a través del Consejero
+resultados al Consejo Académico de Pregrado a través de la Consejería
 correspondiente.
 :::
 
@@ -1741,22 +1749,22 @@ en el Consejo Académico de Pregrado.
     sesión, previa aprobación del Consejo.
 
 3.  Ordenar que abandonen la sala todos los asistentes que no fueren
-    Consejeros cuando lo estimare indispensable para el normal
+    Consejerías cuando lo estimare indispensable para el normal
     desenvolvimiento de la sesión, previa aprobación del Consejo.
 :::
 
 ::: {#quorumConsejo .art}
 **Art. 53**. El quórum para llevar a cabo un Consejo debe ser más del
 50% de los Representantes que no hayan perdido su derecho a voto. Además será
-necesaria la presencia del Consejero Académico y Jefatura de Docencia o
-Subconsejero Académico, en el caso del Consejo Académico, y de algún
-miembro del Comité Ejecutivo y del Consejero Académico, o a quien este
+necesaria la presencia de la Consejería de Ingeniería y Jefatura de Docencia o
+Subconsejería de Ingeniería, en el caso del Consejo Académico, y de algún
+miembro del Comité Ejecutivo y de la Consejería de Ingeniería, o a quien este
 último haya otorgado poder, en el caso del Consejo Generacional. Pasados
 los treinta minutos de la hora fijada para el comienzo de la sesión, el
 quórum será de una tercera parte de los Representantes que no hayan perdido
 su derecho a voto, más Consejero Académico y Jefatura de Docencia o
-Subconsejero Académico y de algún miembro del Comité Ejecutivo y del
-Consejero Académico, o a quien este último haya otorgado poder, en el
+Subconsejería de Ingeniería y de algún miembro del Comité Ejecutivo y de 
+la Consejería de Ingeniería, o a quien este último haya otorgado poder, en el
 caso del Consejo Generacional. No ocurriendo esto, se declarará
 fracasada la sesión a petición de cualquier miembro del Consejo. Para el
 cálculo de este quórum no se contabilizarán a los Representantes de postgrado
@@ -1923,7 +1931,7 @@ considerará lo siguiente:
 3.  Para evitar la sobrerrepresentación de algún representante, en el
     caso de una votación que requiera la aprobación de ambos consejos:
     los Representantes que tienen presencia en ambos Consejos solo podrán
-    votar en el Consejo al que pertenecen; las Consejerías Académicos
+    votar en el Consejo al que pertenecen; las Consejerías Académicas
     solo votarán en el Consejo Académico; y el Comité
     Ejecutivo contará solo con los votos en el Consejo Generacional.
 :::
@@ -2015,7 +2023,7 @@ asisten a las sesiones.
 ### Sobre las sesiones del Consejo Generacional {#sobre-las-sesiones-del-consejo-generacional .unnumbered}
 
 ::: art
-**Art. 70**. Los Consejeros Territoriales ---por la función de
+**Art. 70**. Las Consejerías Territoriales ---por la función de
 representantes del alumnado de Ingeniería ante el consejo ejecutivo y de
 federación que el estatuto FEUC les confiere--- son reconocidos como
 participantes del Consejo Generacional sin derecho a voto, por lo cual,
@@ -2026,7 +2034,7 @@ siguientes facultades y derechos:
     Consejo Generacional.
 
 2.  Citar al Consejo Generacional de forma extraordinaria, previo
-    acuerdo de la mitad o más de los Consejeros Territoriales y
+    acuerdo de la mitad o más de las Consejerías Territoriales y
     respetando las especificaciones establecidas en este estatuto para
     ello.
 
@@ -2381,7 +2389,7 @@ de ser reconocido por el CAi hasta que un nuevo Representante asuma el cargo.
 
 ::: art
 **Art. 87**. Las especificaciones deberán ser revisadas por la Jefatura
-de Docencia, un integrante de la Consejería Académica y un Representante de cada
+de Docencia, un integrante de la Consejería Académica de Ingeniería y un Representante de cada
 consejo y aprobadas o rechazadas en un plazo de cinco días hábiles
 después de que se haya acabado el plazo para entregar las
 especificaciones. En caso de que estas sean rechazadas, se dará al
@@ -2430,7 +2438,7 @@ como la publicación de información privada, sino como la preocupación
 por disponer abiertamente la información de uso y beneficio público a
 largo plazo.
 
-1.  Los Representantes, Consejeros Académico y de Postgrado y el Comité
+1.  Los Representantes, las Consejerías Académicas y el Comité
     Ejecutivo deberán publicar Cuentas Públicas dos veces en su período
     por medios tanto físicos como virtuales, ambos accesibles a sus
     representados. Cada una de ellas debe sintetizar respectivamente
@@ -2620,6 +2628,9 @@ Académico 2026]{.smallcaps}\
 Matilda Torres Rojas, Presidente CAi UC 2026\
 Matías Muñoz Garcés, Consejero Académico CAi UC 2026\
 
+[Estatutos modificados por el Consejo Generacional y el Consejo
+Académico 2026]{.smallcaps}\
+Matilda Torres Rojas, Presidente CAi UC 2026\
+Matías Muñoz Garcés, Consejero Académico CAi UC 2026\
+
 [^1]: Código Civil: <http://www.leychile.cl/Navegar?idNorma=172986>
-
-
